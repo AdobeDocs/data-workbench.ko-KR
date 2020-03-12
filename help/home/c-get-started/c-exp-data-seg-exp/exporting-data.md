@@ -53,8 +53,7 @@ source-git-commit: 72761a57e4bb9f230581b2cd37bff04ba7be8e37
    >
    >keygen을 사용하여 SSH 키를 생성하는 예:
    >
-   >
-   ```
+   >```
    >ssh-keygen -t rsa -b 4096 -C "<label>"
    >```
 
