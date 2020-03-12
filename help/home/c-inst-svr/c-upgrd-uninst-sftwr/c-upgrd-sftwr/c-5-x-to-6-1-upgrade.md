@@ -180,8 +180,7 @@ source-git-commit: cb3ca4b3b993f5f04f6b6cee25850600ff3d8986
    >
    >예를 들어 중국어 간체를 시작하려면 명령줄 설정에서 전달하는 단축키를 만듭니다.
    >
-   >
-   ```
+   >```
    >Insight.exe -zh-cn
    >```
    >
