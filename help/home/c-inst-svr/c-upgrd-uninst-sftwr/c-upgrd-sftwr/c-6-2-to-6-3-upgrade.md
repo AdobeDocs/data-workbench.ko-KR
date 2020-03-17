@@ -3,7 +3,7 @@ description: 데이터 워크벤치 6.3용 서버 구성 요소를 업그레이�
 title: DWB Server 업그레이드 6.2 - 6.3
 uuid: e12b6cc1-070e-4bc7-bc64-203d11cfeae9
 translation-type: tm+mt
-source-git-commit: 25366087936dfa5e31c5921aac400535ec259f2e
+source-git-commit: 79d5a2f44ade88f25f7621a4738d14c43777fc9f
 
 ---
 
@@ -22,26 +22,27 @@ source-git-commit: 25366087936dfa5e31c5921aac400535ec259f2e
    1. 워크스테이션 구성 섹션에서 **[!UICONTROL Proxy Password]** &quot; [!DNL string"] 에서 &quot;&quot; [!DNL EncryptedString]로 데이터 유형을 *변경합니다* .
 
       ```
-      Proxy User Name = string: 
-      Proxy Password = EncryptedString:   ( 
-      
-<i>보낸 사람 프록시 암호 = 문자열</i>)주소 파일 사용 = bool:true&quot;
+        Proxy User Name = string: 
+        Proxy Password = EncryptedString:   ( 
+        from Proxy Password = String) 
+        Use Address File = bool: true
+      ```
 
-    1. 새 항목을 추가하여 새로운 이름 값 쌍 변형을 활성화합니다.*BuildNameValuePair* 및 *ExtractNameValuePairs*.
-    
-    작업 영역을 열고 **관리** > **프로필 관리자**를 마우스 오른쪽 단추로 클릭합니다.
-    
-    **Context**에서 **Base** 열의 **meta.cfg* 파일을 클릭한 다음 **Make Local**을 클릭합니다. 사용자 테이블 열에서 마우스 오른쪽 단추를 클릭하고 **열기** > **워크스테이션**을 선택합니다.
-    
-    ![](assets/meta_cfg.png)
-    
-    * 새 창에서 **metadata**를 클릭하고 허용되는 하위 템플릿을 추가합니다.
-    
-    ![](assets/meta_cfg_child.png)
-    
-    * **transformation**을 열고 새 템플릿을 추가합니다.
-    
-    ![](assets/meta_cfg_template.png)
+   1. 새 항목을 추가하여 새로운 이름 값 쌍 변형을 활성화합니다.BuildNameValuePair *및* ExtractNameValuePairs **.
+
+      작업 영역을 열고 관리 > **프로필 관리자를** 마우스 오른쪽 단추로 **클릭합니다**.
+
+      Context **에서 Base**&#x200B;열의 **meta.cfg** 파일을 **클릭한 다음** Make Local **을**&#x200B;클릭합니다. 사용자 테이블 열에서 마우스 오른쪽 단추를 클릭하고 **워크스테이션에서 열기** > **를 선택합니다**.
+
+      ![](assets/meta_cfg.png)
+
+      * 새 창에서 **메타데이터를** 클릭하고 허용되는 하위 템플릿을 추가합니다.
+
+         ![](assets/meta_cfg_child.png)
+
+      * 변형을 **열고** 새 템플릿을 추가합니다.
+
+         ![](assets/meta_cfg_template.png)
 
 * **빠른 병합을 위한 업데이트 개선**&#x200B;사항 변환 중 데이터 워크벤치의 속도 개선을 활용하려면 다음 구성 파일에 매개 변수를 추가하거나 값을 변경합니다.
 
