@@ -5,7 +5,7 @@ title: 데이터 워크벤치 지역 설치
 topic: Data workbench
 uuid: 2c3d2e4a-97a7-4afc-b72d-c012db77e535
 translation-type: tm+mt
-source-git-commit: 27600561841db3705f4eee6ff0aeb8890444bbc9
+source-git-commit: fd3afa80250d5ae20b7758ba840fd4d436545cf2
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: 27600561841db3705f4eee6ff0aeb8890444bbc9
 
 이러한 단계를 완료하려면 데이터 워크벤치 서버의 파일에 액세스할 수 있어야 합니다.
 
-두 개의 선택적 데이터 서비스 중 하나를 구독한 경우 데이터 서비스 프로필과 조회 파일도 설치해야 합니다. 이러한 서비스에 대한 자세한 내용은 데이터 서비스 [작업을 참조하십시오](../../../home/c-geo-oview/c-wk-data-svcs/c-wk-data-svcs.md).
+두 개의 선택적 데이터 서비스 중 하나를 구독한 경우 데이터 서비스 프로필과 조회 파일도 설치해야 합니다.
 
 데이터 워크벤치의 설치, 구성 및 운영을 위한 시스템 요구 사항에 대한 자세한 내용은 최소 시스템 요구 [!DNL Geography]사항 ** 문서를 참조하십시오.
 
