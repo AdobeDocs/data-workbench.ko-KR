@@ -5,7 +5,7 @@ title: 자세한 상태 인터페이스
 topic: Data workbench
 uuid: c4d375d9-431f-4b0a-ba15-b7a10501b2e2
 translation-type: tm+mt
-source-git-commit: 27600561841db3705f4eee6ff0aeb8890444bbc9
+source-git-commit: fd3afa80250d5ae20b7758ba840fd4d436545cf2
 
 ---
 
@@ -69,7 +69,7 @@ source-git-commit: 27600561841db3705f4eee6ff0aeb8890444bbc9
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;StageName&nbsp;13.0&nbsp;sec
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.&nbsp;.&nbsp;.
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;Log&nbsp;Processing\ProfileName&nbsp;0.8&nbsp;sec
-      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;StageName&nbsp;0.8&nbsp;sec</code> </p> <p>쿼리를 완료하는 데 걸리는 시간은 일반적으로 모든 차원의 전체 크기에 비례합니다. 각 차원의 크기를 검토한 후 특정 차원이 유용한지 여부를 평가하고 차원의 성능 비용을 정당화할 수 있는 경우가 많습니다. 그렇지 않으면 프로필 관리자에서 차원을 삭제할 수 <span class="wintitle"> 있습니다</span>. 프로필 관리자를<a href="../../../home/c-get-started/c-admin-intrf/c-prof-mgr/c-prof-mgr.md"> 참조하십시오</a>. </p> <p>요소 이름 목록이 너무 큰 차원(즉, 128MB 이상)은 전체 주소 공간 사용이 제한에 가까이 있지 않더라도 "메모리 부족" 오류를 초래할 수 있습니다. </p> <p>또한 데이터 워크벤치 서버 클러스터를 사용하고 있지만 중앙 표준화를 사용하지 않는 경우 요소 이름 목록이 큰 차원은 전송 메모리 예산에 큰 영향을 줍니다. 중앙 표준화에 대한 자세한 내용은 데이터 세트 구성 <i>안내서를 참조하십시오</i>. 결합된 요소 이름 목록을 모두 저장하는 데 필요한 메모리 용량이 클러스터의 모든 서버에서 100MB를 초과하는 경우 쿼리 활동이 가볍더라도 "메모리 예산 초과 전송" 오류가 발생할 수 있습니다. 예를 들어, 요소 이름 목록을 저장하는 데 사용되는 각 서버에 25MB가 넘는 4개의 서버 클러스터가 있으면 오류가 발생할 수 있습니다. </p> </td> 
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;StageName&nbsp;0.8&nbsp;sec</code> </p> <p>쿼리를 완료하는 데 걸리는 시간은 일반적으로 모든 차원의 전체 크기에 비례합니다. 각 차원의 크기를 검토한 후 특정 차원이 유용한지 여부를 평가하고 차원의 성능 비용을 정당화할 수 있는 경우가 많습니다. 그렇지 않으면 프로필 관리자에서 차원을 삭제할 수 <span class="wintitle"> 있습니다</span>.<p>요소 이름 목록이 너무 큰 차원(즉, 128MB 이상)은 전체 주소 공간 사용이 제한에 가까이 있지 않더라도 "메모리 부족" 오류를 초래할 수 있습니다. </p> <p>또한 데이터 워크벤치 서버 클러스터를 사용하고 있지만 중앙 표준화를 사용하지 않는 경우 요소 이름 목록이 큰 차원은 전송 메모리 예산에 큰 영향을 줍니다. 중앙 표준화에 대한 자세한 내용은 데이터 세트 구성 <i>안내서를 참조하십시오</i>. 결합된 요소 이름 목록을 모두 저장하는 데 필요한 메모리 용량이 클러스터의 모든 서버에서 100MB를 초과하는 경우 쿼리 활동이 가볍더라도 "메모리 예산 초과 전송" 오류가 발생할 수 있습니다. 예를 들어, 요소 이름 목록을 저장하는 데 사용되는 각 서버에 25MB가 넘는 4개의 서버 클러스터가 있으면 오류가 발생할 수 있습니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>로그 처리 및 변환에서 보낸 시간을 모니터링하려면 </p> </td> 
