@@ -5,7 +5,7 @@ title: Flash 리치 미디어 컨텐츠 내에서 방문자 활동 추적
 topic: Data workbench
 uuid: fe2e75eb-0897-4f63-b582-b4f1fdce02a1
 translation-type: tm+mt
-source-git-commit: aec1f7b14198cdde91f61d490a235022943bfedb
+source-git-commit: 48892b1b4fc9e9fdeacee8ca318025f43f2d0064
 
 ---
 
@@ -30,7 +30,7 @@ ActionScript [!DNL Flash] 를 사용하면 기존 [!DNL Flash] 동영상을 간�
    ```
 
 1. 이름이 [!DNL flashtag.txt] 있는 빈 파일을 만들어 웹 서버에 배치합니다.
-1. 1단계의 함수 내에서 [!DNL PATH_ [TO_WEB_SERVER]] 자리 표시자를 해당 [!DNL flashtag.txt] 파일의 위치에 대한 정규화된 경로 또는 상대 경로로 바꿉니다. 예:
+1. 1단계의 함수 내에서 \[[!DNL PATH_TO_WEB_SERVER]\] 자리 표시자를 파일의 위치에 대한 정규화된 경로 또는 상대 경로로 [!DNL flashtag.txt] 바꿉니다. 예:
 
    ```
    var FLASHTAGURI = http://www.mysite.com/flashtag/flashtag.txt”;
@@ -44,7 +44,7 @@ ActionScript [!DNL Flash] 를 사용하면 기존 [!DNL Flash] 동영상을 간�
 
    이 예에서는 on(release) 이벤트의 사용을 보여 줍니다.그러나 on(press), on(rollover), on(rollout), on(rollout) 또는 on(keypress) 이벤트와 같이 추적할 수 있는 모든 이벤트를 통해 tag() 함수를 참조할 수 있습니다.
 
-   [!DNL [PUT_PAGE_NAME]_HERE] 자리 표시자는 추적하고 있는 페이지 또는 이벤트의 이름을 나타내는 문자열로 대체해야 합니다. [!DNL [PUT_PAGE_NAME_HERE]] 변수를 수동으로 또는 변수 참조를 통해 수정하여 [!DNL Flash] 응용 프로그램 내의 페이지나 이벤트에 대한 고유한 이름을 표시할 수 있습니다. [!DNL PUT_ [PAGE_NAME_HERE]] 자리 표시자를 대체하는 값은 간단한 이름으로 구성되거나 전체 URI와 유사한 계층적 구조를 나타내는 구조로 구성될 수 있습니다. 예:
+   \[[!DNL PUT_PAGE_NAME_HERE]\] 자리 표시자는 추적하고 있는 페이지 또는 이벤트의 이름을 나타내는 문자열로 대체해야 합니다. The \[[!DNL PUT_PAGE_NAME_HERE]\] variable can be modified either manually or through variable reference to denify the page or event within the [!DNL Flash] application. \[[!DNL PUT_PAGE_NAME_HERE]\] 자리 표시자를 대체하는 값은 간단한 이름으로 구성되거나 전체 URI와 유사한 계층 구조를 나타내는 구조화될 수 있습니다. 예:
 
    ```
    on(release) {tag(“/about_us/index.swf","[PUT_ADDITIONAL_VAR_HERE]");}
@@ -52,13 +52,13 @@ ActionScript [!DNL Flash] 를 사용하면 기존 [!DNL Flash] 동영상을 간�
 
    Adobe는 코드 배포 전에 비즈니스 요구 사항 및 개발 작업의 정렬을 용이하게 하고 추가 개발 주기 가능성을 줄이기 위해 페이지 이름 및 이벤트 이름에 대한 문서 사양을 컴파일할 것을 권장합니다.
 
-1. 원하는 경우 추가 변수를 수집하여 [!DNL Flash] 동영상의 페이지 또는 이벤트와 연결할 수 있습니다. 이렇게 하려면 [!DNL PUT_ [ADDITIONAL_VAR_HERE]] 자리 표시자를 앰퍼샌드(&amp;)로 구분된 이름=값 쌍 집합으로 바꿉니다. 예:
+1. 원하는 경우 추가 변수를 수집하여 [!DNL Flash] 동영상의 페이지 또는 이벤트와 연결할 수 있습니다. 이렇게 하려면 \[[!DNL PUT_ADDITIONAL_VAR_HERE]\] 자리 표시자를 앰퍼샌드(&amp;)로 구분된 이름=값 쌍 세트로 바꿉니다. 예:
 
    ```
    on(release) {tag(“/about_us/index.swf"," var1=value1&var2=value2");}
    ```
 
-   변수를 수동으로 또는 변수 참조를 통해 수정하여 수집하여 페이지나 이벤트와 연결할 추가 속성을 나타낼 수 있습니다. 수집할 추가 변수가 없는 경우 [!DNL PUT_ADDITIONAL_VAR_ [HERE]를]제거합니다.
+   변수를 수동으로 또는 변수 참조를 통해 수정하여 수집하여 페이지나 이벤트와 연결할 추가 속성을 나타낼 수 있습니다. 수집할 추가 변수가 없는 경우 \[[!DNL PUT_ADDITIONAL_VAR_HERE]\]을(를) 제거합니다.
 
    이제 [!DNL Flash] 리치 미디어 컨텐츠 내에서 방문자 추적 설정이 완료되었습니다. 이벤트가 호출되면 태그 [!DNL (PAGENAME,VARIABLES)] 함수가 호출되어 다음 파일에 대한 HTTP 요청이 수행됩니다. 이 함수는 [!DNL Flash] 무비 내에 정의된 대로 트리거될 수 있는 다른 함수와 함께 호출됩니다.
 
