@@ -5,7 +5,7 @@ title: 필터 저장 및 로드
 topic: Data workbench
 uuid: 5312b9c4-0193-4d45-af54-e8f6d2706bf2
 translation-type: tm+mt
-source-git-commit: 72761a57e4bb9f230581b2cd37bff04ba7be8e37
+source-git-commit: 3e8f2c01b913afb25fe5f6bde1c7ec5145059266
 
 ---
 
@@ -14,7 +14,7 @@ source-git-commit: 72761a57e4bb9f230581b2cd37bff04ba7be8e37
 
 필터를 저장하고 로드하는 절차.
 
-1. 필터 이름(또는 필터가 새로운 경우 **[!UICONTROL[noname]]** )을 마우스 오른쪽 단추로 클릭하고 **[!UICONTROL Save Filter]**&#x200B;클릭합니다.
+1. 필터 이름을 마우스 오른쪽 단추로 클릭(또는 **\[[!UICONTROL noname]\]** 필터 새로 만들기)하고 **[!UICONTROL Save Filter]**&#x200B;을 클릭합니다.
 1. 레이블에 필터의 원하는 이름을 **[!UICONTROL Save As]** 입력합니다.
 
    ![단계 정보](assets/vis_FilterEditor_SaveFilter.png)
