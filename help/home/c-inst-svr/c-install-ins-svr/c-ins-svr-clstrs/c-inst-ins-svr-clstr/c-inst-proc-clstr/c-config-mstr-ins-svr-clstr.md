@@ -4,7 +4,7 @@ solution: Insight
 title: 클러스터링을 위한 마스터 인사이트 서버 구성
 uuid: c3ac38e3-79c5-4863-9156-194589a6bcbd
 translation-type: tm+mt
-source-git-commit: aec1f7b14198cdde91f61d490a235022943bfedb
+source-git-commit: b5a22e7a050d7c01570286dcb54e368f7ecdbcd8
 
 ---
 
@@ -137,7 +137,7 @@ Master Insight Server에서 클러스터 구성, 클러스터의 액세스 제�
 1. 구성 요소 구조를 확장합니다.
 1. 클러스터 기본 서버 주소 매개 변수에서 마스터(기본)의 IP 주소를 **[!UICONTROL Insight Server]**&#x200B;지정합니다.
 
-   ![](assets/cfg_cluster_SyncFile_(CentralCopy).png)
+   ![](assets/cfg_cluster_SyncFile_CentralCopy.png)
 
    마스터와 처리 사이에 동기화가 발생할 때마다 기록하는 로그를 만들려면 [동기화 로그 활성화] 매개 변수가 &quot;true&quot;로 설정되어 있는지 확인하십시오. [!DNL Insight Server] [!DNL Insight Servers]
 
