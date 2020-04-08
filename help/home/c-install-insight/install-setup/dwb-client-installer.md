@@ -3,7 +3,7 @@ description: 데이터 워크벤치에서는 워크스테이션(클라이언트)
 title: 워크스테이션 설정 마법사
 uuid: e2bf6606-e7ba-439f-b50c-118706ab5b7d
 translation-type: tm+mt
-source-git-commit: aec1f7b14198cdde91f61d490a235022943bfedb
+source-git-commit: b5a22e7a050d7c01570286dcb54e368f7ecdbcd8
 
 ---
 
@@ -52,7 +52,7 @@ source-git-commit: aec1f7b14198cdde91f61d490a235022943bfedb
       >
       >서버 세부 ***정보가*** 없는 일반 Insight.cfg 파일이 처음 설치됩니다. 이전 설치에서 파일을 이동하지 않고 새로 설치된 ***Insight.cfg*** 파일을 사용하여 사용자 지정하는 것이 좋습니다. 워크스테이션 설치 경로가 변경되었으므로 글꼴 추가, 사용자 폴더 제거 *및**TraceFileComponent*의 제거를 권장합니다.
 
-1. (선택 사항)** 사용자 지정**을 선택하여 언어 패키지 및 프로그램 및 데이터 파일의 위치를 선택합니다.
+1. (선택 사항) **** 언어 패키지 및 프로그램 및 데이터 파일의 위치를 선택하려면 [사용자 정의]를 선택합니다.
 1. [시작] 메뉴에서 **단축키의 위치를 선택합니다**.
 
    ![](assets/6_4_workstation_wizard_folder.png)
