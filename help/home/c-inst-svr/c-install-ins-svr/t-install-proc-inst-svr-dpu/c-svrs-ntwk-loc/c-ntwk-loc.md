@@ -1,17 +1,17 @@
 ---
-description: 개념적으로, 주소 파일은 네트워크 시스템의 ETC\HOSTS 파일과 같은 용도로 사용됩니다.
+description: 개념적으로, 주소 파일은 네트워크 시스템의 ETC&bsol;HOSTS 파일과 같은 용도로 사용됩니다.
 solution: Insight
 title: 네트워크 위치
 uuid: a2097eca-dd75-4d43-b8a8-fb4c768df38d
 translation-type: tm+mt
-source-git-commit: f6ec885266de6b6d99615d73fad2a1c22897424b
+source-git-commit: e8612fab1c13ca5262816dde7deaa6fd8bedbc62
 
 ---
 
 
 # 네트워크 위치{#network-locations}
 
-개념적으로, 주소 파일은 네트워크 시스템의 ETC\HOSTS 파일과 같은 용도로 사용됩니다.
+개념적으로, 주소 파일은 네트워크 시스템의 ETC&amp;bsol;HOSTS 파일과 같은 용도로 사용됩니다.
 
 하지만 단일 이름 컬렉션을 설명하는 HOSTS 파일과 달리 주소 파일에는 네트워크 위치라는 이름의 여러 컬렉션이 들어 있습니다.
 
