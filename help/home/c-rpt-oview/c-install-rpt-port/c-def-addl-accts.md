@@ -5,12 +5,12 @@ title: 추가 계정 정의
 topic: Data workbench
 uuid: 5ad98b52-267c-4c36-b43a-ae6ad415de8e
 translation-type: tm+mt
-source-git-commit: aec1f7b14198cdde91f61d490a235022943bfedb
+source-git-commit: e4f2c653c00c21180b14bf67cc116d832bddd028
 
 ---
 
 
-# 추가 계정 정의{#define-additional-accounts}
+# 추가 계정 정의
 
 사용자는 올바른 계정을 가지고 있어야 하며 보고서 포털에 액세스할 때 계정 이름과 암호를 제공해야 합니다.
 
