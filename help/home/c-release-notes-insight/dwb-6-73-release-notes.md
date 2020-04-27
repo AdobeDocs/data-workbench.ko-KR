@@ -3,16 +3,12 @@ description: Data Workbench 6.73의 새로운 기능 및 수정 내용
 title: 데이터 워크벤치 6.73 릴리스 노트
 uuid: bba63a8c-9cb7-4334-b66a-22db92153066
 translation-type: tm+mt
-source-git-commit: 2cba66a160fec9154796f093d04a422a5b0da265
+source-git-commit: 9552a2f9fe4e450b1e212b38a09f77252a009419
 
 ---
 
 
 # Data Workbench 6.73 Release Notes{#data-workbench-release-notes}
-
-Data Workbench 6.73의 새로운 기능 및 수정 내용
-
-## Data Workbench 6.73 Release Notes {#topic-7655534554ac4a4b816af1bd73b06aad56757}
 
 Data Workbench 6.73의 새로운 기능 및 수정 내용
 
