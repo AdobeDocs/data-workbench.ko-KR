@@ -2,9 +2,9 @@
 cloud: experience-cloud
 product: analytics
 audience: end-user
-user-guide-title: Data Workbench Help
+user-guide-title: 데이터 워크벤치 도움말
 translation-type: tm+mt
-source-git-commit: f1e341ef1c2390b1f81bb9a402c4a0c54dd6001c
+source-git-commit: 89a17210bb6f941309b283e54aa8485c5e823595
 
 ---
 
@@ -27,10 +27,10 @@ source-git-commit: f1e341ef1c2390b1f81bb9a402c4a0c54dd6001c
    + [Data Workbench 6.31 업데이트](home/c-release-notes-insight/c-6-3-1.md)
    + [데이터 워크벤치 6.3 릴리스 노트](home/c-release-notes-insight/c-6-3/c-6-3.md)
    + [Data Workbench 6.21 업데이트](home/c-release-notes-insight/c-6-2-1.md)
-   + [데이터 워크벤치 6.1 릴리스 노트](home/c-release-notes-insight/c-release-notes-insight-62/c-release-notes-insight-62.md)
+   + [데이터 워크벤치 6.2 릴리스 노트](home/c-release-notes-insight/c-release-notes-insight-62/c-release-notes-insight-62.md)
    + [Data Workbench 6.11 업데이트](home/c-release-notes-insight/c-6-1-1.md)
    + [2014년 4월 MR 데이터 피드 업데이트](home/c-release-notes-insight/c-release-notes-insight-mr41714.md)
-   + [데이터 워크벤치 6.1 릴리스 노트](home/c-release-notes-insight/c-release-notes-insight-61/c-release-notes-insight-61.md)
+   + [데이터 워크벤치 6.2 릴리스 노트](home/c-release-notes-insight/c-release-notes-insight-61/c-release-notes-insight-61.md)
    + [데이터 워크벤치 6.0 및 6.0.4 릴리스 노트](home/c-release-notes-insight/c-release-notes-previous/c-release-notes-insight-600.md)
 + 설치 {#install}
    + [워크스테이션 요구 사항](home/c-install-insight/c-data-workbench-client-install.md)
@@ -358,6 +358,7 @@ source-git-commit: f1e341ef1c2390b1f81bb9a402c4a0c54dd6001c
 + Dataset configuration {#dataset}
    + [데이터 세트 구성 이해](home/c-dataset-const-proc/c-dataset-constr.md)
    + [데이터 세트 구성 이해](home/c-dataset-const-proc/c-dataset-config.md)
+   + [GDPR에 대한 데이터 워크벤치 지원](home/c-dataset-const-proc/dwb-gdpr.md)
    + 로그 처리 구성 파일 {#log-proc-config-file}
       + [로그 처리 구성 파일 정보](home/c-dataset-const-proc/c-log-proc-config-file/c-abt-log-proc-config-file.md)
       + [로그 처리 구성 파일 편집](home/c-dataset-const-proc/c-log-proc-config-file/t-edit-log-proc-config-file.md)
