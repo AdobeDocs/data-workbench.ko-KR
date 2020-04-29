@@ -4,7 +4,7 @@ solution: Analytics
 title: GDPR에 대한 데이터 워크벤치 지원
 topic: Data workbench
 translation-type: tm+mt
-source-git-commit: 89a17210bb6f941309b283e54aa8485c5e823595
+source-git-commit: 4002d01c4c9aaa7d8833415aba3fa5105cb7ac1f
 
 ---
 
@@ -21,7 +21,7 @@ GDPR 규정에서는 GDPR 활성화를 담당하는 여러 당사자의 역할�
 * Adobe는 **데이터 프로세서** 역할을 하여 Adobe와의 계약에 따라 GDPR 요구 사항을 구현하는 소프트웨어와 서비스를 제공합니다.
 * Data Workbench와 GDPR 서비스가 통합되고 GDPR 표준에 따라 사이트 방문자( **데이터 주체**)는 데이터 프로세서인 Adobe에서 &quot;잊어버릴 권리&quot;를 행사할 수 있습니다. 데이터 컨트롤러가 UI 또는 API에서 문제가 있는 방문자 ID를 Adobe로 업로드할 수 있으므로 잊어버릴 수 있는 권한을 얻을 수 있습니다. 액세스 [제출 및 요청](https://docs.adobe.com/help/en/analytics/admin/data-governance/an-gdpr-workflow.html) 삭제 섹션을 비롯한 자세한 내용은 Adobe Analytics GDPR 워크플로우 [](https://docs.adobe.com/content/help/en/analytics/admin/data-governance/gdpr-submit-access-delete.html) 설명서를 참조하십시오.
 
->[!Note]
+>[!NOTE]
 >
 >다른 데이터 소스의 경우 조직은 CRM, POS, IVR 및 기타 원시 데이터 소스와 같은 다른 로그 소스에서 문제가 있는 방문자 ID를 정리해야 합니다. 사용자 지정 범위 서비스 패키지는 각 데이터 소스 _또는 기타 사용자 지정 옵션에 대한 전체 파일 세트를_ 제공하여 조직에 대한 지원을 제공하는 데 사용할 수 있습니다.
 
