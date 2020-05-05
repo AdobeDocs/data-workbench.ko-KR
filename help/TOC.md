@@ -4,7 +4,7 @@ product: analytics
 audience: end-user
 user-guide-title: 데이터 워크벤치 도움말
 translation-type: tm+mt
-source-git-commit: b3fb1e355cc42f96b2daaee9e58c22fa20a5a005
+source-git-commit: 4a31b493a9ce308dbd72c55156a2c197f30015e2
 
 ---
 
@@ -767,7 +767,7 @@ source-git-commit: b3fb1e355cc42f96b2daaee9e58c22fa20a5a005
             + [입력 방법 편집기 설치](home/c-inst-svr/c-upgrd-uninst-sftwr/c-upgrd-sftwr/c-6-0-to-6-1-upgrade/c-localized-ime.md)
             + [DeviceAtlas 배포](home/c-inst-svr/c-upgrd-uninst-sftwr/c-upgrd-sftwr/c-6-0-to-6-1-upgrade/c-deviceatlas-update.md)
          + [Data Workbench 5.5에서 6.1 업그레이드](home/c-inst-svr/c-upgrd-uninst-sftwr/c-upgrd-sftwr/c-5-x-to-6-1-upgrade.md)
-         + [DWB 서버 업그레이드: 5.4 ~ 5.5](home/c-inst-svr/c-upgrd-uninst-sftwr/c-upgrd-sftwr/t-upgrd-to-5.5.md)
+         + [DWB 서버 업그레이드: 5.4 - 5.5](home/c-inst-svr/c-upgrd-uninst-sftwr/c-upgrd-sftwr/t-upgrd-to-5.5.md)
          + [변형 업그레이드](home/c-inst-svr/c-upgrd-uninst-sftwr/c-upgrd-sftwr/t-upgrd-trfm.md)
          + [반복 업그레이드](home/c-inst-svr/c-upgrd-uninst-sftwr/c-upgrd-sftwr/c-upgrd-rptr.md)
       + [소프트웨어 제거](home/c-inst-svr/c-upgrd-uninst-sftwr/c-uninstl-sftwr.md)
@@ -966,6 +966,5 @@ source-git-commit: b3fb1e355cc42f96b2daaee9e58c22fa20a5a005
       + [새 스키마에 대한 구성 변경 사항](home/dwb-implement-overview/dwb-implement-deliver/dwb-implement-config-new-schema.md)
       + [파생 차원 설정](home/dwb-implement-overview/dwb-implement-deliver/dwb-implement-derived-dims.md)
 + [쿼리 API](https://www.adobe.io/)
-+ [Analytics 데이터 피드가 있는 데이터 워크벤치](home/assets/dwb-analytics-implementation.pdf)
 + [Adobe Target과 데이터 워크벤치 통합](home/dwb-adobe-target.md)
 + [데이터 워크벤치 용어집](dwb-glossary.md)
