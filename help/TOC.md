@@ -4,7 +4,7 @@ product: analytics
 audience: end-user
 user-guide-title: 데이터 워크벤치 도움말
 translation-type: tm+mt
-source-git-commit: 6098c4fcb14d7fd2444832aaaf0f5b7cc1811dac
+source-git-commit: b3fb1e355cc42f96b2daaee9e58c22fa20a5a005
 
 ---
 
@@ -966,6 +966,6 @@ source-git-commit: 6098c4fcb14d7fd2444832aaaf0f5b7cc1811dac
       + [새 스키마에 대한 구성 변경 사항](home/dwb-implement-overview/dwb-implement-deliver/dwb-implement-config-new-schema.md)
       + [파생 차원 설정](home/dwb-implement-overview/dwb-implement-deliver/dwb-implement-derived-dims.md)
 + [쿼리 API](https://www.adobe.io/)
-+ [Analytics 데이터 피드가 있는 데이터 워크벤치](home/assets/insight_sc_implementation.pdf)
++ [Analytics 데이터 피드가 있는 데이터 워크벤치](home/assets/dwb-analytics-implementation.pdf)
 + [Adobe Target과 데이터 워크벤치 통합](home/dwb-adobe-target.md)
 + [데이터 워크벤치 용어집](dwb-glossary.md)
