@@ -2,37 +2,41 @@
 cloud: experience-cloud
 product: analytics
 audience: end-user
-user-guide-title: 데이터 워크벤치 도움말
+user-guide-title: Data Workbench 도움말
+user-guide-description: Learn about the multi-channel capabilities of Data Workbench. Includes Data Workbench Client, Installation, Dataset Configuration guides, and more.
 translation-type: tm+mt
-source-git-commit: 4a31b493a9ce308dbd72c55156a2c197f30015e2
+source-git-commit: 53e6b7b96e7addd848a00691163878846b22b4c6
+workflow-type: tm+mt
+source-wordcount: '3518'
+ht-degree: 3%
 
 ---
 
 
 # Data Workbench Help {#using}
 
-+ [데이터 워크벤치 도움말](home/home.md)
++ [Data Workbench 도움말](home/home.md)
 + 릴리스 노트 {#release-notes}
    + [릴리스 노트 개요](home/c-release-notes-insight/release-notes.md)
-   + [데이터 워크벤치 6.74 릴리스 노트](home/c-release-notes-insight/dwb-6-74-release-notes.md)
-   + [데이터 워크벤치 6.73 릴리스 노트](home/c-release-notes-insight/dwb-6-73-release-notes.md)
-   + [데이터 워크벤치 6.72 릴리스 노트](home/c-release-notes-insight/dwb-6-72-release-notes.md)
-   + [데이터 워크벤치 6.7 릴리스 노트](home/c-release-notes-insight/dwb-6-7-release-notes.md)
-   + [데이터 워크벤치 보고서 포털 2.1](home/c-release-notes-insight/reportserver-2-1.md)
-   + [데이터 워크벤치 6.61 릴리스 노트](home/c-release-notes-insight/c-6-6-1.md)
-   + [데이터 워크벤치 6.6 릴리스 노트](home/c-release-notes-insight/c-6-6.md)
+   + [Data Workbench 6.74 릴리스 노트](home/c-release-notes-insight/dwb-6-74-release-notes.md)
+   + [Data Workbench 6.73 릴리스 노트](home/c-release-notes-insight/dwb-6-73-release-notes.md)
+   + [Data Workbench 6.72 릴리스 노트](home/c-release-notes-insight/dwb-6-72-release-notes.md)
+   + [Data Workbench 6.7 릴리스 노트](home/c-release-notes-insight/dwb-6-7-release-notes.md)
+   + [Data Workbench 보고서 포털 2.1](home/c-release-notes-insight/reportserver-2-1.md)
+   + [Data Workbench 6.61 릴리스 노트](home/c-release-notes-insight/c-6-6-1.md)
+   + [Data Workbench 6.6 릴리스 노트](home/c-release-notes-insight/c-6-6.md)
    + [Data Workbench 6.52 업데이트](home/c-release-notes-insight/c-6-52.md)
    + [Data Workbench 6.51 업데이트](home/c-release-notes-insight/c-6-51.md)
-   + [데이터 워크벤치 6.5 릴리스 노트](home/c-release-notes-insight/c-6-5.md)
-   + [데이터 워크벤치 6.4 릴리스 노트](home/c-release-notes-insight/c-6-4/c-6-4.md)
+   + [Data Workbench 6.5 릴리스 노트](home/c-release-notes-insight/c-6-5.md)
+   + [Data Workbench 6.4 릴리스 노트](home/c-release-notes-insight/c-6-4/c-6-4.md)
    + [Data Workbench 6.31 업데이트](home/c-release-notes-insight/c-6-3-1.md)
-   + [데이터 워크벤치 6.3 릴리스 노트](home/c-release-notes-insight/c-6-3/c-6-3.md)
+   + [Data Workbench 6.3 릴리스 노트](home/c-release-notes-insight/c-6-3/c-6-3.md)
    + [Data Workbench 6.21 업데이트](home/c-release-notes-insight/c-6-2-1.md)
-   + [데이터 워크벤치 6.2 릴리스 노트](home/c-release-notes-insight/c-release-notes-insight-62/c-release-notes-insight-62.md)
+   + [Data Workbench 6.2 릴리스 노트](home/c-release-notes-insight/c-release-notes-insight-62/c-release-notes-insight-62.md)
    + [Data Workbench 6.11 업데이트](home/c-release-notes-insight/c-6-1-1.md)
    + [2014년 4월 데이터 피드 업데이트](home/c-release-notes-insight/c-release-notes-insight-mr41714.md)
-   + [데이터 워크벤치 6.1 릴리스 노트](home/c-release-notes-insight/c-release-notes-insight-61/c-release-notes-insight-61.md)
-   + [데이터 워크벤치 6.0 및 6.0.4 릴리스 노트](home/c-release-notes-insight/c-release-notes-previous/c-release-notes-insight-600.md)
+   + [Data Workbench 6.1 릴리스 노트](home/c-release-notes-insight/c-release-notes-insight-61/c-release-notes-insight-61.md)
+   + [Data Workbench 6.0 및 6.0.4 릴리스 노트](home/c-release-notes-insight/c-release-notes-previous/c-release-notes-insight-600.md)
 + 설치 {#install}
    + [워크스테이션 요구 사항](home/c-install-insight/c-data-workbench-client-install.md)
    + 워크스테이션 설정 {#workstation-setup}
@@ -45,8 +49,8 @@ source-git-commit: 4a31b493a9ce308dbd72c55156a2c197f30015e2
       + [디지털 인증서 다운로드 및 설치](home/c-install-insight/install-setup/c-dgtl-crtf.md)
       + [Insight 서버에 연결 구성](home/c-install-insight/install-setup/c-conn-isvr.md)
       + [연결 문제 해결](home/c-install-insight/install-setup/t-conn-trbsh.md)
-   + 데이터 워크벤치 업그레이드 {#upgrade-dwb}
-      + [데이터 워크벤치 업그레이드 개요](home/c-install-insight/c-upgrd-ins/c-upgrd-ins.md)
+   + Data Workbench 업그레이드 {#upgrade-dwb}
+      + [업그레이드 Data Workbench 개요](home/c-install-insight/c-upgrd-ins/c-upgrd-ins.md)
       + [6.4에서 6.5로 업그레이드](home/c-install-insight/c-upgrd-ins/c-6-4-to-6-5-upgrade.md)
       + [6.3에서 6.4로 업그레이드](home/c-install-insight/c-upgrd-ins/c-6-3-to-6-4-upgrade.md)
       + [DWB 서버 업그레이드: 6.2 ~ 6.3](home/c-inst-svr/c-upgrd-uninst-sftwr/c-upgrd-sftwr/c-6-2-to-6-3-upgrade.md)
@@ -54,7 +58,7 @@ source-git-commit: 4a31b493a9ce308dbd72c55156a2c197f30015e2
       + [Data Workbench 6.0 - 6.1 업그레이드](home/c-inst-svr/c-upgrd-uninst-sftwr/c-upgrd-sftwr/c-6-0-to-6-1-upgrade/c-6-0-to-6-1-upgrade.md)
       + [Data Workbench 5.5에서 6.1 업그레이드](home/c-inst-svr/c-upgrd-uninst-sftwr/c-upgrd-sftwr/c-5-x-to-6-1-upgrade.md)
 + 고객 {#client}
-   + [데이터 워크벤치 열기](home/c-get-started/t-open-ins.md)
+   + [Data Workbench 열기](home/c-get-started/t-open-ins.md)
    + [사용자 자체 프로비저닝](home/c-get-started/c-self-provisioning-users.md)
    + [오프라인 및 온라인 작업](home/c-get-started/c-off-on.md)
    + [프로필](home/c-get-started/c-work-prof.md)
@@ -76,7 +80,7 @@ source-git-commit: 4a31b493a9ce308dbd72c55156a2c197f30015e2
       + [작업 영역 잠금 해제](home/c-get-started/c-work-worksp/c-unlock-wksp.md)
       + [작업 영역 삭제](home/c-get-started/c-work-worksp/c-del-wksp.md)
       + [작업 공간 창 메뉴 사용](home/c-get-started/c-work-worksp/c-wksp-win-menu.md)
-   + [데이터 워크벤치 클라이언트에 대한 키보드 단축키](home/c-get-started/analytics-quick-keys-for-dataworkbench.md)
+   + [Data Workbench 클라이언트에 대한 키보드 단축키](home/c-get-started/analytics-quick-keys-for-dataworkbench.md)
    + 작업 공간에서 창 사용 {#working-with-windows-workspace}
       + [작업 공간 개요에서 창 작업](home/c-get-started/c-wk-win-wksp/c-wk-win-wksp.md)
       + [작업 공간에서 창 조작](home/c-get-started/c-wk-win-wksp/c-man-win-wksp.md)
@@ -92,10 +96,10 @@ source-git-commit: 4a31b493a9ce308dbd72c55156a2c197f30015e2
       + [사용자 지정 헤더로 세그먼트 내보내기](home/c-get-started/c-exp-data-seg-exp/c-segment-export.md)
       + [S/FTP 배달을 사용하여 세그먼트 내보내기](home/c-get-started/c-exp-data-seg-exp/exporting-data.md)
       + [프로필 및 대상 내보내기](home/c-get-started/c-exp-data-seg-exp/c-mmp-integration.md)
-      + [Analytics 핵심 서비스로 내보내기](home/c-release-notes-insight/c-6-4/dwb-crs-integration.md)
+      + [Analytics 코어 서비스로 내보내기](home/c-release-notes-insight/c-6-4/dwb-crs-integration.md)
       + [Adobe Target으로 내보내기](home/c-get-started/c-exp-data-seg-exp/dwb-target-export.md)
       + [세그먼트 내보내기 마법사](home/c-get-started/c-exp-data-seg-exp/segment-export.md)
-   + [분석 보고서](home/c-get-started/c-template-report-types.md)
+   + [Analytics 보고서](home/c-get-started/c-template-report-types.md)
    + 기여도 보고서 {#attribution-reports}
       + [기여도 보고서 사용](home/c-get-started/c-attribution-profiles/c-attribution-profiles.md)
       + [속성 프로필 개요](home/c-get-started/c-attribution-profiles/c-rules-attrib/c-rules-attrib.md)
@@ -315,7 +319,7 @@ source-git-commit: 4a31b493a9ce308dbd72c55156a2c197f30015e2
       + [구성 옵션](home/c-get-started/c-admin-intrf/c-config-opt.md)
    + 인터페이스 및 분석 기능 {#ui-analysis-features}
       + [인터페이스 및 분석 기능](home/c-get-started/c-intf-anlys-ftrs/c-intf-anlys-ftrs.md)
-      + [로컬에 데이터 워크벤치 사용자 지정](home/c-get-started/c-intf-anlys-ftrs/c-cstm-lcl.md)
+      + [로컬에서 Data Workbench 사용자 정의](home/c-get-started/c-intf-anlys-ftrs/c-cstm-lcl.md)
       + Customize menus {#custom-menus}
          + [메뉴 사용자 정의](home/c-get-started/c-intf-anlys-ftrs/c-ctm-menus/c-ctm-menus.md)
          + [작업 영역 메뉴 및 메뉴 항목 만들기](home/c-get-started/c-intf-anlys-ftrs/c-ctm-menus/c-wksp-menus-itms.md)
@@ -359,12 +363,12 @@ source-git-commit: 4a31b493a9ce308dbd72c55156a2c197f30015e2
 + Dataset configuration {#dataset}
    + [데이터 집합 구성 이해](home/c-dataset-const-proc/c-dataset-constr.md)
    + [데이터 세트 구성 이해](home/c-dataset-const-proc/c-dataset-config.md)
-   + [GDPR에 대한 데이터 워크벤치 지원](home/c-dataset-const-proc/dwb-gdpr.md)
+   + [GDPR에 대한 Data Workbench 지원](home/c-dataset-const-proc/dwb-gdpr.md)
    + 로그 처리 구성 파일 {#log-proc-config-file}
       + [로그 처리 구성 파일 정보](home/c-dataset-const-proc/c-log-proc-config-file/c-abt-log-proc-config-file.md)
       + [로그 처리 구성 파일 편집](home/c-dataset-const-proc/c-log-proc-config-file/t-edit-log-proc-config-file.md)
       + [로그 소스](home/c-dataset-const-proc/c-log-proc-config-file/c-log-sources.md)
-      + [데이터 워크벤치 서버 파일 서버 단위 구성](home/c-dataset-const-proc/c-log-proc-config-file/c-ins-svr-file-svr-unit.md)
+      + [Data Workbench 서버 파일 서버 장치 구성](home/c-dataset-const-proc/c-log-proc-config-file/c-ins-svr-file-svr-unit.md)
       + [로그 처리 매개 변수](home/c-dataset-const-proc/c-log-proc-config-file/c-info-log-proc-param.md)
       + [ODBC 데이터 소스](home/c-dataset-const-proc/c-log-proc-config-file/c-odbc-data-sources.md)
       + [로그 처리 구성 파일에 대한 고려 사항](home/c-dataset-const-proc/c-log-proc-config-file/c-cons-log-proc-config-file.md)
@@ -453,7 +457,7 @@ source-git-commit: 4a31b493a9ce308dbd72c55156a2c197f30015e2
          + Transform.cfg 파일 {#transform-cfg-file}
             + [Transform.cfg 파일](home/c-dataset-const-proc/c-transf-func/c-config-files-transf/t-ins-transf-file/t-ins-transf-file.md)
             + [수출자 정의](home/c-dataset-const-proc/c-transf-func/c-config-files-transf/t-ins-transf-file/t-def-exp.md)
-            + [샘플 데이터 워크벤치 Transform.cfg 파일](home/c-dataset-const-proc/c-transf-func/c-config-files-transf/t-ins-transf-file/c-sample-transf-files.md)
+            + [샘플 Data Workbench Transform.cfg 파일](home/c-dataset-const-proc/c-transf-func/c-config-files-transf/t-ins-transf-file/c-sample-transf-files.md)
          + [변형 모드.cfg 파일](home/c-dataset-const-proc/c-transf-func/c-config-files-transf/t-transf-mode-file.md)
          + [필수 필드 정의.cfg 파일](home/c-dataset-const-proc/c-transf-func/c-config-files-transf/c-req-field-def-file.md)
    + 재처리 및 재변형 {#reproc-retrans}
@@ -500,7 +504,7 @@ source-git-commit: 4a31b493a9ce308dbd72c55156a2c197f30015e2
          + [보고서 세트 구성](home/c-rpt-oview/c-work-rpt-sets/t-create-rpt-set/t-config-rpt-set/t-config-rpt-set.md)
          + [보고서를 Microsoft Excel 파일로 생성](home/c-rpt-oview/c-work-rpt-sets/t-create-rpt-set/t-config-rpt-set/c-gen-rpts-ex-files.md)
          + [동적으로 보고서 생성](home/c-rpt-oview/c-work-rpt-sets/t-create-rpt-set/t-config-rpt-set/c-dyn-gen-rpts.md)
-         + [데이터 워크벤치 서버에 보고서 세트 게시](home/c-rpt-oview/c-work-rpt-sets/t-create-rpt-set/t-pub-rpt-set.md)
+         + [Data Workbench 서버에 보고서 세트 게시](home/c-rpt-oview/c-work-rpt-sets/t-create-rpt-set/t-pub-rpt-set.md)
       + [보고서 세트 상태 검토](home/c-rpt-oview/c-work-rpt-sets/c-rev-rpt-set-stat.md)
       + 기존 Report.cfg 파일 편집 {#edit-existing-report-files}
          + [기존 Report.cfg 파일 편집](home/c-rpt-oview/c-work-rpt-sets/c-edit-ex-rpt-files/c-edit-ex-rpt-files.md)
@@ -521,7 +525,7 @@ source-git-commit: 4a31b493a9ce308dbd72c55156a2c197f30015e2
          + [디지털 인증서 설치 절차](home/c-rpt-oview/c-inst-rpt/c-install-dig-cert/t-dig-cert-install-proc.md)
       + [Insight 서버에 연결 구성](home/c-rpt-oview/c-inst-rpt/t-config-conn-ins-svr.md)
       + [언어 파일(.zbin 파일)로 보고서 서버 업데이트](home/c-rpt-oview/c-inst-rpt/c-zbin-file-update.md)
-      + [데이터 워크벤치 서버에 대한 액세스 활성화](home/c-rpt-oview/c-inst-rpt/t-en-acc-ins-svr.md)
+      + [Data Workbench 서버에 대한 액세스 활성화](home/c-rpt-oview/c-inst-rpt/t-en-acc-ins-svr.md)
       + [보고서 서버 상태 표시](home/c-rpt-oview/c-inst-rpt/t-display-svr-st-rpt.md)
       + [보고서 서버를 Windows 서비스로 등록](home/c-rpt-oview/c-inst-rpt/t-reg-rpt-win-svc.md)
       + [보고서 서버 업그레이드 및 제거](home/c-rpt-oview/c-inst-rpt/c-upgrade-uninstall-rpt.md)
@@ -594,7 +598,7 @@ source-git-commit: 4a31b493a9ce308dbd72c55156a2c197f30015e2
    + [타사 페이지 태그 지정에 대한 P3P 고려 사항](home/c-undst-pg-tag/c-cons-thrd-pty-pg-tag.md)
    + [페이지 태그 변수 매핑 워크시트](home/c-undst-pg-tag/c-pg-tag-wkst.md)
 + Metrics, dimensions, and filters {#metrics}
-   + [데이터 워크벤치 지표, 차원 및 필터 정보](home/c-about/c-about.md)
+   + [Data Workbench 지표, 차원 및 필터 정보](home/c-about/c-about.md)
    + [지표, 차원 및 필터 확장](home/c-about/c-expand-capabilities.md)
    + [차원 유형](home/c-about/c-dimension-types.md)
    + [지표 치수 마법사](home/c-about/metric-dim.md)
@@ -611,9 +615,9 @@ source-git-commit: 4a31b493a9ce308dbd72c55156a2c197f30015e2
       + [값 프로필 차원](home/c-about/c-about-baseline-profiles/c-value-profile-dims.md)
       + [마케팅 프로필 차원](home/c-about/c-about-baseline-profiles/c-marketing-profile.md)
 + Geography {#geography}
-   + [데이터 워크벤치 지리 정보](home/c-geo-oview/c-geo-oview.md)
-   + 데이터 워크벤치 지리 설치 {#install-geography}
-      + [데이터 워크벤치 지리 설치](home/c-geo-oview/c-inst-geo/c-inst-geo.md)
+   + [Data Workbench 지리 정보](home/c-geo-oview/c-geo-oview.md)
+   + Data Workbench 지역 설치 {#install-geography}
+      + [Data Workbench 지역 설치](home/c-geo-oview/c-inst-geo/c-inst-geo.md)
       + [지역 프로필 설치](home/c-geo-oview/c-inst-geo/t-inst-geo-prof.md)
       + [지역 조회 파일 설치](home/c-geo-oview/c-inst-geo/t-inst-lkp-files.md)
       + [Terrain Images.cfg 파일 설치](home/c-geo-oview/c-inst-geo/t-inst-trn-imgs-file.md)
@@ -641,15 +645,15 @@ source-git-commit: 4a31b493a9ce308dbd72c55156a2c197f30015e2
    + 데이터 서비스 {#data-services}
       + [데이터 서비스 정보](home/c-geo-oview/c-wk-data-svcs/c-abt-data-svcs.md)
       + 데이터 서비스 설치 {#install-data-service}
-         + [데이터 워크벤치 서버에 데이터 서비스 설치](home/c-geo-oview/c-wk-data-svcs/c-install-data-svc/c-install-data-svc.md)
+         + [Data Workbench 서버에 데이터 서비스 설치](home/c-geo-oview/c-wk-data-svcs/c-install-data-svc/c-install-data-svc.md)
          + [데이터 서비스 프로필 설치](home/c-geo-oview/c-wk-data-svcs/c-install-data-svc/c-inst-data-svc-prof.md)
          + [데이터 서비스 조회 파일 설치](home/c-geo-oview/c-wk-data-svcs/c-install-data-svc/t-inst-data-svc-lkp-files.md)
       + [데이터 서비스 파일 업데이트](home/c-geo-oview/c-wk-data-svcs/c-updt-data-svc-files.md)
-   + 데이터 워크벤치 지역 업그레이드 및 제거 {#upgrade-uninstall-geo}
-      + [데이터 워크벤치 지역 업그레이드](home/c-geo-oview/c-upgrd-uninst-geo/t-upgrd-geo.md)
-      + [데이터 워크벤치 지역 제거](home/c-geo-oview/c-upgrd-uninst-geo/t-uninst-geo.md)
+   + Data Workbench 지역 업그레이드 및 제거 {#upgrade-uninstall-geo}
+      + [Data Workbench 지역 업그레이드](home/c-geo-oview/c-upgrd-uninst-geo/t-upgrd-geo.md)
+      + [Data Workbench 지역 제거](home/c-geo-oview/c-upgrd-uninst-geo/t-uninst-geo.md)
 + Controlled experiments {#experiments}
-   + [데이터 워크벤치 제어 실험 정보](home/c-undst-ctrld-exp/c-undst-ctrld-exp.md)
+   + [Data Workbench 제어 실험 정보](home/c-undst-ctrld-exp/c-undst-ctrld-exp.md)
    + [사이트는 방문자를 어떻게 식별합니까?](home/c-undst-ctrld-exp/c-id-vstrs.md)
    + [제어된 실험은 어떻게 작동하는가?](home/c-undst-ctrld-exp/c-ctrld-exp-wk.md)
    + [무엇을 테스트해야 합니까?](home/c-undst-ctrld-exp/c-wht-test-.md)
@@ -676,8 +680,8 @@ source-git-commit: 4a31b493a9ce308dbd72c55156a2c197f30015e2
    + [Experiment Design Spreadsheet](home/c-undst-ctrld-exp/t-exp-dsn-spst.md)
 + 서버 관리 및 설치 {#server-admin-install}
    + [서버 시스템 요구 사항](home/c-inst-svr/c-msr-server/c-msr-server.md)
-   + 데이터 워크벤치 서버 설치 {#install-servers}
-      + [데이터 워크벤치 서버 설치](home/c-inst-svr/c-install-ins-svr/c-install-ins-svr.md)
+   + Data Workbench 서버 설치 {#install-servers}
+      + [Data Workbench 서버 설치](home/c-inst-svr/c-install-ins-svr/c-install-ins-svr.md)
       + [Insight 서버 라이센스 단위 정보](home/c-inst-svr/c-install-ins-svr/c-abt-inst-svr-lic-units.md)
       + Insight Server DPU {#insight-server-dpu}
          + [Insight Server DPU의 설치 절차](home/c-inst-svr/c-install-ins-svr/t-install-proc-inst-svr-dpu/t-install-proc-inst-svr-dpu.md)
@@ -685,7 +689,7 @@ source-git-commit: 4a31b493a9ce308dbd72c55156a2c197f30015e2
          + 디지털 인증서 {#dig-certs}
             + [디지털 인증서 다운로드 및 설치](home/c-inst-svr/c-install-ins-svr/t-install-proc-inst-svr-dpu/c-dnld-dgtl-cert/c-dnld-dgtl-cert.md)
             + [문자열 암호화](home/c-inst-svr/c-install-ins-svr/t-install-proc-inst-svr-dpu/c-dnld-dgtl-cert/string-encryption.md)
-            + [데이터 워크벤치에서 사용자 지정 인증서 사용](home/c-inst-svr/c-install-ins-svr/t-install-proc-inst-svr-dpu/c-dnld-dgtl-cert/using-custom-certificates-dwb.md)
+            + [Data Workbench에서 사용자 정의 인증서 사용](home/c-inst-svr/c-install-ins-svr/t-install-proc-inst-svr-dpu/c-dnld-dgtl-cert/using-custom-certificates-dwb.md)
             + [Windows 인증서 저장소](home/c-inst-svr/c-install-ins-svr/t-install-proc-inst-svr-dpu/c-dnld-dgtl-cert/crypto-api.md)
          + [포트 설정 확인](home/c-inst-svr/c-install-ins-svr/t-install-proc-inst-svr-dpu/t-chk-pt-stgs.md)
          + [액세스 제어 파일 업데이트](home/c-inst-svr/c-install-ins-svr/t-install-proc-inst-svr-dpu/c-updt-accss-ctrl-file.md)
@@ -704,16 +708,16 @@ source-git-commit: 4a31b493a9ce308dbd72c55156a2c197f30015e2
          + Insight 서버 클러스터 설치 {#install-insight-server-cluster}
             + [Insight 서버 클러스터 설치](home/c-inst-svr/c-install-ins-svr/c-ins-svr-clstrs/c-inst-ins-svr-clstr/c-inst-ins-svr-clstr.md)
             + [클러스터의 설치 절차](home/c-inst-svr/c-install-ins-svr/c-ins-svr-clstrs/c-inst-ins-svr-clstr/c-inst-proc-clstr/c-inst-proc-clstr.md)
-            + [Master Insight 서버 설치](home/c-inst-svr/c-install-ins-svr/c-ins-svr-clstrs/c-inst-ins-svr-clstr/c-inst-proc-clstr/t-ins-mstr-ins-svr.md)
-            + [클러스터링을 위한 마스터 인사이트 서버 구성](home/c-inst-svr/c-install-ins-svr/c-ins-svr-clstrs/c-inst-ins-svr-clstr/c-inst-proc-clstr/c-config-mstr-ins-svr-clstr.md)
+            + [Insight 서버 기본 설치](home/c-inst-svr/c-install-ins-svr/c-ins-svr-clstrs/c-inst-ins-svr-clstr/c-inst-proc-clstr/t-ins-mstr-ins-svr.md)
+            + [클러스터링을 위한 기본 Insight 서버 구성](home/c-inst-svr/c-install-ins-svr/c-ins-svr-clstrs/c-inst-ins-svr-clstr/c-inst-proc-clstr/c-config-mstr-ins-svr-clstr.md)
             + [처리 인사이트 서버 설치 및 구성](home/c-inst-svr/c-install-ins-svr/c-ins-svr-clstrs/c-inst-ins-svr-clstr/c-inst-proc-clstr/t-inst-proc-ins-svrs.md)
             + [클러스터에서 실행할 프로필 구성](home/c-inst-svr/c-install-ins-svr/c-ins-svr-clstrs/c-inst-ins-svr-clstr/c-inst-proc-clstr/c-config-prof-run-clstr.md)
          + 기존 클러스터에 Insight 서버 추가 {#add-server-cluster}
             + [기존 클러스터에 Insight 서버 추가](home/c-inst-svr/c-install-ins-svr/c-ins-svr-clstrs/c-add-ins-svrs-ex-clstr/c-add-ins-svrs-ex-clstr.md)
             + [기존 클러스터에 Insight Server DPU 추가](home/c-inst-svr/c-install-ins-svr/c-ins-svr-clstrs/c-add-ins-svrs-ex-clstr/c-add-dpu-ex-clstr.md)
             + [기존 클러스터에 Insight Server FSU 추가](home/c-inst-svr/c-install-ins-svr/c-ins-svr-clstrs/c-add-ins-svrs-ex-clstr/c-add-fsu-ex-clstr.md)
-   + 데이터 워크벤치 서버 관리 {#admin-dwb-server}
-      + [데이터 워크벤치 서버 관리](home/c-inst-svr/c-admin-inst-svr/c-admin-inst-svr.md)
+   + Data Workbench 서버 관리 {#admin-dwb-server}
+      + [Data Workbench 서버 관리](home/c-inst-svr/c-admin-inst-svr/c-admin-inst-svr.md)
       + [디지털 인증서 유효성 재확인](home/c-inst-svr/c-admin-inst-svr/c-reval-dgtl-cert.md)
       + [서비스가 실행 중인지 확인](home/c-inst-svr/c-admin-inst-svr/c-cfrm-svc-rng.md)
       + 액세스 제어 {#access-control}
@@ -747,7 +751,7 @@ source-git-commit: 4a31b493a9ce308dbd72c55156a2c197f30015e2
       +  {#configure}
          + [반복 기능 구성](home/c-inst-svr/c-rptr-fntly/c-cnfg-rptr-fntly/c-cnfg-rptr-fntly.md)
          + [반복용 Insight Server FSU 구성](home/c-inst-svr/c-rptr-fntly/c-cnfg-rptr-fntly/t-cfg-fsu-rptr.md)
-         + [대상 컴퓨터에 대한 액세스 제어 구성](home/c-inst-svr/c-rptr-fntly/c-cnfg-rptr-fntly/t-cfg-acc-ctrll-tgt-mach.md)
+         + [Target 컴퓨터에 대한 액세스 제어 구성](home/c-inst-svr/c-rptr-fntly/c-cnfg-rptr-fntly/t-cfg-acc-ctrll-tgt-mach.md)
          + [인사이트와 반복 간의 연결 만들기](home/c-inst-svr/c-rptr-fntly/c-cnfg-rptr-fntly/t-crt-conn-ins-rptr.md)
          + [다음 단계](home/c-inst-svr/c-rptr-fntly/c-cnfg-rptr-fntly/c-nxt-stps-reptr.md)
       + [반복 관리](home/c-inst-svr/c-rptr-fntly/c-admin-rptr.md)
@@ -806,7 +810,7 @@ source-git-commit: 4a31b493a9ce308dbd72c55156a2c197f30015e2
       + [데이터 수집기가 실행 중인지 확인](home/c-snsr-ovrvw/admin-sensor/c-data-cltr-rng.md)
       + [데이터 전송기가 실행 중인지 확인](home/c-snsr-ovrvw/admin-sensor/c-data-trmtr-rng.md)
       + [관리 이벤트 모니터링](home/c-snsr-ovrvw/admin-sensor/c-mntr-admin-evts.md)
-      + [대상 데이터 워크벤치 서버 변경](home/c-snsr-ovrvw/admin-sensor/t-trgt-ins-svr.md)
+      + [Target Data Workbench 서버 변경](home/c-snsr-ovrvw/admin-sensor/t-trgt-ins-svr.md)
       + 오프라인 센서 {#offline}
          + [오프라인 센서 처리](home/c-snsr-ovrvw/admin-sensor/c-ofln-snsrs/c-ofln-snsrs.md)
          + [&quot;기준&quot; 시간 이해](home/c-snsr-ovrvw/admin-sensor/c-ofln-snsrs/c-as-of-tm.md)
@@ -829,16 +833,16 @@ source-git-commit: 4a31b493a9ce308dbd72c55156a2c197f30015e2
 + 모니터링 프로필 설치 {#monitor}
    + [모니터링 프로필 설치](home/monitoring-installation/monitoring-installation.md)
    + Workspaces {#workspace}
-      + [데이터 워크벤치 서버 모니터링을 위한 작업 영역](home/monitoring-installation/monitoring-profiles/monitoring-profiles.md)
-      + [데이터 워크벤치 기록 작업 공간](home/monitoring-installation/monitoring-profiles/monitoring-historical-using.md)
-      + [데이터 워크벤치 프로필 상태 작업 공간](home/monitoring-installation/monitoring-profiles/monitoring-profile-using.md)
-      + [데이터 워크벤치 서버 상태 작업 공간](home/monitoring-installation/monitoring-profiles/monitoring-server-using.md)
-   + 데이터 워크벤치 프로필 차원 및 지표 {#monitoring-appendix}
-      + [데이터 워크벤치 프로필 차원 및 지표](home/monitoring-installation/monitoring-appendix/monitoring-appendix.md)
-      + [데이터 워크벤치 내역 프로파일의 차원](home/monitoring-installation/monitoring-appendix/monitoring-historical.md)
-      + [데이터 워크벤치 프로파일 상태 프로파일의 차원](home/monitoring-installation/monitoring-appendix/monitoring-profile-status.md)
-      + [데이터 워크벤치 서버 상태 프로필의 차원](home/monitoring-installation/monitoring-appendix/monitoring-servers-profile.md)
-      + [데이터 워크벤치 내역 모니터링 프로필의 지표](home/monitoring-installation/monitoring-appendix/monitoring-hist-metrics.md)
+      + [Data Workbench 서버 모니터링을 위한 작업 영역](home/monitoring-installation/monitoring-profiles/monitoring-profiles.md)
+      + [Data Workbench 기록 작업 영역](home/monitoring-installation/monitoring-profiles/monitoring-historical-using.md)
+      + [Data Workbench 프로필 상태 작업 공간](home/monitoring-installation/monitoring-profiles/monitoring-profile-using.md)
+      + [Data Workbench 서버 상태 작업 공간](home/monitoring-installation/monitoring-profiles/monitoring-server-using.md)
+   + Data Workbench 프로필 차원 및 지표 {#monitoring-appendix}
+      + [Data Workbench 프로필 차원 및 지표](home/monitoring-installation/monitoring-appendix/monitoring-appendix.md)
+      + [Data Workbench 내역 프로필의 차원](home/monitoring-installation/monitoring-appendix/monitoring-historical.md)
+      + [Data Workbench 프로필 상태 프로필의 차원](home/monitoring-installation/monitoring-appendix/monitoring-profile-status.md)
+      + [Data Workbench 서버 상태 프로필의 차원](home/monitoring-installation/monitoring-appendix/monitoring-servers-profile.md)
+      + [Data Workbench 내역 모니터링 프로필의 지표](home/monitoring-installation/monitoring-appendix/monitoring-hist-metrics.md)
 + 대시보드 {#dashboard}
    + [비즈니스 기회](home/c-adobe-data-workbench-dashboard/c-business-opportunities.md)
    + [기능](home/c-adobe-data-workbench-dashboard/c-features.md)
@@ -905,7 +909,7 @@ source-git-commit: 4a31b493a9ce308dbd72c55156a2c197f30015e2
       + [IIS 활성화](home/c-preparing-for-dashboard-installation/c-installation-prerequisites/t-enabling-iis.md)
       + [필수 구성 요소 설치](home/c-preparing-for-dashboard-installation/c-installation-prerequisites/t-installing-required-components.md)
    + 서버 통신 {#servers-communication}
-      + [대시보드 - 데이터 워크벤치 서버 통신](home/c-preparing-for-dashboard-installation/c-dashboard-to-data-workbench-servers-communication/c-dashboard-to-data-workbench-servers-communication.md)
+      + [대시보드 - Data Workbench 서버 통신](home/c-preparing-for-dashboard-installation/c-dashboard-to-data-workbench-servers-communication/c-dashboard-to-data-workbench-servers-communication.md)
       + [쿼리 API 활성화 확인](home/c-preparing-for-dashboard-installation/c-dashboard-to-data-workbench-servers-communication/t-verifying-qurey-api-enablement.md)
       + [액세스 제어 구성](home/c-preparing-for-dashboard-installation/c-dashboard-to-data-workbench-servers-communication/t-configuring-access-control.md)
    + 대시보드 배포 {#dashboard-deployment}
@@ -941,16 +945,16 @@ source-git-commit: 4a31b493a9ce308dbd72c55156a2c197f30015e2
       + [사용자 그룹 편집](home/c-preparing-for-dashboard-installation/c-managing-user-groups/t-editing-a-user-group.md)
       + [사용자 그룹 제거](home/c-preparing-for-dashboard-installation/c-managing-user-groups/t-removing-a-user-group.md)
    + [시스템 로그](home/c-preparing-for-dashboard-installation/c-system-logs.md)
-+ 데이터 워크벤치 구현 {#implement}
-   + [Adobe 데이터 워크벤치 구현](home/dwb-implement-overview/dwb-implement-overview.md)
-   + [데이터 워크벤치 검색 및 요구 사항](home/dwb-implement-overview/dwb-implement-discovery.md)
-   + [데이터 워크벤치 설치 및 프로비저닝](home/dwb-implement-overview/dwb-implement-provision/dwb-implement-provision.md)
++ Data Workbench 구현 {#implement}
+   + [Adobe Data Workbench 구현](home/dwb-implement-overview/dwb-implement-overview.md)
+   + [Data Workbench 검색 및 요구 사항](home/dwb-implement-overview/dwb-implement-discovery.md)
+   + [Data Workbench 설치 및 프로비저닝](home/dwb-implement-overview/dwb-implement-provision/dwb-implement-provision.md)
    + [DWB Managed Services에 대한 기본 온보딩 지침](home/dwb-implement-overview/dwb-implement-provision/dwb-implement-onboarding.md)
-   + [데이터 워크벤치 아키텍처](home/dwb-implement-overview/dwb-implement-architecture/dwb-implement-architecture.md)
+   + [Data Workbench 건축](home/dwb-implement-overview/dwb-implement-architecture/dwb-implement-architecture.md)
    + [스키마 디자인 계산 가능한 구조](home/dwb-implement-overview/dwb-implement-architecture/dwb-implement-arch-countable.md)
-   + [데이터 워크벤치 관리](home/dwb-implement-overview/dwb-implement-admin.md)
+   + [Data Workbench 관리](home/dwb-implement-overview/dwb-implement-admin.md)
    + 구성 및 구현 {#implement-configure}
-      + [데이터 워크벤치 구성 및 구현](home/dwb-implement-overview/dwb-implement-configure/dwb-implement-configure.md)
+      + [Data Workbench 구성 및 구현](home/dwb-implement-overview/dwb-implement-configure/dwb-implement-configure.md)
       + [이벤트 시간 설정](home/dwb-implement-overview/dwb-implement-configure/dwb-implement-event-time.md)
       + [차원 설정](home/dwb-implement-overview/dwb-implement-configure/dwb-implement-dim-setup.md)
       + [지표 설정](home/dwb-implement-overview/dwb-implement-configure/dwb-implement-metric-setup.md)
@@ -962,9 +966,9 @@ source-git-commit: 4a31b493a9ce308dbd72c55156a2c197f30015e2
       + [쿼리 API 설정](home/dwb-implement-overview/dwb-implement-configure/dwb-implement-query-api.md)
       + [데이터 처리 - 기본 키 작성](home/dwb-implement-overview/dwb-implement-configure/dwb-implement-primary-key.md)
    + 기능 구현 {#feature-implemenatation}
-      + [데이터 워크벤치 기능 구현](home/dwb-implement-overview/dwb-implement-deliver/dwb-implement-deliver.md)
+      + [기능 Data Workbench 구현](home/dwb-implement-overview/dwb-implement-deliver/dwb-implement-deliver.md)
       + [새 스키마에 대한 구성 변경 사항](home/dwb-implement-overview/dwb-implement-deliver/dwb-implement-config-new-schema.md)
       + [파생 차원 설정](home/dwb-implement-overview/dwb-implement-deliver/dwb-implement-derived-dims.md)
 + [쿼리 API](https://www.adobe.io/)
-+ [Adobe Target과 데이터 워크벤치 통합](home/dwb-adobe-target.md)
-+ [데이터 워크벤치 용어집](dwb-glossary.md)
++ [Adobe Target과 Data Workbench 통합](home/dwb-adobe-target.md)
++ [Data Workbench 용어집](dwb-glossary.md)
