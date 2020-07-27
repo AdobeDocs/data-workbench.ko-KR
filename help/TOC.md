@@ -4,16 +4,16 @@ product: analytics
 audience: end-user
 user-guide-title: Data Workbench 도움말
 user-guide-description: Learn about the multi-channel capabilities of Data Workbench. Includes Data Workbench Client, Installation, Dataset Configuration guides, and more.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 53e6b7b96e7addd848a00691163878846b22b4c6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3518'
-ht-degree: 3%
+ht-degree: 100%
 
 ---
 
 
-# Data Workbench Help {#using}
+# Data Workbench 도움말 {#using}
 
 + [Data Workbench 도움말](home/home.md)
 + 릴리스 노트 {#release-notes}
@@ -34,7 +34,7 @@ ht-degree: 3%
    + [Data Workbench 6.21 업데이트](home/c-release-notes-insight/c-6-2-1.md)
    + [Data Workbench 6.2 릴리스 노트](home/c-release-notes-insight/c-release-notes-insight-62/c-release-notes-insight-62.md)
    + [Data Workbench 6.11 업데이트](home/c-release-notes-insight/c-6-1-1.md)
-   + [2014년 4월 데이터 피드 업데이트](home/c-release-notes-insight/c-release-notes-insight-mr41714.md)
+   + [2014년 4월 MR 데이터 피드 업데이트](home/c-release-notes-insight/c-release-notes-insight-mr41714.md)
    + [Data Workbench 6.1 릴리스 노트](home/c-release-notes-insight/c-release-notes-insight-61/c-release-notes-insight-61.md)
    + [Data Workbench 6.0 및 6.0.4 릴리스 노트](home/c-release-notes-insight/c-release-notes-previous/c-release-notes-insight-600.md)
 + 설치 {#install}
@@ -47,44 +47,44 @@ ht-degree: 3%
       + [Terrain Images.cfg 파일 설치](home/c-install-insight/install-setup/t-trn-imgs-file.md)
       + [현지화 언어 설정](home/c-install-insight/install-setup/c-setting-localized-languages.md)
       + [디지털 인증서 다운로드 및 설치](home/c-install-insight/install-setup/c-dgtl-crtf.md)
-      + [Insight 서버에 연결 구성](home/c-install-insight/install-setup/c-conn-isvr.md)
+      + [Insight Server에 연결 구성](home/c-install-insight/install-setup/c-conn-isvr.md)
       + [연결 문제 해결](home/c-install-insight/install-setup/t-conn-trbsh.md)
    + Data Workbench 업그레이드 {#upgrade-dwb}
       + [업그레이드 Data Workbench 개요](home/c-install-insight/c-upgrd-ins/c-upgrd-ins.md)
       + [6.4에서 6.5로 업그레이드](home/c-install-insight/c-upgrd-ins/c-6-4-to-6-5-upgrade.md)
       + [6.3에서 6.4로 업그레이드](home/c-install-insight/c-upgrd-ins/c-6-3-to-6-4-upgrade.md)
-      + [DWB 서버 업그레이드: 6.2 ~ 6.3](home/c-inst-svr/c-upgrd-uninst-sftwr/c-upgrd-sftwr/c-6-2-to-6-3-upgrade.md)
-      + [DWB 서버 업그레이드: 6.1 ~ 6.2](home/c-inst-svr/c-upgrd-uninst-sftwr/c-upgrd-sftwr/c-6-1-to-6-2-upgrade.md)
-      + [Data Workbench 6.0 - 6.1 업그레이드](home/c-inst-svr/c-upgrd-uninst-sftwr/c-upgrd-sftwr/c-6-0-to-6-1-upgrade/c-6-0-to-6-1-upgrade.md)
-      + [Data Workbench 5.5에서 6.1 업그레이드](home/c-inst-svr/c-upgrd-uninst-sftwr/c-upgrd-sftwr/c-5-x-to-6-1-upgrade.md)
+      + [DWB 서버 업그레이드: 6.2에서 6.3으로](home/c-inst-svr/c-upgrd-uninst-sftwr/c-upgrd-sftwr/c-6-2-to-6-3-upgrade.md)
+      + [DWB 서버 업그레이드: 6.1에서 6.2로](home/c-inst-svr/c-upgrd-uninst-sftwr/c-upgrd-sftwr/c-6-1-to-6-2-upgrade.md)
+      + [Data Workbench 6.0에서 6.1로 업그레이드](home/c-inst-svr/c-upgrd-uninst-sftwr/c-upgrd-sftwr/c-6-0-to-6-1-upgrade/c-6-0-to-6-1-upgrade.md)
+      + [Data Workbench 5.5에서 6.1로 업그레이드](home/c-inst-svr/c-upgrd-uninst-sftwr/c-upgrd-sftwr/c-5-x-to-6-1-upgrade.md)
 + 고객 {#client}
    + [Data Workbench 열기](home/c-get-started/t-open-ins.md)
    + [사용자 자체 프로비저닝](home/c-get-started/c-self-provisioning-users.md)
    + [오프라인 및 온라인 작업](home/c-get-started/c-off-on.md)
    + [프로필](home/c-get-started/c-work-prof.md)
-   + [작업대](home/c-get-started/c-unstd-wktp.md)
+   + [Worktop](home/c-get-started/c-unstd-wktp.md)
    + [파일 버전 관리](home/c-get-started/c-unstd-file-ver.md)
-   + [작업 톱 축소판 메뉴 사용](home/c-get-started/c-wktp-thumb-menu.md)
-   + [세로 막대 구성](home/c-get-started/c-config-sidebar.md)
-   + 작업 영역 표시 {#display-workspaces}
-      + [작업 영역 개요 표시](home/c-get-started/c-work-worksp/c-work-worksp.md)
+   + [Worktop 축소판 메뉴 사용](home/c-get-started/c-wktp-thumb-menu.md)
+   + [사이드바 구성](home/c-get-started/c-config-sidebar.md)
+   + 작업 공간 표시 {#display-workspaces}
+      + [작업 공간 개요 표시](home/c-get-started/c-work-worksp/c-work-worksp.md)
       + [작업 공간 표시](home/c-get-started/c-work-worksp/c-dis-worksp.md)
-      + [작업 영역 만들기](home/c-get-started/c-work-worksp/c-create-worksp.md)
+      + [작업 공간 만들기](home/c-get-started/c-work-worksp/c-create-worksp.md)
       + [작업 공간 파일 메뉴](home/c-get-started/c-work-worksp/c-use-wksp-file-menu.md)
-      + [작업 공간 리플로우](home/c-get-started/c-work-worksp/c-refit-wksp.md)
-      + [작업 영역 공유](home/c-get-started/c-work-worksp/c-share-wksp.md)
-      + [작업 영역 저장](home/c-get-started/c-work-worksp/c-save-wksp.md)
-      + [작업 영역 내보내기](home/c-get-started/c-work-worksp/c-ex-wksp.md)
-      + [작업 영역 가져오기](home/c-get-started/c-work-worksp/c-importing-workspace.md)
+      + [작업 공간 다시 맞춤](home/c-get-started/c-work-worksp/c-refit-wksp.md)
+      + [작업 공간 공유](home/c-get-started/c-work-worksp/c-share-wksp.md)
+      + [작업 공간 저장](home/c-get-started/c-work-worksp/c-save-wksp.md)
+      + [작업 공간 내보내기](home/c-get-started/c-work-worksp/c-ex-wksp.md)
+      + [작업 공간 가져오기](home/c-get-started/c-work-worksp/c-importing-workspace.md)
       + [작업 공간에 설명 추가](home/c-get-started/c-work-worksp/t-add-wksp-desc.md)
-      + [작업 영역 잠금 해제](home/c-get-started/c-work-worksp/c-unlock-wksp.md)
-      + [작업 영역 삭제](home/c-get-started/c-work-worksp/c-del-wksp.md)
+      + [작업 공간 잠금 해제](home/c-get-started/c-work-worksp/c-unlock-wksp.md)
+      + [작업 공간 삭제](home/c-get-started/c-work-worksp/c-del-wksp.md)
       + [작업 공간 창 메뉴 사용](home/c-get-started/c-work-worksp/c-wksp-win-menu.md)
-   + [Data Workbench 클라이언트에 대한 키보드 단축키](home/c-get-started/analytics-quick-keys-for-dataworkbench.md)
+   + [Data Workbench 클라이언트의 키보드 단축키](home/c-get-started/analytics-quick-keys-for-dataworkbench.md)
    + 작업 공간에서 창 사용 {#working-with-windows-workspace}
       + [작업 공간 개요에서 창 작업](home/c-get-started/c-wk-win-wksp/c-wk-win-wksp.md)
       + [작업 공간에서 창 조작](home/c-get-started/c-wk-win-wksp/c-man-win-wksp.md)
-      + [Windows에서 텍스트를 사용한 작업](home/c-get-started/c-wk-win-wksp/c-work-text-win.md)
+      + [Windows에서 텍스트를 사용하는 작업](home/c-get-started/c-wk-win-wksp/c-work-text-win.md)
       + [창 컨트롤 메뉴](home/c-get-started/c-wk-win-wksp/c-win-ctrls-menu.md)
       + [창 데이터 내보내기](home/c-get-started/c-wk-win-wksp/c-exp-win-data.md)
    + 데이터 내보내기 {#export-data}
@@ -95,13 +95,13 @@ ht-degree: 3%
       + [세그먼트 내보내기에 사용할 차원 만들기](home/c-get-started/c-exp-data-seg-exp/c-dim-sgmt-expt.md)
       + [사용자 지정 헤더로 세그먼트 내보내기](home/c-get-started/c-exp-data-seg-exp/c-segment-export.md)
       + [S/FTP 배달을 사용하여 세그먼트 내보내기](home/c-get-started/c-exp-data-seg-exp/exporting-data.md)
-      + [프로필 및 대상 내보내기](home/c-get-started/c-exp-data-seg-exp/c-mmp-integration.md)
-      + [Analytics 코어 서비스로 내보내기](home/c-release-notes-insight/c-6-4/dwb-crs-integration.md)
+      + [프로필 및 대상자 내보내기](home/c-get-started/c-exp-data-seg-exp/c-mmp-integration.md)
+      + [Analytics Core Services로 내보내기](home/c-release-notes-insight/c-6-4/dwb-crs-integration.md)
       + [Adobe Target으로 내보내기](home/c-get-started/c-exp-data-seg-exp/dwb-target-export.md)
       + [세그먼트 내보내기 마법사](home/c-get-started/c-exp-data-seg-exp/segment-export.md)
    + [Analytics 보고서](home/c-get-started/c-template-report-types.md)
-   + 기여도 보고서 {#attribution-reports}
-      + [기여도 보고서 사용](home/c-get-started/c-attribution-profiles/c-attribution-profiles.md)
+   + 속성 보고서 {#attribution-reports}
+      + [속성 보고서 사용](home/c-get-started/c-attribution-profiles/c-attribution-profiles.md)
       + [속성 프로필 개요](home/c-get-started/c-attribution-profiles/c-rules-attrib/c-rules-attrib.md)
       + [속성 프로필 배포](home/c-get-started/c-attribution-profiles/c-rules-attrib/c-attrib-profile-deploy.md)
       + [속성 모델](home/c-get-started/c-attribution-profiles/c-rules-attrib/c-attrib-models.md)
@@ -118,11 +118,11 @@ ht-degree: 3%
          + [시각화를 보기 위한 확대/축소](home/c-get-started/c-vis/c-sel-vis/dwb-zoom-regression-view.md)
       + [벤치마크](home/c-get-started/c-vis/c-ustd-benchmks.md)
       + [지표 및 차원 메뉴](home/c-get-started/c-vis/c-met-dim-menus.md)
-      + 하위 세트 {#subsets}
-         + [하위 세트 개요](home/c-get-started/c-vis/c-wk-subsets/c-wk-subsets.md)
-         + [하위 세트 이해](home/c-get-started/c-vis/c-wk-subsets/c-ustd-subsets.md)
+      + 하위 집합 {#subsets}
+         + [하위 집합 개요](home/c-get-started/c-vis/c-wk-subsets/c-wk-subsets.md)
+         + [하위 집합 이해](home/c-get-started/c-vis/c-wk-subsets/c-ustd-subsets.md)
          + [수준 선택](home/c-get-started/c-vis/c-wk-subsets/c-sel-level.md)
-         + [하위 세트 만들기](home/c-get-started/c-vis/c-wk-subsets/c-create-subsets.md)
+         + [하위 집합 만들기](home/c-get-started/c-vis/c-wk-subsets/c-create-subsets.md)
          + [하위 집합 제거](home/c-get-started/c-vis/c-wk-subsets/c-rem-subsets.md)
       + [시각화 확대 또는 축소](home/c-get-started/c-vis/c-zoom-vis.md)
       + [작업 공간에 설명선 추가](home/c-get-started/c-vis/c-call-wkspc.md)
@@ -132,24 +132,24 @@ ht-degree: 3%
       + [지표 치수 편집](home/c-get-started/c-vis/dwb-create-metricdim/dwb-6-4-metric-dim-edit.md)
    + 분석 시각화 {#analysis-visualizations}
       + [분석 시각화 개요](home/c-get-started/c-analysis-vis/c-analysis-vis.md)
-      + [2D 분포도](home/c-get-started/c-analysis-vis/c-scat-plots.md)
-      + [3D 분포도](home/c-get-started/c-analysis-vis/c-3d-scatterplots.md)
+      + [2D 산포도](home/c-get-started/c-analysis-vis/c-scat-plots.md)
+      + [3D 산포도](home/c-get-started/c-analysis-vis/c-3d-scatterplots.md)
       + 주석 {#annotations}
          + [주석 개요](home/c-get-started/c-analysis-vis/c-annots/c-annots.md)
          + [텍스트 주석](home/c-get-started/c-analysis-vis/c-annots/c-text-annots.md)
          + [이미지 주석](home/c-get-started/c-analysis-vis/c-annots/c-image-annots.md)
          + [동적 제목 주석](home/c-get-started/c-analysis-vis/c-annots/c-dyn-title-annots.md)
-      + [연결 코드표 시각화](home/c-get-started/c-analysis-vis/associations-chord.md)
+      + [연결 Chord 시각화](home/c-get-started/c-analysis-vis/associations-chord.md)
       + [연결 테이블 시각화](home/c-get-started/c-analysis-vis/associations-visualization.md)
       + 방문자 클러스터링 {#visitor-cluster}
          + [방문자 클러스터링 개요](home/c-get-started/c-analysis-vis/c-visitor-cluster/c-visitor-cluster.md)
          + [클러스터링 2.0](home/c-get-started/c-analysis-vis/c-visitor-cluster/c-clustering-2.md)
-         + [클러스터 작성](home/c-get-started/c-analysis-vis/c-visitor-cluster/c-defining-clusters.md)
+         + [클러스터 구축](home/c-get-started/c-analysis-vis/c-visitor-cluster/c-defining-clusters.md)
          + [클러스터 탐색](home/c-get-started/c-analysis-vis/c-visitor-cluster/c-exploring-clusters.md)
       + [Chord 시각화](home/c-get-started/c-analysis-vis/c-chord-visualization.md)
       + 상관 관계 매트릭스 {#correlation-analysis}
          + [상관 관계 매트릭스 개요](home/c-get-started/c-analysis-vis/c-correlation-analysis/c-correlation-analysis.md)
-         + [피어슨 상관 계수 정보](home/c-get-started/c-analysis-vis/c-correlation-analysis/c-correlation-pearsons.md)
+         + [Pearson 상관 계수 정보](home/c-get-started/c-analysis-vis/c-correlation-analysis/c-correlation-pearsons.md)
          + [상관 관계 분석 사용 사례](home/c-get-started/c-analysis-vis/c-correlation-analysis/c-correlation-use-cases.md)
          + [상관 관계 매트릭스의 이진 필터](home/c-get-started/c-analysis-vis/c-correlation-analysis/c-correlation-binary-filter.md)
       + 의사 결정 트리 빌더 {#decision-trees}
@@ -170,11 +170,11 @@ ht-degree: 3%
          + [단계 기능](home/c-get-started/c-analysis-vis/c-funnel-visualization/c-funnel-visualization-features.md)
          + [단계 만들기](home/c-get-started/c-analysis-vis/c-funnel-visualization/c-funnel-visualization-steps.md)
          + [경로 브라우저 추가](home/c-get-started/c-analysis-vis/c-funnel-visualization/c-path-browser-funnel.md)
-      + 글로브 {#globes}
-         + [글로브 개요](home/c-get-started/c-analysis-vis/c-globes/c-globes.md)
-         + [글로브 사용](home/c-get-started/c-analysis-vis/c-globes/c-work-globes.md)
+      + 전구 {#globes}
+         + [전구 개요](home/c-get-started/c-analysis-vis/c-globes/c-globes.md)
+         + [전구 사용](home/c-get-started/c-analysis-vis/c-globes/c-work-globes.md)
          + [레이어 표시](home/c-get-started/c-analysis-vis/c-globes/c-disp-layers.md)
-         + [어디에서나 선택](home/c-get-started/c-analysis-vis/c-globes/c-sel-globe.md)
+         + [전구에서 선택](home/c-get-started/c-analysis-vis/c-globes/c-sel-globe.md)
       + 그래프 {#graphs}
          + [그래프 개요](home/c-get-started/c-analysis-vis/c-graphs/c-graphs.md)
          + [지표 추가 및 변경](home/c-get-started/c-analysis-vis/c-graphs/c-add-chg-metrics.md)
@@ -184,8 +184,8 @@ ht-degree: 3%
          + [회귀 분석 그래프](home/c-get-started/c-analysis-vis/c-graphs/c-regression-analysis.md)
          + [꺾은 선형](home/c-get-started/c-analysis-vis/c-graphs/c-trend-lines.md)
          + [2D 그래프](home/c-get-started/c-analysis-vis/c-graphs/c-2d-graphs.md)
-      + 가이드 분석 {#guided-analysis}
-         + [가이드 분석 개요](home/c-get-started/c-analysis-vis/c-guided-analysis/c-guided-analysis.md)
+      + 안내식 분석 {#guided-analysis}
+         + [안내식 분석 개요](home/c-get-started/c-analysis-vis/c-guided-analysis/c-guided-analysis.md)
          + [통계적 측정](home/c-get-started/c-analysis-vis/c-guided-analysis/c-stat-measures.md)
          + [차원 메뉴 표시](home/c-get-started/c-analysis-vis/c-guided-analysis/t-disp-menu.md)
       + [지연 분석](home/c-get-started/c-analysis-vis/c-latency.md)
@@ -193,18 +193,18 @@ ht-degree: 3%
       + 범례 {#legends}
          + [범례 개요](home/c-get-started/c-analysis-vis/c-legends/c-legends.md)
          + [색상 범례](home/c-get-started/c-analysis-vis/c-legends/c-color-leg.md)
-         + [신뢰 범례](home/c-get-started/c-analysis-vis/c-legends/c-conf-leg.md)
+         + [신뢰도 범례](home/c-get-started/c-analysis-vis/c-legends/c-conf-leg.md)
          + [지표 범례](home/c-get-started/c-analysis-vis/c-legends/c-metric-leg.md)
          + [값 범례](home/c-get-started/c-analysis-vis/c-legends/c-value-leg.md)
       + 경로 브라우저 {#path-browsers}
          + [경로 브라우저](home/c-get-started/c-analysis-vis/c-path-browsers/c-path-browsers.md)
          + [경로 브라우저 만들기](home/c-get-started/c-analysis-vis/c-path-browsers/c-create-path-browsers.md)
          + [지표 정보 표시](home/c-get-started/c-analysis-vis/c-path-browsers/c-disp-metric-info.md)
-         + [패스 확장](home/c-get-started/c-analysis-vis/c-path-browsers/c-ex-paths.md)
-         + [패스의 시작 및 끝 표시](home/c-get-started/c-analysis-vis/c-path-browsers/c-disp-starts-.md)
+         + [경로 확장](home/c-get-started/c-analysis-vis/c-path-browsers/c-ex-paths.md)
+         + [경로의 시작 및 끝 표시](home/c-get-started/c-analysis-vis/c-path-browsers/c-disp-starts-.md)
          + [경로 브라우저의 루트 변경](home/c-get-started/c-analysis-vis/c-path-browsers/c-chg-root.md)
          + [경로 선택](home/c-get-started/c-analysis-vis/c-path-browsers/t-sel-paths.md)
-         + [패스에서 더 많은 요소 보기](home/c-get-started/c-analysis-vis/c-path-browsers/c-el-paths.md)
+         + [경로에서 더 많은 요소 보기](home/c-get-started/c-analysis-vis/c-path-browsers/c-el-paths.md)
       + [파이 차트](home/c-get-started/c-analysis-vis/c-pie-chart.md)
       + 프로세스 맵 {#process-maps}
          + [프로세스 맵 개요](home/c-get-started/c-analysis-vis/c-proc-maps/c-proc-maps.md)
@@ -229,7 +229,7 @@ ht-degree: 3%
          + [모델 뷰어](home/c-get-started/c-analysis-vis/c-visitor-propensity/c-propensity-model-viewer.md)
          + [복잡한 필터 설명](home/c-get-started/c-analysis-vis/c-visitor-propensity/c-propensity-complex-filter.md)
       + [레이더 시각화](home/c-get-started/c-analysis-vis/t-radar-vis.md)
-      + [표의 통계 표시](home/c-get-started/c-analysis-vis/c-stat-disp-tables.md)
+      + [표에서 통계 표시](home/c-get-started/c-analysis-vis/c-stat-disp-tables.md)
       + 세그먼트 {#segments}
          + [세그먼트 개요](home/c-get-started/c-analysis-vis/c-seg/c-seg.md)
          + [세그먼트 차원 만들기](home/c-get-started/c-analysis-vis/c-seg/c-create-seg-dim.md)
@@ -263,9 +263,9 @@ ht-degree: 3%
          + [새로운 지형 이미지 레이어 사용 가능](home/c-get-started/c-im-layers/c-ter-img-layers/t-new-ter-img-layer.md)
       + 요소 점 레이어 {#elmt-pt-layers}
          + [요소 점 레이어](home/c-get-started/c-im-layers/c-elmt-pt-layers/c-elmt-pt-layers.md)
-         + [조회 파일을 참조하는 요소 포인트 레이어 정의](home/c-get-started/c-im-layers/c-elmt-pt-layers/c-elp-ref-lkup-files.md)
-         + [동적 점을 사용하여 요소 포인트 레이어 정의](home/c-get-started/c-im-layers/c-elmt-pt-layers/c-elmt-pt-dyn-pts.md)
-         + [새로운 요소 포인트 레이어 사용 가능](home/c-get-started/c-im-layers/c-elmt-pt-layers/t-new-elmt-pt-layer-.md)
+         + [조회 파일을 참조하는 요소 점 레이어 정의](home/c-get-started/c-im-layers/c-elmt-pt-layers/c-elp-ref-lkup-files.md)
+         + [동적 점을 사용하여 요소 점 레이어 정의](home/c-get-started/c-im-layers/c-elmt-pt-layers/c-elmt-pt-dyn-pts.md)
+         + [새로운 요소 점 레이어 사용 가능](home/c-get-started/c-im-layers/c-elmt-pt-layers/t-new-elmt-pt-layer-.md)
       + 벡터 레이어를 사용한 작업 {#vector-layers}
          + [벡터 레이어를 사용한 작업](home/c-get-started/c-im-layers/c-vctr-layers/c-vctr-layers.md)
          + [벡터 파일을 참조하는 벡터 레이어 정의](home/c-get-started/c-im-layers/c-vctr-layers/c-ref-vctr-files.md)
@@ -293,17 +293,17 @@ ht-degree: 3%
          + [파생 지표를 사용한 작업](home/c-get-started/c-admin-intrf/c-prof-mgr/c-drvd-mtrcs.md)
          + [파생 차원을 사용한 작업](home/c-get-started/c-admin-intrf/c-prof-mgr/c-dvrd-dim.md)
          + [워크스테이션에서 프로필 잠금](home/c-get-started/c-admin-intrf/c-prof-mgr/dwb-profile-lock.md)
-      + 데이터 세트 관리자 {#dataset-mgrs}
-         + [데이터 세트 관리자](home/c-get-started/c-admin-intrf/c-dataset-mgrs/c-dataset-mgrs.md)
+      + 데이터 집합 관리자 {#dataset-mgrs}
+         + [데이터 집합 관리자](home/c-get-started/c-admin-intrf/c-dataset-mgrs/c-dataset-mgrs.md)
          + 종속성 맵 {#dep-maps}
             + [종속성 맵](home/c-dataset-const-proc/c-dataset-config-tools/c-dataset-config-int/c-dep-maps.md)
             + [프로필 구성 요소 표시](home/c-get-started/c-admin-intrf/c-dataset-mgrs/c-dep-maps/c-disp-prof-comp.md)
-            + [데이터 세트 구성 요소](home/c-get-started/c-admin-intrf/c-dataset-mgrs/c-dep-maps/c-dataset-comp.md)
+            + [데이터 집합 구성 요소](home/c-get-started/c-admin-intrf/c-dataset-mgrs/c-dep-maps/c-dataset-comp.md)
             + [쿼리 모델 구성 요소](home/c-get-started/c-admin-intrf/c-dataset-mgrs/c-dep-maps/c-qry-mod-comp.md)
-            + [작업 영역 및 시각화](home/c-get-started/c-admin-intrf/c-dataset-mgrs/c-dep-maps/c-wksps-vis.md)
+            + [작업 공간 및 시각화](home/c-get-started/c-admin-intrf/c-dataset-mgrs/c-dep-maps/c-wksps-vis.md)
             + [노드 세부 정보 보기](home/c-get-started/c-admin-intrf/c-dataset-mgrs/c-dep-maps/c-view-node-dtls.md)
             + [강조 표시된 노드 표시](home/c-get-started/c-admin-intrf/c-dataset-mgrs/c-dep-maps/c-disp-hltd-nodes.md)
-            + [지도 내에서 검색](home/c-get-started/c-admin-intrf/c-dataset-mgrs/c-dep-maps/t-srch-map.md)
+            + [맵에서 검색](home/c-get-started/c-admin-intrf/c-dataset-mgrs/c-dep-maps/t-srch-map.md)
             + [프로필 구성 요소 편집](home/c-get-started/c-admin-intrf/c-dataset-mgrs/c-dep-maps/t-edit-prof-comp.md)
             + [파일 블록](home/c-get-started/c-admin-intrf/c-dataset-mgrs/c-dep-maps/c-wkg-file-blocks.md)
             + [성능 데이터 표시](home/c-get-started/c-admin-intrf/c-dataset-mgrs/c-dep-maps/c-disp-perf-data.md)
@@ -320,28 +320,28 @@ ht-degree: 3%
    + 인터페이스 및 분석 기능 {#ui-analysis-features}
       + [인터페이스 및 분석 기능](home/c-get-started/c-intf-anlys-ftrs/c-intf-anlys-ftrs.md)
       + [로컬에서 Data Workbench 사용자 정의](home/c-get-started/c-intf-anlys-ftrs/c-cstm-lcl.md)
-      + Customize menus {#custom-menus}
+      + 메뉴 사용자 지정 {#custom-menus}
          + [메뉴 사용자 정의](home/c-get-started/c-intf-anlys-ftrs/c-ctm-menus/c-ctm-menus.md)
-         + [작업 영역 메뉴 및 메뉴 항목 만들기](home/c-get-started/c-intf-anlys-ftrs/c-ctm-menus/c-wksp-menus-itms.md)
+         + [작업 공간 메뉴 및 메뉴 항목 만들기](home/c-get-started/c-intf-anlys-ftrs/c-ctm-menus/c-wksp-menus-itms.md)
          + [order.txt 파일을 사용하여 메뉴 사용자 정의](home/c-get-started/c-intf-anlys-ftrs/c-ctm-menus/t-cstm-menus-ordr-files.md)
       + 프로필 관리자 및 서버 파일 관리자 사용자 정의 {#cstm-prof-files-mgrs}
          + [프로필 관리자 및 서버 파일 관리자 사용자 정의](home/c-get-started/c-intf-anlys-ftrs/c-cstm-prof-files-mgrs/c-cstm-prof-files-mgrs.md)
          + [프로필 관리자 만들기](home/c-get-started/c-intf-anlys-ftrs/c-cstm-prof-files-mgrs/c-new-prof-mgrs.md)
          + [서버 파일 관리자 만들기](home/c-get-started/c-intf-anlys-ftrs/c-cstm-prof-files-mgrs/c-new-svr-files-mgrs.md)
-      + 작업탑 탭 사용자 정의 {#cstm-wktp-tabs}
-         + [작업탑 탭 사용자 정의](home/c-get-started/c-intf-anlys-ftrs/c-cstm-wktp-tabs/c-cstm-wktp-tabs.md)
-         + [작업창에 탭 추가](home/c-get-started/c-intf-anlys-ftrs/c-cstm-wktp-tabs/t-add-tabs.md)
+      + worktop 탭 사용자 정의 {#cstm-wktp-tabs}
+         + [worktop 탭 사용자 정의](home/c-get-started/c-intf-anlys-ftrs/c-cstm-wktp-tabs/c-cstm-wktp-tabs.md)
+         + [worktop에 탭 추가](home/c-get-started/c-intf-anlys-ftrs/c-cstm-wktp-tabs/t-add-tabs.md)
          + [탭 순서 변경](home/c-get-started/c-intf-anlys-ftrs/c-cstm-wktp-tabs/t-chg-ordr-tabs.md)
          + [하위 폴더를 하위 탭으로 표시](home/c-get-started/c-intf-anlys-ftrs/c-cstm-wktp-tabs/c-sbfldrs-sbtabs.md)
          + [탭 숨기기 또는 제거](home/c-get-started/c-intf-anlys-ftrs/c-cstm-wktp-tabs/t-hide-rmv-tabs.md)
       + [입력 방법 편집기 설치](home/c-inst-svr/c-upgrd-uninst-sftwr/c-upgrd-sftwr/c-6-0-to-6-1-upgrade/c-localized-ime.md)
       + [현지화 언어 설정](home/c-get-started/c-intf-anlys-ftrs/c-localized-ime/c-localized-ime-config.md)
-      + 잠긴 작업 영역 구성 {#config-locked-wkspc}
-         + [잠긴 작업 영역 구성](home/c-get-started/c-intf-anlys-ftrs/c-config-locked-wkspc/c-config-locked-wkspc.md)
+      + 잠긴 작업 공간 구성 {#config-locked-wkspc}
+         + [잠긴 작업 공간 구성](home/c-get-started/c-intf-anlys-ftrs/c-config-locked-wkspc/c-config-locked-wkspc.md)
          + [Folder.lock 및 workspace.lock 파일](home/c-get-started/c-intf-anlys-ftrs/c-config-locked-wkspc/c-fldr-wksp-files.md)
          + [잠금 해제 매개 변수 설정](home/c-get-started/c-intf-anlys-ftrs/c-config-locked-wkspc/c-unlck-param.md)
       + [개방형 기능 구성](home/c-get-started/c-intf-anlys-ftrs/c-config-open-funct.md)
-      + [콜아웃 구성](home/c-get-started/c-intf-anlys-ftrs/c-config-callouts.md)
+      + [설명선 구성](home/c-get-started/c-intf-anlys-ftrs/c-config-callouts.md)
       + [지연 테이블 구성](home/c-get-started/c-intf-anlys-ftrs/c-config-ltcy-tbls/c-config-ltcy-tbls.md)
       + [지연 차원 만들기](home/c-get-started/c-intf-anlys-ftrs/c-config-ltcy-tbls/t-create-ltncy-dims.md)
       + [페이지 오버레이 구성](home/c-get-started/c-intf-anlys-ftrs/c-config-pg-ovlys.md)
@@ -358,17 +358,17 @@ ht-degree: 3%
       + [차원 표현식의 구문](home/c-get-started/c-qry-lang-syntx/c-syntx-dim-exp.md)
       + [필터 표현식 구문](home/c-get-started/c-qry-lang-syntx/c-syntx-fltr-exp.md)
       + [수학 표현식의 구문](home/c-get-started/c-qry-lang-syntx/c-math-expressions.md)
-      + [통계 콜아웃](home/c-get-started/c-qry-lang-syntx/c-statistical-callouts.md)
+      + [통계 설명선](home/c-get-started/c-qry-lang-syntx/c-statistical-callouts.md)
       + [정규 표현식](home/c-get-started/c-qry-lang-syntx/c-search-regex.md)
-+ Dataset configuration {#dataset}
++ 데이터 집합 구성{#dataset}
    + [데이터 집합 구성 이해](home/c-dataset-const-proc/c-dataset-constr.md)
-   + [데이터 세트 구성 이해](home/c-dataset-const-proc/c-dataset-config.md)
-   + [GDPR에 대한 Data Workbench 지원](home/c-dataset-const-proc/dwb-gdpr.md)
+   + [데이터 집합 구성 이해](home/c-dataset-const-proc/c-dataset-config.md)
+   + [GDPR을 위한 Data Workbench 지원](home/c-dataset-const-proc/dwb-gdpr.md)
    + 로그 처리 구성 파일 {#log-proc-config-file}
       + [로그 처리 구성 파일 정보](home/c-dataset-const-proc/c-log-proc-config-file/c-abt-log-proc-config-file.md)
       + [로그 처리 구성 파일 편집](home/c-dataset-const-proc/c-log-proc-config-file/t-edit-log-proc-config-file.md)
       + [로그 소스](home/c-dataset-const-proc/c-log-proc-config-file/c-log-sources.md)
-      + [Data Workbench 서버 파일 서버 장치 구성](home/c-dataset-const-proc/c-log-proc-config-file/c-ins-svr-file-svr-unit.md)
+      + [Data Workbench 서버 파일 서버 유닛 구성](home/c-dataset-const-proc/c-log-proc-config-file/c-ins-svr-file-svr-unit.md)
       + [로그 처리 매개 변수](home/c-dataset-const-proc/c-log-proc-config-file/c-info-log-proc-param.md)
       + [ODBC 데이터 소스](home/c-dataset-const-proc/c-log-proc-config-file/c-odbc-data-sources.md)
       + [로그 처리 구성 파일에 대한 고려 사항](home/c-dataset-const-proc/c-log-proc-config-file/c-cons-log-proc-config-file.md)
@@ -381,24 +381,24 @@ ht-degree: 3%
          + [시간대](home/c-dataset-const-proc/c-trans-config-file/c-spec-trans-param/c-time-zones.md)
       + [변환 구성 파일에 대한 고려 사항](home/c-dataset-const-proc/c-trans-config-file/c-con-tran-config-file.md)
       + [DeviceAtlas 배포](home/c-inst-svr/c-upgrd-uninst-sftwr/c-upgrd-sftwr/c-6-0-to-6-1-upgrade/c-deviceatlas-update.md)
-   + 데이터 세트에 파일 포함 {#dataset-include-files}
-      + [데이터 세트 포함 파일 정보](home/c-dataset-const-proc/c-dataset-inc-files/c-abt-dataset-inc-files.md)
-      + [데이터 세트 포함 파일 작업](home/c-dataset-const-proc/c-dataset-inc-files/c-work-dataset-inc-files/c-work-dataset-inc-files.md)
-      + [기존 데이터 세트 편집 포함 파일](home/c-dataset-const-proc/c-dataset-inc-files/c-work-dataset-inc-files/t-edit-ex-dataset-inc-files.md)
-      + [새 데이터 세트 만들기 포함 파일](home/c-dataset-const-proc/c-dataset-inc-files/c-work-dataset-inc-files/t-create-new-dataset-inc-files.md)
-      + 데이터 세트 유형에 파일 포함 {#types-dataset-inc-files}
-         + [데이터 세트 유형에 파일 포함](home/c-dataset-const-proc/c-dataset-inc-files/c-types-dataset-inc-files/c-types-dataset-inc-files.md)
-         + [로그 처리 데이터 세트에 파일 포함](home/c-dataset-const-proc/c-dataset-inc-files/c-types-dataset-inc-files/c-log-proc-dataset-inc-files/c-log-proc-dataset-inc-files.md)
+   + 데이터 집합에 파일 포함 {#dataset-include-files}
+      + [데이터 집합 포함 파일 정보](home/c-dataset-const-proc/c-dataset-inc-files/c-abt-dataset-inc-files.md)
+      + [데이터 집합 포함 파일 작업](home/c-dataset-const-proc/c-dataset-inc-files/c-work-dataset-inc-files/c-work-dataset-inc-files.md)
+      + [기존 데이터 집합 편집 포함 파일](home/c-dataset-const-proc/c-dataset-inc-files/c-work-dataset-inc-files/t-edit-ex-dataset-inc-files.md)
+      + [새 데이터 집합 만들기 포함 파일](home/c-dataset-const-proc/c-dataset-inc-files/c-work-dataset-inc-files/t-create-new-dataset-inc-files.md)
+      + 데이터 집합 유형에 파일 포함 {#types-dataset-inc-files}
+         + [데이터 집합 유형에 파일 포함](home/c-dataset-const-proc/c-dataset-inc-files/c-types-dataset-inc-files/c-types-dataset-inc-files.md)
+         + [로그 처리 데이터 집합에 파일 포함](home/c-dataset-const-proc/c-dataset-inc-files/c-types-dataset-inc-files/c-log-proc-dataset-inc-files/c-log-proc-dataset-inc-files.md)
          + [텍스트 파일 디코더 그룹](home/c-dataset-const-proc/c-dataset-inc-files/c-types-dataset-inc-files/c-log-proc-dataset-inc-files/c-text-file-dec-groups.md)
          + [XML 디코더 그룹](home/c-dataset-const-proc/c-dataset-inc-files/c-types-dataset-inc-files/c-log-proc-dataset-inc-files/c-xml-dec-grps.md)
-         + [변형 데이터 세트에 파일 포함](home/c-dataset-const-proc/c-dataset-inc-files/c-types-dataset-inc-files/c-trans-dataset-inc-files.md)
-      + 데이터 세트에 있는 매개 변수 정의 포함 파일 {#def-param-dataset-inc-files}
-         + [데이터 세트에 있는 매개 변수 정의 포함 파일](home/c-dataset-const-proc/c-dataset-inc-files/c-def-param-dataset-inc-files/c-def-param-dataset-inc-files.md)
+         + [변형 데이터 집합에 파일 포함](home/c-dataset-const-proc/c-dataset-inc-files/c-types-dataset-inc-files/c-trans-dataset-inc-files.md)
+      + 데이터 집합에 있는 매개 변수 정의 포함 파일 {#def-param-dataset-inc-files}
+         + [데이터 집합에 있는 매개 변수 정의 포함 파일](home/c-dataset-const-proc/c-dataset-inc-files/c-def-param-dataset-inc-files/c-def-param-dataset-inc-files.md)
          + [문자열 및 숫자 매개 변수](home/c-dataset-const-proc/c-dataset-inc-files/c-def-param-dataset-inc-files/c-string-num-param.md)
          + [벡터 매개 변수](home/c-dataset-const-proc/c-dataset-inc-files/c-def-param-dataset-inc-files/c-vector-param.md)
    + 추가 구성 파일 {#additional-config-files}
       + [추가 구성 파일](home/c-dataset-const-proc/c-add-config-files/c-add-config-files.md)
-      + [로그 처리 모드.cfg](home/c-dataset-const-proc/c-add-config-files/t-log-proc-mode.md)
+      + [Log Processing Mode.cfg](home/c-dataset-const-proc/c-add-config-files/t-log-proc-mode.md)
       + [Server.cfg](home/c-dataset-const-proc/c-add-config-files/c-server.md)
       + [기타 파일](home/c-dataset-const-proc/c-add-config-files/c-other-files.md)
    + 데이터 변환 {#data-transformations}
@@ -407,27 +407,27 @@ ht-degree: 3%
       + [변형 정의](home/c-dataset-const-proc/c-data-trans/t-def-transf.md)
       + 변형 유형 {#transform-types}
          + [변형 유형](home/c-dataset-const-proc/c-data-trans/c-transf-types/c-transf-types.md)
-         + 표준 변형 {#standard-transformations}
-            + [표준 변형](home/c-dataset-const-proc/c-data-trans/c-transf-types/c-standard-transf/c-standard-transf.md)
-            + [ChangeCase](home/c-dataset-const-proc/c-data-trans/c-transf-types/c-standard-transf/c-chgcase.md)
+         + 기준 변형 {#standard-transformations}
+            + [기준 변형](home/c-dataset-const-proc/c-data-trans/c-transf-types/c-standard-transf/c-standard-transf.md)
+            + [대소문자 변경](home/c-dataset-const-proc/c-data-trans/c-transf-types/c-standard-transf/c-chgcase.md)
             + [복사](home/c-dataset-const-proc/c-data-trans/c-transf-types/c-standard-transf/c-copy.md)
-            + [CrossRows](home/c-dataset-const-proc/c-data-trans/c-transf-types/c-standard-transf/c-crossrows.md)
-            + [ExtractValue](home/c-dataset-const-proc/c-data-trans/c-transf-types/c-standard-transf/c-exvalue.md)
-            + [분리](home/c-dataset-const-proc/c-data-trans/c-transf-types/c-standard-transf/c-flatten.md)
+            + [교차 행](home/c-dataset-const-proc/c-data-trans/c-transf-types/c-standard-transf/c-crossrows.md)
+            + [정확한 값](home/c-dataset-const-proc/c-data-trans/c-transf-types/c-standard-transf/c-exvalue.md)
+            + [평면화](home/c-dataset-const-proc/c-data-trans/c-transf-types/c-standard-transf/c-flatten.md)
             + [형식](home/c-dataset-const-proc/c-data-trans/c-transf-types/c-standard-transf/c-format.md)
             + [해시](home/c-dataset-const-proc/c-data-trans/c-transf-types/c-standard-transf/c-hash.md)
-            + [해버신](home/c-dataset-const-proc/c-data-trans/c-transf-types/c-standard-transf/c-haversine.md)
-            + [IPLookup](home/c-dataset-const-proc/c-data-trans/c-transf-types/c-standard-transf/c-iplookup.md)
+            + [Haversine](home/c-dataset-const-proc/c-data-trans/c-transf-types/c-standard-transf/c-haversine.md)
+            + [IP 조회](home/c-dataset-const-proc/c-data-trans/c-transf-types/c-standard-transf/c-iplookup.md)
             + [조회 행](home/c-dataset-const-proc/c-data-trans/c-transf-types/c-standard-transf/c-lookuprows.md)
             + [수학](home/c-dataset-const-proc/c-data-trans/c-transf-types/c-standard-transf/c-math.md)
             + [병합](home/c-dataset-const-proc/c-data-trans/c-transf-types/c-standard-transf/c-merge.md)
-            + [PullNameValues](home/c-dataset-const-proc/c-data-trans/c-transf-types/c-standard-transf/c-pullnameval.md)
-            + [REMatch](home/c-dataset-const-proc/c-data-trans/c-transf-types/c-standard-transf/c-rematch.md)
-            + [RETransform](home/c-dataset-const-proc/c-data-trans/c-transf-types/c-standard-transf/c-retransform.md)
+            + [전체 이름 값](home/c-dataset-const-proc/c-data-trans/c-transf-types/c-standard-transf/c-pullnameval.md)
+            + [재일치](home/c-dataset-const-proc/c-data-trans/c-transf-types/c-standard-transf/c-rematch.md)
+            + [재변환](home/c-dataset-const-proc/c-data-trans/c-transf-types/c-standard-transf/c-retransform.md)
             + [세션](home/c-dataset-const-proc/c-data-trans/c-transf-types/c-standard-transf/c-sessionize.md)
             + [분할](home/c-dataset-const-proc/c-data-trans/c-transf-types/c-standard-transf/c-split.md)
             + [토큰화](home/c-dataset-const-proc/c-data-trans/c-transf-types/c-standard-transf/c-tokenize.md)
-            + [Union](home/c-dataset-const-proc/c-data-trans/c-transf-types/c-standard-transf/c-union.md)
+            + [합집합](home/c-dataset-const-proc/c-data-trans/c-transf-types/c-standard-transf/c-union.md)
          + URI 변형 {#uri-transformations}
             + [URI 변형](home/c-dataset-const-proc/c-data-trans/c-transf-types/c-uri-transf/c-uri-transf.md)
             + [AppendURI](home/c-dataset-const-proc/c-data-trans/c-transf-types/c-uri-transf/c-appenduri.md)
@@ -439,12 +439,12 @@ ht-degree: 3%
          + [조회 데이터 통합](home/c-dataset-const-proc/c-data-trans/c-int-lookup-data/c-int-lookup-data.md)
          + [조회 테이블 채우기](home/c-dataset-const-proc/c-data-trans/c-int-lookup-data/c-pop-lookup-table.md)
          + [조회 변환 정의](home/c-dataset-const-proc/c-data-trans/c-int-lookup-data/c-def-lookup-transf.md)
-   + Extended Dimensions {#extended-dimensions}
+   + 확장된 차원 {#extended-dimensions}
       + [확장 차원 정보](home/c-dataset-const-proc/c-ex-dim/c-abt-ex-dim.md)
       + [확장 차원 정의](home/c-dataset-const-proc/c-ex-dim/t-def-ex-dim.md)
       + 확장 차원 유형 {#extended-dimensions-types}
          + [확장 차원 유형](home/c-dataset-const-proc/c-ex-dim/c-types-ex-dim/c-types-ex-dim.md)
-         + [계산 가능한 차원](home/c-dataset-const-proc/c-ex-dim/c-types-ex-dim/c-count-dim.md)
+         + [가산 차원](home/c-dataset-const-proc/c-ex-dim/c-types-ex-dim/c-count-dim.md)
          + [단순 차원](home/c-dataset-const-proc/c-ex-dim/c-types-ex-dim/c-simple-dim.md)
          + [다대다 차원](home/c-dataset-const-proc/c-ex-dim/c-types-ex-dim/c-many-dim.md)
          + [숫자 차원](home/c-dataset-const-proc/c-ex-dim/c-types-ex-dim/c-num-dim.md)
@@ -456,17 +456,17 @@ ht-degree: 3%
          + [변형용 구성 파일](home/c-dataset-const-proc/c-transf-func/c-config-files-transf/c-config-files-transf.md)
          + Transform.cfg 파일 {#transform-cfg-file}
             + [Transform.cfg 파일](home/c-dataset-const-proc/c-transf-func/c-config-files-transf/t-ins-transf-file/t-ins-transf-file.md)
-            + [수출자 정의](home/c-dataset-const-proc/c-transf-func/c-config-files-transf/t-ins-transf-file/t-def-exp.md)
+            + [내보내기 정의](home/c-dataset-const-proc/c-transf-func/c-config-files-transf/t-ins-transf-file/t-def-exp.md)
             + [샘플 Data Workbench Transform.cfg 파일](home/c-dataset-const-proc/c-transf-func/c-config-files-transf/t-ins-transf-file/c-sample-transf-files.md)
-         + [변형 모드.cfg 파일](home/c-dataset-const-proc/c-transf-func/c-config-files-transf/t-transf-mode-file.md)
-         + [필수 필드 정의.cfg 파일](home/c-dataset-const-proc/c-transf-func/c-config-files-transf/c-req-field-def-file.md)
+         + [Transform Mode.cfg 파일](home/c-dataset-const-proc/c-transf-func/c-config-files-transf/t-transf-mode-file.md)
+         + [Required Field Definitions.cfg 파일](home/c-dataset-const-proc/c-transf-func/c-config-files-transf/c-req-field-def-file.md)
    + 재처리 및 재변형 {#reproc-retrans}
       + [재처리 및 재변형 이해](home/c-dataset-const-proc/c-reproc-retrans/c-unst-reproc-retrans.md)
       + [재처리 또는 재변형 준비](home/c-dataset-const-proc/c-reproc-retrans/t-prep-reproc-retrans.md)
    + 데이터 집합 구성 도구 {#dataset-config-tools}
       + [데이터 집합 구성 도구](home/c-dataset-const-proc/c-dataset-config-tools/c-dataset-config-tools.md)
-      + 데이터 세트 구성 인터페이스 {#dataset-config-ui}
-         + [데이터 세트 구성 인터페이스 작업](home/c-dataset-const-proc/c-dataset-config-tools/c-dataset-config-int/c-dataset-config-int.md)
+      + 데이터 집합 구성 인터페이스 {#dataset-config-ui}
+         + [데이터 집합 구성 인터페이스 작업](home/c-dataset-const-proc/c-dataset-config-tools/c-dataset-config-int/c-dataset-config-int.md)
          + [데이터 집합 스키마](home/c-dataset-const-proc/c-dataset-config-tools/c-dataset-config-int/c-dataset-schema.md)
          + [종속성 맵](home/c-dataset-const-proc/c-dataset-config-tools/c-dataset-config-int/c-dep-maps.md)
          + [필드 뷰어](home/c-dataset-const-proc/c-dataset-config-tools/c-dataset-config-int/c-field-viewers.md)
@@ -490,22 +490,22 @@ ht-degree: 3%
       + [변형을 위한 웹 전용 설정](home/c-dataset-const-proc/c-config-web-data/c-web-spec-transf.md)
    + [시간대 코드](home/c-dataset-const-proc/c-time-zone.md)
 + 보고서 서버 {#report-server}
-   + [보고서 세트 이해](home/c-rpt-oview/c-underst-rpt-sets.md)
+   + [보고서 집합 이해](home/c-rpt-oview/c-underst-rpt-sets.md)
    + [보고서 생성](home/c-rpt-oview/c-gen-rpts.md)
    + [보고서 배포](home/c-rpt-oview/c-distrib-rpts.md)
-   + [보고서 세트 요구 사항](home/c-rpt-oview/c-rpt-set-req.md)
-   + 보고서 세트 작업 {#report-sets}
-      + [보고서 세트 작업](home/c-rpt-oview/c-work-rpt-sets/c-work-rpt-sets.md)
-      + Creating a Report Set {#create-report-set}
-         + [보고서 세트 만들기](home/c-rpt-oview/c-work-rpt-sets/t-create-rpt-set/t-create-rpt-set.md)
-         + [보고서 세트에 대한 새 폴더 만들기](home/c-rpt-oview/c-work-rpt-sets/t-create-rpt-set/t-new-fldr-rpt-set.md)
-         + [보고서 서버 작업 영역 만들기](home/c-rpt-oview/c-work-rpt-sets/t-create-rpt-set/t-create-rpt-wrksp.md)
-      + 보고서 세트 구성 {#config-report-set}
-         + [보고서 세트 구성](home/c-rpt-oview/c-work-rpt-sets/t-create-rpt-set/t-config-rpt-set/t-config-rpt-set.md)
+   + [보고서 집합 요구 사항](home/c-rpt-oview/c-rpt-set-req.md)
+   + 보고서 집합 작업 {#report-sets} 
+      + [보고서 집합 작업](home/c-rpt-oview/c-work-rpt-sets/c-work-rpt-sets.md)
+      + 보고서 집합 만들기 {#create-report-set}
+         + [보고서 집합 만들기](home/c-rpt-oview/c-work-rpt-sets/t-create-rpt-set/t-create-rpt-set.md)
+         + [보고서 집합에 대한 새 폴더 만들기](home/c-rpt-oview/c-work-rpt-sets/t-create-rpt-set/t-new-fldr-rpt-set.md)
+         + [보고서 서버 작업 공간 만들기](home/c-rpt-oview/c-work-rpt-sets/t-create-rpt-set/t-create-rpt-wrksp.md)
+      + 보고서 집합 구성 {#config-report-set}
+         + [보고서 집합 구성](home/c-rpt-oview/c-work-rpt-sets/t-create-rpt-set/t-config-rpt-set/t-config-rpt-set.md)
          + [보고서를 Microsoft Excel 파일로 생성](home/c-rpt-oview/c-work-rpt-sets/t-create-rpt-set/t-config-rpt-set/c-gen-rpts-ex-files.md)
          + [동적으로 보고서 생성](home/c-rpt-oview/c-work-rpt-sets/t-create-rpt-set/t-config-rpt-set/c-dyn-gen-rpts.md)
-         + [Data Workbench 서버에 보고서 세트 게시](home/c-rpt-oview/c-work-rpt-sets/t-create-rpt-set/t-pub-rpt-set.md)
-      + [보고서 세트 상태 검토](home/c-rpt-oview/c-work-rpt-sets/c-rev-rpt-set-stat.md)
+         + [Data Workbench 서버에 보고서 집합 게시](home/c-rpt-oview/c-work-rpt-sets/t-create-rpt-set/t-pub-rpt-set.md)
+      + [보고서 집합 상태 검토](home/c-rpt-oview/c-work-rpt-sets/c-rev-rpt-set-stat.md)
       + 기존 Report.cfg 파일 편집 {#edit-existing-report-files}
          + [기존 Report.cfg 파일 편집](home/c-rpt-oview/c-work-rpt-sets/c-edit-ex-rpt-files/c-edit-ex-rpt-files.md)
          + [이메일로 보고서 다시 보내기](home/c-rpt-oview/c-work-rpt-sets/c-edit-ex-rpt-files/t-res-rpts-email.md)
@@ -523,7 +523,7 @@ ht-degree: 3%
          + [디지털 인증서 다운로드 및 설치](home/c-rpt-oview/c-inst-rpt/c-install-dig-cert/c-install-dig-cert.md)
          + [디지털 인증서 이해](home/c-rpt-oview/c-inst-rpt/c-install-dig-cert/c-underst-dig-cert.md)
          + [디지털 인증서 설치 절차](home/c-rpt-oview/c-inst-rpt/c-install-dig-cert/t-dig-cert-install-proc.md)
-      + [Insight 서버에 연결 구성](home/c-rpt-oview/c-inst-rpt/t-config-conn-ins-svr.md)
+      + [Insight Server에 연결 구성](home/c-rpt-oview/c-inst-rpt/t-config-conn-ins-svr.md)
       + [언어 파일(.zbin 파일)로 보고서 서버 업데이트](home/c-rpt-oview/c-inst-rpt/c-zbin-file-update.md)
       + [Data Workbench 서버에 대한 액세스 활성화](home/c-rpt-oview/c-inst-rpt/t-en-acc-ins-svr.md)
       + [보고서 서버 상태 표시](home/c-rpt-oview/c-inst-rpt/t-display-svr-st-rpt.md)
@@ -537,7 +537,7 @@ ht-degree: 3%
       + [디스크 공간 모니터링](home/c-rpt-oview/c-admin-rpt/c-mon-disk-sp.md)
       + [보고서 서버 다시 시작](home/c-rpt-oview/c-admin-rpt/t-restart-rpt.md)
       + [보고서 상태 검토](home/c-rpt-oview/c-admin-rpt/c-rev-rpt-st.md)
-      + 계정{#accounts}에서 제공합니다 
+      + 계정 {#accounts}
          + [계정 작업](home/c-rpt-oview/c-admin-rpt/c-work-accts/c-work-accts.md)
          + [계정 보기](home/c-rpt-oview/c-admin-rpt/c-work-accts/c-view-accts.md)
          + [새 계정 추가](home/c-rpt-oview/c-admin-rpt/c-work-accts/t-add-new-accts.md)
@@ -574,18 +574,18 @@ ht-degree: 3%
       + [참조 페이지 태그 실행 호출 추가](home/c-undst-pg-tag/c-imp-ref-pg-tags/c-ref-pg-tag-ex-calls.md)
       + [v1st 쿠키 이해](home/c-undst-pg-tag/c-imp-ref-pg-tags/c-undst-v1st-ck.md)
    + 기준 측정 가져오기 {#acquire-base-measures}
-      + [기준 측정 획득 개요](home/c-undst-pg-tag/c-acq-bsln-msmts/c-acq-bsln-msmts.md)
+      + [기준 측정 가져오기 개요](home/c-undst-pg-tag/c-acq-bsln-msmts/c-acq-bsln-msmts.md)
       + 페이지 요청 데이터 가져오기 {#acquire-page-request}
          + [페이지 요청 데이터 가져오기 개요](home/c-undst-pg-tag/c-acq-bsln-msmts/c-acq-pg-req-data/c-acq-pg-req-data.md)
          + [쿼리 문자열 이해](home/c-undst-pg-tag/c-acq-bsln-msmts/c-acq-pg-req-data/c-undst-qry-strg.md)
-         + [콘텐츠 유형별 필터링](home/c-undst-pg-tag/c-acq-bsln-msmts/c-acq-pg-req-data/c-fltr-cnt-type.md)
-         + [제어된 실험 수행](home/c-undst-pg-tag/c-acq-bsln-msmts/c-acq-pg-req-data/c-perf-ctrl-exp.md)
+         + [컨텐츠 유형별 필터링](home/c-undst-pg-tag/c-acq-bsln-msmts/c-acq-pg-req-data/c-fltr-cnt-type.md)
+         + [통제 실험 수행](home/c-undst-pg-tag/c-acq-bsln-msmts/c-acq-pg-req-data/c-perf-ctrl-exp.md)
       + [포함된 개체 요청(페이지 태그) 가져오기](home/c-undst-pg-tag/c-acq-bsln-msmts/c-embed-obj-req.md)
       + [쿠키를 통해 측정 데이터 가져오기](home/c-undst-pg-tag/c-acq-bsln-msmts/c-acq-msmt-data-ck.md)
-   + 확장 측정 획득 {#acquire-ext-measures}
-      + [확장 측정 획득](home/c-undst-pg-tag/c-acq-ext-msmt/c-acq-ext-msmt.md)
+   + 확장 측정 가져오기 {#acquire-ext-measures}
+      + [확장 측정 가져오기](home/c-undst-pg-tag/c-acq-ext-msmt/c-acq-ext-msmt.md)
       + [동적 페이지 이름 가져오기](home/c-undst-pg-tag/c-acq-ext-msmt/c-acq-dyn-pg-names.md)
-      + [추가 정보 얻기](home/c-undst-pg-tag/c-acq-ext-msmt/c-acq-add-info.md)
+      + [추가 정보 가져오기](home/c-undst-pg-tag/c-acq-ext-msmt/c-acq-add-info.md)
       + [문서 객체 가져오기](home/c-undst-pg-tag/c-acq-ext-msmt/c-acq-doc-obj.md)
       + [광고 노출 측정](home/c-undst-pg-tag/c-acq-ext-msmt/c-msr-adv-imp.md)
       + [링크 클릭 추적](home/c-undst-pg-tag/c-acq-ext-msmt/c-trk-lnk-clicks.md)
@@ -593,47 +593,47 @@ ht-degree: 3%
       + 양식 필드 입력 가져오기 {#form-field-inpu}
          + [양식 필드 입력 가져오기](home/c-undst-pg-tag/c-acq-ext-msmt/c-acq-frm-fld-inpt/c-acq-frm-fld-inpt.md)
          + [일반 정보](home/c-undst-pg-tag/c-acq-ext-msmt/c-acq-frm-fld-inpt/c-gen-info.md)
-         + [ASP 특정 정보](home/c-undst-pg-tag/c-acq-ext-msmt/c-acq-frm-fld-inpt/c-asp.md)
+         + [ASP별 정보](home/c-undst-pg-tag/c-acq-ext-msmt/c-acq-frm-fld-inpt/c-asp.md)
    + [Flash 리치 미디어 컨텐츠 내에서 방문자 활동 추적](home/c-undst-pg-tag/t-trk-vstr-act.md)
    + [타사 페이지 태그 지정에 대한 P3P 고려 사항](home/c-undst-pg-tag/c-cons-thrd-pty-pg-tag.md)
    + [페이지 태그 변수 매핑 워크시트](home/c-undst-pg-tag/c-pg-tag-wkst.md)
-+ Metrics, dimensions, and filters {#metrics}
++ 지표, 차원 및 필터 {#metrics}
    + [Data Workbench 지표, 차원 및 필터 정보](home/c-about/c-about.md)
    + [지표, 차원 및 필터 확장](home/c-about/c-expand-capabilities.md)
    + [차원 유형](home/c-about/c-dimension-types.md)
    + [지표 치수 마법사](home/c-about/metric-dim.md)
-   + 기본 제공 지표, 차원 및 필터 {#built-in-metrics}
-      + [기본 제공 지표, 차원 및 필터 정보](home/c-about/c-builtin-metrics-dims/c-builtin-metrics-dims.md)
-      + [기본 제공 지표](home/c-about/c-builtin-metrics-dims/c-builtin-metrics.md)
+   + 내장 지표, 차원 및 필터 {#built-in-metrics}
+      + [내장 지표, 차원 및 필터 정보](home/c-about/c-builtin-metrics-dims/c-builtin-metrics-dims.md)
+      + [내장 지표](home/c-about/c-builtin-metrics-dims/c-builtin-metrics.md)
       + [내장 차원](home/c-about/c-builtin-metrics-dims/c-builtin-dims.md)
       + [내장 프로필 필터](home/c-about/c-builtin-metrics-dims/c-builtin-filters.md)
-   + 기준 프로필 {#baseline-profiles}
-      + [기준선 프로파일 개요](home/c-about/c-about-baseline-profiles/c-about-baseline-profiles.md)
+   + 기준선 프로필 {#baseline-profiles}
+      + [기준선 프로필 개요](home/c-about/c-about-baseline-profiles/c-about-baseline-profiles.md)
       + [트래픽 프로필 지표](home/c-about/c-about-baseline-profiles/c-traffic-profile.md)
       + [트래픽 프로필 차원](home/c-about/c-about-baseline-profiles/c-traffic-profile-dims.md)
       + [값 프로필 지표](home/c-about/c-about-baseline-profiles/c-value-profile-metrics.md)
       + [값 프로필 차원](home/c-about/c-about-baseline-profiles/c-value-profile-dims.md)
       + [마케팅 프로필 차원](home/c-about/c-about-baseline-profiles/c-marketing-profile.md)
 + Geography {#geography}
-   + [Data Workbench 지리 정보](home/c-geo-oview/c-geo-oview.md)
-   + Data Workbench 지역 설치 {#install-geography}
-      + [Data Workbench 지역 설치](home/c-geo-oview/c-inst-geo/c-inst-geo.md)
-      + [지역 프로필 설치](home/c-geo-oview/c-inst-geo/t-inst-geo-prof.md)
-      + [지역 조회 파일 설치](home/c-geo-oview/c-inst-geo/t-inst-lkp-files.md)
+   + [Data Workbench Geography 정보](home/c-geo-oview/c-geo-oview.md)
+   + Data Workbench Geography 설치 {#install-geography}
+      + [Data Workbench Geography 설치](home/c-geo-oview/c-inst-geo/c-inst-geo.md)
+      + [Geography 프로필 설치](home/c-geo-oview/c-inst-geo/t-inst-geo-prof.md)
+      + [Geography 조회 파일 설치](home/c-geo-oview/c-inst-geo/t-inst-lkp-files.md)
       + [Terrain Images.cfg 파일 설치](home/c-geo-oview/c-inst-geo/t-inst-trn-imgs-file.md)
    + 이미지 레이어 {#imagery-layers}
       + [이미지 레이어 이해](home/c-geo-oview/c-wk-img-lyrs/c-undst-img-lyrs.md)
       + 지형 이미지 레이어 {#terrain-image-layers}
          + [지형 이미지 레이어 작업](home/c-geo-oview/c-wk-img-lyrs/c-trn-img-lyrs/c-trn-img-lyrs.md)
          + [지형 이미지에 대한 투영 정보 지정](home/c-geo-oview/c-wk-img-lyrs/c-trn-img-lyrs/c-proj-info-trn-imgs/c-proj-info-trn-imgs.md)
-         + [위도 경도 예측](home/c-geo-oview/c-wk-img-lyrs/c-trn-img-lyrs/c-proj-info-trn-imgs/c-lat-long-proj.md)
-         + [유니버설 교차 지표 예측](home/c-geo-oview/c-wk-img-lyrs/c-trn-img-lyrs/c-proj-info-trn-imgs/c-utm-proj.md)
+         + [위도-경도 예측](home/c-geo-oview/c-wk-img-lyrs/c-trn-img-lyrs/c-proj-info-trn-imgs/c-lat-long-proj.md)
+         + [범용 교차 지표 예측](home/c-geo-oview/c-wk-img-lyrs/c-trn-img-lyrs/c-proj-info-trn-imgs/c-utm-proj.md)
          + [새로운 지형 이미지 레이어 사용 가능](home/c-geo-oview/c-wk-img-lyrs/c-trn-img-lyrs/t-new-trn-img-lyr.md)
       + 요소 점 레이어 {#element-point-layers}
          + [요소 점 레이어 작업](home/c-geo-oview/c-wk-img-lyrs/c-elmt-pt-lyrs/c-elmt-pt-lyrs.md)
-         + 조회 파일을 참조하는 요소 포인트 레이어 {#element-point-layers-ref}
-            + [조회 파일을 참조하는 요소 포인트 레이어 정의](home/c-geo-oview/c-wk-img-lyrs/c-elmt-pt-lyrs/c-elmt-pt-lyrs-ref-lkp-files/c-elmt-pt-lyrs-ref-lkp-files.md)
-            + [요소 포인트 조회 파일 형식](home/c-geo-oview/c-wk-img-lyrs/c-elmt-pt-lyrs/c-elmt-pt-lyrs-ref-lkp-files/c-elmt-pt-lkp-file-frmt.md)
+         + 조회 파일을 참조하는 요소 점 레이어 {#element-point-layers-ref}
+            + [조회 파일을 참조하는 요소 점 레이어 정의](home/c-geo-oview/c-wk-img-lyrs/c-elmt-pt-lyrs/c-elmt-pt-lyrs-ref-lkp-files/c-elmt-pt-lyrs-ref-lkp-files.md)
+            + [요소 점 조회 파일 형식](home/c-geo-oview/c-wk-img-lyrs/c-elmt-pt-lyrs/c-elmt-pt-lyrs-ref-lkp-files/c-elmt-pt-lkp-file-frmt.md)
             + [요소 점 레이어 파일 형식](home/c-geo-oview/c-wk-img-lyrs/c-elmt-pt-lyrs/c-elmt-pt-lyrs-ref-lkp-files/c-elmt-pt-lyr-file-frmt/c-elmt-pt-lyr-file-frmt.md)
             + [동적 점을 사용하여 요소 점 레이어 정의](home/c-geo-oview/c-wk-img-lyrs/c-elmt-pt-lyrs/c-elmt-pt-lyrs-ref-lkp-files/c-elmt-pt-lyr-file-frmt/c-dyn-pts.md)
          + [새 요소 점 레이어 사용 가능](home/c-geo-oview/c-wk-img-lyrs/c-elmt-pt-lyrs/t-new-elmt-pt-lyr-avail.md)
@@ -649,22 +649,22 @@ ht-degree: 3%
          + [데이터 서비스 프로필 설치](home/c-geo-oview/c-wk-data-svcs/c-install-data-svc/c-inst-data-svc-prof.md)
          + [데이터 서비스 조회 파일 설치](home/c-geo-oview/c-wk-data-svcs/c-install-data-svc/t-inst-data-svc-lkp-files.md)
       + [데이터 서비스 파일 업데이트](home/c-geo-oview/c-wk-data-svcs/c-updt-data-svc-files.md)
-   + Data Workbench 지역 업그레이드 및 제거 {#upgrade-uninstall-geo}
-      + [Data Workbench 지역 업그레이드](home/c-geo-oview/c-upgrd-uninst-geo/t-upgrd-geo.md)
-      + [Data Workbench 지역 제거](home/c-geo-oview/c-upgrd-uninst-geo/t-uninst-geo.md)
-+ Controlled experiments {#experiments}
-   + [Data Workbench 제어 실험 정보](home/c-undst-ctrld-exp/c-undst-ctrld-exp.md)
+   + Data Workbench Geography 업그레이드 및 제거 {#upgrade-uninstall-geo}
+      + [Data Workbench Geography 업그레이드](home/c-geo-oview/c-upgrd-uninst-geo/t-upgrd-geo.md)
+      + [Data Workbench Geography 제거](home/c-geo-oview/c-upgrd-uninst-geo/t-uninst-geo.md)
++ 통제 실험 {#experiments}
+   + [Data Workbench 통제 실험 정보](home/c-undst-ctrld-exp/c-undst-ctrld-exp.md)
    + [사이트는 방문자를 어떻게 식별합니까?](home/c-undst-ctrld-exp/c-id-vstrs.md)
-   + [제어된 실험은 어떻게 작동하는가?](home/c-undst-ctrld-exp/c-ctrld-exp-wk.md)
-   + [무엇을 테스트해야 합니까?](home/c-undst-ctrld-exp/c-wht-test-.md)
-   + [요구 사항](home/c-undst-ctrld-exp/c-reqs-.md)
-   + 제어 실험 {#controlled-experimentation}
-      + [제어 실험 활성화](home/c-undst-ctrld-exp/t-en-ctrld-exp/t-en-ctrld-exp.md)
+   + [통제 실험은 어떻게 작동합니까?](home/c-undst-ctrld-exp/c-ctrld-exp-wk.md)
+   + [테스트를 어떻게 수행할 수 있습니까?](home/c-undst-ctrld-exp/c-wht-test-.md)
+   + [요구 사항은 무엇입니까?](home/c-undst-ctrld-exp/c-reqs-.md)
+   + 통제 실험 {#controlled-experimentation}
+      + [통제 실험 활성화](home/c-undst-ctrld-exp/t-en-ctrld-exp/t-en-ctrld-exp.md)
       + [ExpFile 매개 변수 수정](home/c-undst-ctrld-exp/t-en-ctrld-exp/c-mod-expfile-prm.md)
       + [ExpCookieURL 매개 변수 수정(선택 사항)](home/c-undst-ctrld-exp/t-en-ctrld-exp/c-mod-expckurl-prm.md)
       + [ExpPartialMatch 매개 변수 수정(선택 사항)](home/c-undst-ctrld-exp/t-en-ctrld-exp/c-mod-expplmth-prm.md)
-   + 제어된 실험 만들기 {#create-controlled-experiment}
-      + [제어된 실험 만들기](home/c-undst-ctrld-exp/t-crt-ctrld-exp/t-crt-ctrld-exp.md)
+   + 통제 실험 만들기 {#create-controlled-experiment}
+      + [통제 실험 만들기](home/c-undst-ctrld-exp/t-crt-ctrld-exp/t-crt-ctrld-exp.md)
       + [목표 정의](home/c-undst-ctrld-exp/t-crt-ctrld-exp/c-dfn-obj.md)
       + [가설 구성](home/c-undst-ctrld-exp/t-crt-ctrld-exp/c-frm-hyp.md)
       + [필요한 방문자 수 확인](home/c-undst-ctrld-exp/t-crt-ctrld-exp/c-nmbr-vstrs-nd.md)
@@ -677,15 +677,15 @@ ht-degree: 3%
       + [Transformation.cfg 수정](home/c-undst-ctrld-exp/c-vw-rslts/t-mod-trfmtn.md)
       + [실험 결과 보기](home/c-undst-ctrld-exp/c-vw-rslts/c-vw-expt-rslts.md)
       + [실험 평가](home/c-undst-ctrld-exp/c-vw-rslts/c-ev-exp.md)
-   + [Experiment Design Spreadsheet](home/c-undst-ctrld-exp/t-exp-dsn-spst.md)
+   + [실험 설계 스프레드시트](home/c-undst-ctrld-exp/t-exp-dsn-spst.md)
 + 서버 관리 및 설치 {#server-admin-install}
    + [서버 시스템 요구 사항](home/c-inst-svr/c-msr-server/c-msr-server.md)
    + Data Workbench 서버 설치 {#install-servers}
       + [Data Workbench 서버 설치](home/c-inst-svr/c-install-ins-svr/c-install-ins-svr.md)
-      + [Insight 서버 라이센스 단위 정보](home/c-inst-svr/c-install-ins-svr/c-abt-inst-svr-lic-units.md)
+      + [Insight Server 라이선스 단위 정보](home/c-inst-svr/c-install-ins-svr/c-abt-inst-svr-lic-units.md)
       + Insight Server DPU {#insight-server-dpu}
          + [Insight Server DPU의 설치 절차](home/c-inst-svr/c-install-ins-svr/t-install-proc-inst-svr-dpu/t-install-proc-inst-svr-dpu.md)
-         + [Insight 서버 프로그램 파일 설치](home/c-inst-svr/c-install-ins-svr/t-install-proc-inst-svr-dpu/t-install-prgm-files.md)
+         + [Insight Server 프로그램 파일 설치](home/c-inst-svr/c-install-ins-svr/t-install-proc-inst-svr-dpu/t-install-prgm-files.md)
          + 디지털 인증서 {#dig-certs}
             + [디지털 인증서 다운로드 및 설치](home/c-inst-svr/c-install-ins-svr/t-install-proc-inst-svr-dpu/c-dnld-dgtl-cert/c-dnld-dgtl-cert.md)
             + [문자열 암호화](home/c-inst-svr/c-install-ins-svr/t-install-proc-inst-svr-dpu/c-dnld-dgtl-cert/string-encryption.md)
@@ -696,24 +696,24 @@ ht-degree: 3%
          + 서버 네트워크 위치 {#server-network-location}
             + [서버의 네트워크 위치 정의](home/c-inst-svr/c-install-ins-svr/t-install-proc-inst-svr-dpu/c-svrs-ntwk-loc/c-svrs-ntwk-loc.md)
             + [네트워크 위치](home/c-inst-svr/c-install-ins-svr/t-install-proc-inst-svr-dpu/c-svrs-ntwk-loc/c-ntwk-loc.md)
-            + [Insight 서버에 대한 여러 IP 주소](home/c-inst-svr/c-install-ins-svr/t-install-proc-inst-svr-dpu/c-svrs-ntwk-loc/c-mltpl-ip-addr.md)
-            + [Insight 서버에 설치된 주소 파일](home/c-inst-svr/c-install-ins-svr/t-install-proc-inst-svr-dpu/c-svrs-ntwk-loc/c-addr-file-inst.md)
-         + [데이터 세트 위치 구성(temp.db)](home/c-inst-svr/c-install-ins-svr/t-install-proc-inst-svr-dpu/t-cfg-loc-dtst.md)
+            + [Insight Server에 대한 여러 IP 주소](home/c-inst-svr/c-install-ins-svr/t-install-proc-inst-svr-dpu/c-svrs-ntwk-loc/c-mltpl-ip-addr.md)
+            + [Insight Server에 설치된 주소 파일](home/c-inst-svr/c-install-ins-svr/t-install-proc-inst-svr-dpu/c-svrs-ntwk-loc/c-addr-file-inst.md)
+         + [데이터 집합 위치 구성(temp.db)](home/c-inst-svr/c-install-ins-svr/t-install-proc-inst-svr-dpu/t-cfg-loc-dtst.md)
          + [프로필 및 조회 파일 설치](home/c-inst-svr/c-install-ins-svr/t-install-proc-inst-svr-dpu/c-install-prof-lkup-files.md)
          + [Insight Server를 Windows 서비스로 등록](home/c-inst-svr/c-install-ins-svr/t-install-proc-inst-svr-dpu/c-reg-wdws-svc.md)
       + [Insight Server FSU의 설치 절차](home/c-inst-svr/c-install-ins-svr/t-inst-proc-fsu.md)
       + [다음 단계](home/c-inst-svr/c-install-ins-svr/c-nxt-stps.md)
       + Insight Server 클러스터 {#insight-server-clusters}
          + [Insight Server 클러스터 정보](home/c-inst-svr/c-install-ins-svr/c-ins-svr-clstrs/c-abt-ins-svr-clsters.md)
-         + Insight 서버 클러스터 설치 {#install-insight-server-cluster}
-            + [Insight 서버 클러스터 설치](home/c-inst-svr/c-install-ins-svr/c-ins-svr-clstrs/c-inst-ins-svr-clstr/c-inst-ins-svr-clstr.md)
+         + Insight Server 클러스터 설치 {#install-insight-server-cluster}
+            + [Insight Server 클러스터 설치](home/c-inst-svr/c-install-ins-svr/c-ins-svr-clstrs/c-inst-ins-svr-clstr/c-inst-ins-svr-clstr.md)
             + [클러스터의 설치 절차](home/c-inst-svr/c-install-ins-svr/c-ins-svr-clstrs/c-inst-ins-svr-clstr/c-inst-proc-clstr/c-inst-proc-clstr.md)
-            + [Insight 서버 기본 설치](home/c-inst-svr/c-install-ins-svr/c-ins-svr-clstrs/c-inst-ins-svr-clstr/c-inst-proc-clstr/t-ins-mstr-ins-svr.md)
-            + [클러스터링을 위한 기본 Insight 서버 구성](home/c-inst-svr/c-install-ins-svr/c-ins-svr-clstrs/c-inst-ins-svr-clstr/c-inst-proc-clstr/c-config-mstr-ins-svr-clstr.md)
-            + [처리 인사이트 서버 설치 및 구성](home/c-inst-svr/c-install-ins-svr/c-ins-svr-clstrs/c-inst-ins-svr-clstr/c-inst-proc-clstr/t-inst-proc-ins-svrs.md)
+            + [Insight Server 기본 설치](home/c-inst-svr/c-install-ins-svr/c-ins-svr-clstrs/c-inst-ins-svr-clstr/c-inst-proc-clstr/t-ins-mstr-ins-svr.md)
+            + [클러스터링을 위한 기본 Insight Server 구성](home/c-inst-svr/c-install-ins-svr/c-ins-svr-clstrs/c-inst-ins-svr-clstr/c-inst-proc-clstr/c-config-mstr-ins-svr-clstr.md)
+            + [처리 Insight Server 설치 및 구성](home/c-inst-svr/c-install-ins-svr/c-ins-svr-clstrs/c-inst-ins-svr-clstr/c-inst-proc-clstr/t-inst-proc-ins-svrs.md)
             + [클러스터에서 실행할 프로필 구성](home/c-inst-svr/c-install-ins-svr/c-ins-svr-clstrs/c-inst-ins-svr-clstr/c-inst-proc-clstr/c-config-prof-run-clstr.md)
-         + 기존 클러스터에 Insight 서버 추가 {#add-server-cluster}
-            + [기존 클러스터에 Insight 서버 추가](home/c-inst-svr/c-install-ins-svr/c-ins-svr-clstrs/c-add-ins-svrs-ex-clstr/c-add-ins-svrs-ex-clstr.md)
+         + 기존 클러스터에 Insight Server 추가 {#add-server-cluster}
+            + [기존 클러스터에 Insight Server 추가](home/c-inst-svr/c-install-ins-svr/c-ins-svr-clstrs/c-add-ins-svrs-ex-clstr/c-add-ins-svrs-ex-clstr.md)
             + [기존 클러스터에 Insight Server DPU 추가](home/c-inst-svr/c-install-ins-svr/c-ins-svr-clstrs/c-add-ins-svrs-ex-clstr/c-add-dpu-ex-clstr.md)
             + [기존 클러스터에 Insight Server FSU 추가](home/c-inst-svr/c-install-ins-svr/c-ins-svr-clstrs/c-add-ins-svrs-ex-clstr/c-add-fsu-ex-clstr.md)
    + Data Workbench 서버 관리 {#admin-dwb-server}
@@ -741,18 +741,18 @@ ht-degree: 3%
       + [변형](home/c-inst-svr/c-tfm/c-tfm.md)
       + [변형 구성](home/c-inst-svr/c-tfm/t-config-tfm.md)
       + [다음 단계](home/c-inst-svr/c-tfm/c-nxt-stps-tfm.md)
-   + Insight Server Replication Service {#insight-server-replication-service}
-      + [Insight Server Replication Service](home/c-inst-svr/c-ins-svr-rep-svc/c-ins-svr-rep-svc.md)
+   + Insight Server 복제 서비스 {#insight-server-replication-service}
+      + [Insight Server 복제 서비스](home/c-inst-svr/c-ins-svr-rep-svc/c-ins-svr-rep-svc.md)
       + [복제 서비스 설치](home/c-inst-svr/c-ins-svr-rep-svc/c-inst-rep-svc.md)
       + [복제 서비스 구성](home/c-inst-svr/c-ins-svr-rep-svc/t-config-rep-svc.md)
       + [다음 단계](home/c-inst-svr/c-ins-svr-rep-svc/c-nxt-stps-rep-svc.md)
    + 반복 {#repeater}
       + [반복 기능](home/c-inst-svr/c-rptr-fntly/c-rptr-fntly.md)
-      +  {#configure}
+      + 구성 {#configure}
          + [반복 기능 구성](home/c-inst-svr/c-rptr-fntly/c-cnfg-rptr-fntly/c-cnfg-rptr-fntly.md)
-         + [반복용 Insight Server FSU 구성](home/c-inst-svr/c-rptr-fntly/c-cnfg-rptr-fntly/t-cfg-fsu-rptr.md)
+         + [반복을 위한 Insight Server FSU 구성](home/c-inst-svr/c-rptr-fntly/c-cnfg-rptr-fntly/t-cfg-fsu-rptr.md)
          + [Target 컴퓨터에 대한 액세스 제어 구성](home/c-inst-svr/c-rptr-fntly/c-cnfg-rptr-fntly/t-cfg-acc-ctrll-tgt-mach.md)
-         + [인사이트와 반복 간의 연결 만들기](home/c-inst-svr/c-rptr-fntly/c-cnfg-rptr-fntly/t-crt-conn-ins-rptr.md)
+         + [Insight와 반복 간의 연결 만들기](home/c-inst-svr/c-rptr-fntly/c-cnfg-rptr-fntly/t-crt-conn-ins-rptr.md)
          + [다음 단계](home/c-inst-svr/c-rptr-fntly/c-cnfg-rptr-fntly/c-nxt-stps-reptr.md)
       + [반복 관리](home/c-inst-svr/c-rptr-fntly/c-admin-rptr.md)
    + 일반 시스템 관리 {#general-syst-admin}
@@ -764,36 +764,36 @@ ht-degree: 3%
       + [Adobe 소프트웨어 업그레이드 및 제거](home/c-inst-svr/c-upgrd-uninst-sftwr/c-upgrd-uninst-sftwr.md)
       + Insight Server 업그레이드 {#upgrade-insight-server}
          + [Insight Server 업그레이드](home/c-inst-svr/c-upgrd-uninst-sftwr/c-upgrd-sftwr/c-upgrd-sftwr.md)
-         + [DWB 서버 업그레이드: 6.2 ~ 6.3](home/c-inst-svr/c-upgrd-uninst-sftwr/c-upgrd-sftwr/c-6-2-to-6-3-upgrade.md)
-         + [DWB 서버 업그레이드: 6.1 ~ 6.2](home/c-inst-svr/c-upgrd-uninst-sftwr/c-upgrd-sftwr/c-6-1-to-6-2-upgrade.md)
-         + Data Workbench 6.0 - 6.1 업그레이드 {#upgrade-6-0-to-6-1}
-            + [Data Workbench 6.0 - 6.1 업그레이드](home/c-inst-svr/c-upgrd-uninst-sftwr/c-upgrd-sftwr/c-6-0-to-6-1-upgrade/c-6-0-to-6-1-upgrade.md)
+         + [DWB 서버 업그레이드: 6.2에서 6.3으로](home/c-inst-svr/c-upgrd-uninst-sftwr/c-upgrd-sftwr/c-6-2-to-6-3-upgrade.md)
+         + [DWB 서버 업그레이드: 6.1에서 6.2로](home/c-inst-svr/c-upgrd-uninst-sftwr/c-upgrd-sftwr/c-6-1-to-6-2-upgrade.md)
+         + Data Workbench 6.0에서 6.1로 업그레이드 {#upgrade-6-0-to-6-1}
+            + [Data Workbench 6.0에서 6.1로 업그레이드](home/c-inst-svr/c-upgrd-uninst-sftwr/c-upgrd-sftwr/c-6-0-to-6-1-upgrade/c-6-0-to-6-1-upgrade.md)
             + [입력 방법 편집기 설치](home/c-inst-svr/c-upgrd-uninst-sftwr/c-upgrd-sftwr/c-6-0-to-6-1-upgrade/c-localized-ime.md)
             + [DeviceAtlas 배포](home/c-inst-svr/c-upgrd-uninst-sftwr/c-upgrd-sftwr/c-6-0-to-6-1-upgrade/c-deviceatlas-update.md)
-         + [Data Workbench 5.5에서 6.1 업그레이드](home/c-inst-svr/c-upgrd-uninst-sftwr/c-upgrd-sftwr/c-5-x-to-6-1-upgrade.md)
-         + [DWB 서버 업그레이드: 5.4 - 5.5](home/c-inst-svr/c-upgrd-uninst-sftwr/c-upgrd-sftwr/t-upgrd-to-5.5.md)
+         + [Data Workbench 5.5에서 6.1로 업그레이드](home/c-inst-svr/c-upgrd-uninst-sftwr/c-upgrd-sftwr/c-5-x-to-6-1-upgrade.md)
+         + [DWB 서버 업그레이드: 5.4에서 5.5로](home/c-inst-svr/c-upgrd-uninst-sftwr/c-upgrd-sftwr/t-upgrd-to-5.5.md)
          + [변형 업그레이드](home/c-inst-svr/c-upgrd-uninst-sftwr/c-upgrd-sftwr/t-upgrd-trfm.md)
          + [반복 업그레이드](home/c-inst-svr/c-upgrd-uninst-sftwr/c-upgrd-sftwr/c-upgrd-rptr.md)
       + [소프트웨어 제거](home/c-inst-svr/c-upgrd-uninst-sftwr/c-uninstl-sftwr.md)
    + 구성 설정 {#config-settings}
       + [구성 설정 참조](home/c-inst-svr/c-cfg-stgs-ref/c-cfg-stgs-ref.md)
-      + [Insight 서버 디렉토리 구조](home/c-inst-svr/c-cfg-stgs-ref/c-ins-svr-dir-str.md)
+      + [Insight Server 디렉토리 구조](home/c-inst-svr/c-cfg-stgs-ref/c-ins-svr-dir-str.md)
       + [관리 경고 구성 설정](home/c-inst-svr/c-cfg-stgs-ref/c-admin-alts-cfg-stgs.md)
       + [통신 구성 설정](home/c-inst-svr/c-cfg-stgs-ref/c-comm-cfg-stgs.md)
       + [DPU 성능 설정](home/c-inst-svr/c-cfg-stgs-ref/c-dpu-perf-stgs.md)
    + [시간대 코드](home/c-inst-svr/c-time-zn-cds.md)
 + Sensor {#sensor}
-   + [데이터 수집 프로세스는 어떻게 이루어집니까?](home/c-snsr-ovrvw/c-data-col-proc.md)
-   + [기본 구성 요소란?](home/c-snsr-ovrvw/c-basic-comp.md)
+   + [데이터 수집 프로세스는 어떻게 수행됩니까?](home/c-snsr-ovrvw/c-data-col-proc.md)
+   + [기본 구성 요소란 무엇입니까?](home/c-snsr-ovrvw/c-basic-comp.md)
    + [센서는 방문자 및 세션을 어떻게 식별합니까?](home/c-snsr-ovrvw/c-id-vstrs-sess.md)
-   + 설치 중 {#install}
+   + 설치 {#install}
       + [센서 설치](home/c-snsr-ovrvw/c-inst-snsr/c-inst-snsr.md)
       + [Windows Server 2000 이상 버전의 Microsoft IIS](home/c-snsr-ovrvw/c-inst-snsr/c-install-iis.md)
       + [Windows Server 2000 이상에서 Lotus Sametime](home/c-snsr-ovrvw/c-inst-snsr/c-install-lotus-win.md)
       + [Windows Server 2000 이상에서 Lotus Domino Server](home/c-snsr-ovrvw/c-inst-snsr/c-install-lotus-dom-win.md)
       + [AIX 5.1 이상 버전의 IBM HTTP Server](home/c-snsr-ovrvw/c-inst-snsr/c-install-aix.md)
       + [Linux, Sun Solaris, FreeBSD 또는 Mac OS X 기반의 Apache Server 1.3.x](home/c-snsr-ovrvw/c-inst-snsr/sensor-apache-1-3x.md)
-      + [Linux, Solaris 또는 FreeBSD의 Apache Server 2.0.40, 2.0.42 이상 및 Apache Server 2.2 또는 2.4](home/c-snsr-ovrvw/c-inst-snsr/c-install-apache.md)
+      + [Linux, Solaris 또는 FreeBSD의 Apache 서버 2.0.40, 2.0.42 이상 및 Apache Server 2.2 또는 2.4](home/c-snsr-ovrvw/c-inst-snsr/c-install-apache.md)
       + [Windows Server 2000 이상 버전의 Apache Server 1.3, 2, 2.2 또는 2.4](home/c-snsr-ovrvw/c-inst-snsr/c-install-apache-1-3-2-2.md)
       + [RedHat Linux 또는 Sun Solaris 기반 JBoss, Tomcat 및 WebLogic 서버](home/c-snsr-ovrvw/c-inst-snsr/c-install-jboss-tomcat-on-linux.md)
       + [Windows Server 2000 이상 버전의 JBoss 서버](home/c-snsr-ovrvw/c-inst-snsr/c-install-jboss-win.md)
@@ -832,9 +832,9 @@ ht-degree: 3%
    + [Sensor UNIX 파일 권한](home/c-snsr-ovrvw/sensor-unix-permissions.md)
 + 모니터링 프로필 설치 {#monitor}
    + [모니터링 프로필 설치](home/monitoring-installation/monitoring-installation.md)
-   + Workspaces {#workspace}
-      + [Data Workbench 서버 모니터링을 위한 작업 영역](home/monitoring-installation/monitoring-profiles/monitoring-profiles.md)
-      + [Data Workbench 기록 작업 영역](home/monitoring-installation/monitoring-profiles/monitoring-historical-using.md)
+   + 작업 공간 {#workspace}
+      + [Data Workbench 서버 모니터링을 위한 작업 공간](home/monitoring-installation/monitoring-profiles/monitoring-profiles.md)
+      + [Data Workbench 기록 작업 공간](home/monitoring-installation/monitoring-profiles/monitoring-historical-using.md)
       + [Data Workbench 프로필 상태 작업 공간](home/monitoring-installation/monitoring-profiles/monitoring-profile-using.md)
       + [Data Workbench 서버 상태 작업 공간](home/monitoring-installation/monitoring-profiles/monitoring-server-using.md)
    + Data Workbench 프로필 차원 및 지표 {#monitoring-appendix}
@@ -855,11 +855,11 @@ ht-degree: 3%
          + [시각화 유형](home/c-adobe-data-workbench-dashboard/c-visualizations/c-visualization-types/c-visualization-types.md)
          + [열 차트](home/c-adobe-data-workbench-dashboard/c-visualizations/c-visualization-types/c-column-charts.md)
          + [막대 차트](home/c-adobe-data-workbench-dashboard/c-visualizations/c-visualization-types/c-bar-charts.md)
-         + [라인 차트](home/c-adobe-data-workbench-dashboard/c-visualizations/c-visualization-types/c-line-charts.md)
+         + [선 차트](home/c-adobe-data-workbench-dashboard/c-visualizations/c-visualization-types/c-line-charts.md)
          + [표](home/c-adobe-data-workbench-dashboard/c-visualizations/c-visualization-types/c-dashboard-tables.md)
          + [지표 범례](home/c-adobe-data-workbench-dashboard/c-visualizations/c-visualization-types/c-metric-legends.md)
          + [파이 차트](home/c-adobe-data-workbench-dashboard/c-visualizations/c-visualization-types/c-dashboard-pie-chart.md)
-         + [분산형 플롯](home/c-adobe-data-workbench-dashboard/c-visualizations/c-visualization-types/c-scatter-plot.md)
+         + [산포도](home/c-adobe-data-workbench-dashboard/c-visualizations/c-visualization-types/c-scatter-plot.md)
          + [리치 텍스트](home/c-adobe-data-workbench-dashboard/c-visualizations/c-visualization-types/c-rich-text.md)
       + [시각화 만들기](home/c-adobe-data-workbench-dashboard/c-visualizations/t-creating-visualizations.md)
       + [시각화 구성](home/c-adobe-data-workbench-dashboard/c-visualizations/c-configuring-visualizations.md)
@@ -892,10 +892,10 @@ ht-degree: 3%
    + 선택 {#select}
       + [대시보드 내에서 선택](home/c-adobe-data-workbench-dashboard/c-making-selections-within-the-dashboard/c-making-selections-within-the-dashboard.md)
       + [잠긴 선택](home/c-adobe-data-workbench-dashboard/c-making-selections-within-the-dashboard/c-locked-selections.md)
-      + [선택 적용](home/c-adobe-data-workbench-dashboard/c-making-selections-within-the-dashboard/t-applying-selections.md)
+      + [선택 항목 적용](home/c-adobe-data-workbench-dashboard/c-making-selections-within-the-dashboard/t-applying-selections.md)
       + [선택 항목 제거](home/c-adobe-data-workbench-dashboard/c-making-selections-within-the-dashboard/c-removing-selections.md)
-      + [선택한 항목 확인](home/c-adobe-data-workbench-dashboard/c-making-selections-within-the-dashboard/c-determining-whats-selected.md)
-      + [크로스 프로필 선택](home/c-adobe-data-workbench-dashboard/c-making-selections-within-the-dashboard/c-cross-profile-selections.md)
+      + [선택 항목 확인](home/c-adobe-data-workbench-dashboard/c-making-selections-within-the-dashboard/c-determining-whats-selected.md)
+      + [교차 프로필 선택](home/c-adobe-data-workbench-dashboard/c-making-selections-within-the-dashboard/c-cross-profile-selections.md)
    + [데이터 내보내기](home/c-adobe-data-workbench-dashboard/c-exporting-data.md)
    + [대시보드 액세스 제어](home/c-adobe-data-workbench-dashboard/c-dashboard-access-controls.md)
    + [사용자 계정 관리](home/c-adobe-data-workbench-dashboard/c-user-account-functions.md)
@@ -917,7 +917,7 @@ ht-degree: 3%
       + [대시보드 배포](home/c-preparing-for-dashboard-installation/c-dashboard-deployment/t-deploying-the-dashboard.md)
       + [SQL Server 구성](home/c-preparing-for-dashboard-installation/c-dashboard-deployment/t-configuring-the-sql-server.md)
       + [대시보드 초기화](home/c-preparing-for-dashboard-installation/c-dashboard-deployment/t-initializing-the-dashboard.md)
-      + [대시보드 라이센스 키 추가](home/c-preparing-for-dashboard-installation/c-dashboard-deployment/t-add-dashboard-license-key.md)
+      + [대시보드 라이선스 키 추가](home/c-preparing-for-dashboard-installation/c-dashboard-deployment/t-add-dashboard-license-key.md)
    + [관리 콘솔에서 관리](home/c-preparing-for-dashboard-installation/c-managing-from-the-administration-console.md)
    + 프로필 연결 {#profile-connections}
       + [프로필 연결 관리](home/c-preparing-for-dashboard-installation/c-managing-profile-connections/c-managing-profile-connections.md)
@@ -941,7 +941,7 @@ ht-degree: 3%
       + [사용자 계정 제거](home/c-preparing-for-dashboard-installation/t-managing-user-accounts/t-removing-a-user-account.md)
    + 사용자 그룹 {#user-groups}
       + [사용자 그룹 관리](home/c-preparing-for-dashboard-installation/c-managing-user-groups/c-managing-user-groups.md)
-      + [사용자 그룹 만들기](home/c-preparing-for-dashboard-installation/c-managing-user-groups/t-creating-a-user-group.md)
+      + [사용자 그룹 생성](home/c-preparing-for-dashboard-installation/c-managing-user-groups/t-creating-a-user-group.md)
       + [사용자 그룹 편집](home/c-preparing-for-dashboard-installation/c-managing-user-groups/t-editing-a-user-group.md)
       + [사용자 그룹 제거](home/c-preparing-for-dashboard-installation/c-managing-user-groups/t-removing-a-user-group.md)
    + [시스템 로그](home/c-preparing-for-dashboard-installation/c-system-logs.md)
@@ -960,7 +960,7 @@ ht-degree: 3%
       + [지표 설정](home/dwb-implement-overview/dwb-implement-configure/dwb-implement-metric-setup.md)
       + [내부 및 외부 FTP 서버 유효성 검사](home/dwb-implement-overview/dwb-implement-configure/dwb-implement-validation-ftp.md)
       + [내역 데이터 피드 유효성 확인](home/dwb-implement-overview/dwb-implement-configure/dwb-implement-datafeeds-historical.md)
-      + [주간 재처리 스크립팅으로](home/dwb-implement-overview/dwb-implement-configure/dwb-implement-reprocess-scripting.md)
+      + [주간 재처리로 스크립팅](home/dwb-implement-overview/dwb-implement-configure/dwb-implement-reprocess-scripting.md)
       + [SAINT Scrubber용 스크립팅](home/dwb-implement-overview/dwb-implement-configure/dwb-implement-saint-scripting.md)
       + [파일 전송 거버넌스](home/dwb-implement-overview/dwb-implement-configure/dwb-implement-file-transfer.md)
       + [쿼리 API 설정](home/dwb-implement-overview/dwb-implement-configure/dwb-implement-query-api.md)
