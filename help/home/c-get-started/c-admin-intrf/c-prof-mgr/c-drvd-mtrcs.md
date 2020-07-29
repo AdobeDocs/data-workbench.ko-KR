@@ -20,7 +20,7 @@ source-git-commit: aec1f7b14198cdde91f61d490a235022943bfedb
 
 을 [!DNL Metric Editor] 사용하여 이름, 공식 및 형식별로 새 지표를 정의할 수 있으며 이 지표는 나중에 사용할 수 있도록 User\*profile_name*\Metrics 폴더에 저장됩니다.
 
-1. > [!DNL Metric Editor] 메뉴 옵션을 **[!UICONTROL Admin]** 사용하거나 지표를 만들 폴더의 **[!UICONTROL Profile]** 열을 마우스 오른쪽 단추로 클릭하고 **[!UICONTROL User]** > **[!UICONTROL Create]** **[!UICONTROL New Metric]**&#x200B;을 클릭하여 새로 엽니다.
+1. &#x200B;> [!DNL Metric Editor] 메뉴 옵션을 **[!UICONTROL Admin]** 사용하거나 지표를 만들 폴더의 **[!UICONTROL Profile]** 열을 마우스 오른쪽 단추로 클릭하고 **[!UICONTROL User]** > **[!UICONTROL Create]** **[!UICONTROL New Metric]**&#x200B;을 클릭하여 새로 엽니다.
 
    A가 [!DNL Metric Editor] 표시됩니다.
 

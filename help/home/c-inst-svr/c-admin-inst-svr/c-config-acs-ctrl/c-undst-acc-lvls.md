@@ -85,7 +85,7 @@ source-git-commit: aec1f7b14198cdde91f61d490a235022943bfedb
 >
 >이 [!DNL Access Control.cfg] 파일을 변경하면 모든 기존 연결이 [!DNL Insight Server]종료되어 다시 연결해야 합니다. 업데이트된 [!DNL Access Control.cfg] 파일의 권한에 대해 연결이 확인됩니다. Servers Manager 인터페이스에서 연결이 종료되고 다른 모든 사용자와 강제로 다시 연결되기 때문에 아이콘이 일시적으로 빨간색으로 표시된 후 다시 녹색으로 바뀝니다. [!DNL Insight Server]
 
-1. > [!DNL Admin] 탭에서 [!DNL Dataset and Profile] **[!UICONTROL Servers Manager]** 축소판을 클릭하여 서버 관리자 작업 영역을 엽니다.
+1. &#x200B;> [!DNL Admin] 탭에서 [!DNL Dataset and Profile] **[!UICONTROL Servers Manager]** 축소판을 클릭하여 서버 관리자 작업 영역을 엽니다.
 
 1. 구성할 아이콘 을 마우스 오른쪽 단추로 [!DNL Insight Server] 클릭하고 **[!UICONTROL Files]**&#x200B;클릭합니다.
 

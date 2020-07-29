@@ -25,7 +25,7 @@ Insight를 사용하여 반복을 업그레이드하거나 파일을 복사하�
 
 1. 컴퓨터에서 [!DNL Insight] 업그레이드 패키지에서 설치 디렉토리의 [!DNL bin] 폴더로 폴더를 [!DNL Insight Server] [!DNL Temp] [!DNL Insight] 복사합니다.
 1. Start [!DNL Insight].
-1. > [!DNL Insight]탭에서 [!DNL Admin] [!DNL Dataset and Profile] **[!UICONTROL Servers Manager]** 축소판을 클릭하여 서버 관리자 작업 영역을 엽니다.
+1. &#x200B;> [!DNL Insight]탭에서 [!DNL Admin] [!DNL Dataset and Profile] **[!UICONTROL Servers Manager]** 축소판을 클릭하여 서버 관리자 작업 영역을 엽니다.
 1. 업그레이드하려는 아이콘을 마우스 오른쪽 단추로 [!DNL Repeater] 클릭하고 **[!UICONTROL Server Files]**&#x200B;클릭합니다.
 1. 에서 [!DNL Server Files Manager]다음을 수행하여 업그레이드 파일을 서버에 업로드합니다.
 

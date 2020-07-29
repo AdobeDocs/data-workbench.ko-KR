@@ -40,7 +40,7 @@ Master Insight Server에서 클러스터 구성, 클러스터의 액세스 제�
 
 1. 제목 표시줄을 마우스 오른쪽 단추로 클릭하고 [!DNL Insight] > **[!UICONTROL Switch Profile]** **[!UICONTROL Configuration]**&#x200B;을 클릭하여 구성 프로필을 시작 및 로드합니다(아직 열려 있지 않은 경우).
 
-1. > [!DNL Insight]탭에서 [!DNL Admin] [!DNL Dataset and Profile] **[!UICONTROL Servers Manager]** 축소판을 클릭하여 서버 관리자 작업 영역을 엽니다.
+1. &#x200B;> [!DNL Insight]탭에서 [!DNL Admin] [!DNL Dataset and Profile] **[!UICONTROL Servers Manager]** 축소판을 클릭하여 서버 관리자 작업 영역을 엽니다.
 
 1. 마스터의 아이콘을 마우스 오른쪽 단추로 **[!UICONTROL Insight Server]** 클릭하고 **[!UICONTROL Server Files]**&#x200B;클릭합니다.
 
@@ -82,7 +82,7 @@ Master Insight Server에서 클러스터 구성, 클러스터의 액세스 제�
 
 **액세스 제어 파일을 편집하려면**
 
-1. > [!DNL Insight]탭에서 [!DNL Admin] [!DNL Dataset and Profile] **[!UICONTROL Servers Manager]** 축소판을 클릭하여 서버 관리자 작업 영역을 엽니다.
+1. &#x200B;> [!DNL Insight]탭에서 [!DNL Admin] [!DNL Dataset and Profile] **[!UICONTROL Servers Manager]** 축소판을 클릭하여 서버 관리자 작업 영역을 엽니다.
 
 1. 마스터의 아이콘을 마우스 오른쪽 단추로 [!DNL Insight Server] 클릭하고 **[!UICONTROL Server Files]**&#x200B;클릭합니다.
 
@@ -122,7 +122,7 @@ Master Insight Server에서 클러스터 구성, 클러스터의 액세스 제�
 
 **마스터에서 Synchronize.cfg 파일을 업데이트하려면[!DNL Insight Server]**
 
-1. > [!DNL Insight]탭에서 [!DNL Admin] [!DNL Dataset and Profile] **[!UICONTROL Servers Manager]** 축소판을 클릭하여 서버 관리자 작업 영역을 엽니다.
+1. &#x200B;> [!DNL Insight]탭에서 [!DNL Admin] [!DNL Dataset and Profile] **[!UICONTROL Servers Manager]** 축소판을 클릭하여 서버 관리자 작업 영역을 엽니다.
 
 1. 마스터의 아이콘을 마우스 오른쪽 단추로 [!DNL Insight Server] 클릭하고 **[!UICONTROL Server Files]**&#x200B;클릭합니다.
 
@@ -157,7 +157,7 @@ Master Insight Server에서 클러스터 구성, 클러스터의 액세스 제�
 
 **temp.db의 위치를 구성하려면**
 
-1. > [!DNL Insight]탭에서 [!DNL Admin] [!DNL Dataset and Profile] **[!UICONTROL Servers Manager]** 축소판을 클릭하여 서버 관리자 작업 영역을 엽니다.
+1. &#x200B;> [!DNL Insight]탭에서 [!DNL Admin] [!DNL Dataset and Profile] **[!UICONTROL Servers Manager]** 축소판을 클릭하여 서버 관리자 작업 영역을 엽니다.
 
 1. 마스터의 아이콘을 마우스 오른쪽 단추로 [!DNL Insight Server] 클릭하고 **[!UICONTROL Server Files]**&#x200B;클릭합니다.
 

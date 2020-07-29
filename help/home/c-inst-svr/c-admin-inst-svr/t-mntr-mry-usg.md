@@ -42,7 +42,7 @@ source-git-commit: aec1f7b14198cdde91f61d490a235022943bfedb
 
 마지막으로 다시 시작한 이후 다시 처리되고 상당히 쿼리되지 [!DNL Insight Server] 않은 경우 주소 공간 로드에서 결론을 도출하지 않아야 합니다.
 
-1. > [!DNL Insight]탭에서 [!DNL Admin] [!DNL Dataset and Profile] **[!UICONTROL Servers Manager]** 축소판을 클릭하여 서버 관리자 작업 영역을 엽니다.
+1. &#x200B;> [!DNL Insight]탭에서 [!DNL Admin] [!DNL Dataset and Profile] **[!UICONTROL Servers Manager]** 축소판을 클릭하여 서버 관리자 작업 영역을 엽니다.
 1. 구성할 아이콘 을 마우스 오른쪽 단추로 [!DNL Insight Server] 클릭하고 **[!UICONTROL Detailed Status]**&#x200B;클릭합니다.
 1. 세부 상태 인터페이스에서 을 클릭하여 컨텐츠를 **[!UICONTROL Memory Status]** 봅니다. 주소 공간 로드 매개 변수에서 백분율로 표현된 주소 공간 부하 및 상태를 나타내는 괄호 설명을 볼 수 있습니다.
 
