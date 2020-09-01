@@ -91,7 +91,7 @@ source-git-commit: aec1f7b14198cdde91f61d490a235022943bfedb
 
 1. 를 사용하여 정확성을 **[!UICONTROL Confusion Matrix]**&#x200B;확인합니다.
 
-   > **[!UICONTROL Options]** 를 **[!UICONTROL Confusion Matrix]** 클릭하여 정확도, 리콜, 정밀도 및 F 스코어 값을 봅니다. 100%에 가까울수록 점수는 더 좋습니다.
+   &#x200B;> **[!UICONTROL Options]** 를 **[!UICONTROL Confusion Matrix]** 클릭하여 정확도, 리콜, 정밀도 및 F 스코어 값을 봅니다. 100%에 가까울수록 점수는 더 좋습니다.
 
    혼동 매트릭스는 값 조합을 사용하여 모델의 정확도를 네 가지 카운트를 제공합니다.
 
