@@ -5,7 +5,7 @@ title: 책갈피 추가
 topic: Data workbench
 uuid: 8b7fd6ac-9bab-4e7a-8f52-8568413052e8
 translation-type: tm+mt
-source-git-commit: 2c1b2adfe8bf479c2a8cbd150ed006be2336022c
+source-git-commit: 8f5c69541bdd97aefbad3840f75f06846615f222
 workflow-type: tm+mt
 source-wordcount: '208'
 ht-degree: 0%
@@ -33,7 +33,7 @@ ht-degree: 0%
 
 **책갈피를 삭제하려면**
 
-* 책갈피 패널에서 마우스 오른쪽 단추를 클릭하고 **[!UICONTROL 제거를 선택합니다<bookmark title>]**선택한 책갈피를 삭제하거나 모든 책갈피&#x200B;**[!UICONTROL Clear All Bookmarks]**를 삭제하도록 선택합니다.
+* 책갈피 패널에서 마우스 오른쪽 단추를 클릭하고 **제거를 선택하여 선택한 책갈피`<bookmark title>`** 를 삭제하거나 모든 책갈피 **[!UICONTROL Clear All Bookmarks]** 를 삭제하도록 선택합니다.
 
 * 또한 작업공간의 축소판 보기에서 작업 영역을 마우스 오른쪽 단추로 클릭하고 선택할 수도 있습니다 **[!UICONTROL Clear Bookmark]**.
 
