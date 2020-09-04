@@ -4,9 +4,9 @@ solution: Insight
 title: 통신 구성 설정
 uuid: 03297cf0-eb55-4db0-b692-eba24fcf947c
 translation-type: tm+mt
-source-git-commit: 2ed16fa0d447426c4de863e502792bfb292765cc
+source-git-commit: 638eca495223fc9d5326bf9462a9c289d6fe2d9e
 workflow-type: tm+mt
-source-wordcount: '511'
+source-wordcount: '508'
 ht-degree: 5%
 
 ---
@@ -34,11 +34,11 @@ Insight Server 또는 Repeater에 대한 통신을 구성하는 지침입니다.
  <tbody> 
   <tr> 
    <td colname="col1"> 액세스 제어 파일 </td> 
-   <td colname="col2"> <p>Access Control.cfg <span class="filepath"> </span> 파일의 위치입니다. 기본 위치는 <span class="filepath"> Insight Server </span> 또는 <span class="keyword"> Repeater </span> 설치 디렉토리 내의 액세스 제어 <span class="wintitle"> </span> 폴더입니다. </p> <p>예: <filepath></filepath> </p> </td> 
+   <td colname="col2"> <p>Access Control.cfg <span class="filepath"> </span> 파일의 위치입니다. 기본 위치는 <span class="filepath"> Insight Server </span> 또는 <span class="keyword"> Repeater </span> 설치 디렉토리 내의 액세스 제어 <span class="wintitle"> </span> 폴더입니다. </p> <p>예: <code>Access Control File = Path: Access Control\\Access Control.cfg</code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 액세스 로그 디렉터리 </td> 
-   <td colname="col2"> <p>감사 로그를 매핑할 폴더입니다. </p> <p>예: <filepath></filepath> </p> <p> <p>참고: 감사 로그를 다른 로컬 드라이브에 매핑할 수 있습니다(예: <span class="filepath"> string:P:\\Audit\\ </span>), 감사 로그를 네트워크 드라이브에 매핑하지 마십시오. </p> </p> </td> 
+   <td colname="col2"> <p>감사 로그를 매핑할 폴더입니다. </p> <p>예: <code>Access Log Directory = string: Audit\\</code> </p> <p> <p>참고: 감사 로그를 다른 로컬 드라이브에 매핑할 수 있습니다(예: <span class="filepath"> string:P:\\Audit\\ </span>), 감사 로그를 네트워크 드라이브에 매핑하지 마십시오. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 액세스 로그 세부 정보 </td> 
@@ -46,19 +46,19 @@ Insight Server 또는 Repeater에 대한 통신을 구성하는 지침입니다.
   </tr> 
   <tr> 
    <td colname="col1"> IP 인터페이스 </td> 
-   <td colname="col2"> <p>두 개의 다른 네트워크에 액세스하기 위해 두 개의 네트워크 카드를 사용할 수 있는 IP 주소입니다. </p> <p>예:I <filepath></filepath><i>&lt; <span class="filepath"> IP 주소 </span>&gt;</i> </p> </td> 
+   <td colname="col2"> <p>두 개의 다른 네트워크에 액세스하기 위해 두 개의 네트워크 카드를 사용할 수 있는 IP 주소입니다. </p> <p>예: <code>IP Interface = string: &lt; IP Address &gt;</code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 포트 </td> 
-   <td colname="col2"> <p>Insight Server <span class="keyword"> 또는 </span> Repeater가 수신하는 비보안(HTTP) <span class="wintitle"> </span> 포트입니다. 기본 포트는 80입니다. 0을 입력하면 비보안 연결이 비활성화됩니다. </p> <p>예: <filepath></filepath> </p> </td> 
+   <td colname="col2"> <p>Insight Server <span class="keyword"> 또는 </span> Repeater가 수신하는 비보안(HTTP) <span class="wintitle"> </span> 포트입니다. 기본 포트는 80입니다. 0을 입력하면 비보안 연결이 비활성화됩니다. </p> <p>예: <code>Port = int: 80</code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> SSL 암호 </td> 
-   <td colname="col2"> 일부 환경에서는 다른 환경보다 더 강력한 통신 보안이 필요합니다. 특정 SSL 암호 세트를 사용하려면 이 매개 변수로 지정할 수 있습니다. <p>예: <filepath></filepath> </p> </td> 
+   <td colname="col2"> 일부 환경에서는 다른 환경보다 더 강력한 통신 보안이 필요합니다. 특정 SSL 암호 세트를 사용하려면 이 매개 변수로 지정할 수 있습니다. <p>예: <code>SSL Ciphers = string: AES256-SHA256</code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> SSL 포트 </td> 
-   <td colname="col2"> <p>Insight Server <span class="keyword"> 또는 </span> Repeater가 수신하는 SSL을 통해 <span class="wintitle"> </span> 보호됩니다. 기본 포트는 443입니다. 0을 입력하면 보안 연결이 비활성화됩니다. </p> <p>예: <span class="filepath"></span> </p> <filepath></filepath> </td> 
+   <td colname="col2"> <p>Insight Server <span class="keyword"> 또는 </span> Repeater가 수신하는 SSL을 통해 <span class="wintitle"> </span> 보호됩니다. 기본 포트는 443입니다. 0을 입력하면 보안 연결이 비활성화됩니다. </p> <p>예: <span class="filepath"></span> </p> <code>SSL Port = int: 443</code> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <i>n=</i>LoggingServer: </td> 
