@@ -1,10 +1,13 @@
 ---
 description: Insight Server 시스템을 다시 시작할 때 먼저 Insight Server 서비스를 중지해야 합니다.
-solution: Insight
+solution: Analytics
 title: 서비스 다시 시작
 uuid: fda05e5a-9527-43e0-86c8-c4adba51955c
 translation-type: tm+mt
-source-git-commit: aec1f7b14198cdde91f61d490a235022943bfedb
+source-git-commit: 34cdcfc83ae6bb620706db37228e200cff43ab2c
+workflow-type: tm+mt
+source-wordcount: '60'
+ht-degree: 11%
 
 ---
 
