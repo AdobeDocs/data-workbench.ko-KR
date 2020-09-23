@@ -1,26 +1,29 @@
 ---
-description: 구현을 보다 철저하게 모니터링하려면 서버 시스템의 모든 포트와 이러한 각 포트에서 실행되는 소프트웨어 제품을 모니터링할 수 있습니다.
-solution: Insight
+description: 구현을 보다 철저히 모니터링하려면 서버 시스템의 모든 포트와 이러한 각 포트에서 실행되는 소프트웨어 제품을 모니터링할 수 있습니다.
+solution: Analytics
 title: 포트 및 애플리케이션 모니터링
 uuid: 63d92718-81df-49eb-adda-8b49bde57a9d
 translation-type: tm+mt
-source-git-commit: aec1f7b14198cdde91f61d490a235022943bfedb
+source-git-commit: 34cdcfc83ae6bb620706db37228e200cff43ab2c
+workflow-type: tm+mt
+source-wordcount: '208'
+ht-degree: 4%
 
 ---
 
 
 # 포트 및 애플리케이션 모니터링{#monitoring-ports-and-applications}
 
-구현을 보다 철저하게 모니터링하려면 서버 시스템의 모든 포트와 이러한 각 포트에서 실행되는 소프트웨어 제품을 모니터링할 수 있습니다.
+구현을 보다 철저히 모니터링하려면 서버 시스템의 모든 포트와 이러한 각 포트에서 실행되는 소프트웨어 제품을 모니터링할 수 있습니다.
 
 **권장 빈도:** 5-10분마다
 
-응용 프로그램 또는 스크립트를 사용하여 각 응용 프로그램이 실행 중인 TCP 포트(일반적으로 포트 80 또는 443)를 모니터링하여 응용 프로그램이 해당 포트에 바인딩되었는지 확인할 수 있습니다. 이렇게 하려면 모니터링할 컴퓨터에서 응용 프로그램 상태 페이지를 요청합니다.
+응용 프로그램 또는 스크립트를 사용하여 각 응용 프로그램이 실행되는 TCP 포트(일반적으로 포트 80 또는 443)를 모니터링하여 응용 프로그램이 해당 포트에 바인딩되었는지 확인할 수 있습니다. 이렇게 하려면 모니터링할 컴퓨터에서 응용 프로그램 상태 페이지를 요청합니다.
 
 **응용 프로그램 상태 페이지를 요청하려면**
 
-1. 모니터링할 컴퓨터에서 모니터링 응용 프로그램 또는 스크립트가 컴퓨터에 액세스할 수 있도록 액세스 제어를 수정합니다. 자세한 내용은 액세스 제어 [구성을 참조하십시오](../../../home/c-inst-svr/c-admin-inst-svr/c-config-acs-ctrl/c-config-acs-ctrl.md#concept-ac385e870dbe4b57a72bf7266b60f93d).
-1. 에 [!DNL https://IP Address/Status/]연결합니다. 여기서 IP 주소는 상태를 받을 컴퓨터의 IP 주소입니다.
+1. 모니터링할 컴퓨터에서 모니터링 응용 프로그램 또는 스크립트가 컴퓨터에 액세스할 수 있도록 액세스 컨트롤을 수정합니다. 자세한 내용은 액세스 제어 [구성을 참조하십시오](../../../home/c-inst-svr/c-admin-inst-svr/c-config-acs-ctrl/c-config-acs-ctrl.md#concept-ac385e870dbe4b57a72bf7266b60f93d).
+1. 연결 대상 [!DNL https://IP Address/Status/]. 여기서 IP 주소는 상태를 받을 컴퓨터의 IP 주소입니다.
 
    예: [!DNL https://127.0.0.1/Status/]
 
