@@ -1,10 +1,10 @@
 ---
 description: Insight Server Replication Service를 실행하는 Target Insight Server 시스템은 이 반복 서버에서 로그 파일을 읽을 수 있어야 합니다.
-solution: Insight
+solution: Analytics
 title: Target 컴퓨터에 대한 액세스 제어 구성
 uuid: 35e032cf-6c1d-4348-88ce-4f4a6a30b16f
 translation-type: tm+mt
-source-git-commit: 0276701151d1403926ce184069526ebdf3e28e36
+source-git-commit: 34cdcfc83ae6bb620706db37228e200cff43ab2c
 workflow-type: tm+mt
 source-wordcount: '245'
 ht-degree: 6%
