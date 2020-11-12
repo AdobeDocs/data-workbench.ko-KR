@@ -5,9 +5,9 @@ title: 테스트 작업 조건
 topic: Data workbench
 uuid: 6a117569-1372-4095-972b-76289a45f19e
 translation-type: tm+mt
-source-git-commit: 1630f34588e4984226b70c963618856496b42346
+source-git-commit: ed7597393049099e08586716163cbd1cca50c5fa
 workflow-type: tm+mt
-source-wordcount: '1115'
+source-wordcount: '1114'
 ht-degree: 6%
 
 ---
@@ -199,7 +199,7 @@ ht-degree: 6%
  </tbody> 
 </table>
 
-이 예에서는 웹 사이트 트래픽에서 수집된 데이터 필드와 일치하도록 [!DNL Regular Expression] 조건을 사용하는 것을 보여줍니다. 조건은 cs(referrer-query) 필드에 정규 표현식과 일치하는 문자열이 포함된 경우에만 true를 반환합니다 `campaign=C[1-9][0-9]{4}`. 이 정규식은 포함된 모든 문자열과 일치합니다 `campaign=C12345`. 하지만 &quot;C&quot; 다음에 오는 첫 번째 문자가 1-9 범위에 있지 `campaign=C0123&` 않으므로 패턴은 문자열과 일치하지 않습니다.
+이 예에서는 웹 사이트 트래픽에서 수집된 데이터 필드와 일치하도록 [!DNL Regular Expression] 조건을 사용하는 것을 보여줍니다. 조건은 cs(referrer-query) 필드에 정규 표현식과 일치하는 문자열이 포함된 경우에만 true를 반환합니다 `campaign=C[1-9][0-9]{4}`. 이 정규식은 포함된 모든 문자열과 일치합니다 `campaign=C12345`. 하지만 이후 첫 번째 문자가 범위 `campaign=C0123&` 에 있지 않기 때문에 패턴은 문자열 `C` 과 일치하지 않습니다 `1-9`.
 
 ![](assets/cfg_Condition_RegularExpression.png)
 
