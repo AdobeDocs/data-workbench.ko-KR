@@ -1,11 +1,11 @@
 ---
-cloud: experience-cloud
+cloud: Experience Cloud
 product: analytics
 audience: end-user
 user-guide-title: Data Workbench 도움말
 user-guide-description: Data Workbench의 멀티채널 기능에 대해 알아봅니다. Data Workbench 클라이언트, 설치, 데이터 세트 구성 가이드 등이 포함되어 있습니다.
 translation-type: tm+mt
-source-git-commit: 53e6b7b96e7addd848a00691163878846b22b4c6
+source-git-commit: cfa391f4238bac43fdf2539baa8e038a79110200
 workflow-type: tm+mt
 source-wordcount: '3536'
 ht-degree: 100%
