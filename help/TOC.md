@@ -5,9 +5,9 @@ audience: end-user
 user-guide-title: Data Workbench 도움말
 user-guide-description: Data Workbench의 멀티채널 기능에 대해 알아봅니다. Data Workbench 클라이언트, 설치, 데이터 세트 구성 가이드 등이 포함되어 있습니다.
 translation-type: tm+mt
-source-git-commit: cfa391f4238bac43fdf2539baa8e038a79110200
+source-git-commit: 3fc9ad4411438afe50c0e20d807234176480e2b3
 workflow-type: tm+mt
-source-wordcount: '3536'
+source-wordcount: '3493'
 ht-degree: 100%
 
 ---
@@ -53,7 +53,6 @@ ht-degree: 100%
       + [업그레이드 Data Workbench 개요](home/c-install-insight/c-upgrd-ins/c-upgrd-ins.md)
       + [6.4에서 6.5로 업그레이드](home/c-install-insight/c-upgrd-ins/c-6-4-to-6-5-upgrade.md)
       + [6.3에서 6.4로 업그레이드](home/c-install-insight/c-upgrd-ins/c-6-3-to-6-4-upgrade.md)
-      + [DWB 서버 업그레이드: 6.2에서 6.3으로](home/c-inst-svr/c-upgrd-uninst-sftwr/c-upgrd-sftwr/c-6-2-to-6-3-upgrade.md)
       + [DWB 서버 업그레이드: 6.1에서 6.2로](home/c-inst-svr/c-upgrd-uninst-sftwr/c-upgrd-sftwr/c-6-1-to-6-2-upgrade.md)
       + [Data Workbench 6.0에서 6.1로 업그레이드](home/c-inst-svr/c-upgrd-uninst-sftwr/c-upgrd-sftwr/c-6-0-to-6-1-upgrade/c-6-0-to-6-1-upgrade.md)
       + [Data Workbench 5.5에서 6.1로 업그레이드](home/c-inst-svr/c-upgrd-uninst-sftwr/c-upgrd-sftwr/c-5-x-to-6-1-upgrade.md)
@@ -269,7 +268,6 @@ ht-degree: 100%
       + 벡터 레이어를 사용한 작업 {#vector-layers}
          + [벡터 레이어를 사용한 작업](home/c-get-started/c-im-layers/c-vctr-layers/c-vctr-layers.md)
          + [벡터 파일을 참조하는 벡터 레이어 정의](home/c-get-started/c-im-layers/c-vctr-layers/c-ref-vctr-files.md)
-         + [탭으로 구분된 값 파일을 참조하는 벡터 레이어](home/c-geo-oview/c-wk-img-lyrs/c-wk-vctr-lyrs/c-tab-sep-val-files.md)
          + [새로운 벡터 레이어 사용 가능](home/c-get-started/c-im-layers/c-vctr-layers/t-make-new-vctr-layer-av.md)
    + 관리 인터페이스 {#admin-ui}
       + [관리 인터페이스](home/c-get-started/c-admin-intrf/c-admin-intrf.md)
@@ -334,7 +332,6 @@ ht-degree: 100%
          + [탭 순서 변경](home/c-get-started/c-intf-anlys-ftrs/c-cstm-wktp-tabs/t-chg-ordr-tabs.md)
          + [하위 폴더를 하위 탭으로 표시](home/c-get-started/c-intf-anlys-ftrs/c-cstm-wktp-tabs/c-sbfldrs-sbtabs.md)
          + [탭 숨기기 또는 제거](home/c-get-started/c-intf-anlys-ftrs/c-cstm-wktp-tabs/t-hide-rmv-tabs.md)
-      + [입력 방법 편집기 설치](home/c-inst-svr/c-upgrd-uninst-sftwr/c-upgrd-sftwr/c-6-0-to-6-1-upgrade/c-localized-ime.md)
       + [현지화 언어 설정](home/c-get-started/c-intf-anlys-ftrs/c-localized-ime/c-localized-ime-config.md)
       + 잠긴 작업 공간 구성 {#config-locked-wkspc}
          + [잠긴 작업 공간 구성](home/c-get-started/c-intf-anlys-ftrs/c-config-locked-wkspc/c-config-locked-wkspc.md)
@@ -380,7 +377,6 @@ ht-degree: 100%
          + [새 방문자 조건](home/c-dataset-const-proc/c-trans-config-file/c-spec-trans-param/c-new-vstr-con.md)
          + [시간대](home/c-dataset-const-proc/c-trans-config-file/c-spec-trans-param/c-time-zones.md)
       + [변환 구성 파일에 대한 고려 사항](home/c-dataset-const-proc/c-trans-config-file/c-con-tran-config-file.md)
-      + [DeviceAtlas 배포](home/c-inst-svr/c-upgrd-uninst-sftwr/c-upgrd-sftwr/c-6-0-to-6-1-upgrade/c-deviceatlas-update.md)
    + 데이터 집합에 파일 포함 {#dataset-include-files}
       + [데이터 집합 포함 파일 정보](home/c-dataset-const-proc/c-dataset-inc-files/c-abt-dataset-inc-files.md)
       + [데이터 집합 포함 파일 작업](home/c-dataset-const-proc/c-dataset-inc-files/c-work-dataset-inc-files/c-work-dataset-inc-files.md)
@@ -468,7 +464,6 @@ ht-degree: 100%
       + 데이터 집합 구성 인터페이스 {#dataset-config-ui}
          + [데이터 집합 구성 인터페이스 작업](home/c-dataset-const-proc/c-dataset-config-tools/c-dataset-config-int/c-dataset-config-int.md)
          + [데이터 집합 스키마](home/c-dataset-const-proc/c-dataset-config-tools/c-dataset-config-int/c-dataset-schema.md)
-         + [종속성 맵](home/c-dataset-const-proc/c-dataset-config-tools/c-dataset-config-int/c-dep-maps.md)
          + [필드 뷰어](home/c-dataset-const-proc/c-dataset-config-tools/c-dataset-config-int/c-field-viewers.md)
       + 데이터 집합 구성 요소 숨기기 {#hide-dataset-comp}
          + [데이터 집합 구성 요소 숨기기](home/c-dataset-const-proc/c-dataset-config-tools/c-hide-dataset-comp/c-hide-dataset-comp.md)
@@ -765,12 +760,6 @@ ht-degree: 100%
       + Insight Server 업그레이드 {#upgrade-insight-server}
          + [Insight Server 업그레이드](home/c-inst-svr/c-upgrd-uninst-sftwr/c-upgrd-sftwr/c-upgrd-sftwr.md)
          + [DWB 서버 업그레이드: 6.2에서 6.3으로](home/c-inst-svr/c-upgrd-uninst-sftwr/c-upgrd-sftwr/c-6-2-to-6-3-upgrade.md)
-         + [DWB 서버 업그레이드: 6.1에서 6.2로](home/c-inst-svr/c-upgrd-uninst-sftwr/c-upgrd-sftwr/c-6-1-to-6-2-upgrade.md)
-         + Data Workbench 6.0에서 6.1로 업그레이드 {#upgrade-6-0-to-6-1}
-            + [Data Workbench 6.0에서 6.1로 업그레이드](home/c-inst-svr/c-upgrd-uninst-sftwr/c-upgrd-sftwr/c-6-0-to-6-1-upgrade/c-6-0-to-6-1-upgrade.md)
-            + [입력 방법 편집기 설치](home/c-inst-svr/c-upgrd-uninst-sftwr/c-upgrd-sftwr/c-6-0-to-6-1-upgrade/c-localized-ime.md)
-            + [DeviceAtlas 배포](home/c-inst-svr/c-upgrd-uninst-sftwr/c-upgrd-sftwr/c-6-0-to-6-1-upgrade/c-deviceatlas-update.md)
-         + [Data Workbench 5.5에서 6.1로 업그레이드](home/c-inst-svr/c-upgrd-uninst-sftwr/c-upgrd-sftwr/c-5-x-to-6-1-upgrade.md)
          + [DWB 서버 업그레이드: 5.4에서 5.5로](home/c-inst-svr/c-upgrd-uninst-sftwr/c-upgrd-sftwr/t-upgrd-to-5.5.md)
          + [변형 업그레이드](home/c-inst-svr/c-upgrd-uninst-sftwr/c-upgrd-sftwr/t-upgrd-trfm.md)
          + [반복 업그레이드](home/c-inst-svr/c-upgrd-uninst-sftwr/c-upgrd-sftwr/c-upgrd-rptr.md)
