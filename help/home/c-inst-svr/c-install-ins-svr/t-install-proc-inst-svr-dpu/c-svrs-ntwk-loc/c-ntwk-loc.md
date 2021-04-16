@@ -1,26 +1,25 @@
 ---
-description: 개념적으로, 주소 파일은 네트워크 시스템의 ETC&bsol;HOSTS 파일과 같은 목적을 제공합니다.
-solution: Analytics
+description: 개념적으로, 주소 파일은 네트워크 컴퓨터의 ETC&bsol;HOSTS 파일과 같은 목적을 제공합니다.
 title: 네트워크 위치
 uuid: a2097eca-dd75-4d43-b8a8-fb4c768df38d
+exl-id: 938217da-8935-4f2a-b5f8-9afc1dd489f3
 translation-type: tm+mt
-source-git-commit: 34cdcfc83ae6bb620706db37228e200cff43ab2c
+source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '254'
 ht-degree: 2%
 
 ---
 
-
 # 네트워크 위치{#network-locations}
 
-개념적으로, 주소 파일은 네트워크 시스템의 ETC&amp;bsol;HOSTS 파일과 같은 목적을 제공합니다.
+개념적으로, 주소 파일은 네트워크 컴퓨터의 ETC&amp;bsol;HOSTS 파일과 같은 목적을 제공합니다.
 
-하지만 단일 이름 컬렉션을 설명하는 HOSTS 파일과 달리 주소 파일에는 네트워크 위치라는 이름의 여러 컬렉션이 들어 있습니다.
+하지만 단일 이름 컬렉션을 설명하는 HOSTS 파일과는 달리 주소 파일에는 네트워크 위치라는 이름의 여러 컬렉션이 들어 있습니다.
 
-네트워크 위치는 주소 정의 컬렉션입니다. 컬렉션의 각 주소 정의는 공통 이름을 IP 주소와 연결합니다.
+네트워크 위치는 주소 정의의 명명된 컬렉션입니다. 컬렉션의 각 주소 정의는 공통 이름을 IP 주소와 연결합니다.
 
-주소 파일에서 네트워크 위치는 NetworkLocation이라는 구조로 정의됩니다. 다음 예제의 NetworkLocation은 &quot;MyCorporate Intranet&quot;이라는 네트워크 위치를 정의합니다. 여기에는 공통 이름을 IP 주소 &quot;10.2.1.70&quot; [!DNL VS01.myCompany.com] 에 매핑하는 주소 정의가 포함됩니다.
+주소 파일에서 네트워크 위치는 NetworkLocation이라는 구조에 정의됩니다. 다음 예제의 NetworkLocation은 &quot;MyCorporate Intranet&quot;이라는 네트워크 위치를 정의합니다. 여기에는 공통 이름 [!DNL VS01.myCompany.com]을 IP 주소 &quot;10.2.1.70&quot;에 매핑하는 주소 정의가 포함되어 있습니다.
 
 ```
 0 = NetworkLocation: 
@@ -32,7 +31,7 @@ ht-degree: 2%
   Parent = string: 
 ```
 
-위의 예에서 보듯이 NetworkLocation 구조는 세 가지 기본 매개 변수로 구성됩니다.
+위의 예에서 보듯이 NetworkLocation 구조는 다음 3개의 기본 매개 변수로 구성됩니다.
 
 <table id="table_9142A0EFA15E4C37975E7ACE234F6FDD"> 
  <thead> 
@@ -48,7 +47,7 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td colname="col1"> 이름 </td> 
-   <td colname="col2"> NetworkLocation에 이름을 지정합니다. NetworkLocation에 할당된 이름은 주소 파일 내에서 고유해야 합니다. </td> 
+   <td colname="col2"> NetworkLocation에 이름을 할당합니다. NetworkLocation에 할당된 이름은 주소 파일 내에서 고유해야 합니다. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 상위 </td> 
