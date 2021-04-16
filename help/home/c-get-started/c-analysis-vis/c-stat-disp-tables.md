@@ -1,19 +1,20 @@
 ---
-description: 통계 표시를 사용하면 다차원 테이블에서 데이터가 서로 어떻게 연관되어 있는지 분석할 수 있습니다.
-solution: Analytics
-title: 표의 통계 표시
-topic: Data workbench
+description: 통계 표시를 사용하면 데이터가 다차원 테이블에서 서로 관련되는 방식을 분석할 수 있습니다.
+title: 표에서 통계 표시
 uuid: 80800439-169e-44cd-9810-bbe39dfa9541
+exl-id: 6be0ea73-ffc5-4c8b-9ce4-9ba057f317da
 translation-type: tm+mt
-source-git-commit: aec1f7b14198cdde91f61d490a235022943bfedb
+source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+workflow-type: tm+mt
+source-wordcount: '92'
+ht-degree: 8%
 
 ---
 
+# 표에서 통계 표시{#statistical-display-in-tables}
 
-# 표의 통계 표시{#statistical-display-in-tables}
+통계 표시를 사용하면 데이터가 다차원 테이블에서 서로 관련되는 방식을 분석할 수 있습니다.
 
-통계 표시를 사용하면 다차원 테이블에서 데이터가 서로 어떻게 연관되어 있는지 분석할 수 있습니다.
+예를 들어 빨간색 신발 구입이 빨간색 벨트 또는 다른 색상 벨트의 구매와 통계적으로 관련이 있는지 알고 싶을 수 있습니다. 관계가 예상보다 많은지 또는 예상보다 적은지 여부를 나타내는 통계가 표시됩니다.
 
-예를 들어, 여러분은 빨간 신발의 구입이 통계적으로 빨간색 벨트의 구매와 관련이 있는지 아니면 다른 색상 벨트와 관련이 있는지 알고 싶을 수 있습니다. 관계가 예상보다 많은지 또는 예상보다 적은지 여부를 나타내는 통계입니다.
-
-표의 위쪽 테두리에서 마우스 오른쪽 단추로 **[!UICONTROL Display As]** > **[!UICONTROL Stats]**&#x200B;을 클릭합니다.
+표의 위쪽 테두리에서 **[!UICONTROL Display As]** > **[!UICONTROL Stats]**&#x200B;을 마우스 오른쪽 단추로 클릭합니다.
