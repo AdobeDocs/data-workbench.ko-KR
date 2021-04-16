@@ -1,14 +1,15 @@
 ---
 description: 메일 XSL 스타일 시트의 코드 샘플입니다.
-solution: Analytics
 title: 샘플 메일 XSL 스타일 시트
-topic: Data workbench
 uuid: 846ddf22-e6da-4d37-ba50-d75f850b9a3f
+exl-id: 4b868da4-1a3b-454c-940c-8ffd9644c92a
 translation-type: tm+mt
-source-git-commit: aec1f7b14198cdde91f61d490a235022943bfedb
+source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+workflow-type: tm+mt
+source-wordcount: '24'
+ht-degree: 41%
 
 ---
-
 
 # 샘플 메일 XSL 스타일 시트{#sample-mail-xsl-style-sheet}
 
@@ -29,4 +30,3 @@ source-git-commit: aec1f7b14198cdde91f61d490a235022943bfedb
 </xsl:template>
 </xsl:stylesheet>
 ```
-
