@@ -1,20 +1,21 @@
 ---
-description: 데이터 워크벤치를 사용하면 추가 수학적 계산을 적용할 수 있습니다.
-solution: Analytics
+description: 데이터 워크벤치를 사용하면 추가 수학 계산을 사용할 수 있습니다.
 title: 수학 표현식의 구문
-topic: Data workbench
 uuid: 63eee559-edfc-4efc-a6c8-66689d156701
+exl-id: a1433258-d3e8-4515-a1ae-00f9108e98c0
 translation-type: tm+mt
-source-git-commit: aec1f7b14198cdde91f61d490a235022943bfedb
+source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+workflow-type: tm+mt
+source-wordcount: '152'
+ht-degree: 8%
 
 ---
 
-
 # 수학 표현식의 구문{#syntax-for-math-expressions}
 
-데이터 워크벤치를 사용하면 추가 수학적 계산을 적용할 수 있습니다.
+데이터 워크벤치를 사용하면 추가 수학 계산을 사용할 수 있습니다.
 
-수학 함수를 사용하여 수학 변환, 지표 편집기 시각화 및 워크시트 데이터를 평가하고 표시할 수 있습니다.
+수학 함수를 사용하여 수학 변형, 지표 편집기 시각화 및 워크시트 데이터를 평가하고 표시할 수 있습니다.
 
 <table id="table_B2A4F9D5938D4756A81ACF6F4D77E63D"> 
  <thead> 
@@ -26,7 +27,7 @@ source-git-commit: aec1f7b14198cdde91f61d490a235022943bfedb
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>절대 </p> </td> 
+   <td colname="col1"> <p>absolute </p> </td> 
    <td colname="col02"> <p>abs( ) </p> </td> 
    <td colname="col2"> <p>수학 변형, 지표 편집기 및 워크시트 셀 </p> </td> 
   </tr> 
@@ -63,12 +64,12 @@ source-git-commit: aec1f7b14198cdde91f61d490a235022943bfedb
   <tr> 
    <td colname="col1"> <p>maximum </p> </td> 
    <td colname="col02"> <p>max( ) </p> </td> 
-   <td colname="col2"> <p>수학 변환 및 통계 설명선 </p> </td> 
+   <td colname="col2"> <p>수학 변환 및 통계 콜아웃 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>최소 </p> </td> 
+   <td colname="col1"> <p>minimum </p> </td> 
    <td colname="col02"> <p>분( ) </p> </td> 
-   <td colname="col2"> <p>수학 변환 및 통계 설명선 </p> </td> 
+   <td colname="col2"> <p>수학 변환 및 통계 콜아웃 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>ln(자연 로그) </p> </td> 
@@ -87,4 +88,3 @@ source-git-commit: aec1f7b14198cdde91f61d490a235022943bfedb
   </tr> 
  </tbody> 
 </table>
-
