@@ -1,18 +1,19 @@
 ---
-description: 요청 시 추가 측정을 수집하기 위해 쿼리 문자열 변수를 JavaScript 요청에 추가할 수 있습니다.
-solution: Analytics
-title: 추가 정보 얻기
-topic: Data workbench
+description: 요청 시 추가 측정을 수집하도록 쿼리 문자열 변수를 JavaScript 요청에 추가할 수 있습니다.
+title: 추가 정보 가져오기
 uuid: 0a8075e9-4986-42c4-b505-3985b433cf8e
+exl-id: ad4f5e08-b7b7-4de3-b0c2-71440facb2d1
 translation-type: tm+mt
-source-git-commit: aec1f7b14198cdde91f61d490a235022943bfedb
+source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+workflow-type: tm+mt
+source-wordcount: '173'
+ht-degree: 4%
 
 ---
 
+# 추가 정보 가져오기{#acquiring-additional-information}
 
-# 추가 정보 얻기{#acquiring-additional-information}
-
-요청 시 추가 측정을 수집하기 위해 쿼리 문자열 변수를 JavaScript 요청에 추가할 수 있습니다.
+요청 시 추가 측정을 수집하도록 쿼리 문자열 변수를 JavaScript 요청에 추가할 수 있습니다.
 
 이러한 변수는 페이지 자체에서 수동으로 또는 스크립트로 추가할 수 있습니다.
 
@@ -43,4 +44,3 @@ v["_2"] = "visa";
 | v_pn= | v_pn 쿼리 문자열 변수와 연결된 값 | v_pn=응용 프로그램 양식 |
 | v_1= | v_1 쿼리 문자열 변수와 연결된 값 | v_1=99.99 |
 | v_2= | v_2 쿼리 문자열 변수와 연결된 값 | v_2=visa |
-
