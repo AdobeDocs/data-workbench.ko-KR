@@ -1,16 +1,17 @@
 ---
 description: 프로필 구성 요소에 대한 식별 정보 보기에 대한 정보입니다.
-solution: Analytics
-title: 노드 세부 사항 보기
-topic: Data workbench
+title: 노드 세부 정보 보기
 uuid: 2016a650-b021-4295-8313-d6287578ed10
+exl-id: f8ce7741-8ba2-484d-ac35-5c286b65f098
 translation-type: tm+mt
-source-git-commit: aec1f7b14198cdde91f61d490a235022943bfedb
+source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+workflow-type: tm+mt
+source-wordcount: '262'
+ht-degree: 4%
 
 ---
 
-
-# 노드 세부 사항 보기{#view-node-details}
+# 노드 세부 정보 보기{#view-node-details}
 
 프로필 구성 요소에 대한 식별 정보 보기에 대한 정보입니다.
 
@@ -18,7 +19,7 @@ source-git-commit: aec1f7b14198cdde91f61d490a235022943bfedb
 
 **로그 소스**
 
-로그 소스의 이름과 로그 소스가 정의된 파일의 이름입니다.
+로그 소스의 이름 및 로그 소스가 정의된 파일의 이름입니다.
 
 ![](assets/vis_DependencyMap_LogSourceID.png)
 
@@ -28,15 +29,15 @@ source-git-commit: aec1f7b14198cdde91f61d490a235022943bfedb
 
 ![](assets/vis_DependencyMap_FieldID.png)
 
-**변형**
+**변환**
 
-변환의 유형 및 이름, 변형을 정의할 파일의 이름 및 파일에 있는 변환 번호입니다.
+변환의 유형 및 이름, 변형을 정의할 파일의 이름 및 파일에 있는 변환의 번호입니다.
 
 ![](assets/vis_DependencyMap_TransformationID.png)
 
 >[!NOTE]
 >
->변환에 대한 성능 정보는 종속성 맵에 대해 [!DNL Show Performance Data] 옵션이 활성화된 경우에만 표시됩니다. 자세한 내용은 성능 데이터 [표시를 참조하십시오](../../../../../home/c-get-started/c-admin-intrf/c-dataset-mgrs/c-dep-maps/c-disp-perf-data.md#concept-974e2bac3e184f0dab530e63aa4f5ecb).
+>변환에 대한 성능 정보는 종속성 맵에 대해 [!DNL Show Performance Data] 옵션이 활성화된 경우에만 표시됩니다. 자세한 내용은 [성능 데이터 표시](../../../../../home/c-get-started/c-admin-intrf/c-dataset-mgrs/c-dep-maps/c-disp-perf-data.md#concept-974e2bac3e184f0dab530e63aa4f5ecb)를 참조하십시오.
 
 **확장 차원**
 
@@ -46,7 +47,7 @@ source-git-commit: aec1f7b14198cdde91f61d490a235022943bfedb
 
 >[!NOTE]
 >
->종속성 맵에 대해 옵션이 활성화된 경우에만 확장 차원에 대한 성능 정보가 [!DNL Show Performance Data] 표시됩니다. 자세한 내용은 성능 데이터 [표시를 참조하십시오](../../../../../home/c-get-started/c-admin-intrf/c-dataset-mgrs/c-dep-maps/c-disp-perf-data.md#concept-974e2bac3e184f0dab530e63aa4f5ecb).
+>확장 차원에 대한 성능 정보는 종속성 맵에 대해 [!DNL Show Performance Data] 옵션이 활성화된 경우에만 표시됩니다. 자세한 내용은 [성능 데이터 표시](../../../../../home/c-get-started/c-admin-intrf/c-dataset-mgrs/c-dep-maps/c-disp-perf-data.md#concept-974e2bac3e184f0dab530e63aa4f5ecb)를 참조하십시오.
 
 **지표**
 
@@ -54,7 +55,7 @@ source-git-commit: aec1f7b14198cdde91f61d490a235022943bfedb
 
 ![](assets/vis_DependencyMap_MetricID.png)
 
-**파생 차원**
+**파생된 Dimension**
 
 파생된 차원의 이름입니다.
 
@@ -68,7 +69,7 @@ source-git-commit: aec1f7b14198cdde91f61d490a235022943bfedb
 
 **작업 영역 및 보고서**
 
-프로필의 작업 공간 또는 보고서 디렉토리에 있는 작업 영역 또는 보고서의 경로입니다.
+프로필의 작업 공간 또는 보고서 디렉토리에 있는 작업 공간 또는 보고서의 경로입니다.
 
 ![](assets/vis_DependencyMap_WorkspaceID.png)
 
@@ -80,5 +81,4 @@ source-git-commit: aec1f7b14198cdde91f61d490a235022943bfedb
 
 **프로필 구성 요소에 대한 입력 또는 출력을 보려면**
 
-* 원하는 노드를 마우스 오른쪽 단추로 클릭하고 **[!UICONTROL Inputs]** 또는 를 **[!UICONTROL Outputs]**&#x200B;클릭합니다. 입력 또는 출력 목록이 표시됩니다.
-
+* 원하는 노드를 마우스 오른쪽 단추로 클릭하고 **[!UICONTROL Inputs]** 또는 **[!UICONTROL Outputs]**&#x200B;을 클릭합니다. 입력 또는 출력 목록이 표시됩니다.
