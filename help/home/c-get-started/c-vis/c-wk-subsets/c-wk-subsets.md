@@ -1,16 +1,16 @@
 ---
-description: 데이터 하위 집합을 사용하면 데이터 세트에 있는 관심 요소만 선택하여 쿼리할 수 있습니다. 이렇게 하면 데이터 워크벤치 계산 속도가 빨라져 쿼리 결과가 빨라집니다.
-solution: Analytics
-title: 하위 세트
-topic: Data workbench
+description: 데이터 하위 집합을 사용하면 데이터 세트에 있는 관심 있는 요소만 선택하고 쿼리할 수 있습니다. 이렇게 하면 Data Workbench 계산 속도가 빨라지고 쿼리 결과가 빨라집니다.
+title: 하위 집합
 uuid: 66347eb5-a7da-479c-a318-1f859568b23b
+exl-id: f2c0cb63-32a6-40b3-b8e1-b14db2a16fa9
 translation-type: tm+mt
-source-git-commit: aec1f7b14198cdde91f61d490a235022943bfedb
+source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+workflow-type: tm+mt
+source-wordcount: '66'
+ht-degree: 3%
 
 ---
 
+# 하위 집합{#subsets}
 
-# 하위 세트{#subsets}
-
-데이터 하위 집합을 사용하면 데이터 세트에 있는 관심 요소만 선택하여 쿼리할 수 있습니다. 이렇게 하면 데이터 워크벤치 계산 속도가 빨라져 쿼리 결과가 빨라집니다.
-
+데이터 하위 집합을 사용하면 데이터 세트에 있는 관심 있는 요소만 선택하고 쿼리할 수 있습니다. 이렇게 하면 Data Workbench 계산 속도가 빨라지고 쿼리 결과가 빨라집니다.
