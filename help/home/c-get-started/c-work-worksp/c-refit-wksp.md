@@ -1,19 +1,20 @@
 ---
-description: 작업 공간 조정 기능을 사용하면 시각화의 크기를 사용 중인 디스플레이 해상도로 조정할 수 있습니다.
-solution: Analytics
-title: 작업 영역 리플로우
-topic: Data workbench
+description: Refit Workspace는 시각화의 크기를 사용 중인 표시 해상도로 조정합니다.
+title: 작업 영역 다시 맞춤
 uuid: bbb5cd7b-4973-419d-9a13-52b36422259a
+exl-id: a84d24db-6690-4f9a-a01e-dbc549ca13c5
 translation-type: tm+mt
-source-git-commit: aec1f7b14198cdde91f61d490a235022943bfedb
+source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+workflow-type: tm+mt
+source-wordcount: '42'
+ht-degree: 14%
 
 ---
 
+# 작업 영역 다시 맞춤{#refit-a-workspace}
 
-# 작업 영역 리플로우{#refit-a-workspace}
-
-작업 공간 조정 기능을 사용하면 시각화의 크기를 사용 중인 디스플레이 해상도로 조정할 수 있습니다.
+Refit Workspace는 시각화의 크기를 사용 중인 표시 해상도로 조정합니다.
 
 작업 공간에서 **[!UICONTROL File]** > **[!UICONTROL Refit Workspace]**&#x200B;을 클릭합니다.
 
-이 기능은 프레젠테이션의 디스플레이를 신속하게 조정하는 데 유용합니다.
+프레젠테이션의 표시를 빠르게 조정하는 데 유용합니다.
