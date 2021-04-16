@@ -1,14 +1,15 @@
 ---
 description: 보고서 인덱스의 코드 샘플입니다.
-solution: Analytics
 title: 샘플 보고서 색인
-topic: Data workbench
 uuid: 38711240-8434-4f8f-81da-6c223064613b
+exl-id: 33a038c0-c3d1-4458-a2dd-8ec5155396b5
 translation-type: tm+mt
-source-git-commit: aec1f7b14198cdde91f61d490a235022943bfedb
+source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+workflow-type: tm+mt
+source-wordcount: '18'
+ht-degree: 33%
 
 ---
-
 
 # 샘플 보고서 색인{#sample-report-index}
 
@@ -109,4 +110,3 @@ source-git-commit: aec1f7b14198cdde91f61d490a235022943bfedb
   </REPORT> 
 </REPORTS>
 ```
-
