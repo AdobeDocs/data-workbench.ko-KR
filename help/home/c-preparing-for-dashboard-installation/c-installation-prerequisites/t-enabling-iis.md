@@ -1,29 +1,30 @@
 ---
 description: 첫 번째 단계는 대시보드 서버에서 IIS 역할을 활성화하는 것입니다.
-solution: Analytics
 title: IIS 활성화
-topic: Data workbench
 uuid: fbd194db-3307-41ae-8ece-05eb261d74ad
+exl-id: 0d431302-1e69-49b6-8757-9823fd70a3b4
 translation-type: tm+mt
-source-git-commit: aec1f7b14198cdde91f61d490a235022943bfedb
+source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+workflow-type: tm+mt
+source-wordcount: '126'
+ht-degree: 4%
 
 ---
-
 
 # IIS 활성화{#enabling-iis}
 
 첫 번째 단계는 대시보드 서버에서 IIS 역할을 활성화하는 것입니다.
 
-1. 아래에서 **[!UICONTROL Administrative Tools]**&#x200B;을 **[!UICONTROL Server Manager]**&#x200B;엽니다.
-1. 창의 왼쪽 부분에 있는 역할 메뉴 항목을 마우스 오른쪽 단추로 **[!UICONTROL Server Manager]** 클릭합니다.
-1. 선택 **[!UICONTROL Add Roles]**.
-1. 을 **[!UICONTROL Web Server (IIS)]** 선택하고 계속 진행합니다 **[!UICONTROL Add Roles Wizard]**. 다음 역할 서비스가 활성화되어 있는지 확인합니다.
+1. **[!UICONTROL Administrative Tools]** 아래에서 **[!UICONTROL Server Manager]**&#x200B;을 엽니다.
+1. **[!UICONTROL Server Manager]** 창의 왼쪽 부분에 있는 역할 메뉴 항목을 마우스 오른쪽 단추로 클릭합니다.
+1. **[!UICONTROL Add Roles]**&#x200B;을 선택합니다.
+1. **[!UICONTROL Web Server (IIS)]**&#x200B;을 선택하고 **[!UICONTROL Add Roles Wizard]**&#x200B;을 계속 진행합니다. 다음 역할 서비스가 활성화되어 있는지 확인합니다.
 
    | 일반적인 HTTP 기능 |
    |---|
    | 정적 컨텐츠 |
    | 기본 문서 |
-   | 디렉토리 탐색 |
+   | 디렉토리 검색 |
    | HTTP 오류 |
    | HTTP 리디렉션 |
 
