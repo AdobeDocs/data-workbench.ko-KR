@@ -1,16 +1,16 @@
 ---
-description: 확장 측정 획득, 링크 클릭 및 외부 링크에 대한 종료 추적 등에 대한 개념 정보입니다.
-solution: Analytics
+description: 확장 측정 획득과 외부 링크에 대한 링크 클릭 및 종료 추적 등에 대한 개념 정보입니다.
 title: 확장 측정 가져오기
-topic: Data workbench
 uuid: 02d9ba3b-fc94-4b08-90ba-9e3cfe137b5e
+exl-id: b0594788-b1dc-487d-bab2-fa55ee07ec21
 translation-type: tm+mt
-source-git-commit: aec1f7b14198cdde91f61d490a235022943bfedb
+source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+workflow-type: tm+mt
+source-wordcount: '36'
+ht-degree: 16%
 
 ---
 
-
 # 확장 측정 가져오기{#acquiring-extended-measurements}
 
-확장 측정 획득, 링크 클릭 및 외부 링크에 대한 종료 추적 등에 대한 개념 정보입니다.
-
+확장 측정 획득과 외부 링크에 대한 링크 클릭 및 종료 추적 등에 대한 개념 정보입니다.
