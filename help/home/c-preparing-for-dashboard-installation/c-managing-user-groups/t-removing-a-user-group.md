@@ -1,14 +1,15 @@
 ---
-description: 'null'
-solution: Analytics
+description: 사용자 그룹 제거
 title: 사용자 그룹 제거
-topic: Data workbench
 uuid: 722f7ef9-5f93-4944-a1d2-4fbd7833b4f7
+exl-id: 826e8e4f-d64c-43cc-beff-9e03a27d62ca
 translation-type: tm+mt
-source-git-commit: aec1f7b14198cdde91f61d490a235022943bfedb
+source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+workflow-type: tm+mt
+source-wordcount: '62'
+ht-degree: 20%
 
 ---
-
 
 # 사용자 그룹 제거{#removing-a-user-group}
 
@@ -16,4 +17,4 @@ source-git-commit: aec1f7b14198cdde91f61d490a235022943bfedb
 
    그룹 1을 삭제할지 여부를 묻는 메시지가 표시됩니다. 클릭 **[!UICONTROL Yes]**.
 
-   작업이 성공하면 그룹이 성공적으로 제거되었음을 나타내는 메시지가 표시됩니다.
+   작업이 성공하면 그룹이 성공적으로 제거되었음을 알리는 메시지가 표시됩니다.
