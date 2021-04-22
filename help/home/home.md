@@ -1,14 +1,14 @@
 ---
 description: Data Workbench 설명서
 title: Data Workbench 도움말
-feature: Reports & Analytics Basics
+feature: Reports & Analytics 기본 사항
 uuid: 987b69f1-b82a-4719-a71d-b0250a4a4f92
 exl-id: 9c00c87e-e5dd-4806-9338-2336ae68176a
 translation-type: tm+mt
 source-git-commit: 3223733866e82b4ce439ee55fe96fed89a02c5c4
 workflow-type: tm+mt
 source-wordcount: '273'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -46,7 +46,7 @@ Data Workbench에는 다음과 같은 예측 분석 기능, 데이터 시각화 
 
 [Data Workbench 6.52](/help/home/c-release-notes-insight/c-6-52.md) 가 출시되었습니다. 여기에는 데이터 소스 로그 파일을 처리하기 위한 AVRO 업그레이드가 포함됩니다.
 
-[Data Workbench 6.51](/help/home/c-release-notes-insight/c-6-51.md) 이 출시되었습니다. 여기에는 막대 그래프 표시에 새로운 AVRO 피드 및 그래디언트 오버레이가 포함됩니다.
+[Data Workbench 6.51](/help/home/c-release-notes-insight/c-6-51.md) 이 출시되었습니다. 여기에는 막대그래프 표시에 새로운 AVRO 피드 및 그래디언트 오버레이가 포함됩니다.
 
 [Data Workbench 6.5](/help/home/c-release-notes-insight/c-6-5.md) 가 출시되었습니다. 다음을 비롯한 새로운 기능과 함께 최신 버전의 Data Workbench을 설치하십시오.
 
