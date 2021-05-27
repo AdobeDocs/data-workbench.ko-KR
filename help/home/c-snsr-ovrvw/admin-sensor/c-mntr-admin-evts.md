@@ -1,9 +1,8 @@
 ---
-description: 센서 오류를 가능한 한 빨리 감지하고 중대한 문제 또는 정전을 일으키기 전에 복구하려면 이벤트 로그를 정기적으로 모니터링해야 합니다.
+description: 센서 오류를 가능한 한 빨리 감지하여 주요 문제 또는 정전을 발생하기 전에 복구하려면 이벤트 로그를 정기적으로 모니터링해야 합니다.
 title: 관리 이벤트 모니터링
 uuid: c43d6509-6950-4436-8d6c-be7b00664f05
 exl-id: 70894074-b8aa-4f6c-87d1-d0403f4c3319
-translation-type: tm+mt
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
 workflow-type: tm+mt
 source-wordcount: '1092'
@@ -13,11 +12,11 @@ ht-degree: 1%
 
 # 관리 이벤트 모니터링{#monitoring-administrative-events}
 
-센서 오류를 가능한 한 빨리 감지하고 중대한 문제 또는 정전을 일으키기 전에 복구하려면 이벤트 로그를 정기적으로 모니터링해야 합니다.
+센서 오류를 가능한 한 빨리 감지하여 주요 문제 또는 정전을 발생하기 전에 복구하려면 이벤트 로그를 정기적으로 모니터링해야 합니다.
 
 **권장 빈도:** 최소 시간별
 
-Windows 이벤트 뷰어 또는 Unix Syslog 파일과 [!DNL Sensor] 설치 디렉토리 내의 [!DNL Logs] 폴더에 기본적으로 있는 [!DNL *.sensor-log] 파일을 사용하여 이러한 이벤트를 모니터링할 수 있습니다. 이러한 파일은 데이터 수집 중 오류가 있음을 나타냅니다. 특히 [!DNL Sensor]이 대상 [!DNL data workbench server]에 연결할 수 없고 데이터를 큐에 올리기 시작하는 경우 그렇습니다.
+Windows 이벤트 뷰어 또는 Unix Syslog 파일과 [!DNL Sensor] 설치 디렉토리 내의 [!DNL Logs] 폴더에 기본적으로 있는 [!DNL *.sensor-log] 파일을 사용하여 이러한 이벤트를 모니터링할 수 있습니다. 이러한 파일은 데이터 수집 중에 오류가 있음을 나타냅니다. 특히 [!DNL Sensor]이 대상 [!DNL data workbench server]에 연결할 수 없고 데이터 대기열 생성을 시작할 수 없는 경우
 
 ## Windows {#section-7c0443a356af4381bf22259654f5cd17}에서 이벤트 모니터링
 
@@ -25,7 +24,7 @@ Windows 이벤트 뷰어 또는 Unix Syslog 파일과 [!DNL Sensor] 설치 디�
 
 메시지는 심각도에 따라 &quot;정보&quot;, &quot;경고&quot; 또는 &quot;오류&quot;로 기록됩니다.
 
-**Windows 이벤트 뷰어를 열려면 다음을 수행합니다**.
+**Windows 이벤트 뷰어를 열려면 다음을 수행하십시오**.
 
 * **시작 > Campaign 컨트롤 패널 > 관리 도구 > 이벤트 뷰어**&#x200B;를 클릭합니다.
 
@@ -33,41 +32,41 @@ Windows 이벤트 뷰어 또는 Unix Syslog 파일과 [!DNL Sensor] 설치 디�
 
 센서가 [!DNL syslog] 데몬에 오류를 기록합니다.
 
-syslog 데몬은 syslog.conf 파일에 지정한 규칙에 따라 로그 파일에 오류 메시지를 기록합니다. 심각도에 따라 &quot;LOG_DAEMON&quot; 및 &quot;LOG_NOTICE&quot; 또는 &quot;LOG_ERR&quot; 플래그로 오류가 기록됩니다.
+syslog 데몬은 syslog.conf 파일에 지정한 규칙에 따라 오류 메시지를 로그 파일에 기록합니다. 오류는 심각도에 따라 &quot;LOG_DAEMON&quot; 플래그와 &quot;LOG_NOTICE&quot; 또는 &quot;LOG_ERR&quot;로 기록됩니다.
 
-**Unix Syslog를 열려면**
+**Unix syslog를 열려면**
 
 Unix syslog는 일반적으로 [!DNL /var/adm/messages] 또는 [!DNL /var/log/messages]에 있습니다.
 
-적절한 위치를 찾아 syslog를 엽니다.
+해당 위치로 이동하여 syslog를 엽니다.
 
 ## 메시지 형식 이해 {#section-a0899add30fd4b2da58a23b9e3324693}
 
-모든 센서 메시지는 &quot;센서&quot; 문자열을 포함하며 표시되는 메시지의 중요도를 반영하도록 번호가 지정됩니다.
+모든 센서 메시지에는 문자열 &quot;센서&quot;가 포함되며 표시되는 메시지의 중요도를 반영하도록 번호가 지정됩니다.
 
 | 메시지 번호 | 메시지 의미 | 메시지 문자열 |
 |---|---|---|
-| 1xxx | 정보 제공 | 센서 정보 번호 |
+| 1xxx | 정보 | 센서 정보 번호 |
 | 2xxx | 경고 | 센서 경고 번호 |
 | 3xxx | 구성 오류 | 센서 오류 번호 |
-| 4xxx | 작동 오류 | 센서 오류 번호 |
+| 4xxx | 운영 오류 | 센서 오류 번호 |
 | 5xxx | 내부 오류 | 센서 오류 번호 |
 
 >[!NOTE]
 >
->경고(2xxx)는 현재 사용 중이 아닙니다. 이 번호는 나중에 사용할 수 있도록 예약되어 있습니다.
+>경고(2xxx)가 현재 사용 중이 아닙니다. 이 번호는 나중에 사용하기 위해 예약되어 있습니다.
 
-네트워크 관리 도구는 &quot;센서&quot; 소스의 오류에 대해 5-10분마다 메시지를 모니터링하고 개입이 필요할 수 있는 문제에 대해 적절한 담당자에게 경고하도록 설정할 수 있습니다. &quot;Sensor Error&quot; 문자열 등 특정 유형의 이벤트 메시지만 시스템을 모니터링하도록 선택할 수 있습니다. 또는 &quot;센서 정보&quot;, &quot;센서 경고&quot; 및 &quot;센서 오류&quot; 문자열이 앞에 있는 이벤트에 다른 규칙을 적용할 수 있습니다.
+네트워크 관리 도구를 설정하여 5-10분마다 &quot;센서&quot; 소스를 사용한 오류에 대해 메시지를 모니터링하고 개입이 필요할 수 있는 문제에 대해 적절한 담당자에게 알릴 수 있습니다. &quot;센서 오류&quot; 문자열과 같은 특정 유형의 이벤트 메시지만 시스템을 모니터링하도록 선택할 수 있습니다. 또는 &quot;센서 정보&quot;, &quot;센서 경고&quot; 및 &quot;센서 오류&quot; 문자열이 앞에 있는 이벤트에 다른 규칙을 적용할 수 있습니다.
 
-## 중요 메시지 식별 {#section-5a20f5dc18ca4012931d194db855e54e}
+## 중요한 메시지 식별 {#section-5a20f5dc18ca4012931d194db855e54e}
 
-이벤트 로그 내에서 큐 크기와 관련된 메시지를 즉시 해결해야 합니다.
+이벤트 로그 내에서 큐 크기와 관련된 모든 메시지에 특별히 주의를 기울여야 하며 즉시 주소를 지정해야 합니다.
 
-예를 들어 &quot;[!DNL Sensor Info 1012: Adobe disk queue is #% full]&quot;과 같은 메시지는 주의가 필요합니다.
+예를 들어 &quot;[!DNL Sensor Info 1012: Adobe disk queue is #% full]&quot;와 같은 메시지는 주의가 필요합니다.
 
-## 센서 이벤트 메시지 응답 {#section-0004c4a169dc4a8882d9bd87dd326ad4}
+## 센서 이벤트 메시지 {#section-0004c4a169dc4a8882d9bd87dd326ad4}에 응답
 
-지원되는 웹 서버 플랫폼에 대한 센서 이벤트와 제안된 작업을 설명하는 표.
+지원되는 웹 서버 플랫폼에 대한 센서 이벤트 및 제안된 작업을 설명하는 테이블입니다.
 
 **모든 플랫폼**
 
@@ -75,7 +74,7 @@ Unix syslog는 일반적으로 [!DNL /var/adm/messages] 또는 [!DNL /var/log/me
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> 이벤트 메시지 </th> 
-   <th colname="col2" class="entry"> 제안된 작업 </th> 
+   <th colname="col2" class="entry"> 추천 작업 </th> 
   </tr>
  </thead>
  <tbody> 
@@ -84,43 +83,43 @@ Unix syslog는 일반적으로 [!DNL /var/adm/messages] 또는 [!DNL /var/log/me
    <td colname="col2"> 필요한 작업이 없습니다. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> 센서 정보 1011:센서가 종료되었습니다. 큐에 있는 총 클릭 수 ## </td> 
+   <td colname="col1"> 센서 정보 1011:센서가 종료되었습니다. 대기 중인 총 클릭 수 ## </td> 
    <td colname="col2"> 필요한 작업이 없습니다. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> 센서 정보 1012:Adobe 디스크 큐가 #% 찼습니다. </td> 
-   <td colname="col2"> 디스크 큐 사용률이 10% 임계값을 넘을 때마다 이 메시지가 기록됩니다. 이 백분율이 계속 증가하면 큐가 가득 차고 데이터가 손실되기 전에 조치를 취해야 합니다. 센서가 Insight Server와의 통신을 중지했다는 것이 가장 큰 문제가 되었습니다. Adobe ClientCare에 문의하십시오. </td> 
+   <td colname="col1"> 센서 정보 1012:Adobe 디스크 큐가 #% 가득 찼습니다. </td> 
+   <td colname="col2"> 이 메시지는 디스크 큐 사용률이 10% 임계값을 넘을 때마다 기록됩니다. 이 비율이 계속 증가하는 경우 큐가 가득 차서 데이터가 손실되기 전에 작업을 수행해야 합니다. 가장 가능성 있는 문제는 센서가 Insight Server와의 통신을 중지했다는 것입니다. Adobe ClientCare에 문의하십시오. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> 센서 정보 1013:센서 구성 변경 </td> 
-   <td colname="col2"> 필요한 작업이 없습니다. 센서가 해당 구성 파일 중 하나의 변경 사항을 감지하여 다시 로드합니다. </td> 
+   <td colname="col1"> 센서 정보 1013:센서 구성이 변경되었습니다. </td> 
+   <td colname="col2"> 필요한 작업이 없습니다. 센서가 구성 파일 중 하나에서 변경 내용을 감지하여 다시 로드합니다. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> 센서 정보 1014:무작위 번호 생성기의 시드 문제 </td> 
+   <td colname="col1"> 센서 정보 1014:난수 생성기의 시드 문제 </td> 
    <td colname="col2"> Adobe ClientCare에 문의하십시오. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> 센서 정보 1016:구성 파일 이름이 로드되었습니다. </td> 
-   <td colname="col2"> 필요한 작업이 없습니다. 센서가 나열된 구성 파일을 성공적으로 로드했습니다. </td> 
+   <td colname="col1"> 센서 정보 1016:구성 파일 이름이 로드됨 </td> 
+   <td colname="col2"> 필요한 작업이 없습니다. 센서가 나열된 구성 파일을 로드했습니다. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> 센서 정보 1017:파일 이름 불러오기 실험 </td> 
-   <td colname="col2"> 필요한 작업이 없습니다. 센서가 나열된 실험 파일을 성공적으로 로드했습니다. </td> 
+   <td colname="col1"> 센서 정보 1017:실험 파일 이름이 로드됨 </td> 
+   <td colname="col2"> 필요한 작업이 없습니다. 센서가 나열된 실험 파일을 로드했습니다. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 센서 오류 3016:구성 파일 /mypath/myfile을 로드할 수 없습니다. </td> 
-   <td colname="col2"> 웹 서버 구성에 지정된 센서 구성 파일이 존재하며 웹 서버 프로세스에서 읽어야 하는 권한이 있는지 확인합니다. </td> 
+   <td colname="col2"> 웹 서버 구성에 지정된 센서 구성 파일이 있고 웹 서버 프로세스에서 읽어야 하는 권한이 있는지 확인합니다. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Sensor 3017:제어된 실험 구성 파일 /mypath/myfile을 로드할 수 없습니다. </p> </td> 
-   <td colname="col2"> <p>txlogd.conf에 지정된 제어 실험 파일이 존재하며 텍스트 프로세스에 파일을 읽는 데 필요한 권한이 있는지 확인합니다. </p> </td> 
+   <td colname="col2"> <p>txlogd.conf에 지정된 통제 실험 파일이 있고 txlogd 프로세스에 파일을 읽는 데 필요한 권한이 있는지 확인합니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> 센서 오류 3018:콘텐츠 필터 목록을 구문 분석할 수 없습니다. 텍스트 구성 파일 확인 </td> 
+   <td colname="col1"> 센서 오류 3018:콘텐츠 필터 목록을 구문 분석할 수 없습니다. txlogd 구성 파일 확인 </td> 
    <td colname="col2"> txlogd.conf에서 ContentFilterInclude 및 ContentFilterExclude 항목의 구문을 확인합니다. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> 센서 오류 3023:잠금을 만들지 못했습니다(g_lockThrottle). </td> 
+   <td colname="col1"> 센서 오류 3023:잠금(g_lockThrottle)을 만들지 못했습니다. </td> 
    <td colname="col2"> Adobe ClientCare에 문의하십시오. </td> 
   </tr> 
   <tr> 
@@ -152,7 +151,7 @@ Unix syslog는 일반적으로 [!DNL /var/adm/messages] 또는 [!DNL /var/log/me
    <td colname="col2"> Adobe ClientCare에 문의하십시오. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> 센서 오류 5030:포크 오류입니다. </td> 
+   <td colname="col1"> 센서 오류 5030:포크 오류를 발생시킵니다. </td> 
    <td colname="col2"> Adobe ClientCare에 문의하십시오. </td> 
   </tr> 
   <tr> 
@@ -160,7 +159,7 @@ Unix syslog는 일반적으로 [!DNL /var/adm/messages] 또는 [!DNL /var/log/me
    <td colname="col2"> Adobe ClientCare에 문의하십시오. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> 센서 오류 5032:포크 오류입니다. </td> 
+   <td colname="col1"> 센서 오류 5032:포크 오류를 발생시킵니다. </td> 
    <td colname="col2"> Adobe ClientCare에 문의하십시오. </td> 
   </tr> 
   <tr> 
@@ -168,41 +167,41 @@ Unix syslog는 일반적으로 [!DNL /var/adm/messages] 또는 [!DNL /var/log/me
    <td colname="col2"> Adobe ClientCare에 문의하십시오. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> 센서 오류 5034:수신됨 신호 </td> 
-   <td colname="col2"> 프로그램이 외부 신호에 의해 종료되었을 수 있습니다. 이 신호의 소스를 확인할 수 없는 경우 Adobe ClientCare에 문의하십시오. </td> 
+   <td colname="col1"> 센서 오류 5034:신호 수신 </td> 
+   <td colname="col2"> 외부 신호에 의해 프로그램이 종료되었을 수 있습니다. 이 신호의 소스를 확인할 수 없는 경우 Adobe ClientCare에 문의하십시오. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> 센서 오류 5035:외부 기본 </td> 
+   <td colname="col1"> 센서 오류 5035:외부 주 밖에서 가 호출됨 </td> 
    <td colname="col2"> Adobe ClientCare에 문의하십시오. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 센서 오류 5036:txlogd가 이미 실행 중입니다. </td> 
-   <td colname="col2"> 텍스트 데몬의 다른 인스턴스가 이미 실행 중입니다. 새 인스턴스를 실행하려면 먼저 다른 인스턴스를 중지합니다. </td> 
+   <td colname="col2"> txlogd 데몬의 다른 인스턴스가 이미 실행 중입니다. 새 인스턴스를 실행하려면 먼저 다른 인스턴스를 중지합니다. </td> 
   </tr> 
  </tbody> 
 </table>
 
 **Apache/IBM HTTP Server**
 
-| 이벤트 메시지 | 제안된 작업 |
+| 이벤트 메시지 | 추천 작업 |
 |---|---|
-| 센서 오류 3015:VisualSciencesConfig 지시문이 httpd.conf에 없습니다. | 구성 오류입니다. VisualSciencesConfig 지시문은 txlogd.conf의 위치에 있는 매개 변수와 함께 httpd.conf에 있어야 합니다. |
+| 센서 오류 3015:VisualSciencesConfig 지시문이 httpd.conf에서 누락되었습니다. | 구성 오류입니다. VisualSciencesConfig 지시문은 txlogd.conf의 위치인 매개 변수와 함께 httpd.conf에 있어야 합니다. |
 | 센서 오류 3019:vys-cookie가 vys-log 전에 호출되지 않았습니다. 지원 센터에 문의하십시오. | Adobe ClientCare에 문의하십시오. |
-| 센서 오류 3025:하위 요청 포인트 다시 자신에게 | Adobe ClientCare에 문의하십시오. |
+| 센서 오류 3025:하위 요청은 자신을 다시 가리킵니다 | Adobe ClientCare에 문의하십시오. |
 
-**AOL Server**
+**AOL 서버**
 
-| 이벤트 메시지 | 제안된 작업 |
+| 이벤트 메시지 | 추천 작업 |
 |---|---|
-| 센서 오류 3015:ns/server/[server]/module/[module] 섹션이 AOLServer 구성 파일에 없습니다. | 구성 오류입니다. 오류가 있는 대로 정확합니다. |
+| 센서 오류 3015:ns/server/[server]/module/[module] 섹션이 AOLServer 구성 파일에 없습니다. | 구성 오류입니다. 오차에 명시된 대로 정확합니다. |
 | 센서 오류 3019:vys-cookie가 vys-log 전에 호출되지 않았습니다. 지원 센터에 문의하십시오. Adobe ClientCare에 문의하십시오. | 지원 센터에 문의하십시오. Adobe ClientCare에 문의하십시오. |
-| 센서 오류 3020:VisualSciencesConfig가 AOLServer 구성 파일의 [section] 섹션에 첫 번째 항목으로 없습니다. | 구성 오류입니다. 오류가 있는 대로 정확합니다. |
-| 센서 오류 3021:VisualSciencesConfig에 AOLServer 구성 파일의 [section] 섹션에 값이 없습니다. | 구성 오류입니다. 오류가 있는 대로 정확합니다. |
+| 센서 오류 3020:VisualSciencesConfig가 AOLServer 구성 파일의 [section] 섹션에 첫 번째 항목으로 없습니다. | 구성 오류입니다. 오차에 명시된 대로 정확합니다. |
+| 센서 오류 3021:VisualSciencesConfig에 AOLServer 구성 파일의 [section] 섹션에 값이 없습니다. | 구성 오류입니다. 오차에 명시된 대로 정확합니다. |
 
 **iPlanet 및 Java System 웹 서버**
 
-| 이벤트 메시지 | 제안된 작업 |
+| 이벤트 메시지 | 추천 작업 |
 |---|---|
-| 센서 오류 3011:init 지시문이 필요합니다. (예: Init=vys-init config-file=&quot;/mypath/myfile&quot;) | 구성 오류입니다. iPlanet init 지시문이 없습니다. |
-| 센서 오류 3015:config-file이 iPlanet Init 지시문에 지정되지 않았습니다. | 구성 오류입니다. 구성 파일의 경로가 iPlanet Init 지시문에 제공되지 않았습니다. |
-| 센서 오류 3019:vys-cookie가 vys-log 전에 호출되지 않았습니다. 구성 파일을 확인하십시오. | vys-cookie는 각 소프트웨어 가상 서버에 대해 첫 번째 NameTrans 지시문으로 지정해야 합니다. |
+| 센서 오류 3011:Init 지시문이 필요합니다. Init fn=vys-init config-file=&quot;/mypath/myfile&quot;과 같이 설정합니다. | 구성 오류입니다. iPlanet init 지시문이 누락되었습니다. |
+| 센서 오류 3015:config-file이 iPlanet Init 지시문에 지정되지 않았습니다. | 구성 오류입니다. iPlanet Init 지시문에서 구성 파일의 경로를 제공하지 않았습니다. |
+| 센서 오류 3019:vys-cookie가 vys-log 전에 호출되지 않았습니다. 구성 파일을 확인하십시오. | vys-cookie는 각 소프트웨어 가상 서버에 대한 첫 번째 NameTrans 지시어로 지정해야 합니다. |
