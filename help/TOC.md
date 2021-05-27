@@ -6,9 +6,8 @@ feature-set: Analytics
 feature: Data Workbench
 user-guide-title: Data Workbench 도움말
 user-guide-description: Data Workbench의 멀티채널 기능에 대해 알아봅니다. Data Workbench 클라이언트, 설치, 데이터 세트 구성 가이드 등이 포함되어 있습니다.
-translation-type: ht
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '3495'
 ht-degree: 100%
 
@@ -545,7 +544,7 @@ ht-degree: 100%
       + 보고서 포털 페이지 매핑 {#mapping-report-portal-pages}
          + [보고서 포털 페이지를 가상 디렉터리에 매핑](home/c-rpt-oview/c-install-rpt-port/c-virtual-dir/c-virtual-dir.md)
          + [보고서 포털을 가상 디렉터리(IIS 7.0 이상)에 매핑](home/c-rpt-oview/c-install-rpt-port/c-virtual-dir/c-map-rpt-port-vdir-7.md)
-         + [보고서 포털을 가상 디렉터리(IIS 6.0)에 매핑](home/c-rpt-oview/c-install-rpt-port/c-virtual-dir/c-map-rpt-port-vdir-6.md)
+         + [보고서 포털을 가상 디렉터리에 매핑(IIS 6.0)](home/c-rpt-oview/c-install-rpt-port/c-virtual-dir/c-map-rpt-port-vdir-6.md)
          + [보고서 포털을 가상 디렉터리에 매핑(IIS 5.0)](home/c-rpt-oview/c-install-rpt-port/c-virtual-dir/c-map-rpt-port-vdir-5.md)
       + [세션 구성 파일 편집](home/c-rpt-oview/c-install-rpt-port/t-edit-sess-config-file.md)
       + [Email.asp 파일 편집](home/c-rpt-oview/c-install-rpt-port/t-email-file.md)
@@ -761,7 +760,7 @@ ht-degree: 100%
       + [Adobe 소프트웨어 업그레이드 및 제거](home/c-inst-svr/c-upgrd-uninst-sftwr/c-upgrd-uninst-sftwr.md)
       + Insight Server 업그레이드 {#upgrade-insight-server}
          + [Insight Server 업그레이드](home/c-inst-svr/c-upgrd-uninst-sftwr/c-upgrd-sftwr/c-upgrd-sftwr.md)
-         + [DWB 서버 업그레이드: 6.2에서 6.3으로](home/c-inst-svr/c-upgrd-uninst-sftwr/c-upgrd-sftwr/c-6-2-to-6-3-upgrade.md)
+         + [DWB 서버 업그레이드: 6.2에서 6.3로](home/c-inst-svr/c-upgrd-uninst-sftwr/c-upgrd-sftwr/c-6-2-to-6-3-upgrade.md)
          + [DWB 서버 업그레이드: 5.4에서 5.5로](home/c-inst-svr/c-upgrd-uninst-sftwr/c-upgrd-sftwr/t-upgrd-to-5.5.md)
          + [변형 업그레이드](home/c-inst-svr/c-upgrd-uninst-sftwr/c-upgrd-sftwr/t-upgrd-trfm.md)
          + [반복 업그레이드](home/c-inst-svr/c-upgrd-uninst-sftwr/c-upgrd-sftwr/c-upgrd-rptr.md)
