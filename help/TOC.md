@@ -7,7 +7,7 @@ feature: Data Workbench
 user-guide-title: Data Workbench 도움말
 user-guide-description: Data Workbench의 멀티채널 기능에 대해 알아봅니다. Data Workbench 클라이언트, 설치, 데이터 세트 구성 가이드 등이 포함되어 있습니다.
 source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3495'
 ht-degree: 100%
 
@@ -59,7 +59,7 @@ ht-degree: 100%
       + [Data Workbench 5.5에서 6.1로 업그레이드](home/c-inst-svr/c-upgrd-uninst-sftwr/c-upgrd-sftwr/c-5-x-to-6-1-upgrade.md)
 + 고객 {#client}
    + [Data Workbench 열기](home/c-get-started/t-open-ins.md)
-   + [사용자 자체 프로비저닝](home/c-get-started/c-self-provisioning-users.md)
+   + [사용자 셀프 프로비저닝](home/c-get-started/c-self-provisioning-users.md)
    + [오프라인 및 온라인 작업](home/c-get-started/c-off-on.md)
    + [프로필](home/c-get-started/c-work-prof.md)
    + [Worktop](home/c-get-started/c-unstd-wktp.md)
@@ -359,7 +359,7 @@ ht-degree: 100%
       + [통계 설명선](home/c-get-started/c-qry-lang-syntx/c-statistical-callouts.md)
       + [정규 표현식](home/c-get-started/c-qry-lang-syntx/c-search-regex.md)
 + 데이터 세트 구성 {#dataset}
-   + [데이터 세트 구성 이해](home/c-dataset-const-proc/c-dataset-constr.md)
+   + [데이터 세트 구조 이해](home/c-dataset-const-proc/c-dataset-constr.md)
    + [데이터 세트 구성 이해](home/c-dataset-const-proc/c-dataset-config.md)
    + [GDPR을 위한 Data Workbench 지원](home/c-dataset-const-proc/dwb-gdpr.md)
    + 로그 처리 구성 파일 {#log-proc-config-file}
@@ -444,7 +444,7 @@ ht-degree: 100%
          + [가산 차원](home/c-dataset-const-proc/c-ex-dim/c-types-ex-dim/c-count-dim.md)
          + [단순 차원](home/c-dataset-const-proc/c-ex-dim/c-types-ex-dim/c-simple-dim.md)
          + [다대다 차원](home/c-dataset-const-proc/c-ex-dim/c-types-ex-dim/c-many-dim.md)
-         + [숫자 차원](home/c-dataset-const-proc/c-ex-dim/c-types-ex-dim/c-num-dim.md)
+         + [수치 차원](home/c-dataset-const-proc/c-ex-dim/c-types-ex-dim/c-num-dim.md)
          + [비정상 차원](home/c-dataset-const-proc/c-ex-dim/c-types-ex-dim/c-denormal-dim.md)
          + [시간 차원](home/c-dataset-const-proc/c-ex-dim/c-types-ex-dim/c-time-dim.md)
    + 변형 기능 {#transform-functionality}
@@ -561,7 +561,7 @@ ht-degree: 100%
       + [샘플 보고서 색인](home/c-rpt-oview/c-rpt-sample-files/c-sample-rpt-ind.md)
       + [샘플 XSL 스타일 시트](home/c-rpt-oview/c-rpt-sample-files/c-sample-xsl-st-sheet.md)
       + [샘플 메일 XSL 스타일 시트](home/c-rpt-oview/c-rpt-sample-files/c-sample-mail-style-sheet.md)
-+ 페이지 태깅 {#page-tagging}
++ 페이지 태그 지정 {#page-tagging}
    + [어떤 종류의 데이터를 얻을 수 있습니까?](home/c-undst-pg-tag/c-acq-data.md)
    + [이 데이터를 얻는 방법](home/c-undst-pg-tag/t-how-acq-data-.md)
    + 참조 페이지 태그 구현 {#implement-ref-page-tags}
@@ -591,7 +591,7 @@ ht-degree: 100%
          + [일반 정보](home/c-undst-pg-tag/c-acq-ext-msmt/c-acq-frm-fld-inpt/c-gen-info.md)
          + [ASP별 정보](home/c-undst-pg-tag/c-acq-ext-msmt/c-acq-frm-fld-inpt/c-asp.md)
    + [Flash 리치 미디어 콘텐츠 내에서 방문자 활동 추적](home/c-undst-pg-tag/t-trk-vstr-act.md)
-   + [타사 페이지 태그 지정에 대한 P3P 고려 사항](home/c-undst-pg-tag/c-cons-thrd-pty-pg-tag.md)
+   + [서드파티 페이지 태그 지정에 대한 P3P 고려 사항](home/c-undst-pg-tag/c-cons-thrd-pty-pg-tag.md)
    + [페이지 태그 변수 매핑 워크시트](home/c-undst-pg-tag/c-pg-tag-wkst.md)
 + 지표, 차원 및 필터 {#metrics}
    + [Data Workbench 지표, 차원 및 필터 정보](home/c-about/c-about.md)
@@ -760,7 +760,7 @@ ht-degree: 100%
       + [Adobe 소프트웨어 업그레이드 및 제거](home/c-inst-svr/c-upgrd-uninst-sftwr/c-upgrd-uninst-sftwr.md)
       + Insight Server 업그레이드 {#upgrade-insight-server}
          + [Insight Server 업그레이드](home/c-inst-svr/c-upgrd-uninst-sftwr/c-upgrd-sftwr/c-upgrd-sftwr.md)
-         + [DWB 서버 업그레이드: 6.2에서 6.3로](home/c-inst-svr/c-upgrd-uninst-sftwr/c-upgrd-sftwr/c-6-2-to-6-3-upgrade.md)
+         + [DWB 서버 업그레이드: 6.2에서 6.3으로](home/c-inst-svr/c-upgrd-uninst-sftwr/c-upgrd-sftwr/c-6-2-to-6-3-upgrade.md)
          + [DWB 서버 업그레이드: 5.4에서 5.5로](home/c-inst-svr/c-upgrd-uninst-sftwr/c-upgrd-sftwr/t-upgrd-to-5.5.md)
          + [변형 업그레이드](home/c-inst-svr/c-upgrd-uninst-sftwr/c-upgrd-sftwr/t-upgrd-trfm.md)
          + [반복 업그레이드](home/c-inst-svr/c-upgrd-uninst-sftwr/c-upgrd-sftwr/c-upgrd-rptr.md)
