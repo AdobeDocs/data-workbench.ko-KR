@@ -2,9 +2,9 @@
 description: Data Workbench의 파인더 패널을 사용하여 지표, 차원 및 필터를 선택합니다. 이 패널에서는 검색 지원, 정렬 옵션, 드래그 앤 드롭 기능을 제공합니다.
 title: 파인더
 uuid: 7a4144f5-133f-48ed-9613-1e42b1313120
-source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+source-git-commit: 232117a8cacaecf8e5d7fcaccc5290d6297947e5
 workflow-type: tm+mt
-source-wordcount: '640'
+source-wordcount: '638'
 ht-degree: 1%
 
 ---
@@ -70,7 +70,7 @@ Data Workbench의 파인더 패널을 사용하여 지표, 차원 및 필터를 
     <ul id="ul_0F6F377E9906472E99008EBE7483F689"> 
      <li id="li_75857895EDB045C8B2960393854B257D"> <p>패턴 일치(단순 전역 검색). 검색 필드에 필요한 차원, 지표 또는 필터 엔티티의 이름을 입력을 시작하면 이름에 포함된 모든 위치에 포함된 일치하는 문자열만 필터링되어 파인더 창에 표시됩니다. </p> <p>예를 들어 다음을 입력합니다. </p> <code><b>Search:</b>click</code> <p>Dimension 파인더에서 다음 결과를 얻을 수 있습니다. </p> <p><img placement="break" id="image_7CBAAABA92BB47658B7F9F5C0263CF20" src="assets/finders_glob_search.png" /> </p> <p>표준 패턴 일치 기능을 사용하면 와일드카드 문자(예: )를 사용할 수 있습니다. (점), "?" , 및 "*"(별) </p> </li> 
      <li id="li_044F9EC1399B44CD81E1852F85137704"> <p>정규 표현식. 추가된 검색 기능에는 더 복잡한 정규 표현식도 지원됩니다. 정규 표현식으로 해석할 검색어(공백 없음) 앞에 접두사 "re:"를 추가합니다. </p> <p>예를 들어 다음을 입력합니다. </p> <code><b>Search:</b>re.*ip</code> <p>Dimension 파인더에서 다음 결과를 얻을 수 있습니다. </p> <p><img placement="break" id="image_F47DB90B36504997AA1C509855B89A47" src="assets/finders_regex_search.png" /> </p> </li> 
-    </ul> <p>자세한 검색 정보는 <a href="https://docs.adobe.com/content/help/en/data-workbench/using/dataset/c-reg-exp.html" format="http" scope="external"> 정규 표현식</a>을 참조하십시오. </p> </td> 
+    </ul> <p>자세한 검색 정보는 <a href="https://experienceleague.adobe.com/docs/data-workbench/using/dataset/c-reg-exp.html" format="http" scope="external"> 정규 표현식</a>을 참조하십시오. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"><b>Dimension 유형</b> </td> 

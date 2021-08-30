@@ -3,9 +3,9 @@ description: 다음 단계에 따라 Insight v5.5x 설치에서 Data Workbench v
 title: Data Workbench 5.5에서 6.1로 업그레이드
 uuid: 14e3612e-11a2-402a-9478-904ec55df23c
 exl-id: c730f6d5-2171-4d97-a967-509dc2517c86,3f25917b-b929-4e3b-84f0-1a81b30ba641
-source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+source-git-commit: 232117a8cacaecf8e5d7fcaccc5290d6297947e5
 workflow-type: tm+mt
-source-wordcount: '767'
+source-wordcount: '765'
 ht-degree: 1%
 
 ---
@@ -14,11 +14,11 @@ ht-degree: 1%
 
 다음 단계에 따라 Insight v5.5x 설치에서 Data Workbench v6.1로 업데이트하십시오.
 
-**1단계**: [서버 업그레이드](../../../../home/c-inst-svr/c-upgrd-uninst-sftwr/c-upgrd-sftwr/c-5-x-to-6-1-upgrade.md#section-08bd6fe3da8740fcb19688e8cac6f223)
+**1단계**:  [서버 업그레이드](../../../../home/c-inst-svr/c-upgrd-uninst-sftwr/c-upgrd-sftwr/c-5-x-to-6-1-upgrade.md#section-08bd6fe3da8740fcb19688e8cac6f223)
 
-**2단계**: [보고서 서버 업그레이드](../../../../home/c-inst-svr/c-upgrd-uninst-sftwr/c-upgrd-sftwr/c-5-x-to-6-1-upgrade.md#section-afd9560a446242e9b06490e5f98aaaec)
+**2단계**:  [보고서 서버 업그레이드](../../../../home/c-inst-svr/c-upgrd-uninst-sftwr/c-upgrd-sftwr/c-5-x-to-6-1-upgrade.md#section-afd9560a446242e9b06490e5f98aaaec)
 
-**3단계**: [클라이언트 업그레이드](../../../../home/c-inst-svr/c-upgrd-uninst-sftwr/c-upgrd-sftwr/c-5-x-to-6-1-upgrade.md#section-c896e57ecd2847afb18f4d8ef7cc0e06)
+**3단계**:  [클라이언트 업그레이드](../../../../home/c-inst-svr/c-upgrd-uninst-sftwr/c-upgrd-sftwr/c-5-x-to-6-1-upgrade.md#section-c896e57ecd2847afb18f4d8ef7cc0e06)
 
 >[!IMPORTANT]
 >
@@ -53,7 +53,7 @@ ht-degree: 1%
 
    1. [!DNL Server\Scripts] 폴더를 업데이트하여 [!DNL TnTSend.exe] 을 업데이트합니다.
 
-1. **[!UICONTROL DeviceAtlas]**&#x200B;을 사용하는 경우 [!DNL Server\Lookups] 폴더에 있는 번들](https://docs.adobe.com/content/help/en/data-workbench/using/dataset/trans-config-file/c-deviceatlas-update.html)을 업데이트해야 합니다.[
+1. **[!UICONTROL DeviceAtlas]**&#x200B;을 사용하는 경우 [!DNL Server\Lookups] 폴더에 있는 번들](https://experienceleague.adobe.com/docs/data-workbench/using/dataset/trans-config-file/c-deviceatlas-update.html)을 업데이트해야 합니다.[
 1. [!DNL Profile.cfg] 파일에서 [!DNL Directories]을 설정하여 각 프로필에 대한 항목 수를 반영하도록 벡터가 업데이트되도록 합니다.
 
    예를 들어 **[!UICONTROL Predictive Analytics]** 프로필을 활성화하려면 이 설정을 업데이트해야 합니다.

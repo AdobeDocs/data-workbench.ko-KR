@@ -3,10 +3,10 @@ description: Worktop에서 직접 단일 보고서 세트에 대한 여러 작�
 title: 보고서 서버 작업 영역 만들기
 uuid: 818569c7-fff9-4277-996b-8c47e4ef1dbc
 exl-id: 2bc068f1-c32f-4c14-b3fa-6b46e950abc7
-source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+source-git-commit: 232117a8cacaecf8e5d7fcaccc5290d6297947e5
 workflow-type: tm+mt
-source-wordcount: '187'
-ht-degree: 10%
+source-wordcount: '185'
+ht-degree: 9%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 10%
 
 Worktop에서 직접 단일 보고서 세트에 대한 여러 작업 공간을 만들 수 있습니다.
 
-Data Workbench 및 인터페이스 사용에 대한 자세한 내용은 [Data Workbench 클라이언트 안내서](https://docs.adobe.com/content/help/ko-KR/data-workbench/using/client/t-open-ins.html)를 참조하십시오.
+Data Workbench 및 인터페이스 사용에 대한 자세한 내용은 [Data Workbench 클라이언트 안내서](https://experienceleague.adobe.com/docs/data-workbench/using/client/t-open-ins.html?lang=ko-KR)를 참조하십시오.
 
 **를 사용하여 보고서 작업 공간을 만들려면[!DNL Worktop]**
 

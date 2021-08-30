@@ -3,9 +3,9 @@ description: 보고서 서버.cfg 매개 변수에 대한 정보입니다.
 title: 보고서 서버.cfg 매개 변수
 uuid: 506f30f7-c8c6-4580-8423-7da8d00b0d57
 exl-id: 339e4219-ff4d-4df6-b45a-7144927a843b
-source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+source-git-commit: 232117a8cacaecf8e5d7fcaccc5290d6297947e5
 workflow-type: tm+mt
-source-wordcount: '1685'
+source-wordcount: '1683'
 ht-degree: 2%
 
 ---
@@ -38,15 +38,15 @@ Proxy User Name = string: ProxyUserName
  <tbody> 
   <tr> 
    <td colname="col1"> Excel 확장 </td> 
-   <td colname="col2"> <p>지원되는 Excel 확장명은 다음과 같습니다. </p> <p>Excel 확장 = 문자열:<span class="filepath">.xlsx </span> </p> <p>Excel 확장 = 문자열:<span class="filepath">.xls </span> (기본값) </p> </td> 
+   <td colname="col2"> <p>지원되는 Excel 확장명은 다음과 같습니다. </p> <p>Excel 확장 = 문자열: <span class="filepath">.xlsx </span> </p> <p>Excel 확장 = 문자열: <span class="filepath">.xls </span> (기본값) </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 글꼴 </td> 
-   <td colname="col2"> <p>선택 사항입니다. <span class="keyword"> 보고서 서버 </span>에서 UTF8 기반 유니코드 특수 문자를 렌더링하는 데 사용해야 하는 글꼴을 나열하는 벡터입니다. 목록에 있는 글꼴 수는 제한이 없습니다. </p> <p>첫 번째 글꼴은 항상 Lucida Sans Console이어야 합니다. 이 매개 변수가 <span class="filepath"> 보고서 서버.cfg </span> 파일에 포함되지 않으면 <span class="keyword"> 보고서 서버 </span>에서는 Lucida Sans 콘솔만 사용하여 텍스트를 표시합니다. </p> <p> <span class="keyword"> 보고서  </span> 서버는 목록의 첫 번째 글꼴을 사용하여 렌더링할 수 없는 문자가 나타날 때까지 모든 문자를 렌더링합니다. 그런 다음 목록의 두 번째 글꼴을 사용하여 해당 문자를 렌더링합니다. 해당 글꼴이 문자를 렌더링하지 않으면 <span class="keyword"> 보고서 서버 </span>에서는 목록에 있는 세 번째 글꼴을 사용하여 해당 문자를 렌더링하고, 이러한 글꼴이 글꼴 목록의 끝에 도달할 때까지 해당 문자를 렌더링합니다. 벡터에 올바른 글꼴이 나열되지 않으면 <span class="keyword"> 보고서 서버 </span>에 문자의 16진수 값이 표시됩니다. </p> <p> <p>참고: <span class="keyword"> 보고서 서버 </span>가 실행 중인 동안에는 이 매개 변수를 변경하지 마십시오. </p> </p> </td> 
+   <td colname="col2"> <p>선택 사항입니다. <span class="keyword"> 보고서 서버 </span>에서 UTF8 기반 유니코드 특수 문자를 렌더링하는 데 사용해야 하는 글꼴을 나열하는 벡터입니다. 목록에 있는 글꼴 수는 제한이 없습니다. </p> <p>첫 번째 글꼴은 항상 Lucida Sans Console이어야 합니다. 이 매개 변수가 <span class="filepath"> 보고서 서버.cfg </span> 파일에 포함되지 않으면 <span class="keyword"> 보고서 서버 </span>에서는 Lucida Sans 콘솔만 사용하여 텍스트를 표시합니다. </p> <p> <span class="keyword"> 보고서  </span> 서버는 목록의 첫 번째 글꼴을 사용하여 렌더링할 수 없는 문자가 나타날 때까지 모든 문자를 렌더링합니다. 그런 다음 목록의 두 번째 글꼴을 사용하여 해당 문자를 렌더링합니다. 해당 글꼴이 문자를 렌더링하지 않으면 <span class="keyword"> 보고서 서버 </span>에서는 목록에 있는 세 번째 글꼴을 사용하여 해당 문자를 렌더링하고, 이러한 글꼴이 글꼴 목록의 끝에 도달할 때까지 해당 문자를 렌더링합니다. 벡터에 올바른 글꼴이 나열되지 않으면 <span class="keyword"> 보고서 서버 </span>에 문자의 16진수 값이 표시됩니다. </p> <p> <p>참고:  <span class="keyword"> 보고서 서버 </span>가 실행 중인 동안에는 이 매개 변수를 변경하지 마십시오. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 감마 </td> 
-   <td colname="col2"> <p> <span class="wintitle"> 감마  </span> 설정  <span class="filepath"> .png  </span> 파일 출력. 기본값은 1.6입니다. </p> <p> <p>참고: Adobe은 이 값을 변경하지 않는 것이 좋습니다. </p> </p> </td> 
+   <td colname="col2"> <p> <span class="wintitle"> 감마  </span> 설정  <span class="filepath"> .png  </span> 파일 출력. 기본값은 1.6입니다. </p> <p> <p>참고:  Adobe은 이 값을 변경하지 않는 것이 좋습니다. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 라이선스 </td> 
@@ -118,7 +118,7 @@ Proxy User Name = string: ProxyUserName
   </tr> 
   <tr> 
    <td colname="col1"> 결과 메모리 제한(KB) </td> 
-   <td colname="col2"> <p>보고서 및 경고에 사용할 수 있도록 하려는 메모리 양(KB)입니다. 기본값은 50000입니다. </p> <p>보고서를 실행할 때 <span class="keyword"> 보고서 서버 </span>는 이 값을 먼저 확인한 다음 최대 슬라이스 크기 매개 변수의 값을 확인합니다. 예를 들어, 이 매개 변수를 50,000으로 설정하고 최대 슬라이스 크기를 50으로 설정하면 추가 작업 공간을 실행할 수 있는 공간이 있어도 보고서 서버 <span class="keyword"> 보고서 서버 </span>는 한 번에 50개의 작업 영역만 실행합니다. </p> <p> <p>참고: 이 제한은 Data Workbench 서버의 쿼리 메모리 제한 매개 변수에 설정된 값을 초과해서는 안 되며, 동시에 보고서를 실행할 수 있는 다른 사용자에게 좀 더 나은 방법을 제공하기 위해 <span class="wintitle"> 쿼리 메모리 제한 </span>보다 약간 낮게 설정해야 합니다. </p> </p> </td> 
+   <td colname="col2"> <p>보고서 및 경고에 사용할 수 있도록 하려는 메모리 양(KB)입니다. 기본값은 50000입니다. </p> <p>보고서를 실행할 때 <span class="keyword"> 보고서 서버 </span>는 이 값을 먼저 확인한 다음 최대 슬라이스 크기 매개 변수의 값을 확인합니다. 예를 들어, 이 매개 변수를 50,000으로 설정하고 최대 슬라이스 크기를 50으로 설정하면 추가 작업 공간을 실행할 수 있는 공간이 있어도 보고서 서버 <span class="keyword"> 보고서 서버 </span>는 한 번에 50개의 작업 영역만 실행합니다. </p> <p> <p>참고:  이 제한은 Data Workbench 서버의 쿼리 메모리 제한 매개 변수에 설정된 값을 초과해서는 안 되며, 동시에 보고서를 실행할 수 있는 다른 사용자에게 좀 더 나은 방법을 제공하기 위해 <span class="wintitle"> 쿼리 메모리 제한 </span>보다 약간 낮게 설정해야 합니다. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 최대 슬라이스 크기 </td> 
@@ -138,7 +138,7 @@ Proxy User Name = string: ProxyUserName
   </tr> 
   <tr> 
    <td colname="col1"> 완료 메시지 간격 </td> 
-   <td colname="col2"> <p>보고서 또는 경고 생성 중에 쿼리를 실행할 때 <span class="keyword"> 보고서 서버 </span>에서 완료 상태 메시지를 출력하는 빈도(초)입니다. 기본값은 120초입니다. </p> <p>예:작업 공간 쿼리는 62.145672% 완료되었습니다. </p> <p>완료 메시지는 <span class="filepath"> reportserver.log </span>에 기록되며 서버에 동기화됩니다. 이 설정은 각 보고서 세트에 대해 전송되는 <span class="filepath"> status.txt </span> 파일을 제어하므로 완료율이 축소판과 함께 표시될 수 있습니다. 보고서 세트가 완료될 때마다 또는 간격에 도달할 때(어느 쪽이든 첫 번째로 걸릴 때) 메시지가 전송됩니다. 이 값을 높게 설정하면 클라이언트 인터페이스에 축소판으로 생성된 보고서가 표시되는 속도가 영향을 받지 않지만 표시되는 중간 메시지의 개수에 영향을 줍니다. 낮은 값을 지정하면 데이터가 <span class="keyword"> 보고서 서버 </span> 서버에서 프로필, 모든 DPU 및 연결된 모든 클라이언트로 동기화되기 때문에 <span class="filepath"> status.txt </span> 메시지가 변경될 때마다 시스템에서 데이터를 동기화하는 데 많은 시간이 소요될 수 있습니다. </p> <p>시스템은 이 구성 매개 변수의 설정에 관계없이 보고서 세트가 완료되면 항상 <span class="filepath"> status.txt </span> 파일을 보냅니다. </p> </td> 
+   <td colname="col2"> <p>보고서 또는 경고 생성 중에 쿼리를 실행할 때 <span class="keyword"> 보고서 서버 </span>에서 완료 상태 메시지를 출력하는 빈도(초)입니다. 기본값은 120초입니다. </p> <p>예: 작업 공간 쿼리는 62.145672% 완료되었습니다. </p> <p>완료 메시지는 <span class="filepath"> reportserver.log </span>에 기록되며 서버에 동기화됩니다. 이 설정은 각 보고서 세트에 대해 전송되는 <span class="filepath"> status.txt </span> 파일을 제어하므로 완료율이 축소판과 함께 표시될 수 있습니다. 보고서 세트가 완료될 때마다 또는 간격에 도달할 때(어느 쪽이든 첫 번째로 걸릴 때) 메시지가 전송됩니다. 이 값을 높게 설정하면 클라이언트 인터페이스에 축소판으로 생성된 보고서가 표시되는 속도가 영향을 받지 않지만 표시되는 중간 메시지의 개수에 영향을 줍니다. 낮은 값을 지정하면 데이터가 <span class="keyword"> 보고서 서버 </span> 서버에서 프로필, 모든 DPU 및 연결된 모든 클라이언트로 동기화되기 때문에 <span class="filepath"> status.txt </span> 메시지가 변경될 때마다 시스템에서 데이터를 동기화하는 데 많은 시간이 소요될 수 있습니다. </p> <p>시스템은 이 구성 매개 변수의 설정에 관계없이 보고서 세트가 완료되면 항상 <span class="filepath"> status.txt </span> 파일을 보냅니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 프로필 </td> 
@@ -146,7 +146,7 @@ Proxy User Name = string: ProxyUserName
   </tr> 
   <tr> 
    <td colname="col1"> 오류에 대한 SMTP 서버 </td> 
-   <td colname="col2"> <p>전자 메일을 통해 <span class="wintitle"> 보고서 서버 </span> 오류를 보낼 SMTP 서버의 주소입니다. </p> <p>예:<span class="filepath"> mail.mycompany.com </span> </p> <p>설명한 기능을 사용하려면 SMTP 서버가 필요합니다. </p> </td> 
+   <td colname="col2"> <p>전자 메일을 통해 <span class="wintitle"> 보고서 서버 </span> 오류를 보낼 SMTP 서버의 주소입니다. </p> <p>예: <span class="filepath"> mail.mycompany.com </span> </p> <p>설명한 기능을 사용하려면 SMTP 서버가 필요합니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 오류 암호를 위한 SMTP 서버 </td> 
@@ -158,7 +158,7 @@ Proxy User Name = string: ProxyUserName
   </tr> 
   <tr> 
    <td colname="col1"> SMTP 서버에서 보낸 오류 보내기 </td> 
-   <td colname="col2"> <p>경고가 전송되는 이메일 주소입니다. </p> <p>예:<span class="filepath"> adm1@company.com,adm2@company.com </span> </p> <p>설명한 기능을 사용하려면 SMTP 서버가 필요합니다. </p> </td> 
+   <td colname="col2"> <p>경고가 전송되는 이메일 주소입니다. </p> <p>예: <span class="filepath"> adm1@company.com,adm2@company.com </span> </p> <p>설명한 기능을 사용하려면 SMTP 서버가 필요합니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 오류 사용자 이름에 대한 SMTP 서버 </td> 
@@ -166,7 +166,7 @@ Proxy User Name = string: ProxyUserName
   </tr> 
   <tr> 
    <td colname="col1"> 상태 간격 </td> 
-   <td colname="col2"> <p><span class="wintitle"> 보고서 서버 </span>가 상태 정보를 생성하여 <span class="wintitle"> 세부 상태 </span>에 표시할 Data Workbench 서버로 전송하는 빈도(초)입니다. </p> <p>기본값은 120초입니다. 보고 큐를 실행하는 데 시간이 걸릴 수 있으므로 이 값을 2분 등의 작은 값으로 설정하지 않는 것이 좋습니다. 이 경우 600~1200초 설정을 고려할 수 있습니다. </p> <p><span class="wintitle"> 세부 상태 </span>에 대한 자세한 내용은 <a href="https://docs.adobe.com/content/help/en/data-workbench/using/client/admin-ui/c-admin-intrf.html" format="http" scope="external"> Insight 사용 안내서 </a>의 관리 인터페이스 장을 참조하십시오. </p> </td> 
+   <td colname="col2"> <p><span class="wintitle"> 보고서 서버 </span>가 상태 정보를 생성하여 <span class="wintitle"> 세부 상태 </span>에 표시할 Data Workbench 서버로 전송하는 빈도(초)입니다. </p> <p>기본값은 120초입니다. 보고 큐를 실행하는 데 시간이 걸릴 수 있으므로 이 값을 2분 등의 작은 값으로 설정하지 않는 것이 좋습니다. 이 경우 600~1200초 설정을 고려할 수 있습니다. </p> <p><span class="wintitle"> 세부 상태 </span>에 대한 자세한 내용은 <a href="https://experienceleague.adobe.com/docs/data-workbench/using/client/admin-ui/c-admin-intrf.html" format="http" scope="external"> Insight 사용 안내서 </a>의 관리 인터페이스 장을 참조하십시오. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 업데이트 간격 </td> 

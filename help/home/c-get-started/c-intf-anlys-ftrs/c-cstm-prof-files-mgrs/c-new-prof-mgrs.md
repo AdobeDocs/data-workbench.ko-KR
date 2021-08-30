@@ -3,9 +3,9 @@ description: 프로필 관리자는 작업 프로필과 연관된 모든 디렉�
 title: 프로필 관리자 만들기
 uuid: e16741e2-740b-4f57-861d-e2f57d30abbc
 exl-id: 43b95473-ab3e-4a80-9b91-7c221e74b096
-source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+source-git-commit: 232117a8cacaecf8e5d7fcaccc5290d6297947e5
 workflow-type: tm+mt
-source-wordcount: '392'
+source-wordcount: '390'
 ht-degree: 2%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 2%
 
 전체 디렉토리 구조를 탐색하지 않고도 [!DNL Profile Manager] 의 하위 디렉토리에 액세스할 수 있습니다. 예를 들어 작업 공간 창 메뉴의 [!DNL Manage] 메뉴에서 사용할 수 있는 [!DNL Metrics] 및 [!DNL Workspaces] 메뉴 옵션을 사용하면 각각 프로필 관리자 지표 및 작업 공간 폴더를 열 수 있습니다.
 
-[!DNL Profile Manager]에 대한 자세한 내용은 [프로필 관리자](https://docs.adobe.com/content/help/en/data-workbench/using/client/ui-analysis-features/cstm-prof-files-mgrs/c-new-prof-mgrs.html)를 참조하십시오.
+[!DNL Profile Manager]에 대한 자세한 내용은 [프로필 관리자](https://experienceleague.adobe.com/docs/data-workbench/using/client/ui-analysis-features/cstm-prof-files-mgrs/c-new-prof-mgrs.html)를 참조하십시오.
 
 기본적으로 다음 관리자에 액세스할 수 있습니다.
 

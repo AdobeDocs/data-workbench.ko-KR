@@ -3,9 +3,9 @@ description: '3D 산포도는 x, y 및 z 축이 다양한 지표를 나타내는
 title: 3D 산포도
 uuid: 5e23547c-dbb4-490c-94bc-0731deee612e
 exl-id: 18f18cab-a31b-4ffe-89c5-412a5645af2e
-source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+source-git-commit: 232117a8cacaecf8e5d7fcaccc5290d6297947e5
 workflow-type: tm+mt
-source-wordcount: '502'
+source-wordcount: '500'
 ht-degree: 1%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 1%
 
 3D 산포도는 x, y 및 z 축이 다양한 지표를 나타내는 3차원 격자에 있는 데이터 차원(예: 일 또는 참조 사이트)의 요소를 그래프로 표시합니다.
 
-[산포도 2D](https://docs.adobe.com/content/help/en/data-workbench/using/client/t-open-ins.html#Scatter_Plots)와 같이, 이 시각화는 서로 다른 지표를 사용하는 서로 다른 여러 항목의 관계를 이해하려고 할 때 유용합니다.
+[산포도 2D](https://experienceleague.adobe.com/docs/data-workbench/using/client/t-open-ins.html#Scatter_Plots)와 같이, 이 시각화는 서로 다른 지표를 사용하는 서로 다른 여러 항목의 관계를 이해하려고 할 때 유용합니다.
 
 **3D 산포도 시각화를 사용하려면**
 
@@ -31,7 +31,7 @@ ht-degree: 1%
 
    ![](assets/3D_main.png)
 
-   **[!UICONTROL Days]** 메뉴를 선택하면 다음 축에 이러한 기본 지표가 있는 다음 3D 산포도 표시됩니다.**[!UICONTROL x=Visits]**, **[!UICONTROL y=Retention]** 및 **[!UICONTROL z=Visits]**.
+   **[!UICONTROL Days]** 메뉴를 선택하면 다음 축에 이러한 기본 지표가 있는 다음 3D 산포도 표시됩니다. **[!UICONTROL x=Visits]**, **[!UICONTROL y=Retention]** 및 **[!UICONTROL z=Visits]**.
 
 1. 지표 변경. x, y 또는 z축의 지표 레이블을 마우스 오른쪽 단추로 클릭하고 **[!UICONTROL Change Metric]** 을 선택합니다. 그런 다음 선택한 축에 대해 다른 지표를 선택합니다.
 
@@ -61,9 +61,9 @@ ht-degree: 1%
 
 1. 산포도에서 점을 선택합니다.
 
-   * **점 또는 점 그룹을 제거하려면 다음을 수행합니다**.점을 클릭합니다.
-   * **선택 영역에 다른 점 또는 점 그룹을 추가하려면 다음을 수행합니다**. **Ctrl** +  **** 클릭 지점 또는  **Ctrl** +  **** 여러 점을 드래그합니다.
+   * **점 또는 점 그룹을 제거하려면 다음을 수행합니다**. 점을 클릭합니다.
+   * **선택 영역에 다른 점 또는 점 그룹을 추가하려면 다음을 수행합니다**.  **Ctrl** +  **** 클릭 지점 또는  **Ctrl** +  **** 여러 점을 드래그합니다.
 
-   * **선택 항목에서 점 또는 점 그룹을 제거하려면 다음을 수행합니다**. **Shift** +  **** 클릭 지점 또는  **Shift** **+** **** 여러 점을 드래그합니다.
+   * **선택 항목에서 점 또는 점 그룹을 제거하려면 다음을 수행합니다**.  **Shift** +  **** 클릭 지점 또는  **Shift** **+** **** 여러 점을 드래그합니다.
 
 <!-- <a id="section_9C30F9799F1440F09278327002E6B47A"></a> -->

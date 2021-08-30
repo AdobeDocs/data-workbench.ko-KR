@@ -3,9 +3,9 @@ description: 보고서 서버의 일부 기능이 작동하려면 설치하기 �
 title: 시작하기 전에
 uuid: cb464fb6-3109-4eff-9c95-f0cf1f8a8c66
 exl-id: 5c8bb4c3-fe76-4b4e-960d-113a9927ad59
-source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+source-git-commit: 232117a8cacaecf8e5d7fcaccc5290d6297947e5
 workflow-type: tm+mt
-source-wordcount: '328'
+source-wordcount: '326'
 ht-degree: 1%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 1%
 
 ## 기본 보고서 서버 요구 사항 {#section-e891eaee79fe4fa98e658426dc3b2777}
 
-출력되는 보고서는 파일 시스템에 배치된 .PNG 이미지 또는 .XLS 스프레드시트의 형식이나 전자 메일로 수행될 수 있습니다. 하드웨어 요구 사항은 [Data Workbench 클라이언트](https://docs.adobe.com/content/help/en/data-workbench/using/install/c-data-workbench-client-install.html#Data_Workbench_Client_Minimum_System_Requirements)와 동일합니다.
+출력되는 보고서는 파일 시스템에 배치된 .PNG 이미지 또는 .XLS 스프레드시트의 형식이나 전자 메일로 수행될 수 있습니다. 하드웨어 요구 사항은 [Data Workbench 클라이언트](https://experienceleague.adobe.com/docs/data-workbench/using/install/c-data-workbench-client-install.html#Data_Workbench_Client_Minimum_System_Requirements)와 동일합니다.
 
 보고서 서버에 대해 다음 요구 사항이 있습니다.
 

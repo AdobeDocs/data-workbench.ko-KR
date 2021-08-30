@@ -3,9 +3,9 @@ description: 보고서를 Excel 파일로 생성하는 정보입니다.
 title: 보고서를 Microsoft Excel 파일로 생성
 uuid: 0717a916-93d6-4b8e-a2ff-e9179ba4a66e
 exl-id: 4e644867-db5e-4ca9-a2bf-1193e031f2bf
-source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+source-git-commit: 232117a8cacaecf8e5d7fcaccc5290d6297947e5
 workflow-type: tm+mt
-source-wordcount: '476'
+source-wordcount: '474'
 ht-degree: 4%
 
 ---
@@ -36,7 +36,7 @@ ht-degree: 4%
 
 시각화에 대해 [!DNL Custom Title]을 지정하지 않은 경우 창 유형(예: 동영상 테이블)이 워크시트 이름으로 사용됩니다.
 
-시각화를 위해 [!DNL Custom Titles] 을 지정하는 방법에 대한 자세한 내용은 [Data Workbench 클라이언트 안내서](https://docs.adobe.com/content/help/ko-KR/data-workbench/using/client/t-open-ins.html)를 참조하십시오.
+시각화를 위해 [!DNL Custom Titles] 을 지정하는 방법에 대한 자세한 내용은 [Data Workbench 클라이언트 안내서](https://experienceleague.adobe.com/docs/data-workbench/using/client/t-open-ins.html?lang=ko-KR)를 참조하십시오.
 
 ## 템플릿 파일 사용 {#section-40ab11916f464b1a88214ab969da6751}
 

@@ -3,9 +3,9 @@ description: Data Workbench 구현을 관리 및 모니터링하는 데 사용�
 title: 관리 인터페이스
 uuid: bd587f01-7edc-44e8-b4d4-f74f94f5d60f
 exl-id: 109e30da-9ccb-4349-865a-dff9c05fe37a
-source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+source-git-commit: 232117a8cacaecf8e5d7fcaccc5290d6297947e5
 workflow-type: tm+mt
-source-wordcount: '90'
+source-wordcount: '88'
 ht-degree: 23%
 
 ---
@@ -19,5 +19,5 @@ Data Workbench 구현을 관리 및 모니터링하는 데 사용할 수 있는 
 * [쿼리 큐](c-query-que/c-query-que.md)
 * [처리 범례](c-pro-lgd.md)
 * [자세한 상태 인터페이스](c-det-stat-interf.md)
-* [프로필 관리자](https://docs.adobe.com/content/help/en/data-workbench/using/client/ui-analysis-features/cstm-prof-files-mgrs/c-new-prof-mgrs.html)
+* [프로필 관리자](https://experienceleague.adobe.com/docs/data-workbench/using/client/ui-analysis-features/cstm-prof-files-mgrs/c-new-prof-mgrs.html)
 * [데이터 세트 관리자](c-dataset-mgrs/c-dataset-mgrs.md)

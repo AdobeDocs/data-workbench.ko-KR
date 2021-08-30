@@ -3,9 +3,9 @@ description: 다음 단계에 따라 Data Workbench v6.0x 설치에서 data work
 title: Data Workbench 6.0에서 6.1로 업그레이드
 uuid: 4671c2bf-06ab-49c4-8dd1-24115facd83b
 exl-id: 559e1942-561c-4270-9670-550177730cdb,2a337d2e-c70e-4f35-a6c2-c3a7f50a0800
-source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+source-git-commit: 232117a8cacaecf8e5d7fcaccc5290d6297947e5
 workflow-type: tm+mt
-source-wordcount: '753'
+source-wordcount: '751'
 ht-degree: 1%
 
 ---
@@ -14,11 +14,11 @@ ht-degree: 1%
 
 다음 단계에 따라 Data Workbench v6.0x 설치에서 data workbench v6.1로 업데이트하십시오.
 
-**1단계**: [서버 업그레이드](../../../../../home/c-inst-svr/c-upgrd-uninst-sftwr/c-upgrd-sftwr/c-6-0-to-6-1-upgrade/c-6-0-to-6-1-upgrade.md#section-7845393f76214aa7ad53ac4b2cca9e5b)
+**1단계**:  [서버 업그레이드](../../../../../home/c-inst-svr/c-upgrd-uninst-sftwr/c-upgrd-sftwr/c-6-0-to-6-1-upgrade/c-6-0-to-6-1-upgrade.md#section-7845393f76214aa7ad53ac4b2cca9e5b)
 
-**2단계**: [보고서 서버 업그레이드](../../../../../home/c-inst-svr/c-upgrd-uninst-sftwr/c-upgrd-sftwr/c-6-0-to-6-1-upgrade/c-6-0-to-6-1-upgrade.md#section-afd9560a446242e9b06490e5f98aaaec)
+**2단계**:  [보고서 서버 업그레이드](../../../../../home/c-inst-svr/c-upgrd-uninst-sftwr/c-upgrd-sftwr/c-6-0-to-6-1-upgrade/c-6-0-to-6-1-upgrade.md#section-afd9560a446242e9b06490e5f98aaaec)
 
-**3단계**: [클라이언트 업그레이드](../../../../../home/c-inst-svr/c-upgrd-uninst-sftwr/c-upgrd-sftwr/c-6-0-to-6-1-upgrade/c-6-0-to-6-1-upgrade.md#section-c896e57ecd2847afb18f4d8ef7cc0e06)
+**3단계**:  [클라이언트 업그레이드](../../../../../home/c-inst-svr/c-upgrd-uninst-sftwr/c-upgrd-sftwr/c-6-0-to-6-1-upgrade/c-6-0-to-6-1-upgrade.md#section-c896e57ecd2847afb18f4d8ef7cc0e06)
 
 >[!IMPORTANT]
 >
@@ -52,7 +52,7 @@ ht-degree: 1%
    1. [!DNL Insight.exe] 및 [!DNL ReportServer.exe]를 업데이트하려면 [!DNL Server\Software] 폴더를 바꾸십시오
    1. [!DNL Server\Scripts] 폴더를 업데이트하여 [!DNL TnTSend.exe] 을 업데이트합니다.
 
-1. **[!UICONTROL DeviceAtlas]**&#x200B;을 사용하는 경우 [!DNL Server\Lookups] 폴더에 있는 번들](https://docs.adobe.com/content/help/en/data-workbench/using/dataset/trans-config-file/c-deviceatlas-update.html)을 업데이트해야 합니다.[
+1. **[!UICONTROL DeviceAtlas]**&#x200B;을 사용하는 경우 [!DNL Server\Lookups] 폴더에 있는 번들](https://experienceleague.adobe.com/docs/data-workbench/using/dataset/trans-config-file/c-deviceatlas-update.html)을 업데이트해야 합니다.[
 
 1. 각 프로필에 대한 항목 수를 반영하도록 벡터가 업데이트되도록 [!DNL Profile.cfg] 파일을 구성합니다.
 

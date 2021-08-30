@@ -3,9 +3,9 @@ description: 데이터 집합 구성은 매개 변수가 데이터 집합 구성
 title: 데이터 세트 구성 이해
 uuid: 813933d1-f52d-4584-8edd-ce9cd4aed74a
 exl-id: 1358d08e-d81c-453d-a3a3-c1f279f38192
-source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+source-git-commit: 232117a8cacaecf8e5d7fcaccc5290d6297947e5
 workflow-type: tm+mt
-source-wordcount: '916'
+source-wordcount: '914'
 ht-degree: 7%
 
 ---
@@ -50,7 +50,7 @@ c_addl_config_files.xml
 
 * **Server.cfg:** 이  [!DNL Server.cfg] 파일은 Data Workbench 서버에 연결하는 Data Workbench 시스템의 기본 데이터 캐시 크기(바이트)를 지정합니다. [추가 구성 파일](../../home/c-dataset-const-proc/c-add-config-files/c-add-config-files.md#concept-1afef4f88f1e467ab4326875fd1d3004)을 참조하십시오.
 
-* **Transform.cfg 및 Transform Mode.cfg:**  이 파일은 Adobe 응용 프로그램에서 사용할 데이터 변환 기능의 라이센스가 있는 경우에만 사용할 수 있습니다. [!DNL Transform.cfg] 파일에는 로그 소스와 변환 기능을 위한 데이터 변형을 정의하는 매개 변수가 포함되어 있습니다. 정의한 변환은 소스 데이터를 조작하여 지정한 형식으로 출력합니다. [!DNL Insight Transform Mode.cfg] 파일을 사용하면 데이터 집합에 대한 데이터 처리를 일시 중지하거나, 오프라인 소스를 지정하거나, 변환 기능을 실행하는 Insight Server에서 해당 상태 파일을 저장하는 빈도를 지정할 수 있습니다. [변환 기능](https://docs.adobe.com/content/help/en/data-workbench/using/server-admin-install/transform/t-config-tfm.html)을 참조하십시오.
+* **Transform.cfg 및 Transform Mode.cfg:**  이 파일은 Adobe 응용 프로그램에서 사용할 데이터 변환 기능의 라이센스가 있는 경우에만 사용할 수 있습니다. [!DNL Transform.cfg] 파일에는 로그 소스와 변환 기능을 위한 데이터 변형을 정의하는 매개 변수가 포함되어 있습니다. 정의한 변환은 소스 데이터를 조작하여 지정한 형식으로 출력합니다. [!DNL Insight Transform Mode.cfg] 파일을 사용하면 데이터 집합에 대한 데이터 처리를 일시 중지하거나, 오프라인 소스를 지정하거나, 변환 기능을 실행하는 Insight Server에서 해당 상태 파일을 저장하는 빈도를 지정할 수 있습니다. [변환 기능](https://experienceleague.adobe.com/docs/data-workbench/using/server-admin-install/transform/t-config-tfm.html)을 참조하십시오.
 
 <!--
 c_next_steps.xml

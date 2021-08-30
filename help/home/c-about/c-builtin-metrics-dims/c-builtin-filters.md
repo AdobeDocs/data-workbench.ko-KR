@@ -3,9 +3,9 @@ description: 프로필 필터는 데이터 집합에서 사용할 수 있는 데
 title: 내장 프로필 필터
 uuid: d6854d2c-4643-476e-8a44-f188e18cb115
 exl-id: bb167487-415d-44a8-9a0a-9a76d90ba5c0
-source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+source-git-commit: 232117a8cacaecf8e5d7fcaccc5290d6297947e5
 workflow-type: tm+mt
-source-wordcount: '486'
+source-wordcount: '484'
 ht-degree: 1%
 
 ---
@@ -51,4 +51,4 @@ entity = derived_filter:
 
 기본적으로 작업 공간에는 끊어진 세션 필터 가 선택 및 벤치마크 모두에 적용되며, 작업 공간을 마우스 오른쪽 단추로 클릭하고 데이터 > 끊어진 세션 필터 를 클릭하여 전환할 수 있습니다.
 
-끊어진 세션 필터는 현재 작업 공간에 대해 활성화되어 있지 않더라도 필터 표현식에서 Broken_Session_Filter로 참조할 수 있습니다. 자세한 내용은 [필터 표현식](https://docs.adobe.com/content/help/en/data-workbench/using/client/t-open-ins.html#Syntax_for_Identifiers)을 참조하십시오.
+끊어진 세션 필터는 현재 작업 공간에 대해 활성화되어 있지 않더라도 필터 표현식에서 Broken_Session_Filter로 참조할 수 있습니다. 자세한 내용은 [필터 표현식](https://experienceleague.adobe.com/docs/data-workbench/using/client/t-open-ins.html#Syntax_for_Identifiers)을 참조하십시오.

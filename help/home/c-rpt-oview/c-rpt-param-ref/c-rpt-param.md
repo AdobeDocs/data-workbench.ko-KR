@@ -3,9 +3,9 @@ description: Report.cfg 매개 변수에 대한 정보입니다.
 title: Report.cfg 매개 변수
 uuid: 7a20f4f6-99e6-401a-ba3c-c508881c0f0d
 exl-id: 31e4de5f-f7e8-4a35-b5c6-6ad8ef79a259
-source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+source-git-commit: 232117a8cacaecf8e5d7fcaccc5290d6297947e5
 workflow-type: tm+mt
-source-wordcount: '2350'
+source-wordcount: '2348'
 ht-degree: 2%
 
 ---
@@ -40,7 +40,7 @@ Report.cfg 매개 변수에 대한 정보입니다.
   </tr> 
   <tr> 
    <td colname="col1"> 보고서 재생성 허용 </td> 
-   <td colname="col2"> <p>이러한 보고서를 만들거나 수정할 때 <span class="keyword"> 보고서 서버 </span>가 자동으로 특정 보고서를 생성하거나 재생성하는지 여부를 나타냅니다. 옵션은 true 또는 false입니다. true로 설정하면 보고서 작업 공간을 만들거나 수정하여 <span class="keyword"> 보고서 서버 </span>가 최근 실행을 위해 해당 보고서를 다시 생성합니다. </p> <p> <p>참고: <span class="filepath"> Report.cfg </span> 파일을 변경하면 <span class="keyword"> 보고서 서버 </span>가 해당 <span class="filepath"> Report.cfg </span> 파일에서 제어하는 모든 보고서를 다시 생성합니다. </p> </p> </td> 
+   <td colname="col2"> <p>이러한 보고서를 만들거나 수정할 때 <span class="keyword"> 보고서 서버 </span>가 자동으로 특정 보고서를 생성하거나 재생성하는지 여부를 나타냅니다. 옵션은 true 또는 false입니다. true로 설정하면 보고서 작업 공간을 만들거나 수정하여 <span class="keyword"> 보고서 서버 </span>가 최근 실행을 위해 해당 보고서를 다시 생성합니다. </p> <p> <p>참고:  <span class="filepath"> Report.cfg </span> 파일을 변경하면 <span class="keyword"> 보고서 서버 </span>가 해당 <span class="filepath"> Report.cfg </span> 파일에서 제어하는 모든 보고서를 다시 생성합니다. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 첨부 파일 </td> 
@@ -52,15 +52,15 @@ Report.cfg 매개 변수에 대한 정보입니다.
   </tr> 
   <tr> 
    <td colname="col1"> 콘텐츠 유형 </td> 
-   <td colname="col2"> <p>첨부할 파일의 컨텐츠 유형입니다. </p> <p>예:이미지/jpeg </p> </td> 
+   <td colname="col2"> <p>첨부할 파일의 컨텐츠 유형입니다. </p> <p>예: 이미지/jpeg </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 파일 이름 </td> 
-   <td colname="col2"> <p>첨부할 파일의 위치 및 이름입니다. </p> <p>예:<span class="filepath"> c:\myimage.jpg </span> </p> </td> 
+   <td colname="col2"> <p>첨부할 파일의 위치 및 이름입니다. </p> <p>예: <span class="filepath"> c:\myimage.jpg </span> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 색상 세트 </td> 
-   <td colname="col2"> <span class="filepath"> .png </span> 파일에 사용할 색상 구성표를 식별합니다. 0은 검은색 배경입니다.1은 흰색 바탕입니다.및 2는 회색 음영 이미지용입니다. </td> 
+   <td colname="col2"> <span class="filepath"> .png </span> 파일에 사용할 색상 구성표를 식별합니다. 0은 검은색 배경입니다. 1은 흰색 바탕입니다. 및 2는 회색 음영 이미지용입니다. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 실행할 명령 </td> 
@@ -80,11 +80,11 @@ Report.cfg 매개 변수에 대한 정보입니다.
   </tr> 
   <tr> 
    <td colname="col1"> 종료 날짜 </td> 
-   <td colname="col2"> <p><i>선택 사항입니다</i>. 보고서 세트를 실행할 마지막 날짜 및 시간입니다. 이 시간은 데이터 집합의 현재 시간을 기반으로 합니다. </p> <p>형식:MM/DD/YYYY hh:mm 시간대, 시간 기준 24시간 구문 사용 </p> <p>예:08/01/2007 12:01 편집 </p> <p>시간대 설정에 대한 자세한 내용은 <i>데이터 집합 구성 안내서</i>를 참조하십시오. </p> </td> 
+   <td colname="col2"> <p><i>선택 사항입니다</i>. 보고서 세트를 실행할 마지막 날짜 및 시간입니다. 이 시간은 데이터 집합의 현재 시간을 기반으로 합니다. </p> <p>형식: MM/DD/YYYY hh:mm 시간대, 시간 기준 24시간 구문 사용 </p> <p>예: 08/01/2007 12:01 편집 </p> <p>시간대 설정에 대한 자세한 내용은 <i>데이터 집합 구성 안내서</i>를 참조하십시오. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 각 </td> 
-   <td colname="col2"> 보고서 세트 생성 빈도:일, 주 또는 월 </td> 
+   <td colname="col2"> 보고서 세트 생성 빈도: 일, 주 또는 월 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Excel Watchdog 시간 초과(초) </td> 
@@ -92,11 +92,11 @@ Report.cfg 매개 변수에 대한 정보입니다.
   </tr> 
   <tr> 
    <td colname="col1"> 필터 공식 </td> 
-   <td colname="col2"> <p><i>선택 사항입니다</i>. 보고서 세트의 모든 작업 공간에 적용되는 필터입니다. </p> <p>자세한 내용은 </a> 필터를 만드는 <a href="https://docs.adobe.com/content/help/en/data-workbench/using/client/t-open-ins.html#Syntax_for_Filter_Expressions" format="http" scope="external"> 구문을 참조하십시오. </a></p> </td> 
+   <td colname="col2"> <p><i>선택 사항입니다</i>. 보고서 세트의 모든 작업 공간에 적용되는 필터입니다. </p> <p>자세한 내용은 </a> 필터를 만드는 <a href="https://experienceleague.adobe.com/docs/data-workbench/using/client/t-open-ins.html#Syntax_for_Filter_Expressions" format="http" scope="external"> 구문을 참조하십시오. </a></p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 감마 보정 </td> 
-   <td colname="col2"> <p><span class="filepath"> .png </span> 파일 출력에 대한 감마 설정입니다. 기본값은 1.6입니다. </p> <p> <p>참고: Adobe은 이 값을 변경하지 않는 것을 권장합니다. </p> </p> </td> 
+   <td colname="col2"> <p><span class="filepath"> .png </span> 파일 출력에 대한 감마 설정입니다. 기본값은 1.6입니다. </p> <p> <p>참고:  Adobe은 이 값을 변경하지 않는 것을 권장합니다. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 로고 숨기기 </td> 
@@ -108,7 +108,7 @@ Report.cfg 매개 변수에 대한 정보입니다.
      <ul id="ul_378D4104BB5141C4A013EFE881BFFC6A"> 
       <li id="li_6F2C89A286B24FFE8EE8C82D278D0633">열 1에는 차원 요소 목록이 포함되어 있습니다. </li> 
       <li id="li_4BD1CAA77FEC43268B40489BC5E5E6F7">열 2에는 보고서 수신자의 전자 메일 주소가 포함되어 있습니다. 열 1의 지정된 요소에 대한 보고서가 열 2의 동일한 행에 있는 이메일 주소로 전송됩니다. 여러 개의 이메일 주소를 쉼표로(공백 없음) 구분하여 입력할 수 있습니다. 보고서를 이메일로 보내지 않는 경우 이 열은 비어 있을 수 있지만 반드시 있어야 합니다. </li> 
-     </ul> </p> <p> <p>참고: 이 매개 변수에 값을 입력하는 경우 Dimension 이름 매개 변수에 값을 입력해야 합니다. </p> </p> </td> 
+     </ul> </p> <p> <p>참고:  이 매개 변수에 값을 입력하는 경우 Dimension 이름 매개 변수에 값을 입력해야 합니다. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 알림만 </td> 
@@ -116,13 +116,13 @@ Report.cfg 매개 변수에 대한 정보입니다.
   </tr> 
   <tr> 
    <td colname="col1"> 메일 보고서 </td> 
-   <td colname="col2"> <p>이메일을 통해 보고서를 배포하기 위한 섹션 식별자입니다. 이메일을 통해 보고서를 배포하려면 <span class="wintitle"> 메일 보고서 </span> 항목에 대해 다음 매개 변수를 완료하십시오. 보고서 세트의 모든 보고서는 한 개의 메시지로 수신자 매개 변수에 지정된 이메일 주소로 발송됩니다. </p> <p> <p>참고: 보고서 서버가 하나 이상의 보고서를 생성한 경우에만 이메일을 전송합니다. </p> </p> <p>보고서 이메일을 보낼 수 있도록 하려면 이 항목에 대해 다음 매개 변수 이상을 완료해야 합니다. 
+   <td colname="col2"> <p>이메일을 통해 보고서를 배포하기 위한 섹션 식별자입니다. 이메일을 통해 보고서를 배포하려면 <span class="wintitle"> 메일 보고서 </span> 항목에 대해 다음 매개 변수를 완료하십시오. 보고서 세트의 모든 보고서는 한 개의 메시지로 수신자 매개 변수에 지정된 이메일 주소로 발송됩니다. </p> <p> <p>참고:  보고서 서버가 하나 이상의 보고서를 생성한 경우에만 이메일을 전송합니다. </p> </p> <p>보고서 이메일을 보낼 수 있도록 하려면 이 항목에 대해 다음 매개 변수 이상을 완료해야 합니다. 
      <ul id="ul_539D64D61A8B4F1E95D889C6610EE3B8"> 
       <li id="li_D2EDBEE57BFE4FD4BB66F63AE561F1E2">SMTP 서버 </li> 
       <li id="li_4EEFE6CDA3384FE38149CE8DCBEFF847">수신자 </li> 
       <li id="li_CF9F0CF7ECFC4D88A7F4F11BAC4938D6">보낸 사람 주소 </li> 
       <li id="li_40BFDCDC9640488EBB450CF8579DA250">알림만 </li> 
-     </ul> </p> <p> <p>참고: 보고서 세트를 다시 생성한 후 이메일로 보고서를 보내려면 <a href="../../../home/c-rpt-oview/c-work-rpt-sets/c-edit-ex-rpt-files/c-edit-ex-rpt-files.md#concept-96fd57159f454defa09bd18655a12887"> 기존 Report.cfg 파일 편집 </a>을 참조하십시오. </p> </p> <p>알림 전용 값은 5.4x 및 5.5x 릴리스에서 사용할 수 있습니다. </p> <p>알림을 받을 대규모 수신자 세트(20명 이상)의 경우 이메일 배포 목록을 사용하는 것이 좋습니다. </p> </td> 
+     </ul> </p> <p> <p>참고:  보고서 세트를 다시 생성한 후 이메일로 보고서를 보내려면 <a href="../../../home/c-rpt-oview/c-work-rpt-sets/c-edit-ex-rpt-files/c-edit-ex-rpt-files.md#concept-96fd57159f454defa09bd18655a12887"> 기존 Report.cfg 파일 편집 </a>을 참조하십시오. </p> </p> <p>알림 전용 값은 5.4x 및 5.5x 릴리스에서 사용할 수 있습니다. </p> <p>알림을 받을 대규모 수신자 세트(20명 이상)의 경우 이메일 배포 목록을 사용하는 것이 좋습니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 본문 XSL 템플릿 </td> 
@@ -171,7 +171,7 @@ Report.cfg 매개 변수에 대한 정보입니다.
   </tr> 
   <tr> 
    <td colname="col1"> 시작 날짜 </td> 
-   <td colname="col2"> <p>보고서 세트를 실행할 첫 번째 날짜 및 시간입니다. 이 시간은 데이터 집합의 현재 시간을 기반으로 합니다. </p> <p>형식:MM/DD/YYY hh:mm 표준 시간대(24시간 구문 사용) </p> <p>시간대 설정에 대한 자세한 내용은 <i>데이터 집합 구성 안내서</i>를 참조하십시오. </p> <p> <p>참고: 프로필의 데이터 타임스탬프가 지정된 날짜 및 시간과 일치하면 보고서가 실행되기 시작합니다. </p> </p> <p>예: </p> <p>시작 날짜가 08/08/2006 12:00 EST이면 보고서는 08/08/2006 12:00 이상의 타임스탬프가 있는 데이터에 대해 실행됩니다. 
+   <td colname="col2"> <p>보고서 세트를 실행할 첫 번째 날짜 및 시간입니다. 이 시간은 데이터 집합의 현재 시간을 기반으로 합니다. </p> <p>형식: MM/DD/YYY hh:mm 표준 시간대(24시간 구문 사용) </p> <p>시간대 설정에 대한 자세한 내용은 <i>데이터 집합 구성 안내서</i>를 참조하십시오. </p> <p> <p>참고:  프로필의 데이터 타임스탬프가 지정된 날짜 및 시간과 일치하면 보고서가 실행되기 시작합니다. </p> </p> <p>예: </p> <p>시작 날짜가 08/08/2006 12:00 EST이면 보고서는 08/08/2006 12:00 이상의 타임스탬프가 있는 데이터에 대해 실행됩니다. 
      <ul id="ul_EEF6F61B55E440DFB3348A9B10DFA5F1"> 
       <li id="li_133374F1287D4631BCAE7691E3FC93B6">일별 보고서는 hh:mm = 12:00 EST인 데이터에 대해 08/08/2006 및 그 다음 날에 대해 실행됩니다. </li> 
       <li id="li_89514719C5F94D789E4A1049D2CD5F93">주별 보고서는 hh:mm = 12:00 EST를 사용하는 데이터에 대해 08/08/2006 및 그 후 7일마다 실행됩니다. </li> 
@@ -188,11 +188,11 @@ Report.cfg 매개 변수에 대한 정보입니다.
   </tr> 
   <tr> 
    <td colname="col1"> 상위 N 지표 </td> 
-   <td colname="col2"> <p><i>선택 사항입니다</i>. Top N 값 매개 변수에 대한 설명을 참조하십시오. </p> <p> <p>참고: 이 매개 변수에 값을 입력하는 경우 Dimension 이름 매개 변수와 Top N 값 매개 변수에 값을 입력해야 합니다. </p> </p> </td> 
+   <td colname="col2"> <p><i>선택 사항입니다</i>. Top N 값 매개 변수에 대한 설명을 참조하십시오. </p> <p> <p>참고:  이 매개 변수에 값을 입력하는 경우 Dimension 이름 매개 변수와 Top N 값 매개 변수에 값을 입력해야 합니다. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 상위 N 값 </td> 
-   <td colname="col2"> <p><i>선택 사항입니다</i>. 이 매개 변수가 채워지면 <span class="keyword"> 보고서 서버 </span>는 동적 모드로 실행되고 Dimension 이름 매개 변수에 지정된 차원에 대한 요소의 최상위 번호(이 매개 변수에 지정된)에 대한 보고서를 생성하여 Top N 지표 매개 변수에 지정된 지표로 계산합니다. </p> <p>예:Dimension 이름 매개 변수, 최상위 N 지표 매개 변수의 세션 및 이 매개 변수에 5를 입력하면 생성된 보고서에 세션 수가 가장 많은 5개의 상위 페이지가 표시됩니다. </p> <p> <p>참고: 이 매개 변수에 값을 입력하는 경우 Dimension 이름 매개 변수와 상위 N 지표 매개 변수에 값을 입력해야 합니다. </p> </p> </td> 
+   <td colname="col2"> <p><i>선택 사항입니다</i>. 이 매개 변수가 채워지면 <span class="keyword"> 보고서 서버 </span>는 동적 모드로 실행되고 Dimension 이름 매개 변수에 지정된 차원에 대한 요소의 최상위 번호(이 매개 변수에 지정된)에 대한 보고서를 생성하여 Top N 지표 매개 변수에 지정된 지표로 계산합니다. </p> <p>예: Dimension 이름 매개 변수, 최상위 N 지표 매개 변수의 세션 및 이 매개 변수에 5를 입력하면 생성된 보고서에 세션 수가 가장 많은 5개의 상위 페이지가 표시됩니다. </p> <p> <p>참고:  이 매개 변수에 값을 입력하는 경우 Dimension 이름 매개 변수와 상위 N 지표 매개 변수에 값을 입력해야 합니다. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 로컬 샘플만 사용 </td> 
@@ -200,7 +200,7 @@ Report.cfg 매개 변수에 대한 정보입니다.
   </tr> 
   <tr> 
    <td colname="col1"> 작업 공간 경로 </td> 
-   <td colname="col2"> <p><i>선택 사항입니다</i>. 주어진 보고서 세트에 대한 작업 공간 모음의 위치입니다. 이 기능은 여러 보고서 세트에 대해 <span class="filepath"> Report.cfg </span> 파일을 사용하여 여러 방법으로 생성 및 배포해야 하는 작업 공간의 단일 복사본을 유지 관리하는 데 유용합니다. 이 경로의 루트 디렉터리는 모든 프로필 폴더일 수 있습니다. 경로 문자열의 시작 부분에 슬래시(\)를 입력하지 마십시오. </p> <p>예:<span class="filepath"> Reports\Common </span> 폴더에 A 및 Set B에 대한 공통 작업 공간을 저장한 다음, 각각 다른 생성 및 배포 설정을 갖는 두 개의 서로 다른 보고서 세트에 대해 <span class="filepath"> Report.cfg </span> 파일을 정의할 수 있습니다. <span class="filepath"> Report.cfg </span> 파일 모두에서 작업 공간 경로 매개 변수를 <i>프로필 이름</i>\Reports\Common으로 설정합니다. </p> </td> 
+   <td colname="col2"> <p><i>선택 사항입니다</i>. 주어진 보고서 세트에 대한 작업 공간 모음의 위치입니다. 이 기능은 여러 보고서 세트에 대해 <span class="filepath"> Report.cfg </span> 파일을 사용하여 여러 방법으로 생성 및 배포해야 하는 작업 공간의 단일 복사본을 유지 관리하는 데 유용합니다. 이 경로의 루트 디렉터리는 모든 프로필 폴더일 수 있습니다. 경로 문자열의 시작 부분에 슬래시(\)를 입력하지 마십시오. </p> <p>예: <span class="filepath"> Reports\Common </span> 폴더에 A 및 Set B에 대한 공통 작업 공간을 저장한 다음, 각각 다른 생성 및 배포 설정을 갖는 두 개의 서로 다른 보고서 세트에 대해 <span class="filepath"> Report.cfg </span> 파일을 정의할 수 있습니다. <span class="filepath"> Report.cfg </span> 파일 모두에서 작업 공간 경로 매개 변수를 <i>프로필 이름</i>\Reports\Common으로 설정합니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> XSL 출력 파일 </td> 
@@ -208,7 +208,7 @@ Report.cfg 매개 변수에 대한 정보입니다.
   </tr> 
   <tr> 
    <td colname="col1"> XSL 템플릿 </td> 
-   <td colname="col2"> <p><i>선택 사항입니다</i>. 보고서 인덱스에 적용할 XSL 템플릿 파일의 경로입니다. 변환된 <span class="filepath">.xml </span>은 지정된 <span class="wintitle"> XSL 출력 파일 </span>에 기록됩니다. 샘플 파일에 대해서는 <a href="../../../home/c-rpt-oview/c-rpt-sample-files/c-rpt-sample-files.md#concept-a06b93f21c5d4888be335fa2281b2a87"> 보고서 샘플 파일 </a> 을 참조하십시오. </p> <p> <p>참고: 보고서를 생성할 때 <span class="filepath"> .xsl </span> 템플릿을 사용하지 않으면 모든 보고서가 전자 메일로 첨부 파일로 배포됩니다. </p> </p> </td> 
+   <td colname="col2"> <p><i>선택 사항입니다</i>. 보고서 인덱스에 적용할 XSL 템플릿 파일의 경로입니다. 변환된 <span class="filepath">.xml </span>은 지정된 <span class="wintitle"> XSL 출력 파일 </span>에 기록됩니다. 샘플 파일에 대해서는 <a href="../../../home/c-rpt-oview/c-rpt-sample-files/c-rpt-sample-files.md#concept-a06b93f21c5d4888be335fa2281b2a87"> 보고서 샘플 파일 </a> 을 참조하십시오. </p> <p> <p>참고:  보고서를 생성할 때 <span class="filepath"> .xsl </span> 템플릿을 사용하지 않으면 모든 보고서가 전자 메일로 첨부 파일로 배포됩니다. </p> </p> </td> 
   </tr> 
  </tbody> 
 </table>

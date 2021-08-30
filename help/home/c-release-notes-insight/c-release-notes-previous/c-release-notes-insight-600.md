@@ -3,10 +3,10 @@ description: 버그 수정 및 알려진 문제를 포함하여 Data Workbench 6
 title: Data Workbench 6.0 릴리스 정보
 uuid: b348425e-3304-4db7-a280-479a34452bdb
 exl-id: be69b3be-24e7-4a8c-9dc8-1360a9b6fb3a
-source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+source-git-commit: 232117a8cacaecf8e5d7fcaccc5290d6297947e5
 workflow-type: tm+mt
-source-wordcount: '1679'
-ht-degree: 2%
+source-wordcount: '1677'
+ht-degree: 1%
 
 ---
 
@@ -35,7 +35,7 @@ Data Workbench(Insight 6.0) 클라이언트 기능에 대해 이러한 업그레
 
 버전 6.0으로 업데이트하기 전에 클라이언트 응용 프로그램에서 새 사전 파일(.zbin 파일)이 필요합니다. 소프트웨어 및 문서 프로필(Softdocs)에서 필요한 .zbin 파일을 가져올 수 있습니다.
 
-사전 요구 사항:
+전제 조건:
 
 * Insight 6.0 클라이언트 및 Report Server 6.0으로 업그레이드하기 전에 Insight Administrator가 먼저 Insight Server 6.0으로 업그레이드해야 합니다.
 * Insight 관리자는 언어(en-us.zbin, zh-cn.zbin)를 기반으로 zbin 파일을 선택하고, 언어 파일을 복사한 다음 insight.zbin으로 이름을 변경하고, 실행 파일이 있는 보고서 서버의 루트 디렉토리에 이름이 변경된 파일을 배치해야 합니다. 그런 다음 Insight Report Server를 다시 시작합니다.
@@ -51,7 +51,7 @@ Data Workbench(Insight 6.0) 클라이언트 기능에 대해 이러한 업그레
    ```
 
 1. Insight 클라이언트를 다시 시작합니다.
-1. 소프트웨어 및 문서 프로필(SoftDocs 프로필)로 이동하고 필요한 **[!UICONTROL Insight.zbin]** 파일을 다운로드합니다.[!DNL Software\Insight Client\v6.00\Insight_6.00.zip]
+1. 소프트웨어 및 문서 프로필(SoftDocs 프로필)로 이동하고 필요한 **[!UICONTROL Insight.zbin]** 파일을 다운로드합니다. [!DNL Software\Insight Client\v6.00\Insight_6.00.zip]
 
 1. Insight.zbin 파일을 Insight.exe 파일과 동일한 폴더에 복사합니다.
 1. 이제 Insight Server에서 Insight Client가 업데이트되도록 하려면 Insight.cfg 파일 인수를 true로 변경합니다.
@@ -92,7 +92,7 @@ Insight 6.0 서버 기능에 대해 다음 업그레이드 작업을 완료하�
 
 ## 서버 클러스터 업그레이드
 
-**언어 파일(.zbin 파일)을 준비합니다.** 인사이트 관리자는 필요한  `<language>.zbin` 언어에 대한 파일을 선택합니다(예:폴더에 있는 en-us.zbin , zh-cn.zbin) `/localization/<language>.zbin` 입니다. 그런 다음 관리자는 언어 파일을 복사하고 이름을 &quot;insight.zbin&quot;으로 변경합니다.
+**언어 파일(.zbin 파일)을 준비합니다.** 인사이트 관리자는 필요한  `<language>.zbin` 언어에 대한 파일을 선택합니다(예: 폴더에 있는 en-us.zbin , zh-cn.zbin) `/localization/<language>.zbin` 입니다. 그런 다음 관리자는 언어 파일을 복사하고 이름을 &quot;insight.zbin&quot;으로 변경합니다.
 
 언어 파일(.zbin)을 준비한 후에는 Insight Client와 보고서 서버를 모두 업데이트해야 합니다. Insight Client는 [클라이언트 업그레이드 프로세스](../../../home/c-release-notes-insight/release-notes.md) 중에 업데이트되지만 대부분의 경우 Insight Administrator가 보고서 서버를 업데이트합니다.
 
@@ -130,8 +130,8 @@ Insight 6.0 서버 기능에 대해 다음 업그레이드 작업을 완료하�
    1. ReportServer 설치 폴더로 이동합니다.
    1. 서비스를 시작하려면 다음 명령을 입력합니다.
 
-      * 영어:[!DNL ReportServer.exe -RegServer -Locale -en-us]
-      * 중국어:[!DNL ReportServer.exe -RegServer -Locale -zh-cn]
+      * 영어: [!DNL ReportServer.exe -RegServer -Locale -en-us]
+      * 중국어: [!DNL ReportServer.exe -RegServer -Locale -zh-cn]
 
 1. ReportServer가 올바른 매개 변수로 실행되고 있는지 확인하려면:
 
@@ -170,7 +170,7 @@ Profile = profileInfo:
 
 **보고서 서버 업그레이드.** 보고서 서버의 글꼴과 시작 매개 변수를 업데이트해야 합니다.
 
-사전 요구 사항:
+전제 조건:
 
 * 보고서 서버 6.0을 업그레이드하기 전에 Insight 관리자는 먼저 Insight Server 6.0으로 업그레이드해야 합니다.
 * 모든 언어의 경우 보고서 서버 6.0에는 보고서 서버 루트 폴더에 Insight.zbin을 추가해야 합니다. `base/localization/<language>.zbin` 이 복사되어 이름이 &quot;insight.zbin&quot;으로 변경되었는지 확인합니다. 보고서 서버 디렉토리의 루트에 복사합니다.
@@ -258,7 +258,7 @@ YYYYMMDD-RSID_HH0000.tsv.gz
 
 버그 수정 및 알려진 문제를 포함하여 Data Workbench 6.0.4에 도입된 새로운 기능.
 
-각 이전 릴리스에 대한 이전 기능 및 수정 사항을 보려면 [릴리스 노트 아카이브](https://docs.adobe.com/content/help/ko-KR/data-workbench/using/release-notes/release-notes.html)를 참조하십시오.
+각 이전 릴리스에 대한 이전 기능 및 수정 사항을 보려면 [릴리스 노트 아카이브](https://experienceleague.adobe.com/docs/data-workbench/using/release-notes/release-notes.html)를 참조하십시오.
 
 ## 새로운 기능 {#section-2-1225066ea8f44cf68e42e019d0bca816}
 
