@@ -3,9 +3,9 @@ description: DWB를 설정한 후에는 이러한 기능을 구현할 수 있습
 title: 기능 Data Workbench 구현
 uuid: f7eec017-f27c-4ae0-bc23-45195fc08d81
 exl-id: 4b2625a6-cc44-4281-b532-fc29e8c06105
-source-git-commit: 232117a8cacaecf8e5d7fcaccc5290d6297947e5
+source-git-commit: 050468bf6a9ef9c07719ded79c8ab68753d58647
 workflow-type: tm+mt
-source-wordcount: '281'
+source-wordcount: '284'
 ht-degree: 3%
 
 ---
@@ -22,11 +22,11 @@ DWB를 설정한 후에는 이러한 기능을 구현할 수 있습니다.
 
 * **지구 시각화**&#x200B;를 구현하려면 [전구](https://experienceleague.adobe.com/docs/data-workbench/using/client/analysis-visualizations/globes/c-globes.html)를 참조하십시오.
 
-* **Workspaces for Attribution**&#x200B;을 구현하려면 [규칙 기반 속성](https://docs.adobe.com/help/en/data-workbench/using/client/attribution-reports/c-rules-attrib.html) 및 [최적 속성](https://docs.adobe.com/help/en/data-workbench/using/client/attribution-reports/c-attrib-algorithmic.html)을 참조하십시오.
+* **Workspaces for Attribution**&#x200B;을 구현하려면 [규칙 기반 속성](https://experienceleague.adobe.com/docs/data-workbench/using/client/attribution-reports/c-rules-attrib.html?lang=en) 및 [최적 속성](https://experienceleague.adobe.com/docs/data-workbench/using/client/attribution-reports/c-attrib-algorithmic.html?lang=en)을 참조하십시오.
 
 * **Predictive Analytics** 작업 공간을 구현하려면 [시각화](https://experienceleague.adobe.com/docs/data-workbench/using/client/visualizations/c-vis.html) 와 아래에 나열된 시각화를 참조하십시오.
 
-* 클러스터링 시각화를 사용하여 **Predictive Intelligence를 구현하려면 [클러스터링](https://docs.adobe.com/help/en/data-workbench/using/client/analysis-visualizations/visitor-cluster/c-visitor-cluster.html)을 참조하십시오.**
+* 클러스터링 시각화를 사용하여 **Predictive Intelligence를 구현하려면 [클러스터링](https://experienceleague.adobe.com/docs/data-workbench/using/client/analysis-visualizations/visitor-cluster/c-visitor-cluster.html?lang=en)을 참조하십시오.**
 
 * 성향 점수&#x200B;**를 사용하여**&#x200B;예측 인텔리전스를 구현하려면 [성향 점수](https://experienceleague.adobe.com/docs/data-workbench/using/client/analysis-visualizations/visitor-propensity/c-visitor-propensity.html)를 참조하십시오.
 

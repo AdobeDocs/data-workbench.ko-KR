@@ -3,9 +3,9 @@ description: 다음은 Data Workbench에 워크스테이션(클라이언트)을 
 title: 워크스테이션 요구 사항
 uuid: 3c4ba2e8-efbc-45fe-8ac1-923d070bc710
 exl-id: 35e259e3-3d6d-45c8-a923-2f8de117489d
-source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+source-git-commit: 050468bf6a9ef9c07719ded79c8ab68753d58647
 workflow-type: tm+mt
-source-wordcount: '524'
+source-wordcount: '525'
 ht-degree: 2%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 2%
 
 다음은 Data Workbench에 워크스테이션(클라이언트)을 설치하기 위한 요구 사항 및 권장 사항입니다.
 
-추가 Data Workbench 시스템 요구 사항은 [서버 시스템 요구 사항](https://docs.adobe.com/help/en/data-workbench/using/server-admin-install/c-msr-server.html)을 참조하십시오.
+추가 Data Workbench 시스템 요구 사항은 [서버 시스템 요구 사항](https://experienceleague.adobe.com/docs/data-workbench/using/server-admin-install/c-msr-server.html?lang=en)을 참조하십시오.
 
 >[!IMPORTANT]
 >
@@ -58,28 +58,28 @@ Data Workbench 워크스테이션(클라이언트)을 설치하기 전에 다음
 
 **해상도**
 
-* 필수 여부:1024 x 768(XGA)
-* 권장 사항:1920 x 1200(WUXGA)
+* 필수 여부: 1024 x 768(XGA)
+* 권장 사항: 1920 x 1200(WUXGA)
 
 **그래픽 어댑터**
 
-* 필수 여부:OpenGL 3.2를 지원하는 OpenGL 하드웨어 가속
-* 권장 사항:전용 비디오 어댑터(예: NVIDIA 또는 ATI 어댑터)
+* 필수 여부: OpenGL 3.2를 지원하는 OpenGL 하드웨어 가속
+* 권장 사항: 전용 비디오 어댑터(예: NVIDIA 또는 ATI 어댑터)
 
 **프로세서**
 
-* 필수 여부:1.2GHz 이상 Intel 또는 AMD
-* 권장 사항:ICore 2 듀오 클래스
+* 필수 여부: 1.2GHz 이상 Intel 또는 AMD
+* 권장 사항: ICore 2 듀오 클래스
 
 **RAM**
 
-* 필수 여부:2GB
-* 권장 사항:4GB
+* 필수 여부: 2GB
+* 권장 사항: 4GB
 
 **연결**
 
-* 필수 여부:DPU에 대한 512Kbps 링크
-* 권장 사항:DPU에 대한 2Mbps 이상 링크
+* 필수 여부: DPU에 대한 512Kbps 링크
+* 권장 사항: DPU에 대한 2Mbps 이상 링크
 
 **파일 시스템**
 

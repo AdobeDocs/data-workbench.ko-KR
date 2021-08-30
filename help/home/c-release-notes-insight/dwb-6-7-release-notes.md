@@ -3,9 +3,9 @@ description: Data Workbench 6.7의 새로운 기능, 수정 내용 및 알려진
 title: Data Workbench 6.7 릴리스 정보
 uuid: b84f5f2b-4f1c-490c-982b-6bd8d3a63e25
 exl-id: e5ec3224-66d1-47a6-9bf3-8be9f6568b8d
-source-git-commit: 232117a8cacaecf8e5d7fcaccc5290d6297947e5
+source-git-commit: 050468bf6a9ef9c07719ded79c8ab68753d58647
 workflow-type: tm+mt
-source-wordcount: '648'
+source-wordcount: '649'
 ht-degree: 34%
 
 ---
@@ -44,7 +44,7 @@ ECDHE 및 DHE에 대한 지원이 추가되었습니다.
 
 [!DNL User List.cfg]에서 이메일 지원
 
-[!DNL User List.cfg]에 이메일 특성에 대한 지원이 추가되었습니다. 자세한 내용은 [그룹 구성원의 사용자 관리](https://docs.adobe.com/help/en/data-workbench/using/server-admin-install/admin-dwb-server/access-control/dwb-self-admin-member-access.html)를 참조하십시오.
+[!DNL User List.cfg]에 이메일 특성에 대한 지원이 추가되었습니다. 자세한 내용은 [그룹 구성원의 사용자 관리](https://experienceleague.adobe.com/docs/data-workbench/using/server-admin-install/admin-dwb-server/access-control/dwb-self-admin-member-access.html?lang=en)를 참조하십시오.
 
 **도움말 메뉴**
 
