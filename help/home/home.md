@@ -5,7 +5,7 @@ feature: Reports & Analytics Basics
 uuid: 987b69f1-b82a-4719-a71d-b0250a4a4f92
 exl-id: 9c00c87e-e5dd-4806-9338-2336ae68176a
 source-git-commit: 232117a8cacaecf8e5d7fcaccc5290d6297947e5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '266'
 ht-degree: 100%
 
@@ -35,7 +35,7 @@ Data Workbench에는 다음과 같은 예측 분석 기능, 데이터 시각화 
 
 ## 기타 Analytics 사용 안내서
 
-[Analytics 사용 안내서](https://experienceleague.adobe.com/docs/analytics/landing/home.html)
+[Analytics 사용 안내서](https://experienceleague.adobe.com/docs/analytics/landing/home.html?lang=ko-KR)
 
 ## Data Workbench 릴리스 정보 및 새로운 기능
 
