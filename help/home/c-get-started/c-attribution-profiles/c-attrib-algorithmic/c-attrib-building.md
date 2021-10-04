@@ -3,9 +3,9 @@ description: Premium 메뉴에서 최적 속성 을 열고 다음 단계에 따�
 title: 최적 속성 모델 구축
 uuid: d1fd0340-1917-41bc-9a08-e78a79d084e7
 exl-id: e0a42374-2500-46a3-a72a-708ab2d228db
-source-git-commit: 232117a8cacaecf8e5d7fcaccc5290d6297947e5
+source-git-commit: b21da6d12175fa8570b1b366049baa9c8e8ea862
 workflow-type: tm+mt
-source-wordcount: '870'
+source-wordcount: '860'
 ht-degree: 1%
 
 ---
@@ -24,7 +24,7 @@ Premium 메뉴에서 최적 속성 을 열고 다음 단계에 따라 최적 속
 
    >[!NOTE]
    >
-   >Best Fit Attribution은 프로필에서 Premium을 활성화해야 하는 Adobe Analytics Premium 기능입니다. 인증서를 업데이트하고 Premium 프로필을 profile.cfg 파일에 추가해야 합니다. [DWB 서버 업그레이드 를 참조하십시오. 6.2~6.3](https://experienceleague.adobe.com/docs/data-workbench/using/install/upgrade-dwb/c-6-2-to-6-3-upgrade.html)(DWB 6.3의 경우)
+   >Best Fit Attribution은 프로필에서 Premium을 활성화해야 하는 Adobe Analytics Premium 기능입니다. 인증서를 업데이트하고 Premium 프로필을 profile.cfg 파일에 추가해야 합니다. [DWB 서버 업그레이드 를 참조하십시오. 6.2~6.3](/help/home/c-inst-svr/c-upgrd-uninst-sftwr/c-upgrd-sftwr/c-6-2-to-6-3-upgrade.md)(DWB 6.3의 경우)
 
 1. **[!UICONTROL Success]** 지표를 설정합니다.
 
@@ -108,54 +108,54 @@ Premium 메뉴에서 최적 속성 을 열고 다음 단계에 따라 최적 속
 
 **옵션** 메뉴는 최적 속성 분석을 설정 및 표시하는 고급 기능을 제공합니다.
 
-<table id="table_8F6F517B7DBF4259814BEC6D07A72EAC"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> 옵션 메뉴 </th> 
-   <th colname="col2" class="entry"> 설명 </th> 
+<table id="table_8F6F517B7DBF4259814BEC6D07A72EAC">
+ <thead>
+  <tr>
+   <th colname="col1" class="entry"> 옵션 메뉴 </th>
+   <th colname="col2" class="entry"> 설명 </th>
   </tr>
  </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"><span class="uicontrol"> 교육 필터 설정  </span> </td> 
-   <td colname="col2"> 교육 필터는 속성 모델을 작성할 때 모집단을 필터링하는 성공 창과 함께 사용됩니다. 이렇게 하면 분석하려는 방문자만 포함하는 데이터 하위 세트가 제공됩니다. <p>참고: 숙련된 사용자는 또한 필터의 유연성을 활용하여 성공 및 터치 윈도우의 시간대를 넘어 집중할 수도 있습니다. 예를 들어, 시간 범위를 선택할 수 있을 뿐만 아니라, <i>참조 도메인</i> 세트를 선택하여 해당 도메인에서 사용자에 대한 속성만 검사할 수 있습니다. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"><span class="uicontrol"> 복잡한 필터 설명 표시  </span> </td> 
-   <td colname="col2"> 교육 필터, 성공 창 및 터치 창의 필터 코드를 표시합니다. </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"><span class="uicontrol"> 모델 저장  </span> </td> 
-   <td colname="col2"> 나중에 사용할 수 있도록 현재 속성 모델을 저장합니다. </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"><span class="uicontrol"> 모델 로드  </span> </td> 
-   <td colname="col2"> 이전에 저장한 속성 모델을 엽니다. </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"><span class="uicontrol"> 프레젠테이션 보기  </span> </td> 
-   <td colname="col2"> 프레젠테이션의 위쪽 메뉴 모음을 숨깁니다. </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p><b>옵션 &gt; </b> 고급에는 교육 세트 크기를 설정하고 클래스 불균형의 경우 수행할 접근 방식을 지정하는 기능이 포함됩니다. </p> </td> 
-   <td colname="col2"> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"><span class="uicontrol"> 고급 &gt; 교육 세트 크기  </span> </td> 
-   <td colname="col2"> <p>교육 집합 크기를 설정합니다. </p> <p>참고:  기본 교육 크기는 250,000명의 방문자에 대해 큽니다. </p> 
-    <ul id="ul_5F17C60227C34A85A2C476A32F2B5DCD"> 
-     <li id="li_A076FC2AD0214ADDBFCFD82AEA5F0880">작은 = 50,000 </li> 
-     <li id="li_17E77E01D5374068BEBC80B3AD4CCD41">작게 = 75,000 </li> 
-     <li id="li_7F6B4834742A4BFCBC3DB214425B88C3">일반 = 100,000 </li> 
-     <li id="li_0BB7F791603745028CFC661EBC94D8B4">큰 = 250,00 </li> 
-     <li id="li_34B60233C84F48F1BCB8040C5195411A">거대 = 500,000 </li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"><b>고급 &gt; 분류 잔액  </b> </td> 
-   <td colname="col2"> <p>데이터 세트 크기를 기반으로 하여 클래스 불균형 문제에 대해 생성할 입력 레코드 수를 식별하고 정의합니다. </p> </td> 
-  </tr> 
- </tbody> 
+ <tbody>
+  <tr>
+   <td colname="col1"><span class="uicontrol"> 교육 필터 설정  </span> </td>
+   <td colname="col2"> 교육 필터는 속성 모델을 작성할 때 모집단을 필터링하는 성공 창과 함께 사용됩니다. 이렇게 하면 분석하려는 방문자만 포함하는 데이터 하위 세트가 제공됩니다. <p>참고: 숙련된 사용자는 또한 필터의 유연성을 활용하여 성공 및 터치 윈도우의 시간대를 넘어 집중할 수도 있습니다. 예를 들어, 시간 범위를 선택할 수 있을 뿐만 아니라, <i>참조 도메인</i> 세트를 선택하여 해당 도메인에서 사용자에 대한 속성만 검사할 수 있습니다. </p> </td>
+  </tr>
+  <tr>
+   <td colname="col1"><span class="uicontrol"> 복잡한 필터 설명 표시  </span> </td>
+   <td colname="col2"> 교육 필터, 성공 창 및 터치 창의 필터 코드를 표시합니다. </td>
+  </tr>
+  <tr>
+   <td colname="col1"><span class="uicontrol"> 모델 저장  </span> </td>
+   <td colname="col2"> 나중에 사용할 수 있도록 현재 속성 모델을 저장합니다. </td>
+  </tr>
+  <tr>
+   <td colname="col1"><span class="uicontrol"> 모델 로드  </span> </td>
+   <td colname="col2"> 이전에 저장한 속성 모델을 엽니다. </td>
+  </tr>
+  <tr>
+   <td colname="col1"><span class="uicontrol"> 프레젠테이션 보기  </span> </td>
+   <td colname="col2"> 프레젠테이션의 위쪽 메뉴 모음을 숨깁니다. </td>
+  </tr>
+  <tr>
+   <td colname="col1"> <p><b>옵션 &gt; </b> 고급에는 교육 세트 크기를 설정하고 클래스 불균형의 경우 수행할 접근 방식을 지정하는 기능이 포함됩니다. </p> </td>
+   <td colname="col2"> </td>
+  </tr>
+  <tr>
+   <td colname="col1"><span class="uicontrol"> 고급 &gt; 교육 세트 크기  </span> </td>
+   <td colname="col2"> <p>교육 집합 크기를 설정합니다. </p> <p>참고:  기본 교육 크기는 250,000명의 방문자에 대해 큽니다. </p>
+    <ul id="ul_5F17C60227C34A85A2C476A32F2B5DCD">
+     <li id="li_A076FC2AD0214ADDBFCFD82AEA5F0880">작은 = 50,000 </li>
+     <li id="li_17E77E01D5374068BEBC80B3AD4CCD41">작게 = 75,000 </li>
+     <li id="li_7F6B4834742A4BFCBC3DB214425B88C3">일반 = 100,000 </li>
+     <li id="li_0BB7F791603745028CFC661EBC94D8B4">큰 = 250,00 </li>
+     <li id="li_34B60233C84F48F1BCB8040C5195411A">거대 = 500,000 </li>
+    </ul> </td>
+  </tr>
+  <tr>
+   <td colname="col1"><b>고급 &gt; 분류 잔액  </b> </td>
+   <td colname="col2"> <p>데이터 세트 크기를 기반으로 하여 클래스 불균형 문제에 대해 생성할 입력 레코드 수를 식별하고 정의합니다. </p> </td>
+  </tr>
+ </tbody>
 </table>
 
 | 재설정 및 제거 옵션 | 설명 |

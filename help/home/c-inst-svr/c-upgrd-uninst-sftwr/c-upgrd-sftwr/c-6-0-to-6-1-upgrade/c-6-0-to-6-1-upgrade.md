@@ -3,9 +3,9 @@ description: 다음 단계에 따라 Data Workbench v6.0x 설치에서 data work
 title: Data Workbench 6.0에서 6.1로 업그레이드
 uuid: 4671c2bf-06ab-49c4-8dd1-24115facd83b
 exl-id: 559e1942-561c-4270-9670-550177730cdb,2a337d2e-c70e-4f35-a6c2-c3a7f50a0800
-source-git-commit: 232117a8cacaecf8e5d7fcaccc5290d6297947e5
+source-git-commit: b21da6d12175fa8570b1b366049baa9c8e8ea862
 workflow-type: tm+mt
-source-wordcount: '751'
+source-wordcount: '743'
 ht-degree: 1%
 
 ---
@@ -52,18 +52,18 @@ ht-degree: 1%
    1. [!DNL Insight.exe] 및 [!DNL ReportServer.exe]를 업데이트하려면 [!DNL Server\Software] 폴더를 바꾸십시오
    1. [!DNL Server\Scripts] 폴더를 업데이트하여 [!DNL TnTSend.exe] 을 업데이트합니다.
 
-1. **[!UICONTROL DeviceAtlas]**&#x200B;을 사용하는 경우 [!DNL Server\Lookups] 폴더에 있는 번들](https://experienceleague.adobe.com/docs/data-workbench/using/dataset/trans-config-file/c-deviceatlas-update.html)을 업데이트해야 합니다.[
+1. **[!UICONTROL DeviceAtlas]**&#x200B;을 사용하는 경우 [!DNL Server\Lookups] 폴더에 있는 번들](/help/home/c-inst-svr/c-upgrd-uninst-sftwr/c-upgrd-sftwr/c-6-0-to-6-1-upgrade/c-deviceatlas-update.md)을 업데이트해야 합니다.[
 
 1. 각 프로필에 대한 항목 수를 반영하도록 벡터가 업데이트되도록 [!DNL Profile.cfg] 파일을 구성합니다.
 
    예를 들어 **[!UICONTROL Predictive Analytics]** 프로필을 활성화하려면 이 설정을 업데이트해야 합니다.
 
    ```
-   Directories = vector: 5 items 
-       0 = string: Base\\ 
-       1 = string: Geography\\ 
-       2 = string: Predictive Analytics\\ 
-       3 = string: Adobe SC\\ 
+   Directories = vector: 5 items
+       0 = string: Base\\
+       1 = string: Geography\\
+       2 = string: Predictive Analytics\\
+       3 = string: Adobe SC\\
        4 = string: Profile Name\\
    ```
 
@@ -85,7 +85,7 @@ ht-degree: 1%
    로그 소스 ID가 정의되지 않은 경우 다음 오류가 표시됩니다.
 
    ```
-   Missing Log Source ID in log processing.cfg.  
+   Missing Log Source ID in log processing.cfg.
    Log Source ID must be defined for all log sources.
    ```
 
@@ -115,10 +115,10 @@ ht-degree: 1%
 1. (선택 사항) Data Workbench는 현재 영어(-en-us) 및 중국어(-zh-cn)를 지원합니다. 단일 및 2바이트 문자를 지원하려면 글꼴을 설정해야 합니다.
 
    ```
-   Report Server.cfg - Add Fonts 
-      Fonts = vector: 2 items  
-      0 = string: SimSun  
-      1 = string: Arial 
+   Report Server.cfg - Add Fonts
+      Fonts = vector: 2 items
+      0 = string: SimSun
+      1 = string: Arial
    ```
 
    Windows 운영 체제에는 나열된 글꼴도 설치되어 있어야 합니다.
@@ -137,7 +137,7 @@ ht-degree: 1%
    1. 언어 설정에 따라 서비스를 시작합니다.
 
       ```
-      ReportServer.exe -RegServer -Locale -en-us (English)  
+      ReportServer.exe -RegServer -Locale -en-us (English)
       ReportServer.exe -RegServer -Locale -zh-cn (Simplified Chinese)
       ```
 
@@ -185,9 +185,9 @@ ht-degree: 1%
    Data Workbench는 현재 영어 및 중국어 간체를 모두 지원합니다. 다음 언어를 모두 지원할 글꼴을 선택할 수 있습니다.
 
    ```
-   Fonts = vector: 2 items 
-   0 = string: SimSun 
-   1 = string: Arial 
+   Fonts = vector: 2 items
+   0 = string: SimSun
+   1 = string: Arial
    ```
 
    Windows 운영 체제에는 요청된 글꼴도 설치되어 있어야 합니다.
