@@ -3,7 +3,7 @@ description: 보고서를 Excel 파일로 생성하는 정보입니다.
 title: 보고서를 Microsoft Excel 파일로 생성
 uuid: 0717a916-93d6-4b8e-a2ff-e9179ba4a66e
 exl-id: 4e644867-db5e-4ca9-a2bf-1193e031f2bf
-source-git-commit: 232117a8cacaecf8e5d7fcaccc5290d6297947e5
+source-git-commit: 79981e92dd1c2e552f958716626a632ead940973
 workflow-type: tm+mt
 source-wordcount: '474'
 ht-degree: 4%
@@ -16,19 +16,19 @@ ht-degree: 4%
 
 다음 요구 사항을 충족해야 합니다.
 
-* Microsoft Excel은 [!DNL Report Server]과 동일한 컴퓨터에 설치해야 합니다.
+* Microsoft Excel은 [!DNL Report Server] 과 동일한 컴퓨터에 설치해야 합니다.
 * [!DNL Report Server] 프로세스가 실행 중인 사용자 계정에는 Microsoft Excel에 액세스할 수 있는 권한이 있어야 합니다.
 
    >[!NOTE]
    >
    >
-   >    
-   >    
-   >    * 보고서를 Excel 파일로 생성하면 새 Excel 인스턴스가 열립니다. 이 프로세스에 대한 자세한 내용은 [http://support.microsoft.com/kb/257757](http://support.microsoft.com/kb/257757)을 참조하십시오.
-   >    * Data Workbench는 256개 이상의 열과 65,536개의 데이터 행을 지원하지만 Microsoft Excel은 지원하지 않습니다.
+   >
+   >
+   >    * 보고서를 Excel 파일로 생성하면 새 Excel 인스턴스가 열립니다. 이 프로세스에 대한 자세한 내용은 [https://support.microsoft.com/kb/257757](https://support.microsoft.com/kb/257757)을 참조하십시오.
+   >    * Data Workbench는 256개 이상의 열 및 65,536개의 데이터 행을 지원하지만 Microsoft Excel은 지원하지 않습니다.
 
 
-이러한 요구 사항이 충족되면 [!DNL Report Server]은(는) 자동으로 Microsoft Excel을 시작하고 특정 시각화, 차원 및 값 범례, 텍스트 주석에서 데이터를 워크시트당 하나의 시각화가 있는 새 Excel 통합 문서로 출력합니다.
+이러한 요구 사항이 충족되면 [!DNL Report Server]은(는) 자동으로 Microsoft Excel을 시작하고 특정 시각화, 차원 및 값 범례, 텍스트 주석의 데이터를 워크시트당 하나의 시각화가 있는 새 Excel 통합 문서로 출력합니다.
 
 >[!NOTE]
 >

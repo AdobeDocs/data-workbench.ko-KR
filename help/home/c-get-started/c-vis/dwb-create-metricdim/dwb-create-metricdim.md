@@ -3,7 +3,7 @@ description: 지표 치수 마법사를 사용하여 새 지표 Dimension을 만
 title: 지표 치수 마법사
 uuid: 77b9bc8e-7625-4fef-9de4-f113f9b2debd
 exl-id: 109fbefc-5608-493d-aec9-8337f21eaa70
-source-git-commit: 232117a8cacaecf8e5d7fcaccc5290d6297947e5
+source-git-commit: 79981e92dd1c2e552f958716626a632ead940973
 workflow-type: tm+mt
 source-wordcount: '493'
 ht-degree: 3%
@@ -60,7 +60,7 @@ ht-degree: 3%
 
    ![](assets/6_4_workstation_metricdim_format_metric.png)
 
-   형식은 시각화에서 열 때 지표가 표시되는 방식을 정의합니다. 이러한 형식은 아래에 정의된 [printf standards](http://www.cplusplus.com/reference/cstdio/printf/) 를 선택합니다.
+   형식은 시각화에서 열 때 지표가 표시되는 방식을 정의합니다. 이러한 형식은 아래에 정의된 [printf standards](https://www.cplusplus.com/reference/cstdio/printf/) 를 선택합니다.
 
    ```
    %[flags][width][.precision][length][specifier]

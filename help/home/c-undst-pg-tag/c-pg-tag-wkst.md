@@ -3,7 +3,7 @@ description: 상수 및 사용자 지정 변수 목록이 포함된 표.
 title: 페이지 태그 변수 매핑 워크시트
 uuid: 1ecef047-5a04-401d-b3d5-f31fddb134e1
 exl-id: 647c6a14-58b4-4f87-bccf-fa7ac24811a5
-source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+source-git-commit: 79981e92dd1c2e552f958716626a632ead940973
 workflow-type: tm+mt
 source-wordcount: '238'
 ht-degree: 13%
@@ -42,12 +42,12 @@ ht-degree: 13%
 | v_pe | 페이지 오류 | v_pe=&quot;Validation_Error&quot; |
 | v_c | 클릭스루 캠페인 | v_c=&quot;캠페인 1&quot; |
 | v_ca | 클릭스루 Campaign Asset | v_ca=&quot;72890ab&quot; |
-| v_cr | 클릭스루 캠페인 레퍼러 | v_cr=http://money.cnn.com/markets/&amp;v_cp |
+| v_cr | 클릭스루 캠페인 레퍼러 | v_cr=https://money.cnn.com/markets/&amp;v_cp |
 | v_ic | 노출 캠페인 | v_c=&quot;캠페인 1&quot; |
 | v_ica | 노출 캠페인 자산 | v_ca=&quot;72890ab&quot; |
-| v_icr | 노출 캠페인 레퍼러 | v_cr=http://money.cnn.com/markets/&amp;v_cp |
+| v_icr | 노출 캠페인 레퍼러 | v_cr=https://money.cnn.com/markets/&amp;v_cp |
 | v_ln | 링크 이름 | v_ln=&quot;약%20Us&quot; |
-| v_eurl | 종료 URL | V_eurl=&quot;http://www.offsite.com/ |
+| v_eurl | 종료 URL | V_eurl=&quot;https://www.offsite.com/ |
 | v_1 | 사용자 지정 변수 1 |  |
 | v_2 | 사용자 지정 변수 2 |  |
 | v_3 | 사용자 지정 변수 3 |  |

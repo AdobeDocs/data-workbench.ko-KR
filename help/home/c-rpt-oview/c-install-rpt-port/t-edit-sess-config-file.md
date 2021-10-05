@@ -3,7 +3,7 @@ description: 보고서 포털은 global.asa라는 구성 파일의 정보를 사
 title: 세션 구성 파일 편집
 uuid: c1bcd4d2-9bf5-425a-bda2-7f805983cdc6
 exl-id: 98cf2e11-afb8-4530-aaa4-ea3c913effc1
-source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+source-git-commit: 79981e92dd1c2e552f958716626a632ead940973
 workflow-type: tm+mt
 source-wordcount: '244'
 ht-degree: 6%
@@ -30,8 +30,8 @@ ht-degree: 6%
 1. 파일을 저장합니다.
 1. [!DNL Report Portal] 파일이 올바르게 설치되었고 지정된 가상 디렉터리를 통해 연결할 수 있는지 확인하려면 브라우저에서 다음 페이지를 엽니다.
 
-   http://*YourServerAddress*/*YourPortalName*
+   https://*YourServerAddress*/*YourPortalName*
 
-   예: [!DNL http://localhost/VisualReportPortal]
+   예: [!DNL https://localhost/VisualReportPortal]
 
    [!DNL Report Portal] ASP가 올바르게 설치된 경우 포털 로그인 페이지가 표시됩니다. 이 페이지가 표시되지 않으면 IIS에서 ASP가 활성화되어 있는지 확인하고 가상 디렉터리 매핑을 다시 확인하십시오.

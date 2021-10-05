@@ -3,7 +3,7 @@ description: 최종 단계는 대시보드를 초기화하도록 처음으로 �
 title: 대시보드 초기화
 uuid: 847ba63e-29d8-4950-aa74-22d825388e2b
 exl-id: 47098d73-d8c4-4d14-964f-108a731d3733
-source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+source-git-commit: 79981e92dd1c2e552f958716626a632ead940973
 workflow-type: tm+mt
 source-wordcount: '200'
 ht-degree: 4%
@@ -14,7 +14,7 @@ ht-degree: 4%
 
 최종 단계는 대시보드를 초기화하도록 처음으로 실행하는 것입니다.
 
-1. 웹 브라우저를 열고 새로 배포된 사이트의 URL(예: http://localhost/dashboard)을 입력합니다.
+1. 웹 브라우저를 열고 새로 배포된 사이트의 URL(예: https://localhost/dashboard)을 입력합니다.
 1. 처음으로 연결하면 데이터베이스 테이블이 설정되므로 약간 지연될 수 있습니다.
 1. 초기 로그온 자격 증명은 다음과 같습니다.
 

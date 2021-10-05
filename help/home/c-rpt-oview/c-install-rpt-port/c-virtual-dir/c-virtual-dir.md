@@ -3,7 +3,7 @@ description: 보고서 포털을 구성하려면 해당 응용 프로그램 파�
 title: 보고서 포털 페이지를 가상 디렉터리에 매핑
 uuid: 75ca85d5-d526-48f9-b2c4-ca77c903c6af
 exl-id: 13e457d4-7039-491a-a65d-f23ad7e9fe77
-source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+source-git-commit: 79981e92dd1c2e552f958716626a632ead940973
 workflow-type: tm+mt
 source-wordcount: '204'
 ht-degree: 18%
@@ -18,7 +18,7 @@ ht-degree: 18%
 
 [!DNL Report Portal]에 할당하는 가상 디렉토리의 이름은 이전 섹션의 3단계에서 VSVirtualPortalName 폴더에 사용한 이름과 일치해야 합니다. 예를 들어 &quot;Portal&quot;을 [!DNL Report Portal] 이름으로 사용하려면 포털의 파일을 &quot;Portal&quot;이라는 가상 디렉터리에 매핑해야 합니다. 다음 예제에서는 클라이언트가 myWebServer라는 서버의 가상 디렉터리 [!DNL VisualReportPortal]에 할당된 [!DNL Report Portal]에 액세스하는 데 사용하는 URI를 보여 줍니다.
 
-[!DNL http://myWebServer/VisualReportPortal]
+[!DNL https://myWebServer/VisualReportPortal]
 
 다음 절차는 [!DNL Report Portal]을 IIS 5.0, 6.0 및 7.0 이상의 가상 디렉터리에 매핑하는 방법을 설명합니다.
 

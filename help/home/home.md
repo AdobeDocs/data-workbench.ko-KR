@@ -4,10 +4,10 @@ title: Data Workbench 도움말
 feature: Reports & Analytics Basics
 uuid: 987b69f1-b82a-4719-a71d-b0250a4a4f92
 exl-id: 9c00c87e-e5dd-4806-9338-2336ae68176a
-source-git-commit: 232117a8cacaecf8e5d7fcaccc5290d6297947e5
-workflow-type: ht
+source-git-commit: 79981e92dd1c2e552f958716626a632ead940973
+workflow-type: tm+mt
 source-wordcount: '266'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 ![배너](/help/home/assets/doc_banner_workbench.png)
 
-[Data Workbench](http://www.adobe.com/kr/solutions/digital-analytics/data-workbench.html)는 [Adobe Analytics](http://www.adobe.com/kr/solutions/digital-analytics.html)의 일부입니다. Data Workbench는 모든 유형의 웹, CRM, POS 및 기타 데이터 유형에서 온라인 및 오프라인 고객 상호 작용을 통해 데이터를 수집, 처리, 분석 및 시각화하도록 디자인된 유연성이 높고 강력한 다중 채널 기능이 있습니다. Data Workbench의 대화형 보고서를 사용하여 해당 통계 정보를 분석하고 대응하여 활동을 모니터링하고 고객 트렌드를 예측할 수 있습니다.
+[Data Workbench](https://www.adobe.com/solutions/digital-analytics/data-workbench.html)는 [Adobe Analytics](https://www.adobe.com/solutions/digital-analytics.html)의 일부입니다. Data Workbench는 모든 유형의 웹, CRM, POS 및 기타 데이터 유형에서 온라인 및 오프라인 고객 상호 작용을 통해 데이터를 수집, 처리, 분석 및 시각화하도록 디자인된 유연성이 높고 강력한 다중 채널 기능이 있습니다. Data Workbench의 대화형 보고서를 사용하여 해당 통계 정보를 분석하고 대응하여 활동을 모니터링하고 고객 트렌드를 예측할 수 있습니다.
 
 * ![Analytics 아이콘](assets/analytics-icon-24.png) [Analytics 설명서](https://experienceleague.adobe.com/docs/analytics/landing/home.html?lang=ko-KR)
 * ![pdf 아이콘](assets/pdf_icon.png) [모든 Data Workbench 문서 다운로드 (PDF)](/help/home/assets/data-workbench.pdf)
@@ -35,7 +35,7 @@ Data Workbench에는 다음과 같은 예측 분석 기능, 데이터 시각화 
 
 ## 기타 Analytics 사용 안내서
 
-[Analytics 사용 안내서](https://experienceleague.adobe.com/docs/analytics/landing/home.html?lang=ko-KR)
+[Analytics 사용 안내서](https://experienceleague.adobe.com/docs/analytics/landing/home.html)
 
 ## Data Workbench 릴리스 정보 및 새로운 기능
 

@@ -3,7 +3,7 @@ description: 시스템을 계획 및 구현하기 전에 Data Workbench(이전 [
 title: 서버 시스템 요구 사항
 uuid: c4487c76-03b9-4755-893b-555d451b1e69
 exl-id: 6dd78331-8370-400e-b580-9b9bad13e62c
-source-git-commit: 232117a8cacaecf8e5d7fcaccc5290d6297947e5
+source-git-commit: 79981e92dd1c2e552f958716626a632ead940973
 workflow-type: tm+mt
 source-wordcount: '1683'
 ht-degree: 1%
@@ -40,55 +40,55 @@ Adobe은 비즈니스 요구 사항을 충족하는 Data Workbench 디자인에 
 
 DPU 투자에서 최상의 성능을 얻으려면 Adobe은 다음 표에 설명된 고성능 구성 요소를 권장합니다.
 
-<table id="table_DA0A60CFBA7D4EF98B5ED5A3D8D6777B"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> </th> 
-   <th colname="col2" class="entry"> 필수 여부 </th> 
-   <th colname="col3" class="entry"> 권장 </th> 
-  </tr> 
+<table id="table_DA0A60CFBA7D4EF98B5ED5A3D8D6777B">
+ <thead>
+  <tr>
+   <th colname="col1" class="entry"> </th>
+   <th colname="col2" class="entry"> 필수 여부 </th>
+   <th colname="col3" class="entry"> 권장 </th>
+  </tr>
  </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>운영 체제 </p> </td> 
-   <td colname="col2"> <p>Microsoft Windows Server 2008 x64 </p> </td> 
-   <td colname="col3"> <p>Microsoft Windows Server 2012 x64 </p> <p> Microsoft Windows Server 2016 x64 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>CPU </p> </td> 
-   <td colname="col2"> <p>권장 사항 를 참조하십시오. </p> </td> 
-   <td colname="col3"> Intel 또는 AMD의 최신 4세대 코어+ 프로세서가 권장됩니다. 최적의 성능을 위해 8코어 속도와 비용 간의 교환은 4코어가 권장됩니다. </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>RAM </p> </td> 
-   <td colname="col2"> <p>8GB </p> </td> 
-   <td colname="col3"> <p>12GB </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>작업 데이터 저장소 </p> </td> 
-   <td colname="col2"> <p>1TB 이상의 총 논리 임시 스토리지. </p> <p>디스크 하위 시스템에 대한 대기 시간이 짧습니다. </p> </td> 
-   <td colname="col3"> <p>임시 저장소 Adobe의 경우 다음 중 하나를 권장합니다. </p> 
-    <ul id="ul_F3D033B90CF94F44A2A773B3F6852283"> 
-     <li id="li_B902CF7CC6A44F02838B285ADC725A75">(4~8) * (750GB 이상) SATA HDD(3.5인치 스핀들) </li> 
-     <li id="li_A378F4E1443F4BB2B54DC7E8372EE572">(6~10) * (300GB 이상) SATA HDD(2.5인치 스핀들) </li> 
-    </ul> <p>JBOD 배열에서 구성해야 합니다. 또는 총 디스크 용량이 2TB를 초과하는 경우 2디스크 RAID1 볼륨 어레이를 사용할 수 있습니다. 예를 들어 6개의 디스크를 3*(2*750GB RAID 1 페어)로 구성합니다. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>시스템 데이터 스토리지 </p> </td> 
-   <td colname="col2"> <p>또한 Adobe을 사용하려면 OS, DPU 소프트웨어 및 기타 시스템 소프트웨어에 적절한 크기(20GB)의 고가용성 스토리지가 필요합니다. </p> </td> 
-   <td colname="col3"> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>하드웨어 클러스터링 </p> </td> 
-   <td colname="col2"> <p>권장 사항 를 참조하십시오. </p> </td> 
-   <td colname="col3"> <p>동일한 서버 세트를 사용합니다. DPU 클러스터에서 가장 느린 서버는 전체 데이터 집합의 성능을 낮춥니다. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> 네트워크 성능 클러스터링 </td> 
-   <td colname="col2"> 스위치 기가비트 이더넷 접속 이상 </td> 
-   <td colname="col3"> </td> 
-  </tr> 
- </tbody> 
+ <tbody>
+  <tr>
+   <td colname="col1"> <p>운영 체제 </p> </td>
+   <td colname="col2"> <p>Microsoft Windows Server 2008 x64 </p> </td>
+   <td colname="col3"> <p>Microsoft Windows Server 2012 x64 </p> <p> Microsoft Windows Server 2016 x64 </p> </td>
+  </tr>
+  <tr>
+   <td colname="col1"> <p>CPU </p> </td>
+   <td colname="col2"> <p>권장 사항 를 참조하십시오. </p> </td>
+   <td colname="col3"> Intel 또는 AMD의 최신 4세대 코어+ 프로세서가 권장됩니다. 최적의 성능을 위해 8코어 속도와 비용 간의 교환은 4코어가 권장됩니다. </td>
+  </tr>
+  <tr>
+   <td colname="col1"> <p>RAM </p> </td>
+   <td colname="col2"> <p>8GB </p> </td>
+   <td colname="col3"> <p>12GB </p> </td>
+  </tr>
+  <tr>
+   <td colname="col1"> <p>작업 데이터 저장소 </p> </td>
+   <td colname="col2"> <p>1TB 이상의 총 논리 임시 스토리지. </p> <p>디스크 하위 시스템에 대한 대기 시간이 짧습니다. </p> </td>
+   <td colname="col3"> <p>임시 저장소 Adobe의 경우 다음 중 하나를 권장합니다. </p>
+    <ul id="ul_F3D033B90CF94F44A2A773B3F6852283">
+     <li id="li_B902CF7CC6A44F02838B285ADC725A75">(4~8) * (750GB 이상) SATA HDD(3.5인치 스핀들) </li>
+     <li id="li_A378F4E1443F4BB2B54DC7E8372EE572">(6~10) * (300GB 이상) SATA HDD(2.5인치 스핀들) </li>
+    </ul> <p>JBOD 배열에서 구성해야 합니다. 또는 총 디스크 용량이 2TB를 초과하는 경우 2디스크 RAID1 볼륨 어레이를 사용할 수 있습니다. 예를 들어 6개의 디스크를 3*(2*750GB RAID 1 페어)로 구성합니다. </p> </td>
+  </tr>
+  <tr>
+   <td colname="col1"> <p>시스템 데이터 스토리지 </p> </td>
+   <td colname="col2"> <p>또한 Adobe을 사용하려면 OS, DPU 소프트웨어 및 기타 시스템 소프트웨어에 적절한 크기(20GB)의 고가용성 스토리지가 필요합니다. </p> </td>
+   <td colname="col3"> </td>
+  </tr>
+  <tr>
+   <td colname="col1"> <p>하드웨어 클러스터링 </p> </td>
+   <td colname="col2"> <p>권장 사항 를 참조하십시오. </p> </td>
+   <td colname="col3"> <p>동일한 서버 세트를 사용합니다. DPU 클러스터에서 가장 느린 서버는 전체 데이터 집합의 성능을 낮춥니다. </p> </td>
+  </tr>
+  <tr>
+   <td colname="col1"> 네트워크 성능 클러스터링 </td>
+   <td colname="col2"> 스위치 기가비트 이더넷 접속 이상 </td>
+   <td colname="col3"> </td>
+  </tr>
+ </tbody>
 </table>
 
 ### 대체 디스크 하위 시스템 {#section-6f984eabe8074759aa9deaf17e3a68b7}
@@ -116,35 +116,35 @@ Adobe은 다음을 포함하되 이에 제한되지 않는 다양한 요소가 �
 
 서버의 FSU(File Serving Unit)는 Data Workbench의 기본 데이터 저장 및 관리 구성 요소입니다. FSU는 DPU에 대한 원시 소스 데이터의 파일 서버 역할을 하며 적절한 경우 DPU의 클러스터링을 조정합니다. 각 FSU에는 최대 5개의 DPU까지 소스 데이터를 제공할 수 있는 라이센스가 부여됩니다.
 
-<table id="table_45CF36583DFE4536BB31F6A1F6CC181E"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> FSU 구성 요소 </th> 
-   <th colname="col2" class="entry"> 추천 항목 </th> 
-   <th colname="col3" class="entry"> </th> 
-  </tr> 
+<table id="table_45CF36583DFE4536BB31F6A1F6CC181E">
+ <thead>
+  <tr>
+   <th colname="col1" class="entry"> FSU 구성 요소 </th>
+   <th colname="col2" class="entry"> 추천 항목 </th>
+   <th colname="col3" class="entry"> </th>
+  </tr>
  </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>운영 체제, CPU, RAM </p> </td> 
-   <td colname="col2"> <p>이러한 요구 사항은 DPU의 요구 사항과 동일합니다. 그러나 FSU의 경우 권장 사항을 따르지 않고 최소 요구 사항을 사용하는 것이 좋습니다. </p> </td> 
+ <tbody>
+  <tr>
+   <td colname="col1"> <p>운영 체제, CPU, RAM </p> </td>
+   <td colname="col2"> <p>이러한 요구 사항은 DPU의 요구 사항과 동일합니다. 그러나 FSU의 경우 권장 사항을 따르지 않고 최소 요구 사항을 사용하는 것이 좋습니다. </p> </td>
    <td colname="col3"> </td>
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>디스크 시스템 </p> <p>FSU를 사용하려면 대용량 데이터를 위한 고가용성 이중 스토리지가 필요합니다. Adobe은 사용자와 협력하여 정확한 요구 사항을 결정합니다. </p> </td> 
-   <td colname="col1"> <p>Adobe 권장 사항: </p> 
-    <ul id="ul_FFEEE5052FFD4876BA9A6476DD096539"> 
-     <li id="li_F98750D509D640C68885D53FC691ED43">(12 이상) * (750GB 이상) RAID 5/6 구성의 SATA HDD </li> 
-     <li id="li_3F84F63F9541476987015C27FDE8251B">100MB/s 이상의 지속 대역폭을 지원하는 고성능 SAN 연결 </li> 
-    </ul> <p>FSU는 원시 소스 데이터를 보유하므로 손실된 내용을 복구할 수 없으며 Adobe은 정기적으로 이 데이터를 백업하는 것을 제안합니다. </p> </td> 
+  </tr>
+  <tr>
+   <td colname="col1"> <p>디스크 시스템 </p> <p>FSU를 사용하려면 대용량 데이터를 위한 고가용성 이중 스토리지가 필요합니다. Adobe은 사용자와 협력하여 정확한 요구 사항을 결정합니다. </p> </td>
+   <td colname="col1"> <p>Adobe 권장 사항: </p>
+    <ul id="ul_FFEEE5052FFD4876BA9A6476DD096539">
+     <li id="li_F98750D509D640C68885D53FC691ED43">(12 이상) * (750GB 이상) RAID 5/6 구성의 SATA HDD </li>
+     <li id="li_3F84F63F9541476987015C27FDE8251B">100MB/s 이상의 지속 대역폭을 지원하는 고성능 SAN 연결 </li>
+    </ul> <p>FSU는 원시 소스 데이터를 보유하므로 손실된 내용을 복구할 수 없으며 Adobe은 정기적으로 이 데이터를 백업하는 것을 제안합니다. </p> </td>
    <td colname="col2"> </td>
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>네트워크 성능 </p> </td> 
-   <td colname="col2"> <p>Adobe을 사용하려면 FSU와 DPU 간의 스위치 기가비트 이더넷 연결이 함께 작동해야 합니다. </p> </td> 
+  </tr>
+  <tr>
+   <td colname="col1"> <p>네트워크 성능 </p> </td>
+   <td colname="col2"> <p>Adobe을 사용하려면 FSU와 DPU 간의 스위치 기가비트 이더넷 연결이 함께 작동해야 합니다. </p> </td>
    <td colname="col3"> </td>
-  </tr> 
- </tbody> 
+  </tr>
+ </tbody>
 </table>
 
 ## 센서 요구 사항{#sensor-requirements}
@@ -155,74 +155,74 @@ Data Workbench 센서는 웹, 애플리케이션 및 데이터 수집 서버에�
 
 다음 표에서는 [!DNL Sensor]에 대한 시스템 권장 사항에 대해 설명합니다.
 
-<table id="table_A132E06D6B8146C1B199B82464EA0898"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> 기능 </th> 
-   <th colname="col2" class="entry"> 권장 </th> 
-  </tr> 
+<table id="table_A132E06D6B8146C1B199B82464EA0898">
+ <thead>
+  <tr>
+   <th colname="col1" class="entry"> 기능 </th>
+   <th colname="col2" class="entry"> 권장 </th>
+  </tr>
  </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>디스크 스토리지 </p> </td> 
-   <td colname="col2"> <p>최소 512MB </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>RAM </p> </td> 
-   <td colname="col2"> <p>HTTP 또는 해당 호스트인 다른 서버 컴퓨터의 <span class="wintitle"> 센서 </span>에 32MB의 RAM을 사용할 수 있어야 합니다. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>네트워크 성능 </p> </td> 
-   <td colname="col2"> <p>반복 서버 또는 <span class="keyword"> Data Workbench 서버 </span>에 대한 1Mbps 이상의 네트워크 연결입니다. <span class="wintitle"> 센서는  </span> 일반적으로 1Mbps보다 훨씬 적은 대역폭을 사용합니다. Adobe 컨설턴트는 일상적인 기준으로 필요한 실제 대역폭 양을 예측하는 데 도움을 줍니다. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>네트워크 포트 및 방화벽 </p> </td> 
-   <td colname="col2"> <p> <span class="wintitle"> 센서는 HTTPS( </span> 구성 가능하지만 일반적으로 포트 443)나 HTTP(일반적으로 포트 80)를  <span class="keyword">   </span> 사용하여 Data Workbench 서버에 연결합니다. 이 서버는 구성 가능하지만 포트 80은 일반적으로 구성 가능합니다.) </p> <p><span class="wintitle"> 센서 </span> 와 target <span class="keyword"> Data Workbench 서버 </span> 또는 반복 서버 사이에 있는 방화벽의 적절한 포트는 <span class="wintitle"> 센서 </span> 호스팅 컴퓨터와 <span class="keyword"> Data Workbench 서버 </span> 또는 반복 서버 사이에서만 열려야 <span class="wintitle"> 센서 </span> 설치 프로세스를 시작할 수 있습니다. <span class="wintitle"> 센서 </span> 는  <span class="keyword"> Data Workbench 서버 또는 반복 서버에 단방향 HTTPS 또 </span> 는 HTTP 연결을 만듭니다. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>네트워크 관리 시스템 </p> </td> 
-   <td colname="col2"> <p>기존 네트워크 관리 시스템은 기본 컴퓨터 하드웨어(예: 디스크 공간, 네트워크 서비스) 및 네트워크 연결과 Windows 이벤트 로그 또는 UNIX 시스템 로그를 모니터링해야 합니다. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>서버 시간 동기화 </p> </td> 
-   <td colname="col2"> <p><span class="wintitle"> 센서 </span>를 호스트하는 모든 컴퓨터에서 컴퓨터 시스템 시간이 연속적으로 동기화되는지 확인합니다. <span class="wintitle"> 센서 </span>에서 모니터링하는 웹 서버 응용 프로그램 및 컴퓨터는 정확하게 수집하기 위해 동기화된 시스템 시간이 있어야 합니다. NTP 또는 기타 시간 동기화 기능을 통해 시스템 시간을 지속적으로 동기화하는 단계는 운영 체제 설명서를 참조하십시오. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>DNS 이름 사용 </p> </td> 
-   <td colname="col2"> <p>Adobe은 <span class="wintitle"> 센서 </span>가 <span class="keyword"> data workbench 서버 </span> 또는 반복 서버의 네트워크 주소를 확인하려면 IP 주소 대신 DNS 이름을 사용할 것을 권장합니다. <span class="wintitle"> 센서 </span>가 DNS 이름을 사용하는 경우 <span class="keyword"> Data Workbench 서버 </span> 또는 반복 서버의 이름을 확인하도록 호스트 웹 서버의 DNS 또는 로컬 호스트 파일을 구성해야 합니다. </p> </td> 
-  </tr> 
- </tbody> 
+ <tbody>
+  <tr>
+   <td colname="col1"> <p>디스크 스토리지 </p> </td>
+   <td colname="col2"> <p>최소 512MB </p> </td>
+  </tr>
+  <tr>
+   <td colname="col1"> <p>RAM </p> </td>
+   <td colname="col2"> <p>HTTP 또는 해당 호스트인 다른 서버 컴퓨터의 <span class="wintitle"> 센서 </span>에 32MB의 RAM을 사용할 수 있어야 합니다. </p> </td>
+  </tr>
+  <tr>
+   <td colname="col1"> <p>네트워크 성능 </p> </td>
+   <td colname="col2"> <p>반복 서버 또는 <span class="keyword"> Data Workbench 서버 </span>에 대한 1Mbps 이상의 네트워크 연결입니다. <span class="wintitle"> 센서는  </span> 일반적으로 1Mbps보다 훨씬 적은 대역폭을 사용합니다. Adobe 컨설턴트는 일상적인 기준으로 필요한 실제 대역폭 양을 예측하는 데 도움을 줍니다. </p> </td>
+  </tr>
+  <tr>
+   <td colname="col1"> <p>네트워크 포트 및 방화벽 </p> </td>
+   <td colname="col2"> <p> <span class="wintitle"> 센서는 HTTPS( </span> 구성 가능하지만 일반적으로 포트 443)나 HTTP(일반적으로 포트 80)를  <span class="keyword">   </span> 사용하여 Data Workbench 서버에 연결합니다. 이 서버는 구성 가능하지만 포트 80은 일반적으로 구성 가능합니다.) </p> <p><span class="wintitle"> 센서 </span> 와 target <span class="keyword"> Data Workbench 서버 </span> 또는 반복 서버 사이에 있는 방화벽의 적절한 포트는 <span class="wintitle"> 센서 </span> 호스팅 컴퓨터와 <span class="keyword"> Data Workbench 서버 </span> 또는 반복 서버 사이에서만 열려야 <span class="wintitle"> 센서 </span> 설치 프로세스를 시작할 수 있습니다. <span class="wintitle"> 센서 </span> 는  <span class="keyword"> Data Workbench 서버 또는 반복 서버에 단방향 HTTPS 또 </span> 는 HTTP 연결을 만듭니다. </p> </td>
+  </tr>
+  <tr>
+   <td colname="col1"> <p>네트워크 관리 시스템 </p> </td>
+   <td colname="col2"> <p>기존 네트워크 관리 시스템은 기본 컴퓨터 하드웨어(예: 디스크 공간, 네트워크 서비스) 및 네트워크 연결과 Windows 이벤트 로그 또는 UNIX 시스템 로그를 모니터링해야 합니다. </p> </td>
+  </tr>
+  <tr>
+   <td colname="col1"> <p>서버 시간 동기화 </p> </td>
+   <td colname="col2"> <p><span class="wintitle"> 센서 </span>를 호스트하는 모든 컴퓨터에서 컴퓨터 시스템 시간이 연속적으로 동기화되는지 확인합니다. <span class="wintitle"> 센서 </span>에서 모니터링하는 웹 서버 응용 프로그램 및 컴퓨터는 정확하게 수집하기 위해 동기화된 시스템 시간이 있어야 합니다. NTP 또는 기타 시간 동기화 기능을 통해 시스템 시간을 지속적으로 동기화하는 단계는 운영 체제 설명서를 참조하십시오. </p> </td>
+  </tr>
+  <tr>
+   <td colname="col1"> <p>DNS 이름 사용 </p> </td>
+   <td colname="col2"> <p>Adobe은 <span class="wintitle"> 센서 </span>가 <span class="keyword"> data workbench 서버 </span> 또는 반복 서버의 네트워크 주소를 확인하려면 IP 주소 대신 DNS 이름을 사용할 것을 권장합니다. <span class="wintitle"> 센서 </span>가 DNS 이름을 사용하는 경우 <span class="keyword"> Data Workbench 서버 </span> 또는 반복 서버의 이름을 확인하도록 호스트 웹 서버의 DNS 또는 로컬 호스트 파일을 구성해야 합니다. </p> </td>
+  </tr>
+ </tbody>
 </table>
 
 ### 지원 서버 소프트웨어 {#section-d6071706539f49d9a861d87b98e6f382}
 
 다음 표에는 [!DNL Sensor]이 지원하는 가장 일반적인 조합이 나와 있습니다.
 
-<table id="table_99EA23BBC1A148B49643F4B5E4341C08"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> 웹 서버 소프트웨어 </th> 
-   <th colname="col2" class="entry"> 운영 체제 </th> 
-  </tr> 
+<table id="table_99EA23BBC1A148B49643F4B5E4341C08">
+ <thead>
+  <tr>
+   <th colname="col1" class="entry"> 웹 서버 소프트웨어 </th>
+   <th colname="col2" class="entry"> 운영 체제 </th>
+  </tr>
  </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>Apache Server / IBM HTTP Server 2.2 </p> </td> 
-   <td colname="col2"> <p>Microsoft Windows Server 2003 이상 RedHat Enterprise Linux 6.x 이상 Sun Solaris 8.x 이상 IBM AIX 5.1x 이상 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Apache Server 2.4 </p> </td> 
-   <td colname="col2"> <p>RedHat Enterprise Linux 6.x 이상 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Microsoft IIS </p> </td> 
-   <td colname="col2"> <p>Microsoft Windows Server 2003 이상 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Java 애플리케이션 서버(Tomcat, JBoss, iPlanet, Weblogic) </p> </td> 
-   <td colname="col2"> <p>Microsoft Windows Server 2003 이상 RedHat Enterprise Linux 6.x 이상 Sun Solaris 8.x 이상 IBM AIX 5.1x 이상 </p> </td> 
-  </tr> 
- </tbody> 
+ <tbody>
+  <tr>
+   <td colname="col1"> <p>Apache Server / IBM HTTP Server 2.2 </p> </td>
+   <td colname="col2"> <p>Microsoft Windows Server 2003 이상 RedHat Enterprise Linux 6.x 이상 Sun Solaris 8.x 이상 IBM AIX 5.1x 이상 </p> </td>
+  </tr>
+  <tr>
+   <td colname="col1"> <p>Apache Server 2.4 </p> </td>
+   <td colname="col2"> <p>RedHat Enterprise Linux 6.x 이상 </p> </td>
+  </tr>
+  <tr>
+   <td colname="col1"> <p>Microsoft IIS </p> </td>
+   <td colname="col2"> <p>Microsoft Windows Server 2003 이상 </p> </td>
+  </tr>
+  <tr>
+   <td colname="col1"> <p>Java 애플리케이션 서버(Tomcat, JBoss, iPlanet, Weblogic) </p> </td>
+   <td colname="col2"> <p>Microsoft Windows Server 2003 이상 RedHat Enterprise Linux 6.x 이상 Sun Solaris 8.x 이상 IBM AIX 5.1x 이상 </p> </td>
+  </tr>
+ </tbody>
 </table>
 
 다른 서버 및 운영 체제 조합의 경우 사용 가능 여부에 대한 Adobe을 참조하십시오. [!DNL Sensor] 의 모든 기능이 웹/애플리케이션 서버와 운영 체제의 모든 조합에서 사용할 수는 없습니다. 특정 [!DNL Sensor] 릴리스에 대한 자세한 내용은 Adobe 지원 센터에 문의하십시오.
@@ -235,7 +235,7 @@ Data Workbench 보고서 서버는 예약된 보고의 출력을 허용하는 �
 
 * 데이터 출력(네트워크 공유 또는 로컬 드라이브)을 위한 파일 시스템에 액세스합니다.
 * 구성된 SMTP 서버에 대한 액세스 권한
-* [!DNL report] 서버에 설치된 Microsoft Excel 2003 이상 자세한 내용은 [Office의 서버측 자동화에 대한 고려 사항](http://support.microsoft.com/kb/257757)을 참조하십시오.
+* Microsoft Excel 2003 이상이 [!DNL report] 서버에 설치되었습니다. 자세한 내용은 [Office의 서버측 자동화에 대한 고려 사항](https://support.microsoft.com/kb/257757)을 참조하십시오.
 
 ## 네트워크 관리{#network-management}
 

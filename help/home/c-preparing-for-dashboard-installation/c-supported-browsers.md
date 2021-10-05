@@ -3,7 +3,7 @@ description: 지원되는 모든 브라우저를 나열합니다.
 title: 지원되는 브라우저
 uuid: 7add01cc-905f-46e8-8e0d-3e9d458c466c
 exl-id: 5f1dcd53-c0ee-436f-ad7c-8d669008a61c
-source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+source-git-commit: 79981e92dd1c2e552f958716626a632ead940973
 workflow-type: tm+mt
 source-wordcount: '165'
 ht-degree: 4%
@@ -18,9 +18,9 @@ Adobe Insight 대시보드는 최신 웹 브라우저 기술을 사용하여 작
 
 대시보드는 이전 버전의 웹 브라우저에서 지원되지 않는 기능을 활용하므로 애플리케이션을 사용할 때 최적의 환경을 조성하려면 최신 브라우저가 필요합니다. 다양한 버전의 브라우저가 작동하지만 다음 웹 브라우저만 공식적으로 지원됩니다.
 
-* Google Chrome 15 이상([https://www.google.com/chrome/](https://www.google.com/chrome/)에 제공)
-* Microsoft Internet Explorer 9 이상([http://www.microsoft.com/windows/ie/](http://www.microsoft.com/windows/ie/)에서 사용 가능)
-* Mozilla Firefox 3.6 이상([http://www.mozilla.org/en-US/firefox/all-older.html](http://www.mozilla.org/en-US/firefox/all-older.html)에 제공)
-* Safari 5.1 이상([http://www.apple.com/safari](http://www.apple.com/safari)에서 사용 가능)
+* Google Chrome 15 이상([https://www.google.com/chrome/](https://www.google.com/chrome/)에서 사용 가능)
+* Microsoft Internet Explorer 9 이상([https://www.microsoft.com/windows/ie/](https://www.microsoft.com/windows/ie/)에서 사용 가능)
+* Mozilla Firefox 3.6 이상([https://www.mozilla.org/en-US/firefox/all-older.html](https://www.mozilla.org/en-US/firefox/all-older.html)에 제공)
+* Safari 5.1 이상([https://www.apple.com/safari](https://www.apple.com/safari)에서 사용 가능)
 
 호환되는 웹 브라우저를 사용하는 것 외에도 대시보드를 사용하기 위해 추가 소프트웨어를 다운로드할 필요가 없습니다.

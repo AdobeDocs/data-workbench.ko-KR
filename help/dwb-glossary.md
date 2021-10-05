@@ -3,8 +3,8 @@ description: Data Workbench 용어집
 title: Data Workbench 용어집
 uuid: 1000c43d-383c-442d-bd09-de4f286ded31
 exl-id: 29d6560a-0394-4031-8152-20f7ea0de00b
-source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
-workflow-type: ht
+source-git-commit: 79981e92dd1c2e552f958716626a632ead940973
+workflow-type: tm+mt
 source-wordcount: '4201'
 ht-degree: 100%
 
@@ -62,11 +62,11 @@ Adobe 데이터 집합 사본이 백업 또는 복구를 위해 작성된 시간
 
 **신뢰도 구간**
 
-비율이나 트렌드의 포함 확률이 저장된 값의 범위입니다. 80%(p-value = 0.20), 95%(p-value = 0.05) 및 99%(p-value = 0.01) 신뢰도 구간은 가장 일반적으로 사용되는 구간입니다. (소스: `http://www.nci.nih.gov/statistics/glossary`)
+비율이나 트렌드의 포함 확률이 저장된 값의 범위입니다. 80%(p-value = 0.20), 95%(p-value = 0.05) 및 99%(p-value = 0.01) 신뢰도 구간은 가장 일반적으로 사용되는 구간입니다. (소스: `https://www.nci.nih.gov/statistics/glossary`)
 
 **신뢰도 수준**
 
-설문 조사 결과의 샘플링 오류가 지정된 범위 내에 포함될 가능성(예: 기준 오류 1개가 68% 가능성이고 기준 오류 2개가 95.4% 가능성)입니다. (소스: `http://www.magazine.org/research/3410.cfm`)
+설문 조사 결과의 샘플링 오류가 지정된 범위 내에 포함될 가능성(예: 기준 오류 1개가 68% 가능성이고 기준 오류 2개가 95.4% 가능성)입니다. (소스: `https://www.magazine.org/research/3410.cfm`)
 
 **전환 맵**
 
@@ -238,7 +238,7 @@ Adobe Platform에서 순차적인 숫자 값이 있으며 상위의 가산 차�
 
 **서수**
 
-연속적인 숫자 순서이거나 이를 나타냅니다. (출처: `http://wordnet.princeton.edu/perl/webwn?s=ordinal`) 차원이 Data Workbench에서 정형적으로 정렬되면 차원의 요소가 내부적으로 표시되는 순서로 표시됩니다.
+연속적인 숫자 순서이거나 이를 나타냅니다. (출처: `https://wordnet.princeton.edu/perl/webwn?s=ordinal`) 차원이 Data Workbench에서 정형적으로 정렬되면 차원의 요소가 내부적으로 표시되는 순서로 표시됩니다.
 
 **이상값**
 

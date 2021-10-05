@@ -3,7 +3,7 @@ description: 보고서 서버의 일부 기능이 작동하려면 설치하기 �
 title: 시작하기 전에
 uuid: cb464fb6-3109-4eff-9c95-f0cf1f8a8c66
 exl-id: 5c8bb4c3-fe76-4b4e-960d-113a9927ad59
-source-git-commit: 232117a8cacaecf8e5d7fcaccc5290d6297947e5
+source-git-commit: 79981e92dd1c2e552f958716626a632ead940973
 workflow-type: tm+mt
 source-wordcount: '326'
 ht-degree: 1%
@@ -22,16 +22,16 @@ ht-degree: 1%
 
 * 데이터 출력(네트워크 공유 또는 로컬 드라이브)을 위한 파일 시스템에 액세스합니다.
 * 구성된 SMTP 서버에 대한 액세스 권한
-* [!DNL Report] 서버에 설치된 Microsoft Excel 2010 64비트 이상 자세한 내용은 [Office의 서버측 자동화에 대한 고려 사항](http://support.microsoft.com/kb/257757)을 참조하십시오.
+* [!DNL Report] 서버에 설치된 Microsoft Excel 2010 64비트 이상. 자세한 내용은 [Office의 서버측 자동화에 대한 고려 사항](https://support.microsoft.com/kb/257757)을 참조하십시오.
 
 ## 추가 요구 사항 {#section-f53d4388656a4dfc90aefe29dfabef89}
 
 * **적절한 그래픽 어댑터를 설치합니다.** 보고서를 올바르게 렌더링하려면 Server를 설치한 컴퓨터에  [!DNL Report] 적절한 그래픽 어댑터가 설치되어 있어야 합니다.
 
-* **보고서를 Excel 파일로 생성하려면 Microsoft Excel을 설치합니다.** 보고서를 Microsoft Excel 파일(  [!DNL .xls] 또는  [!DNL .xlsx])로 생성하여 배포하려면 보고서 서버를 설치하는 컴퓨터에 적절한 64비트 Microsoft Excel이 설치 및 등록되어 있어야 합니다. Excel이 등록되지 않고 보고서 서버에서 처음으로 Excel에 액세스하려고 하면 Excel에 등록 대화 상자가 표시됩니다. 복사본이 등록되어 있는지 모를 경우 Excel을 수동으로 시작하고 등록 대화 상자가 나타나면 등록 프로세스를 완료합니다.
+* **보고서를 Excel 파일로 생성하려면 Microsoft Excel을 설치합니다.** 보고서를 Microsoft Excel 파일(  [!DNL .xls] 또는  [!DNL .xlsx])로 생성하고 배포하려면, 보고서 서버를 설치하는 컴퓨터에 적절한 버전의 64비트 Microsoft Excel이 설치 및 등록되어 있어야 합니다. Excel이 등록되지 않고 보고서 서버에서 처음으로 Excel에 액세스하려고 하면 Excel에 등록 대화 상자가 표시됩니다. 복사본이 등록되어 있는지 모를 경우 Excel을 수동으로 시작하고 등록 대화 상자가 나타나면 등록 프로세스를 완료합니다.
 
    >[!NOTE]
    >
-   >보고서를 Excel 파일로 생성하면 새 Excel 인스턴스가 열립니다. 이 프로세스에 대한 자세한 내용은 [http://support.microsoft.com/kb/257757](http://support.microsoft.com/kb/257757)을 참조하십시오.
+   >보고서를 Excel 파일로 생성하면 새 Excel 인스턴스가 열립니다. 이 프로세스에 대한 자세한 내용은 [https://support.microsoft.com/kb/257757](https://support.microsoft.com/kb/257757)을 참조하십시오.
 
 * **전자 메일로 보고서를 배포할 수 있도록 SMTP 서버에 대한 액세스 권한을 제공합니다.** 보고서를 이메일로 배포하려면 보고서 서버가 SMTP 서버에 연결할 수 있어야 하며 이메일 전달 서비스에 대한 적절한 포트를 열어야 합니다.

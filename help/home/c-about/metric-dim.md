@@ -3,7 +3,7 @@ description: 단계별 마법사를 사용하여 지표 속성(지표 차원)으
 title: 지표 치수 마법사
 uuid: 411b2e28-0958-43bb-a853-7de7b3063818
 exl-id: 4d283a00-409c-4d74-a558-40744caba71c
-source-git-commit: 232117a8cacaecf8e5d7fcaccc5290d6297947e5
+source-git-commit: 79981e92dd1c2e552f958716626a632ead940973
 workflow-type: tm+mt
 source-wordcount: '485'
 ht-degree: 2%
@@ -60,7 +60,7 @@ ht-degree: 2%
 
    ![](assets/6_4_workstation_metricdim_format_metric.png)
 
-   형식은 시각화에서 열 때 지표가 표시되는 방식을 정의합니다. 이러한 형식은 아래에 정의된 [printf standards](http://www.cplusplus.com/reference/cstdio/printf/) 를 선택합니다.
+   형식은 시각화에서 열 때 지표가 표시되는 방식을 정의합니다. 이러한 형식은 아래에 정의된 [printf standards](https://www.cplusplus.com/reference/cstdio/printf/) 를 선택합니다.
 
    ```
    %[flags][width][.precision][length][specifier]

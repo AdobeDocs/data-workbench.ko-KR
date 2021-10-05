@@ -3,7 +3,7 @@ description: 정규 표현식은 쿼리 엔티티 패널을 포함하여 모든 
 title: 정규 표현식
 uuid: f3a0119d-6fac-4f63-8dca-4db32d2a737a
 exl-id: 75841a70-e78a-429b-b00d-ac107b7a87aa
-source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+source-git-commit: 79981e92dd1c2e552f958716626a632ead940973
 workflow-type: tm+mt
 source-wordcount: '1418'
 ht-degree: 2%
@@ -20,7 +20,7 @@ ht-degree: 2%
 * [메타문자 사용](../../home/c-dataset-const-proc/c-reg-exp.md#section-e29a804336304ea1ba33d40d60139aa2)
 * [패턴 추출](../../home/c-dataset-const-proc/c-reg-exp.md#section-4389779653b64f6cb7c47615b25c1a79)
 
-## 정규 표현식 {#section-cc9dc7293bb04fc0b41fe8acdee708f0} 정보
+## 정규 표현식 정보 {#section-cc9dc7293bb04fc0b41fe8acdee708f0}
 
 정규 표현식은 패턴을 찾고 텍스트에서 하위 문자열을 추출하는 영숫자 문자 및 메타문자로 이루어진 텍스트 패턴입니다. 정규 표현식은 컴퓨터 프로그래밍에서 널리 사용되고 Perl과 같은 언어의 필수 부분입니다.
 
@@ -44,17 +44,17 @@ ht-degree: 2%
 
 이 예제에서는 리터럴 일치가 작동하는 방식을 보여 줍니다. 웹 사이트 트래픽에서 데이터가 수집되고 cs(레퍼러) 필드에 다음 값이 포함되어 있는 상황을 고려하십시오.
 
-`http://www.abc.com/adventurenews/today.html?ad=123AZ45`
+`https://www.abc.com/adventurenews/today.html?ad=123AZ45`
 
 레퍼러가 광고 중 하나를 클릭한 사람을 나타내는지 여부를 판별하려면 레퍼러에 문자열 광고가 포함되어 있는지 확인해야 합니다. 간단하게 리터럴 문자열 광고를 사용하여 대상 문자열을 검색하고 트래픽을 사이트로 라우팅하는 데 광고가 사용되었는지 확인할 수 있습니다. 이 경우 대상 문자열과 일치하지만 두 위치에서 일치하므로 모호한 긍정 오류(false positive)가 발생할 수 있습니다.
 
 다음 URL은 문자열 광고를 두 개의 서로 다른 위치에 포함합니다.
 
-`http://www.abc.com/ad vertnews/today.html?ad =123AZ45`
+`https://www.abc.com/ad vertnews/today.html?ad =123AZ45`
 
 따라서 특정 광고 캠페인의 결과로 시작된 세션을 결정하려고 하는 경우 리터럴 광고를 정규식으로 사용하기만 해도 충분하지 않은 것이 분명합니다. 리터럴을 &quot;ad=&quot;로 변경하면 이 모호성이 제거되고 표현식이 한 개만 일치하게 됩니다. 그러나 레퍼러가 광고 캠페인의 일부였는지를 확인하기에는 충분하지 않을 수 있습니다. 다음 레퍼러를 고려하십시오.
 
-`http://www.xyz.com/hello.html?pad=something`
+`https://www.xyz.com/hello.html?pad=something`
 
 다른 사용자가 사이트에 대한 링크를 만드는 데 사용할 수 있는 URL을 제어할 수 없습니다. 리터럴 일치는 너무 간단한 메커니즘으로 광고 캠페인의 결과로 시작된 세션을 찾을 수 없습니다. 다음 섹션에서는 보다 유연하고 강력한 일치를 위해 메타 문자를 사용하는 방법을 설명합니다.
 
@@ -64,9 +64,9 @@ ht-degree: 2%
 
 | 메타문자 | 설명 |
 |---|---|
-| . (점) | 단일 문자와 일치하는 예:`re:x.z`은 &quot;xyz&quot; 또는 &quot;xxz&quot;와 일치합니다. |
-| * (별) | 하나 이상의 문자와 일치(예:`re:Z*`이 &quot;ZZZ&quot;와 일치합니다. |
-| ? (와일드카드) | 최소 일치를 강제 적용하기 위해 이전 표현식의 0 또는 1과 일치합니다. 예:`xy?z`은 &quot;xy&quot; 및 &quot;xyz&quot;와 일치합니다. |
+| . (점) | 단일 문자와 일치하는 예: `re:x.z`은 &quot;xyz&quot; 또는 &quot;xxz&quot;와 일치합니다. |
+| * (별) | 하나 이상의 문자와 일치(예: `re:Z*`이 &quot;ZZZ&quot;와 일치합니다. |
+| ? (와일드카드) | 최소 일치를 강제 적용하기 위해 이전 표현식의 0 또는 1과 일치합니다. 예: `xy?z`은 &quot;xy&quot; 및 &quot;xyz&quot;와 일치합니다. |
 
 추가적인 일반적인 정규 표현식을 사용하여 더 복잡한 검색 문자열을 만들 수도 있습니다.
 
@@ -74,27 +74,27 @@ ht-degree: 2%
 
 리터럴 일치를 사용하면 단일 문자열을 찾을 수 있지만 대괄호, 대시 및 파이프를 사용하면 대상 문자열에서 찾을 항목 목록을 정의할 수 있습니다.
 
-<table id="table_18B86955EC3748079E7C176273ADE92B"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> 이 메타문자... </th> 
-   <th colname="col2" class="entry"> 정규 표현식 프로세서는... </th> 
-  </tr> 
+<table id="table_18B86955EC3748079E7C176273ADE92B">
+ <thead>
+  <tr>
+   <th colname="col1" class="entry"> 이 메타문자... </th>
+   <th colname="col2" class="entry"> 정규 표현식 프로세서는... </th>
+  </tr>
  </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> 대괄호([ ]) </td> 
-   <td colname="col2"> 브라켓 안의 모든 문자를 단일 문자 위치와 일치시킵니다. 예를 들어, [AB]는 문자 A와 문자 B를 일치시키는 명령이며 [0123456789]은 0에서 9 범위의 모든 문자와 일치한다고 말합니다. </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> 대시(-) </td> 
-   <td colname="col2"> <p>문자 범위를 일치시킵니다. 따라서, [0123456789]을 쓰는 대신 단순히 [0-9]을 쓸 수 있었습니다. </p> <p> 이 범위는 한 괄호 세트 내에 문자 범위 및 여러 범위로 확장할 수 있습니다. 예를 들어, [0-9A-C]는 0에서 9까지의 문자와 A에서 C까지의 문자를 찾습니다. </p> <p> <p>참고: 대괄호 안에 있는 리터럴으로 대시(-)를 테스트하려면 먼저 또는 마지막으로 와야 합니다. 예를 들어, [-0-9]은 - 및 0~9에 대해 테스트합니다. </p> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> 파이프 (|) </td> 
-   <td colname="col2"> 두 선택 사항 중 하나를 지정된 대상 문자열에 일치시킵니다. 예를 들어 b|nat는 bat 또는 nat와 일치합니다. </td> 
-  </tr> 
- </tbody> 
+ <tbody>
+  <tr>
+   <td colname="col1"> 대괄호([ ]) </td>
+   <td colname="col2"> 브라켓 안의 모든 문자를 단일 문자 위치와 일치시킵니다. 예를 들어, [AB]는 문자 A와 문자 B를 일치시키는 명령이며 [0123456789]은 0에서 9 범위의 모든 문자와 일치한다고 말합니다. </td>
+  </tr>
+  <tr>
+   <td colname="col1"> 대시(-) </td>
+   <td colname="col2"> <p>문자 범위를 일치시킵니다. 따라서, [0123456789]을 쓰는 대신 단순히 [0-9]을 쓸 수 있었습니다. </p> <p> 이 범위는 한 괄호 세트 내에 문자 범위 및 여러 범위로 확장할 수 있습니다. 예를 들어, [0-9A-C]는 0에서 9까지의 문자와 A에서 C까지의 문자를 찾습니다. </p> <p> <p>참고:  대괄호 안에 있는 리터럴으로 대시(-)를 테스트하려면 먼저 또는 마지막으로 와야 합니다. 예를 들어, [-0-9]은 - 및 0~9에 대해 테스트합니다. </p> </p> </td>
+  </tr>
+  <tr>
+   <td colname="col1"> 파이프 (|) </td>
+   <td colname="col2"> 두 선택 사항 중 하나를 지정된 대상 문자열에 일치시킵니다. 예를 들어 b|nat는 bat 또는 nat와 일치합니다. </td>
+  </tr>
+ </tbody>
 </table>
 
 다음 예를 생각해 보십시오.
@@ -135,35 +135,35 @@ ht-degree: 2%
 
 반복 메타문자를 사용하면 패턴을 두 번 이상 일치시킬 수 있습니다.
 
-<table id="table_6A14333D6C264A48ADF1EBBAF687CADD"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> 이 메타문자... </th> 
-   <th colname="col2" class="entry"> 정규 표현식 프로세서는... </th> 
-  </tr> 
+<table id="table_6A14333D6C264A48ADF1EBBAF687CADD">
+ <thead>
+  <tr>
+   <th colname="col1" class="entry"> 이 메타문자... </th>
+   <th colname="col2" class="entry"> 정규 표현식 프로세서는... </th>
+  </tr>
  </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> 물음표(?) </td> 
-   <td colname="col2"> 메타문자(?) 바로 앞에 있는 문자의 인스턴스나 인스턴스를 일치시키지 않습니다. 예를 들어, 패턴 영역?d는 빨간색 및 읽기와 일치합니다. </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> 별표 (*) </td> 
-   <td colname="col2"> 메타문자(*) 바로 앞에 있는 문자를 0회 이상 일치하는 항목을 찾습니다. 예를 들어, [0-9]*패턴은 0에서 9까지의 모든 문자 수(임의 정수)와 일치합니다. </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Plus (+) </td> 
-   <td colname="col2"> 이전 문자 또는 범위의 발생 항목을 하나 이상 일치시킵니다. 예를 들어, 3+의 패턴은 3과 일치하지만 통과는 일치하지 않습니다. </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> {n} </td> 
-   <td colname="col2"> <p>진행 문자 또는 범위를 정확히 n번 일치시킵니다. 다음 패턴은 미국 전화 번호와 일치합니다.<code>[0-9]{3}-[0-9]{3}-[0-9]{4}</code> </p> <p> 최적의 패턴은 아니지만 대상 문자열이 적절한 형식인지 판단합니다. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> {n,m} </td> 
-   <td colname="col2"> 최소 n회, 최대 m회 이전 문자와 일치시킵니다. 예를 들어, {1,2}d는 음식과 음식이 일치하지만 음식은 일치하지 않습니다. </td> 
-  </tr> 
- </tbody> 
+ <tbody>
+  <tr>
+   <td colname="col1"> 물음표(?) </td>
+   <td colname="col2"> 메타문자(?) 바로 앞에 있는 문자의 인스턴스나 인스턴스를 일치시키지 않습니다. 예를 들어, 패턴 영역?d는 빨간색 및 읽기와 일치합니다. </td>
+  </tr>
+  <tr>
+   <td colname="col1"> 별표 (*) </td>
+   <td colname="col2"> 메타문자(*) 바로 앞에 있는 문자를 0회 이상 일치하는 항목을 찾습니다. 예를 들어, [0-9]*패턴은 0에서 9까지의 모든 문자 수(임의 정수)와 일치합니다. </td>
+  </tr>
+  <tr>
+   <td colname="col1"> Plus (+) </td>
+   <td colname="col2"> 이전 문자 또는 범위의 발생 항목을 하나 이상 일치시킵니다. 예를 들어, 3+의 패턴은 3과 일치하지만 통과는 일치하지 않습니다. </td>
+  </tr>
+  <tr>
+   <td colname="col1"> {n} </td>
+   <td colname="col2"> <p>진행 문자 또는 범위를 정확히 n번 일치시킵니다. 다음 패턴은 미국 전화 번호와 일치합니다. <code>[0-9]{3}-[0-9]{3}-[0-9]{4}</code> </p> <p> 최적의 패턴은 아니지만 대상 문자열이 적절한 형식인지 판단합니다. </p> </td>
+  </tr>
+  <tr>
+   <td colname="col1"> {n,m} </td>
+   <td colname="col2"> 최소 n회, 최대 m회 이전 문자와 일치시킵니다. 예를 들어, {1,2}d는 음식과 음식이 일치하지만 음식은 일치하지 않습니다. </td>
+  </tr>
+ </tbody>
 </table>
 
 ## 패턴 추출 {#section-4389779653b64f6cb7c47615b25c1a79}
@@ -172,39 +172,39 @@ ht-degree: 2%
 
 다음 패턴 추출 예를 생각해 보십시오.
 
-<table id="table_BC8D471B966844049FFFCDEC0F183941"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> 패턴 </th> 
-   <th colname="col2" class="entry"> 문자열 </th> 
-   <th colname="col3" class="entry"> 일치 </th> 
-   <th colname="col4" class="entry"> 추출 </th> 
-  </tr> 
+<table id="table_BC8D471B966844049FFFCDEC0F183941">
+ <thead>
+  <tr>
+   <th colname="col1" class="entry"> 패턴 </th>
+   <th colname="col2" class="entry"> 문자열 </th>
+   <th colname="col3" class="entry"> 일치 </th>
+   <th colname="col4" class="entry"> 추출 </th>
+  </tr>
  </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> Win(9[58]) </td> 
-   <td colname="col2"> OS=Win95 </td> 
-   <td colname="col3"> Win95 </td> 
-   <td colname="col4"> %1% = 95 </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> (Win)(95|8) </td> 
-   <td colname="col2"> OS=Win98 </td> 
-   <td colname="col3"> Win98 </td> 
-   <td colname="col4"> <p>%1% = Win </p> <p> %2% = 98 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Mozilla/([0-9]).([0-9]) </td> 
-   <td colname="col2"> Mozilla/3.0 </td> 
-   <td colname="col3"> Mozilla/3.03 </td> 
-   <td colname="col4"> <p>%1% = 3 </p> <p> %2% = 0 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> 단원([A-Z]) </td> 
-   <td colname="col2"> 레슨 a </td> 
-   <td colname="col3"> 소문자 a가 대문자 A에서 Z까지의 범위에 있지 않으므로 일치하지 않습니다. </td> 
-   <td colname="col4"> </td> 
-  </tr> 
- </tbody> 
+ <tbody>
+  <tr>
+   <td colname="col1"> Win(9[58]) </td>
+   <td colname="col2"> OS=Win95 </td>
+   <td colname="col3"> Win95 </td>
+   <td colname="col4"> %1% = 95 </td>
+  </tr>
+  <tr>
+   <td colname="col1"> (Win)(95|8) </td>
+   <td colname="col2"> OS=Win98 </td>
+   <td colname="col3"> Win98 </td>
+   <td colname="col4"> <p>%1% = Win </p> <p> %2% = 98 </p> </td>
+  </tr>
+  <tr>
+   <td colname="col1"> Mozilla/([0-9]).([0-9]) </td>
+   <td colname="col2"> Mozilla/3.0 </td>
+   <td colname="col3"> Mozilla/3.03 </td>
+   <td colname="col4"> <p>%1% = 3 </p> <p> %2% = 0 </p> </td>
+  </tr>
+  <tr>
+   <td colname="col1"> 단원([A-Z]) </td>
+   <td colname="col2"> 레슨 a </td>
+   <td colname="col3"> 소문자 a가 대문자 A에서 Z까지의 범위에 있지 않으므로 일치하지 않습니다. </td>
+   <td colname="col4"> </td>
+  </tr>
+ </tbody>
 </table>

@@ -3,7 +3,7 @@ description: 열기 기능을 사용하면 텍스트 편집기나 웹 브라우�
 title: 개방형 기능 구성
 uuid: dfa79a2b-e9ff-4e62-b15b-ae7911adeafd
 exl-id: c807a284-b544-41cf-958b-27b47d2142ce
-source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+source-git-commit: 79981e92dd1c2e552f958716626a632ead940973
 workflow-type: tm+mt
 source-wordcount: '392'
 ht-degree: 2%
@@ -28,23 +28,23 @@ ht-degree: 2%
 1. **[!UICONTROL Command]** 을 클릭한 다음 **[!UICONTROL Parameters]** 을 클릭하여 파일의 내용을 확인합니다.
 1. 필요에 따라 [!DNL Site] 매개 변수와 Template 매개 변수를 수정합니다.
 
-<table id="table_CDB316DB271F476AB9F9B557B86AFD25"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> 이 매개 변수의 경우.. </th> 
-   <th colname="col2" class="entry"> 이 정보 제공.. </th> 
+<table id="table_CDB316DB271F476AB9F9B557B86AFD25">
+ <thead>
+  <tr>
+   <th colname="col1" class="entry"> 이 매개 변수의 경우.. </th>
+   <th colname="col2" class="entry"> 이 정보 제공.. </th>
   </tr>
  </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>사이트 </p> </td> 
-   <td colname="col2"> <p>열려는 URI의 위치입니다. </p> <p>예:mysite.com </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>템플릿 </p> </td> 
-   <td colname="col2"> <p>Data Workbench이 URI를 찾아 여는 데 사용해야 하는 매개 변수입니다. </p> <p>예:<span class="filepath"> http://%Site%%URI%</span> </p> <p>예제에서 알 수 있는 기본 템플릿은 Data Workbench에게 웹 브라우저를 열고 <span class="wintitle"> Site</span> 매개 변수에 정의된 위치를 찾은 다음 열려는 URI 차원 요소를 찾습니다. </p> </td> 
-  </tr> 
- </tbody> 
+ <tbody>
+  <tr>
+   <td colname="col1"> <p>사이트 </p> </td>
+   <td colname="col2"> <p>열려는 URI의 위치입니다. </p> <p>예: mysite.com </p> </td>
+  </tr>
+  <tr>
+   <td colname="col1"> <p>템플릿 </p> </td>
+   <td colname="col2"> <p>Data Workbench이 URI를 찾아 여는 데 사용해야 하는 매개 변수입니다. </p> <p>예: <span class="filepath"> https://%Site%%URI%</span> </p> <p>예제에서 알 수 있는 기본 템플릿은 Data Workbench에게 웹 브라우저를 열고 <span class="wintitle"> Site</span> 매개 변수에 정의된 위치를 찾은 다음 열려는 URI 차원 요소를 찾습니다. </p> </td>
+  </tr>
+ </tbody>
 </table>
 
 1. 파일을 저장합니다.

@@ -4,7 +4,7 @@ solution: Analytics,Analytics
 title: 테스트를 어떻게 수행할 수 있습니까?
 uuid: 9dfe3685-885e-4098-ab1d-ac891ccc5199
 exl-id: 0f06ff0f-b385-4614-8007-afdb85191a85
-source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+source-git-commit: 79981e92dd1c2e552f958716626a632ead940973
 workflow-type: tm+mt
 source-wordcount: '431'
 ht-degree: 1%
@@ -42,6 +42,6 @@ ht-degree: 1%
 >
 >통제 실험은 쿼리 문자열 교체가 아니라 URI 대체를 기반으로 합니다. 다음 예제에서는 특정 URL 내의 URI가 강조 표시됩니다.
 >
->`http://www.omniture.com/index.asp?id=1`
+>`https://www.omniture.com/index.asp?id=1`
 >
 >예를 들어, 통제 실험에서 제어 그룹 URI [!DNL index.asp]을 테스트 그룹 URI [!DNL index2.asp]로 대체하여 더 많은 값을 얻을 페이지 디자인을 결정하도록 지정할 수 있습니다.

@@ -3,7 +3,7 @@ description: 보고서 포털을 열고 프로필에 대한 보고서를 성공�
 title: 보고서 포털 테스트
 uuid: eee0df5e-78e0-49b2-853c-40f1b332328b
 exl-id: 197ff815-9234-4dce-b30f-b9cacf259634
-source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+source-git-commit: 79981e92dd1c2e552f958716626a632ead940973
 workflow-type: tm+mt
 source-wordcount: '143'
 ht-degree: 6%
@@ -20,9 +20,9 @@ ht-degree: 6%
 
 1. 웹 브라우저에서 다음 URI 형식을 사용하여 [!DNL Report Portal] 을 엽니다.
 
-   http://*ServerAddress*/*PortalName*
+   https://*ServerAddress*/*PortalName*
 
-   예: [!DNL http://localhost/VisualReportPortal]
+   예: [!DNL https://localhost/VisualReportPortal]
 
 1. 로그인 자격 증명을 입력하라는 메시지가 [!DNL Report Portal]에 표시되면 계정 이름과 암호를 입력합니다(예: 기본 계정의 계정 &quot;test&quot; 및 암호 &quot;user&quot;).
 1. [!DNL Report Portal] 이 나타나면 다음을 확인합니다.

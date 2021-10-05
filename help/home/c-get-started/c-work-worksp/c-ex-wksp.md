@@ -3,7 +3,7 @@ description: 작업 공간을 .png 이미지 파일로 내보내거나 특정 �
 title: 작업 영역 내보내기
 uuid: 59ea6e46-d2e9-41f9-9c8f-e3071eb65424
 exl-id: 87416ddf-2ac0-4f95-ae8e-71051061c757
-source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+source-git-commit: 79981e92dd1c2e552f958716626a632ead940973
 workflow-type: tm+mt
 source-wordcount: '774'
 ht-degree: 1%
@@ -14,7 +14,7 @@ ht-degree: 1%
 
 작업 공간을 .png 이미지 파일로 내보내거나 특정 창에서 Excel(.xls 또는 .xlsx) 파일로 데이터를 내보낼 수 있습니다.
 
-## 작업 공간을 PNG 파일 {#section-f9fbe0f0a1c341e2b063cce106cac35e} 로 내보내기
+## 작업 공간을 PNG 파일로 내보내기 {#section-f9fbe0f0a1c341e2b063cce106cac35e}
 
 작업 공간의 스냅샷을 이동식 네트워크 그래픽 형식(`.png` 파일)으로 저장할 수 있습니다. 작업 공간을 `.png` 파일로 저장할 때 다음 색상 옵션을 사용할 수 있습니다.
 
@@ -26,11 +26,11 @@ ht-degree: 1%
 
 작업 공간의 제목 표시줄 메뉴에서 **[!UICONTROL Export]** > **[!UICONTROL Export PNG]** > *&lt;**[!UICONTROL color option]***&#x200B;를 클릭합니다.
 
-[!UICONTROL Save Image As] 대화 상자가 나타납니다.
+[!UICONTROL Save Image As] 대화 상자가 표시됩니다.
 
 파일을 저장할 디렉토리로 이동하여 필요한 경우 파일 이름을 변경한 다음 **[!UICONTROL Save]** 를 클릭합니다.
 
-## 작업 공간 데이터를 Microsoft Excel {#section-fe214e3dbc364d2eba3834d62d295acb}로 내보내기
+## 작업 공간 데이터를 Microsoft Excel로 내보내기 {#section-fe214e3dbc364d2eba3834d62d295acb}
 
 작업 공간을 Excel로 내보낼 때 Data Workbench은 특정 시각화, 차원 및 값 범례, 텍스트 주석에서 워크시트당 하나의 시각화가 있는 새 Excel 통합 문서로 데이터를 내보냅니다.
 
@@ -41,15 +41,14 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->* 데이터를 Excel 파일로 내보낼 때 새 Excel 인스턴스가 열립니다. 이 프로세스에 대한 자세한 내용은 [http://support.microsoft.com/kb/257757](http://support.microsoft.com/kb/257757)을 참조하십시오.
+>* 데이터를 Excel 파일로 내보낼 때 새 Excel 인스턴스가 열립니다. 이 프로세스에 대한 자세한 내용은 [https://support.microsoft.com/kb/257757](https://support.microsoft.com/kb/257757)을 참조하십시오.
 >* Data Workbench은 256개 이상의 열과 65,536개의 데이터 행을 지원하지만 8.0 이전 버전의 Microsoft Excel은 지원하지 않습니다.
 >
 
 
+이러한 요구 사항이 충족되면 Data Workbench은 자동으로 Microsoft Excel을 시작하고 데이터를 새 Excel 통합 문서로 내보냅니다. 데이터는 다음 시각화에서 내보내지지 않습니다. 그래프, 경로 브라우저, 프로세스 맵, 산포도, 전구.
 
-이러한 요구 사항이 충족되면 Data Workbench은 자동으로 Microsoft Excel을 시작하고 데이터를 새 Excel 통합 문서로 내보냅니다. 데이터는 다음 시각화에서 내보내지지 않습니다.그래프, 경로 브라우저, 프로세스 맵, 산포도, 전구.
-
-## 사용자 지정 제목 {#section-a332e157554546cb8e88922a8d7a4fa2} 적용
+## 사용자 지정 제목 적용 {#section-a332e157554546cb8e88922a8d7a4fa2}
 
 [!UICONTROL Export] 메뉴에서 창의 사용자 지정 제목을 지정하지 않은 경우 나열된 [!UICONTROL Export title](예: 도시 테이블)이 워크시트 이름으로 사용됩니다.
 
@@ -64,14 +63,14 @@ ht-degree: 1%
 
 작업 영역을 Excel로 내보내면 이 창의 데이터가 포함된 워크시트의 이름은 [!UICONTROL Export title] 필드에서 제목 대신 지정한 제목을 사용하여 지정됩니다.
 
-## 작업 공간이나 사이드바를 Excel {#section-360438b66d5f4734826ab463b4a01a75}로 내보내기
+## 작업 공간이나 사이드바를 Excel로 내보내기 {#section-360438b66d5f4734826ab463b4a01a75}
 
 **작업 공간 데이터를 새  [!DNL .xls] 또는 파일로  [!DNL .xlsx] 내보내려면**
 
 1. 작업 공간의 제목 표시줄에서 **[!UICONTROL Export]** > **[!UICONTROL Export]** 를 클릭합니다.
 1. 작업 공간, 사이드바 또는 둘 다 내보내지 여부를 지정합니다.
 
-## 템플릿 Excel 파일 {#section-814772929ca64cf6b92b89d3fdd02302}로 내보내기
+## 템플릿 Excel 파일로 내보내기 {#section-814772929ca64cf6b92b89d3fdd02302}
 
 작업 공간의 데이터를 템플릿 Excel 파일(`.xls` 또는 `.xlsx`)로 내보낼 수 있습니다. 템플릿 파일을 사용하면 작업 공간을 내보낼 때마다 데이터에 서식을 지정하는 데 걸리는 시간을 줄일 수 있습니다.
 

@@ -3,7 +3,7 @@ description: 보고서 포털을 가상 디렉터리(IIS 7.0 이상)에 매핑�
 title: 보고서 포털을 가상 디렉터리(IIS 7.0 이상)에 매핑
 uuid: 9d18fb85-f9d7-48b6-a19b-1e7b68a5adca
 exl-id: 2fa3439a-1fe5-4a20-83db-d233ae8b5263
-source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+source-git-commit: 79981e92dd1c2e552f958716626a632ead940973
 workflow-type: tm+mt
 source-wordcount: '437'
 ht-degree: 5%
@@ -61,4 +61,4 @@ ht-degree: 5%
 * 더 이상 [!DNL ReportPortalSetup.xml]이 필요하지 않으므로 삭제할 수 있습니다.
 * 표준화를 위해 이 zip 파일의 내용을 [!DNL E:\Portal]에 넣습니다.
 * SMTP 서버 확인 관리 서비스 클라이언트의 경우 여기에서 볼 수 있습니다.
-* 보고서 서버의 IIS에 있는 도메인 이름 항목을 좀 더 친숙한 이름으로 변경(예: [!DNL reports.clientname.insight.omniture.com])하도록 NetOps와 함께 요청하여 전체 포털 URL이 [!DNL http://reports.clientname.insight.omniture.com/Portal]되도록 하십시오. 이 변경 사항이 적용되면 [!DNL email.asa] 파일을 구성합니다.
+* 보고서 서버의 IIS에 있는 도메인 이름 항목을 좀 더 친숙한 이름으로 변경(예: [!DNL reports.clientname.insight.omniture.com])하도록 NetOps와 함께 요청하여 전체 포털 URL이 [!DNL https://reports.clientname.insight.omniture.com/Portal]되도록 하십시오. 이 변경 사항이 적용되면 [!DNL email.asa] 파일을 구성합니다.

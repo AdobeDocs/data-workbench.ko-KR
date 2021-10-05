@@ -3,7 +3,7 @@ description: 센서는 센서가 설치된 웹 서버에 대한 페이지 요청
 title: 페이지 요청 데이터 가져오기
 uuid: 06cf2b14-8d2c-483e-8a75-ce772798978f
 exl-id: e42566a3-d5b4-4f1a-b8cd-1ea646041101
-source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+source-git-commit: 79981e92dd1c2e552f958716626a632ead940973
 workflow-type: tm+mt
 source-wordcount: '575'
 ht-degree: 4%
@@ -22,81 +22,81 @@ ht-degree: 4%
 
 다음 표에는 [!DNL Sensor’s] 구성 파일을 기반으로 필터링되지 않은 각 GET 요청에 대해 [!DNL Sensor]이 획득하는 로그 정보 필드가 포함되어 있습니다.
 
-<table id="table_5F65474150EC41648B35D0B031FB9B15"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> W3C 이름 </th> 
-   <th colname="col2" class="entry"> 수집한 데이터 </th> 
-   <th colname="col3" class="entry"> 설명 </th> 
-   <th colname="col4" class="entry"> 설명 </th> 
-  </tr> 
+<table id="table_5F65474150EC41648B35D0B031FB9B15">
+ <thead>
+  <tr>
+   <th colname="col1" class="entry"> W3C 이름 </th>
+   <th colname="col2" class="entry"> 수집한 데이터 </th>
+   <th colname="col3" class="entry"> 설명 </th>
+   <th colname="col4" class="entry"> 설명 </th>
+  </tr>
  </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> x-trackingid </td> 
-   <td colname="col2"> 추적 식별자(고유 방문자) </td> 
-   <td colname="col3"> 방문자의 초기 요청 시 <span class="wintitle"> 센서 </span>가 사용자의 브라우저에 배치된 쿠키에서 읽은 식별자입니다 </td> 
-   <td colname="col4"> V1st=3C94007B4E01F9C2 </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>날짜 </p> <p>시간 </p> </td> 
-   <td colname="col2"> 타임스탬프 </td> 
-   <td colname="col3"> 서버에서 요청을 처리한 시간(100ns 전체 자릿수)정확성은 서버 환경 및 NTP에 따라 다릅니다. </td> 
-   <td colname="col4"> 2002-11-21 17:21:45.123 </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> sc(content-type) </td> 
-   <td colname="col2"> 콘텐츠 유형 </td> 
-   <td colname="col3"> 서버에서 반환된 개체 유형 </td> 
-   <td colname="col4"> 텍스트/html </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> sc-status </td> 
-   <td colname="col2"> HTTP 응답 상태 코드 </td> 
-   <td colname="col3"> HTTP 서버의 응답 상태를 기록하는 서버에서 생성된 숫자 코드 </td> 
-   <td colname="col4"> 404년 </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> cs-uri-stem </td> 
-   <td colname="col2"> URI 줄기 </td> 
-   <td colname="col3"> 클라이언트가 요청한 URI의 줄기 부분 </td> 
-   <td colname="col4"> <span class="filepath"> pagedir/page.asp  </span> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> c-ip </td> 
-   <td colname="col2"> 클라이언트 IP </td> 
-   <td colname="col3"> 요청하는 클라이언트의 IP 주소 </td> 
-   <td colname="col4"> 127.0.0.1 </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> s-dns </td> 
-   <td colname="col2"> 서버 도메인 이름 </td> 
-   <td colname="col3"> 요청을 처리하는 웹 서버의 도메인 이름 </td> 
-   <td colname="col4"> <span class="filepath"> www.domain.com  </span> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> cs(referrer) </td> 
-   <td colname="col2"> 참조 URL </td> 
-   <td colname="col3"> 클라이언트가 보낸 HTTP 레퍼러 필드의 콘텐츠입니다 </td> 
-   <td colname="col4"> <span class="filepath"> http://www.referringsite.com  </span> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> cs(user-agent) </td> 
-   <td colname="col2"> 사용자 에이전트 </td> 
-   <td colname="col3"> HTTP 서버에 요청을 하는 데 사용되는 장치 </td> 
-   <td colname="col4"> Mozilla/4.0+(호환;+MSIE+6.0;+Windows+NT+5.1) </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> cs(cookie) </td> 
-   <td colname="col2"> 도메인의 클라이언트 쿠키 </td> 
-   <td colname="col3"> 사이트에 대한 모든 사용자 쿠키의 콘텐츠입니다 </td> 
-   <td colname="col4"> <p>KL_TC1 1038058778312 </p> <p>KL972x1038058778312282052 </p> <p>KL_PVKL972 0 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> cs-uri-query </td> 
-   <td colname="col2"> 쿼리 문자열 </td> 
-   <td colname="col3"> 클라이언트가 요청한 URI 중 쿼리 문자열 부분(있는 경우) </td> 
-   <td colname="col4"> PAGENAME=dynamic1&amp;link=3001 </td> 
-  </tr> 
- </tbody> 
+ <tbody>
+  <tr>
+   <td colname="col1"> x-trackingid </td>
+   <td colname="col2"> 추적 식별자(고유 방문자) </td>
+   <td colname="col3"> 방문자의 초기 요청 시 <span class="wintitle"> 센서 </span>가 사용자의 브라우저에 배치된 쿠키에서 읽은 식별자입니다 </td>
+   <td colname="col4"> V1st=3C94007B4E01F9C2 </td>
+  </tr>
+  <tr>
+   <td colname="col1"> <p>날짜 </p> <p>시간 </p> </td>
+   <td colname="col2"> 타임스탬프 </td>
+   <td colname="col3"> 서버에서 요청을 처리한 시간(100ns 전체 자릿수) 정확성은 서버 환경 및 NTP에 따라 다릅니다. </td>
+   <td colname="col4"> 2002-11-21 17:21:45.123 </td>
+  </tr>
+  <tr>
+   <td colname="col1"> sc(content-type) </td>
+   <td colname="col2"> 콘텐츠 유형 </td>
+   <td colname="col3"> 서버에서 반환된 개체 유형 </td>
+   <td colname="col4"> 텍스트/html </td>
+  </tr>
+  <tr>
+   <td colname="col1"> sc-status </td>
+   <td colname="col2"> HTTP 응답 상태 코드 </td>
+   <td colname="col3"> HTTP 서버의 응답 상태를 기록하는 서버에서 생성된 숫자 코드 </td>
+   <td colname="col4"> 404년 </td>
+  </tr>
+  <tr>
+   <td colname="col1"> cs-uri-stem </td>
+   <td colname="col2"> URI 줄기 </td>
+   <td colname="col3"> 클라이언트가 요청한 URI의 줄기 부분 </td>
+   <td colname="col4"> <span class="filepath"> pagedir/page.asp  </span> </td>
+  </tr>
+  <tr>
+   <td colname="col1"> c-ip </td>
+   <td colname="col2"> 클라이언트 IP </td>
+   <td colname="col3"> 요청하는 클라이언트의 IP 주소 </td>
+   <td colname="col4"> 127.0.0.1 </td>
+  </tr>
+  <tr>
+   <td colname="col1"> s-dns </td>
+   <td colname="col2"> 서버 도메인 이름 </td>
+   <td colname="col3"> 요청을 처리하는 웹 서버의 도메인 이름 </td>
+   <td colname="col4"> <span class="filepath"> www.domain.com  </span> </td>
+  </tr>
+  <tr>
+   <td colname="col1"> cs(referrer) </td>
+   <td colname="col2"> 참조 URL </td>
+   <td colname="col3"> 클라이언트가 보낸 HTTP 레퍼러 필드의 콘텐츠입니다 </td>
+   <td colname="col4"> <span class="filepath"> https://www.referringsite.com  </span> </td>
+  </tr>
+  <tr>
+   <td colname="col1"> cs(user-agent) </td>
+   <td colname="col2"> 사용자 에이전트 </td>
+   <td colname="col3"> HTTP 서버에 요청을 하는 데 사용되는 장치 </td>
+   <td colname="col4"> Mozilla/4.0+(호환;+MSIE+6.0; +Windows+NT+5.1) </td>
+  </tr>
+  <tr>
+   <td colname="col1"> cs(cookie) </td>
+   <td colname="col2"> 도메인의 클라이언트 쿠키 </td>
+   <td colname="col3"> 사이트에 대한 모든 사용자 쿠키의 콘텐츠입니다 </td>
+   <td colname="col4"> <p>KL_TC1 1038058778312 </p> <p>KL972x1038058778312282052 </p> <p>KL_PVKL972 0 </p> </td>
+  </tr>
+  <tr>
+   <td colname="col1"> cs-uri-query </td>
+   <td colname="col2"> 쿼리 문자열 </td>
+   <td colname="col3"> 클라이언트가 요청한 URI 중 쿼리 문자열 부분(있는 경우) </td>
+   <td colname="col4"> PAGENAME=dynamic1&amp;link=3001 </td>
+  </tr>
+ </tbody>
 </table>
