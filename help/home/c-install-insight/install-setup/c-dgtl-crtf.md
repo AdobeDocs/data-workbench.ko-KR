@@ -1,11 +1,11 @@
 ---
 description: Insight 프로그램 파일을 설치한 후에는 Adobe에서 제공한 디지털 인증서를 다운로드하여 설치해야 합니다.
-title: 디지털 인증서 다운로드 및 설치
+title: 디지털 인증서 다운로드 및 설치(Insight)
 uuid: 93ab2222-a977-4279-9e1e-71038b1d1cfa
 exl-id: 0dff95ae-880b-45d5-96df-4eb6bea58891
-source-git-commit: 79981e92dd1c2e552f958716626a632ead940973
+source-git-commit: 235b8816c7397ac1ab71df650a1d4c2d681b3b2d
 workflow-type: tm+mt
-source-wordcount: '2743'
+source-wordcount: '2744'
 ht-degree: 74%
 
 ---
@@ -42,7 +42,7 @@ Adobe 애플리케이션과 함께 설치되는 X.509 디지털 인증서에서�
 
 노드 잠금 인증서는 컴퓨터가 설치된 컴퓨터에 등록된 디지털 인증서입니다. 노드 잠금은 특정 노드 식별자(특정 컴퓨터를 고유하게 식별하는 값)와 인증서를 영구적으로 연결합니다. 인증서를 노드에 잠그려면 Adobe 라이센스 서버 또는 라이센스 서버에 대한 액세스 권한이 있는 프록시 서버에 대한 인터넷 액세스 권한이 있어야 합니다.
 
-인터넷에 액세스할 수 없는 컴퓨터에 설치하는 경우 [인터넷에 액세스할 수 없는 컴퓨터에서 디지털 인증서 사용](../../../home/c-install-insight/install-setup/c-dgtl-crtf.md#section-d3c060131d7f45cda27f68848b704fa1)에 설명된 대로 미리 잠금 특수 인증서를 가져와 설치해야 합니다.
+인터넷에 액세스할 수 없는 컴퓨터에 설치하는 경우, 에 설명된 대로 미리 잠금 특수 인증서를 가져와 설치해야 합니다. [인터넷에 액세스할 수 없는 컴퓨터에서 디지털 인증서 사용](../../../home/c-install-insight/install-setup/c-dgtl-crtf.md#section-d3c060131d7f45cda27f68848b704fa1).
 
 인터넷에 액세스할 수 있는 컴퓨터에 설치하는 경우 Insight를 처음 시작할 때 디지털 인증서가 자동으로 노드 잠깁니다. 노드를 잠근 후에는 다른 컴퓨터에서 인증서를 사용할 수 없습니다. Insight를 다른 컴퓨터로 마이그레이션해야 하는 경우 Adobe에서 잠금이 해제된 새 인증서를 받아야 합니다.
 
@@ -54,7 +54,7 @@ Adobe 애플리케이션과 함께 설치되는 X.509 디지털 인증서에서�
 
 인터넷에 액세스할 수 없는 컴퓨터에 설치하는 경우, 미리 잠금 인증서를 요청하여 Insight 설치를 완료해야 합니다. 미리 잠금 인증서는 Adobe이 컴퓨터의 노드 식별자에 수동으로 잠그는 디지털 인증서입니다.
 
-미리 잠금 인증서를 요청하려면 노드 식별자 및 인증서 번호를 Customer Care Adobe으로 보내야 합니다. 컴퓨터의 노드 식별자를 얻으려면 Adobe 고객 지원 센터에 문의하여 Adobe [!DNL Node Identifier] 유틸리티를 요청하십시오. 또한 Insight가 라이센스 서버에 연결하려고 할 때 문제가 발생하여 연결할 수 없다는 경고에서 노드 식별자를 가져올 수도 있습니다. 미리 잠금 인증서를 받으면 [디지털 인증서 설치](../../../home/c-install-insight/install-setup/c-dgtl-crtf.md#task-1dad1e1d86d04100a7bcf87f26303c38)의 마지막 두 단계에 설명된 대로 설치합니다.
+미리 잠금 인증서를 요청하려면 노드 식별자 및 인증서 번호를 Customer Care Adobe으로 보내야 합니다. 컴퓨터의 노드 식별자를 얻으려면 Adobe 고객 지원 센터에 문의하여 Adobe을 요청하십시오 [!DNL Node Identifier] 유틸리티. 또한 Insight가 라이센스 서버에 연결하려고 할 때 문제가 발생하여 연결할 수 없다는 경고에서 노드 식별자를 가져올 수도 있습니다. 미리 잠금 인증서를 받으면 다음 두 단계에 설명된 대로 설치합니다 [디지털 인증서 설치](../../../home/c-install-insight/install-setup/c-dgtl-crtf.md#task-1dad1e1d86d04100a7bcf87f26303c38).
 
 인증서의 유효성을 다시 검사해야 하는 경우 라이센스 서버에서 유효성이 확인된 새 인증서를 다운로드하여 컴퓨터에 다시 설치해야 합니다(Adobe 상태와의 계약이 따로 없는 경우).
 
@@ -66,18 +66,18 @@ t_install_dgtl_crtf.xml
 
 **디지털 인증서를 다운로드하여 설치하려면 다음을 수행하십시오.**
 
-1. 웹 브라우저를 열고 [!DNL https:\\license.visualsciences.com](으)로 이동합니다.
+1. 웹 브라우저를 열어 [!DNL https:\\license.visualsciences.com].
 
    >[!NOTE]
    >
-   >이때 브라우저에서 디지털 인증서를 입력하라는 메시지가 표시될 수 있습니다. 이 경우 **[!UICONTROL Cancel]** 을 클릭하여 대화 상자를 닫습니다.
+   >이때 브라우저에서 디지털 인증서를 입력하라는 메시지가 표시될 수 있습니다. 이 경우 를 클릭합니다. **[!UICONTROL Cancel]** 을 클릭하여 대화 상자를 닫습니다.
 
 1. 로그인 화면에서 Adobe에서 받은 [!DNL Account Name] 및 [!DNL Password] 을 입력한 다음 **[!UICONTROL login]**&#x200B;을 클릭합니다 .
-1. Insight 인스턴스에 대해 발급된 인증서( *이름*.pem)를 찾고 해당 인증서와 연결된 ![](assets/btn_save_certificatedownload.PNG) 아이콘을 클릭합니다.
+1. 인사이트( )에 대해 발급된 인증서를 찾습니다 *사용자 이름*.pem)을 클릭하고 ![](assets/btn_save_certificatedownload.PNG) 해당 인증서와 연결된 아이콘입니다.
 1. 인증서를 저장하라는 메시지가 표시되면 **[!UICONTROL Save]**&#x200B;을 클릭합니다 .
-1. Insight를 설치한 디렉토리의 [!DNL Certificates] 폴더에 파일을 다운로드합니다.
+1. 에 파일을 다운로드합니다. [!DNL Certificates] 폴더가 비어 있습니다.
 
-   이 폴더에는 [!DNL trust_ca_cert.pem] 인증서 파일이 포함되어 있습니다. Insight가 작동하려면 두 인증서 파일이 항상 있어야 합니다.
+   이 폴더에는 이름이 인 인증서 파일이 있습니다. [!DNL trust_ca_cert.pem]. Insight가 작동하려면 두 인증서 파일이 항상 있어야 합니다.
 
 ## Windows 인증서 저장소 {#concept-4acb13b7de9340ea8cde8ad84b93358d}
 
@@ -93,12 +93,12 @@ crypto-api.xml
 >
 >라이선스 서버의 라이선스는 여전히 기존 `<Common Name>.pem` 파일을 사용하여 유지되며 인증서 저장소에서 가져온 인증서는 지정한 서버와의 통신에 대해서만 사용됩니다.
 
-## 전제 조건 {#section-69b18600052145ff8e5299b7123e69c5}
+## 사전 요구 사항 {#section-69b18600052145ff8e5299b7123e69c5}
 
 1. [!DNL certmgr.msc] 파일에 액세스하여 인증서 및 키를 **Personal** 저장소로 가져올 수 있어야 합니다. (대부분의 Windows 사용자의 경우 기본적으로 true로 설정되어야 함).
 
 1. 구성을 수행하는 사용자에게는 **OpenSSL** 명령줄 도구의 사본이 있어야 합니다.
-1. 사용자 지정 SSL 인증서를 사용하도록 서버 및 클라이언트가 구성되어 있어야 합니다. 이 지침은 **Certificates** 디렉터리에 클라이언트 인증서를 저장하지 않고 Windows 인증서 저장소에 클라이언트 인증서를 저장하는 지침을 제공합니다.
+1. 사용자 지정 SSL 인증서를 사용하도록 서버 및 클라이언트가 구성되어 있어야 합니다. 이 지침은 클라이언트 인증서를 **인증서** 디렉토리.
 
 ## Windows 인증서 저장소 구성 {#section-3629802122e947d4b4f63e8b732cfe27}
 
@@ -106,7 +106,7 @@ crypto-api.xml
 
 **1단계: 사용자의 SSL 인증서 및 개인 키를 Windows 인증서 저장소로 가져옵니다.**
 
-[Data Workbench](../../../home/c-install-insight/install-setup/c-dgtl-crtf.md#concept-ee6a9b5015f84a0ba64a11428b0a72dd)에서 사용자 정의 인증서를 사용하면 SSL 인증서와 키를 다음 디렉토리에 추가하라는 메시지가 표시됩니다.
+in [Data Workbench에서 사용자 정의 인증서 사용](../../../home/c-install-insight/install-setup/c-dgtl-crtf.md#concept-ee6a9b5015f84a0ba64a11428b0a72dd) 다음 디렉토리에 SSL 인증서 및 키를 추가하라는 메시지가 표시됩니다.
 
 ```
 <
@@ -115,7 +115,7 @@ crypto-api.xml
 </filepath>>\Certificates\
 ```
 
-인증서의 이름은 Analytics Server 1.pem(trust_ca_cert.pem 파일 아님)과 같은 `<Common Name>.pem`입니다.
+인증서 이름은 `<Common Name>.pem` Analytics Server 1.pem(trust_ca_cert.pem 파일 아님)
 
 인증서 및 개인 키를 가져오기 전에 [!DNL pem] 형식에서 [!DNL .pfx] 형식(예: [!DNL pkcs12.pfx] ) 으로 변환해야 합니다.
 

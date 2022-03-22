@@ -1,12 +1,12 @@
 ---
 description: 로그(.vsl) 파일에는 센서가 서버에서 수집하고 데이터 집합 구성 프로세스에서 Data Workbench 서버에서 사용하는 이벤트 데이터 필드가 포함되어 있습니다.
-title: 이벤트 데이터 레코드 필드
+title: 이벤트 데이터 레코드 필드(.vsl 파일)
 uuid: ad9e773c-a128-4094-9e20-45a6de025c8f
 exl-id: d48b593f-5a3a-4a4e-9a71-3b91024c9a48
-source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+source-git-commit: 235b8816c7397ac1ab71df650a1d4c2d681b3b2d
 workflow-type: tm+mt
-source-wordcount: '139'
-ht-degree: 5%
+source-wordcount: '141'
+ht-degree: 2%
 
 ---
 

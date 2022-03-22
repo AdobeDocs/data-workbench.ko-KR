@@ -1,12 +1,12 @@
 ---
 description: 모든 Report Server 컴퓨터가 가능한 가장 높은 수준에서 계속 수행되도록 사용 가능한 디스크 공간을 정기적으로 모니터링해야 합니다.
-title: 디스크 공간 모니터링
+title: 디스크 공간 모니터링(보고서 서버)
 uuid: 590c8239-d20e-470e-b633-7785b75daaa6
 exl-id: 0debd601-494f-4d4e-9452-c4d32678dc95
-source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+source-git-commit: 235b8816c7397ac1ab71df650a1d4c2d681b3b2d
 workflow-type: tm+mt
-source-wordcount: '170'
-ht-degree: 3%
+source-wordcount: '172'
+ht-degree: 1%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 3%
 
 모든 Report Server 컴퓨터가 가능한 가장 높은 수준에서 계속 수행되도록 사용 가능한 디스크 공간을 정기적으로 모니터링해야 합니다.
 
-각 [!DNL Report Server] 컴퓨터는 다음 유형의 데이터를 저장합니다.
+각 [!DNL Report Server] 기계 는 다음 유형의 데이터를 저장합니다.
 
 * 운영 체제 데이터
 * 보고서 데이터
@@ -29,9 +29,9 @@ ht-degree: 3%
 
 ## 보고서 데이터 공간 모니터링 {#section-ad0a63f3a6824e68acd675da0b6c5c23}
 
-**권장 빈도:** 5~10분마다
+**권장 빈도:** 5-10분마다
 
-[!DNL Report] 설치 디렉토리 내의 [!DNL Reports] 폴더에 보고서를 수용할 수 있는 충분한 디스크 공간을 제공해야 합니다.
+에서 보고서를 수용할 충분한 디스크 공간을 제공해야 합니다 [!DNL Reports] 폴더 내 [!DNL Report] 설치 디렉토리.
 
 ## 운영 체제, 보고서 및 시스템 데이터 백업 {#section-b5efb132ca5d4ee69a8608f9b4ab245b}
 

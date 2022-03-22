@@ -1,12 +1,12 @@
 ---
 description: Adobe 애플리케이션 설치를 완료하기 위한 지침입니다.
-title: 다음 단계
+title: 다음 단계(Insight Server)
 uuid: 9707adc2-0618-4e94-baed-80b076d60f29
 exl-id: 5393a0ae-732c-409c-830b-64050f123091
-source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+source-git-commit: 235b8816c7397ac1ab71df650a1d4c2d681b3b2d
 workflow-type: tm+mt
-source-wordcount: '115'
-ht-degree: 3%
+source-wordcount: '117'
+ht-degree: 1%
 
 ---
 
@@ -14,14 +14,14 @@ ht-degree: 3%
 
 Adobe 애플리케이션 설치를 완료하기 위한 지침입니다.
 
-* * [!DNL Insight] 사용 안내서*에 설명된 대로 [!DNL Insight] 사본을 하나 이상 설치합니다.
+* 하나 이상의 복사본을 설치합니다. [!DNL Insight] *에 설명된 대로 [!DNL Insight] 사용 안내서*.
 
-* 클러스터형 구성에서 [!DNL Insight Server]을 실행하려면 [Insight Server 클러스터](../../../home/c-inst-svr/c-install-ins-svr/c-ins-svr-clstrs/c-abt-ins-svr-clsters.md)에 설명된 대로 클러스터를 설정합니다.
+* 실행하려는 경우 [!DNL Insight Server] 클러스터형 구성에서 [Insight Server 클러스터](../../../home/c-inst-svr/c-install-ins-svr/c-ins-svr-clstrs/c-abt-ins-svr-clsters.md).
 
-* 데이터를 수집하려는 서버에서 * [!DNL Insight] [!DNL Sensor] 안내서*에 설명된 대로 [!DNL Sensors]을 설치합니다.
+* 데이터를 수집할 서버에서 를 설치합니다. [!DNL Sensors] *에 설명된 대로 [!DNL Insight] [!DNL Sensor] 안내서*.
 
-* [!DNL Transform] 라이센스가 있는 경우 [!DNL Insight Server] FSU에 설치하는 지침을 보려면 [Transform](../../../home/c-inst-svr/c-tfm/c-tfm.md#concept-2da4db2b6f444e93ace22d3b3aecb4f2) 을 참조하십시오.
+* 라이센스가 있는 경우 [!DNL Transform]를 참조하십시오. [변형](../../../home/c-inst-svr/c-tfm/c-tfm.md#concept-2da4db2b6f444e93ace22d3b3aecb4f2) 설치 지침 [!DNL Insight Server] FSU.
 
-* [!DNL Insight Server]에 대한 복제 서비스를 설정하려면 [복제 서비스 설치](../../../home/c-inst-svr/c-ins-svr-rep-svc/c-inst-rep-svc.md#concept-4743b6621f394ee39cf0635230996925) 를 참조하여 [!DNL Insight Server] FSU에 서비스를 설치하십시오.
+* 에 대한 복제 서비스를 설정하려면 [!DNL Insight Server]를 참조하십시오. [복제 서비스 설치](../../../home/c-inst-svr/c-ins-svr-rep-svc/c-inst-rep-svc.md#concept-4743b6621f394ee39cf0635230996925) 에 서비스를 설치하는 방법 [!DNL Insight Server] FSU.
 
-* [!DNL Repeater] 라이센스가 있는 경우 설치 지침은 [반복 기능](../../../home/c-inst-svr/c-rptr-fntly/c-rptr-fntly.md)을 참조하십시오.
+* 라이센스가 있는 경우 [!DNL Repeater]를 참조하십시오. [반복 기능](../../../home/c-inst-svr/c-rptr-fntly/c-rptr-fntly.md) 설치 지침

@@ -1,12 +1,12 @@
 ---
 description: 표
-title: 표
+title: 대시보드 테이블
 uuid: 3bfb5be4-5510-456b-8b3d-6e57cb93949e
 exl-id: 215ad990-92af-4c36-9946-89dbe36bbb8c
-source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+source-git-commit: 235b8816c7397ac1ab71df650a1d4c2d681b3b2d
 workflow-type: tm+mt
-source-wordcount: '211'
-ht-degree: 1%
+source-wordcount: '212'
+ht-degree: 0%
 
 ---
 
@@ -16,6 +16,6 @@ ht-degree: 1%
 
 열 머리글 영역의 다른 위치로 열 헤더를 클릭하여 드래그하여 열 순서를 재배열할 수 있습니다. 적절한 열 헤더를 클릭하여 언제든지 정렬을 수행할 수 있습니다. 열 헤더를 다시 클릭하면 정렬 순서가 거꾸로 됩니다.
 
-특정 행을 클릭하여 테이블에서 선택할 수 있습니다. **[!UICONTROL Control]** 키를 누르고 있으면 추가 항목을 클릭하면 선택 사항이 유지됩니다. 를 클릭할 때 **[!UICONTROL Control]** 키를 누르고 있으면 선택 영역의 값도 전환합니다. 이 기능은 이미 선택한 항목 그룹에서 선택 항목을 한 개만 제거하는 데 유용합니다. 행을 먼저 클릭하여 선택한 다음 마지막 행을 클릭하는 동안 **[!UICONTROL Shift]** 키를 눌러 행 범위를 선택할 수 있습니다.
+특정 행을 클릭하여 테이블에서 선택할 수 있습니다. 누르기 및 **[!UICONTROL Control]** 추가 항목을 클릭하면 키가 선택 항목을 유지합니다. 누르기 및 **[!UICONTROL Control]** 를 클릭하면 선택 영역의 값도 전환합니다. 이 기능은 이미 선택한 항목 그룹에서 선택 항목을 한 개만 제거하는 데 유용합니다. 먼저 행을 클릭하여 선택한 다음 키를 눌러 다양한 행을 선택할 수 있습니다 **[!UICONTROL Shift]** 키를 누른 채 마지막 행을 클릭합니다.
 
 ![](assets/table.png)

@@ -1,12 +1,12 @@
 ---
 description: 모든 Insight Server 컴퓨터가 가능한 가장 높은 수준에서 계속 작동하도록 사용 가능한 디스크 공간을 정기적으로 모니터링해야 합니다.
-title: 디스크 공간 모니터링
+title: 디스크 공간 모니터링(Insight Server)
 uuid: 13248e36-4e88-4212-816e-bcc12deefcb4
 exl-id: c2198edc-3961-4845-97cf-0ebe039f9a66
-source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+source-git-commit: 235b8816c7397ac1ab71df650a1d4c2d681b3b2d
 workflow-type: tm+mt
-source-wordcount: '124'
-ht-degree: 4%
+source-wordcount: '126'
+ht-degree: 2%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 4%
 
 모든 Insight Server 컴퓨터가 가능한 가장 높은 수준에서 계속 작동하도록 사용 가능한 디스크 공간을 정기적으로 모니터링해야 합니다.
 
-각 [!DNL Insight Server] 컴퓨터는 다음 유형의 데이터를 저장합니다.
+각 [!DNL Insight Server] 기계 는 다음 유형의 데이터를 저장합니다.
 
 * 데이터 집합 데이터
 * 이벤트 데이터
@@ -23,7 +23,7 @@ ht-degree: 4%
 * 출력 데이터
 * 시스템 데이터
 
-이 섹션에 제공된 것보다 더 많은 데이터 저장소 요구 사항에 대한 자세한 내용은 *최소 시스템 요구 사항* 문서를 참조하십시오.
+이 섹션에서 제공하는 데이터 저장소 요구 사항에 대한 자세한 내용은 *최소 시스템 요구 사항* 문서.
 
 >[!NOTE]
 >
