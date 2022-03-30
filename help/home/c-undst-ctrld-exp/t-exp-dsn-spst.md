@@ -1,10 +1,10 @@
 ---
 description: 이 파일은 워크시트 기능뿐만 아니라 실험에 대한 의사 결정 기록으로도 작동합니다.
-solution: Analytics,Analytics
+solution: Analytics
 title: 실험 설계 스프레드시트
 uuid: bcb11e39-9cbd-400c-af30-4b1c85e7f218
 exl-id: 554790ab-1182-4481-87b0-e768ea769ddf
-source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+source-git-commit: 31f775478b0f0d968310ed10a43ad46791319ee9
 workflow-type: tm+mt
 source-wordcount: '1398'
 ht-degree: 0%
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 **실험 설계 파일을 사용하여 실험을 디자인하려면**
 
-1. 웹 또는 응용 프로그램 서버에 대한 관리자 액세스 권한이 있는 경우 웹 클러스터의 [!DNL Sensor] 컴퓨터에서 [!DNL Sensor] 설치 폴더로 이동합니다. 관리자 액세스 권한이 없는 경우 Adobe 계정 관리자에게 문의하여 파일을 요청하십시오.
+1. 웹 또는 응용 프로그램 서버에 대한 관리자 액세스 권한이 있는 경우 [!DNL Sensor] 설치 폴더 [!DNL Sensor] 웹 클러스터의 컴퓨터 관리자 액세스 권한이 없는 경우 Adobe 계정 관리자에게 문의하여 파일을 요청하십시오.
 1. VS 통제 실험 Design.xls 파일을 엽니다. (원하는 경우 이 파일의 이름을 변경할 수 있습니다.)
 
    다음 페이지의 스프레드시트는 이 안내서 전체에서 사용되는 예제 가설을 테스트하기 위해 준비할 때 스프레드시트를 완료하는 방법의 예입니다.
@@ -52,11 +52,11 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td colname="col1"> 연구 중인 지표 </td> 
-   <td colname="col2"> <p>실험이 기반으로 하는 지표의 이름입니다. </p> <p>예:방문자 전환 </p> </td> 
+   <td colname="col2"> <p>실험이 기반으로 하는 지표의 이름입니다. </p> <p>예: 방문자 전환 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 지표 정의 </td> 
-   <td colname="col2"> <p>실험이 기반으로 하는 지표의 정의. </p> <p>형식:방문자[X]/방문자 </p> <p>예:<span class="filepath"> Visitor[URI='conversionpage.asp']/Visitor</span></p> </td> 
+   <td colname="col2"> <p>실험이 기반으로 하는 지표의 정의. </p> <p>형식: 방문자[X]/방문자 </p> <p>예: <span class="filepath"> Visitor[URI='conversionpage.asp']/Visitor</span></p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 예상 시작 시간 </td> 
@@ -150,11 +150,11 @@ ht-degree: 0%
 | 실제 신뢰 수준(Target 간격) | 실험에 대한 신뢰 수준. 신뢰 수준은 명시된 기대가 참일 가능성을 측정합니다. |
 | 실제 간격(Target 신뢰 수준) | 알 수 없는 모집단 매개 변수를 포함할 수 있는 예상 값 범위를 제공하는 실험에 대해 달성된 신뢰 구간. 이 범위는 주어진 샘플 데이터 세트에서 계산됩니다. |
 
-필요한 최소 방문자 수(테스트+제어 그룹) 필드에서 값을 확인해야 합니다...
+필요한 최소 방문자 수(테스트+제어 그룹) 필드에서 값을 확인해야 합니다. . .
 
 ![](assets/Experiment_Design_Min_Visitors.png)
 
-및 를 [!DNL Visitors] 열의 합계 필드에 있는 값과 비교합니다.
+및에서 [합계] 필드의 값과 비교합니다 [!DNL Visitors] 열.
 
 ![](assets/Experiment_Design_Total_Visitors.png)
 
@@ -164,4 +164,4 @@ ht-degree: 0%
 
 일수를 동일하게 유지하는 경우 총 방문자 수가 만남을 계속하거나 필요한 최소 방문자를 초과하는 한 신뢰 수준을 높일 수 있습니다.
 
-1. 레코드의 파일을 저장한 다음 파일의 정보를 사용하여 실험 구성 스프레드시트를 사용하여 실험을 구성합니다. 이 스프레드시트에 대한 자세한 내용은 [실험 구성 및 배포](../../home/c-undst-ctrld-exp/t-crt-ctrld-exp/c-cnfg-dply-exp.md#concept-50f1de0242904698937bb72b3ea1b429)를 참조하십시오.
+1. 레코드의 파일을 저장한 다음 파일의 정보를 사용하여 실험 구성 스프레드시트를 사용하여 실험을 구성합니다. 이 스프레드시트에 대한 자세한 내용은 [실험 구성 및 배포](../../home/c-undst-ctrld-exp/t-crt-ctrld-exp/c-cnfg-dply-exp.md#concept-50f1de0242904698937bb72b3ea1b429).

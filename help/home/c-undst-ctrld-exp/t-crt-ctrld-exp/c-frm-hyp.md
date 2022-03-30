@@ -1,10 +1,10 @@
 ---
 description: 가설은, 논리의 목적에 대해 사실처럼 받아들여질 수 있으며, 더 많은 조사에서 시험될 수 있는 잠정적인 설명을 제공합니다.
-solution: Analytics,Analytics
+solution: Analytics
 title: 가설 구성
 uuid: 3973060a-f49e-44e1-aa49-25059cb33783
 exl-id: d7e77d85-4655-49c5-adeb-15402e48dd7b
-source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+source-git-commit: 31f775478b0f0d968310ed10a43ad46791319ee9
 workflow-type: tm+mt
 source-wordcount: '189'
 ht-degree: 3%
@@ -21,7 +21,7 @@ ht-degree: 3%
 
 이 시점에서 가설 또는 추가 매트릭스로 방문자 기반 성공 지표를 정의해야 합니다.
 
-**가설:** &quot;데모 요청&quot; 그래픽 링크를 페이지 맨 위에 가깝게 이동하면 방문자 전환이 최소 1.5%로 증가합니다.
+**가설:** 페이지 맨 위에 있는 &quot;데모 요청&quot; 그래픽 링크를 이동하면 방문자 전환이 최소 1.5% 증가합니다.
 
 예제 가설에서는 이 실험에 대한 성공 기준을 최소 1.5%의 방문자 전환 증가로 정의했습니다.
 
