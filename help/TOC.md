@@ -6,9 +6,9 @@ feature-set: Analytics
 feature: Data Workbench
 user-guide-title: Data Workbench 도움말
 user-guide-description: Data Workbench의 멀티채널 기능에 대해 알아봅니다. Data Workbench 클라이언트, 설치, 데이터 세트 구성 가이드 등이 포함되어 있습니다.
-source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
-workflow-type: ht
-source-wordcount: '3495'
+source-git-commit: 290ce286a46b33e4f468aa5cfad7a2ef0198b437
+workflow-type: tm+mt
+source-wordcount: '3493'
 ht-degree: 100%
 
 ---
@@ -867,7 +867,7 @@ ht-degree: 100%
       + 대시보드 보기 {#viewing-dashboards}
          + [대시보드 열기 및 보기](home/c-adobe-data-workbench-dashboard/c-dashboards/c-opening-and-viewing-dashboards/c-opening-and-viewing-dashboards.md)
          + [빠른 액세스 메뉴](home/c-adobe-data-workbench-dashboard/c-dashboards/c-opening-and-viewing-dashboards/c-quick-access-menu.md)
-         + 대시보드 브라우저] {#dashboard-browser}
+         + 대시보드 브라우저 {#dashboard-browser}
             + [대시보드 브라우저](home/c-adobe-data-workbench-dashboard/c-dashboards/c-opening-and-viewing-dashboards/c-dashboard-browser/c-dashboard-browser.md)
             + [대시보드 브라우저 보기](home/c-adobe-data-workbench-dashboard/c-dashboards/c-opening-and-viewing-dashboards/c-dashboard-browser/c-dashboard-browser-views.md)
             + [대시보드 브라우저 내에서 검색](home/c-adobe-data-workbench-dashboard/c-dashboards/c-opening-and-viewing-dashboards/c-dashboard-browser/c-searching-within-the-dashboard-browser.md)
