@@ -3,7 +3,7 @@ description: 트래픽 프로필에는 방문자 작업을 식별하는 데 도�
 title: 트래픽 프로필 차원
 uuid: 9c0dabfc-67c9-4772-99ac-4c503c06ea78
 exl-id: 1e7d2904-aa5d-4848-a398-5d4669953be9
-source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+source-git-commit: 4ab43bfbad96096fb2cebd77a8be8fa6d49fa7dc
 workflow-type: tm+mt
 source-wordcount: '987'
 ht-degree: 8%
@@ -12,9 +12,11 @@ ht-degree: 8%
 
 # 트래픽 프로필 차원{#traffic-profile-dimensions}
 
+{{eol}}
+
 트래픽 프로필에는 방문자 작업을 식별하는 데 도움이 되는 다음 차원이 포함되어 있습니다.
 
-다음 표의 차원은 변형 데이터 집합에 정의되어 Traffic\Dataset\Transformation directory폴더에 있는 파일을 포함합니다.
+다음 표의 차원은 변환 데이터 집합에 정의되어 있으며 Traffic\Dataset\Transformation 디렉터리에 있는 파일이 포함됩니다.
 
 | 이름 | 유형 | 레벨 | 설명 |
 |---|---|---|---|
@@ -26,9 +28,9 @@ ht-degree: 8%
 | 월 | 단순 | 세션 | 세션의 첫 번째 로그 항목의 월입니다. |
 | 페이지 보기 | 계산 가능 | 세션 | 페이지 보기 조건을 충족하는 로그 항목 또는 &quot;이벤트 데이터 레코드&quot;입니다. |
 | 레퍼러 | 단순 | 세션 | 세션의 첫 번째 로그 항목에 대한 레퍼러의 두 번째 수준 도메인(내부 레퍼러 도메인인 경우 없음)입니다. |
-| 세션 | 계산 가능 | 방문자 | 방문자가 관련된 연속 활동의 기간입니다. 30분 동안 활동이 없고 외부 레퍼러 도메인 또는 최대 48시간 세션 기간으로 구분됩니다. 이러한 시간 초과와 내부로 간주되는 도메인 세트는 모두 [!DNL Transformation.cfg] 파일에서 구성할 수 있습니다. |
+| 세션 | 계산 가능 | 방문자 | 방문자가 관련된 연속 활동의 기간입니다. 30분 동안 활동이 없고 외부 레퍼러 도메인 또는 최대 48시간 세션 기간으로 구분됩니다. 이러한 시간 초과와 내부로 간주되는 도메인 세트는 모두 [!DNL Transformation.cfg] 파일. |
 | URI | 단순 | 페이지 보기 | 페이지 보기의 URI 줄기입니다. ReplaceURI, PrependURI 및 AppendURI 변환을 사용하여 URI 차원을 재정의할 수 있습니다. |
-| 방문자 | 계산 가능 | 해당 없음 | x-trackingid의 고유한 값입니다. 일반적으로 영구 쿠키를 사용하는 경우 고유 브라우저에 해당합니다. x-trackingid는 IP 번호 또는 x.509 공통 이름과 같은 기타 고유한 식별자를 기반으로 할 수 있습니다. |
+| 방문자 | 계산 가능 | 해당 사항 없음 | x-trackingid의 고유한 값입니다. 일반적으로 영구 쿠키를 사용하는 경우 고유 브라우저에 해당합니다. x-trackingid는 IP 번호 또는 x.509 공통 이름과 같은 기타 고유한 식별자를 기반으로 할 수 있습니다. |
 | 주 | 단순 | 세션 | 세션의 첫 번째 로그 항목의 주입니다. |
 
 다음 테이블의 차원은 트래픽 프로필의 Dimension 디렉토리에 정의됩니다.
@@ -71,7 +73,7 @@ ht-degree: 8%
    <td colname="col1"> 한 시간과 반복 </td> 
    <td colname="col2"> 파생(반복 방문자 및 1회 방문자 지표를 기반으로 하는 SegmentDim) </td> 
    <td colname="col03"> 방문자 </td> 
-   <td colname="col3"> 방문자 유형:한 번 또는 반복. 한 번 방문하는 사람은 사이트에 세션이 한 번만 있는 반면 반복 방문자는 세션이 두 개 이상 있었습니다. </td> 
+   <td colname="col3"> 방문자 유형: 한 번 또는 반복. 한 번 방문하는 사람은 사이트에 세션이 한 번만 있는 반면 반복 방문자는 세션이 두 개 이상 있었습니다. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 페이지 </td> 
@@ -92,7 +94,7 @@ ht-degree: 8%
    <td colname="col3"> 방문자가 명명된 검색 엔진에서 검색했을 때 검색 엔진이 전달한 방문자 세션의 첫 번째 검색 구문입니다. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> 검색 조건 </td> 
+   <td colname="col1"> 검색어 </td> 
    <td colname="col2"> 다대다 </td> 
    <td colname="col03"> 세션 </td> 
    <td colname="col3"> 방문자에게 명명된 검색 엔진에서 검색 레퍼러 클릭스루가 있을 때 검색 엔진에서 전달한 각 검색어. </td> 
