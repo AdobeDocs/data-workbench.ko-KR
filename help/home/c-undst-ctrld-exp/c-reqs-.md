@@ -3,7 +3,7 @@ description: 요구 사항은 무엇입니까?
 title: 요구 사항은 무엇입니까?
 uuid: c76ebf2b-4040-4ac4-b69f-3ce87bfb78f1
 exl-id: e056a4bc-f2ac-4617-8473-b271afa96948
-source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+source-git-commit: b1dda69a606a16dccca30d2a74c7e63dbd27936c
 workflow-type: tm+mt
 source-wordcount: '90'
 ht-degree: 13%
@@ -11,6 +11,8 @@ ht-degree: 13%
 ---
 
 # 요구 사항은 무엇입니까?{#what-are-the-requirements}
+
+{{eol}}
 
 Site를 사용하여 웹 사이트에서 통제 실험을 수행하려면 다음 요구 사항을 충족해야 합니다.
 

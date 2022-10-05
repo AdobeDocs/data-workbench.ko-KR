@@ -3,14 +3,16 @@ description: 이스케이프 해제 URI 변환은 이스케이프 처리된 문�
 title: UnescapeURI
 uuid: 25e87cc7-812d-4d77-be94-16093e8955fe
 exl-id: abf20906-5052-4bbe-9ffb-522b850669a6
-source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+source-git-commit: b1dda69a606a16dccca30d2a74c7e63dbd27936c
 workflow-type: tm+mt
 source-wordcount: '160'
-ht-degree: 6%
+ht-degree: 7%
 
 ---
 
 # UnescapeURI{#unescapeuri}
+
+{{eol}}
 
 이스케이프 해제 URI 변환은 이스케이프 처리된 문자열의 모든 문자를 이스케이프 처리합니다.
 
@@ -21,7 +23,7 @@ ht-degree: 6%
 | 매개 변수 | 설명 | 기본값 |
 |---|---|---|
 | 이름 | 변환의 설명 이름입니다. 여기에 이름을 입력할 수 있습니다. |  |
-| 댓글 | 선택 사항입니다. 변환에 대한 참고 사항. |  |
+| 댓글 | 선택 사항. 변환에 대한 참고 사항. |  |
 | 조건 | 이 변환이 적용되는 조건입니다. |  |
 | 기본값 | 조건이 충족되고 입력 값을 사용할 수 없는 경우 사용할 기본값입니다. |  |
 | 입력 | 이스케이프되지 않을 URI 문자열입니다. |  |

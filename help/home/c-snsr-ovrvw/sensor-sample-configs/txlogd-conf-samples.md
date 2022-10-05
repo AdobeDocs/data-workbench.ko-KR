@@ -1,20 +1,24 @@
 ---
-description: 지원되는 웹 서버/OS 조합에 대한 txlogd.conf 파일의 예.
+description: 지원되는 웹 서버/OS 조합에 대한 txlogd.conf 파일의 예입니다.
 title: Txlogd.conf 파일 샘플
 uuid: ba8f3938-b7d6-44bd-93ca-eb66f509ef4e
-translation-type: tm+mt
-source-git-commit: aec1f7b14198cdde91f61d490a235022943bfedb
+exl-id: 3bbb794f-c771-43c6-9ebf-8892c1d9a707
+source-git-commit: b1dda69a606a16dccca30d2a74c7e63dbd27936c
+workflow-type: tm+mt
+source-wordcount: '253'
+ht-degree: 7%
 
 ---
 
-
 # Txlogd.conf 파일 샘플{#txlogd-conf-file-samples}
 
-지원되는 웹 서버/OS 조합에 대한 txlogd.conf 파일의 예.
+{{eol}}
+
+지원되는 웹 서버/OS 조합에 대한 txlogd.conf 파일의 예입니다.
 
 ## Microsoft Windows Server 2000 이상 버전의 IIS {#section-d5d602c3e87b4ecf910e71772350e865}
 
-Microsoft Windows Server 2000 이상에서 실행 중인 IIS(Internet Information Service) 5.x 또는 6.x용 센서에 필요한 txlogd.conf 파일의 예입니다.
+Microsoft Windows Server 2000 이상에서 실행 중인 IIS(인터넷 정보 서비스) 5.x 또는 6.x용 센서에 필요한 txlogd.conf 파일의 샘플입니다.
 
 ```
 # sample txlogd configuration file for IIS
@@ -117,7 +121,7 @@ CacheControl private,max-age=0,must-revalidate
 
 ## Windows Server 2000 이상에서 Lotus Sametime {#section-36265b8192484a268ebafc42e941fdf2}
 
-Microsoft Windows Server 2000 이상에서 실행 중인 Lotus Sametime용 센서에 필요한 txlogd.conf 파일의 예입니다.
+Microsoft Windows Server 2000 이상에서 실행 중인 Lotus Sametime용 센서에 필요한 txlogd.conf 파일의 샘플입니다.
 
 ```
 # sample txlogd configuration file for Lotus Sametime
@@ -191,9 +195,9 @@ ExpPartialMatch on
 SiteTest http,localhost,80,/test.html
 ```
 
-## Windows Server 2000 이상에서 Lotus Domino {#section-d2fd9e0684fe460bbccaaabc4197bb48}
+## Windows 2000 이상에서 Lotus Domino Server {#section-d2fd9e0684fe460bbccaaabc4197bb48}
 
-Microsoft Windows Server 2000 이상에서 실행 중인 Lotus Domino용 Sensor에 필요한 txlogd.conf 파일의 예입니다.
+Microsoft Windows Server 2000 이상에서 실행되는 Lotus Domino용 센서에 필요한 txlogd.conf 파일의 샘플입니다.
 
 ```
 # sample txlogd configuration file for Lotus Domino
@@ -273,7 +277,7 @@ SpecialLogField cs(cert)=vars.certificate vys_log
 
 ## IBM AIX 5.2의 IBM HTTP Server {#section-d7c88cc65b0b4c7a877bf7a084cbf4fb}
 
-IBM AIX 5.2에서 실행되는 IBM HTTP Server 2.0.x용 Sensor에 필요한 txlogd.conf 파일의 예입니다.
+IBM AIX 5.2에서 실행되는 IBM HTTP Server 2.0.x용 Sensor에 필요한 txlogd.conf 파일의 샘플입니다.
 
 ```
 # sample txlogd configuration file for IHS 2.0.x
@@ -410,9 +414,9 @@ DisableField cs(cookie)
 PrivacyID 0x1111111
 ```
 
-## RedHat Linux, Sun Solaris, FreeBSD 또는 Mac OSX용 Apache Server 1.3.x {#section-36d0b6d761424d358280226a16e643d2}
+## RedHat Linux, Sun Solaris, FreeBSD 또는 Mac OSX 기반의 Apache Server 1.3.x {#section-36d0b6d761424d358280226a16e643d2}
 
-RedHat Linux 7.x, Sun Solaris 2.6 이상, FreeBSD 4 이상 또는 Mac OS X PowerPC에서 실행되는 Apache Server 1.3.x용 Sensor에 필요한 txlogd.conf 파일의 예입니다.
+RedHat Linux 7.x, Sun Solaris 2.6 이상, FreeBSD 4 이상 또는 Mac OS X PowerPC에서 실행되는 Apache Server 1.3.x용 Sensor에 필요한 txlogd.conf 파일의 샘플입니다.
 
 ```
 # sample txlogd configuration file for Apache 1.3
@@ -552,9 +556,9 @@ NewUserCacheControl no-cache=Set-Cookie
 CacheControl private,max-age=0,must-revalidate
 ```
 
-## Windows 2000 Server 이상의 Apache Server 1.3.x {#section-d225f200da28441895fb90a64c2a2ffd}
+## Windows 2000 Server 이상 버전의 Apache Server 1.3.x {#section-d225f200da28441895fb90a64c2a2ffd}
 
-Microsoft Windows Server 2000 이상에서 실행 중인 Apache Server 1.3.x용 Sensor에 필요한 txlogd.conf 파일의 예입니다.
+Microsoft Windows Server 2000 이상에서 실행되는 Apache Server 1.3.x용 센서에 필요한 txlogd.conf 파일의 샘플입니다.
 
 ```
 # sample txlogd configuration file for Apache 1.3
@@ -697,7 +701,7 @@ CacheControl private,max-age=0,must-revalidate
 
 ## Linux, Sun Solaris 또는 FreeBSD의 Apache Server 2.0.x 또는 2.2 {#section-b87565beba44472483348d442329c3fe}
 
-다음 Apache 서버에 대한 센서에 필요한 txlogd.conf 파일의 예입니다.
+다음 Apache 서버에 대한 센서에 필요한 txlogd.conf 파일의 샘플입니다.
 
 ```
 Apache Server 2.0.40 running under RedHat Linux 7.x or later or Sun Solaris SPARC 2.6 or later
@@ -844,7 +848,7 @@ CacheControl private,max-age=0,must-revalidate
 
 ## Windows Server 2000 이상 버전의 Apache Server 2.0.x 또는 2.2 {#section-a1749d32a8aa4ca0b81f8b95c8dc511c}
 
-Microsoft Windows Server 2000 이상에서 실행되는 Apache Server 2.0.x 또는 2.2용 Sensor에 필요한 txlogd.conf 파일의 예입니다.
+Microsoft Windows Server 2000 이상에서 실행되는 Apache Server 2.0.x 또는 2.2용 센서에 필요한 txlogd.conf 파일의 샘플입니다.
 
 ```
 # sample txlogd configuration file for Apache 2.0.x or 2.2
@@ -990,4 +994,3 @@ CacheControl private,max-age=0,must-revalidate
 ```
 
 ## 섹션 제목 {#section-f25d181e181e4bb7bf46d4410756e945}
-

@@ -3,7 +3,7 @@ description: 개념적으로, 주소 파일은 네트워크 시스템의 ETC&bso
 title: 네트워크 위치
 uuid: a2097eca-dd75-4d43-b8a8-fb4c768df38d
 exl-id: 938217da-8935-4f2a-b5f8-9afc1dd489f3
-source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+source-git-commit: b1dda69a606a16dccca30d2a74c7e63dbd27936c
 workflow-type: tm+mt
 source-wordcount: '254'
 ht-degree: 2%
@@ -12,13 +12,15 @@ ht-degree: 2%
 
 # 네트워크 위치{#network-locations}
 
+{{eol}}
+
 개념적으로, 주소 파일은 네트워크 시스템의 ETC&amp;bsol;HOSTS 파일과 같은 목적을 제공합니다.
 
 그러나 단일 이름 컬렉션을 설명하는 HOSTS 파일과 달리 주소 파일에는 네트워크 위치라는 이름의 여러 컬렉션이 포함되어 있습니다.
 
 네트워크 위치는 주소 정의의 명명된 컬렉션입니다. 컬렉션의 각 주소 정의는 공통 이름과 IP 주소를 연결합니다.
 
-주소 파일에서 네트워크 위치는 NetworkLocation이라는 구조로 정의됩니다. 다음 예제의 NetworkLocation은 &quot;MyCorporate Intranet&quot;이라는 네트워크 위치를 정의합니다. 여기에는 일반 이름 [!DNL VS01.myCompany.com]을 IP 주소 &quot;10.2.1.70&quot;에 매핑하는 주소 정의가 포함되어 있습니다.
+주소 파일에서 네트워크 위치는 NetworkLocation이라는 구조로 정의됩니다. 다음 예제의 NetworkLocation은 &quot;MyCorporate Intranet&quot;이라는 네트워크 위치를 정의합니다. 공통 이름을 매핑하는 주소 정의가 포함되어 있습니다 [!DNL VS01.myCompany.com] IP 주소 &quot;10.2.1.70&quot;에 대한 액세스 권한을 부여합니다.
 
 ```
 0 = NetworkLocation: 
@@ -50,7 +52,7 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td colname="col1"> 상위 </td> 
-   <td colname="col2"> <p>이 NetworkLocation에 멤버가 포함된 다른 NetworkLocation의 이름을 지정합니다. 이 매개 변수를 사용하면 한 NetworkLocation이 다른 NetworkLocation을 확장할 수 있습니다. </p> <p>Parent 매개 변수를 "DNS"로 설정하여 NetworkLocation을 클라이언트의 일반 DNS 시스템으로 확장할 수 있습니다. </p> <p>예:상위 = 문자열:DNS </p> <p>DNS가 부모인 경우 클라이언트는 NetworkLocation을 통해 이름을 확인할 수 없을 때 클라이언트 컴퓨터의 DNS 시스템을 사용하여 공통 이름을 확인하려고 합니다. </p> </td> 
+   <td colname="col2"> <p>이 NetworkLocation에 멤버가 포함된 다른 NetworkLocation의 이름을 지정합니다. 이 매개 변수를 사용하면 한 NetworkLocation이 다른 NetworkLocation을 확장할 수 있습니다. </p> <p>Parent 매개 변수를 "DNS"로 설정하여 NetworkLocation을 클라이언트의 일반 DNS 시스템으로 확장할 수 있습니다. </p> <p>예: 상위 = 문자열: DNS </p> <p>DNS가 부모인 경우 클라이언트는 NetworkLocation을 통해 이름을 확인할 수 없을 때 클라이언트 컴퓨터의 DNS 시스템을 사용하여 공통 이름을 확인하려고 합니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>

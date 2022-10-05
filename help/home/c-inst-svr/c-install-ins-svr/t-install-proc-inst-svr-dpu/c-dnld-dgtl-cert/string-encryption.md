@@ -3,15 +3,16 @@ description: 클라이언트와 서버 간 통신하는 경우 암호와 기타 
 title: 문자열 암호화
 uuid: b2ec6a10-136c-4694-a425-04dbb41d43d1
 exl-id: 43696ff1-3153-4d85-b9a9-c2752dd2c29a
-translation-type: ht
-source-git-commit: 233b04c65a45d3f92b8670bc244b907dc198b51d
-workflow-type: ht
+source-git-commit: b1dda69a606a16dccca30d2a74c7e63dbd27936c
+workflow-type: tm+mt
 source-wordcount: '268'
 ht-degree: 100%
 
 ---
 
 # 문자열 암호화{#string-encryption}
+
+{{eol}}
 
 클라이언트와 서버 간 통신하는 경우 암호와 기타 문자열을 암호화합니다.
 

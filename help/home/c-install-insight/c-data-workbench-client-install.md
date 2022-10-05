@@ -3,7 +3,7 @@ description: 다음은 Data Workbench에 워크스테이션(클라이언트)을 
 title: 워크스테이션 요구 사항
 uuid: 3c4ba2e8-efbc-45fe-8ac1-923d070bc710
 exl-id: 35e259e3-3d6d-45c8-a923-2f8de117489d
-source-git-commit: 050468bf6a9ef9c07719ded79c8ab68753d58647
+source-git-commit: b1dda69a606a16dccca30d2a74c7e63dbd27936c
 workflow-type: tm+mt
 source-wordcount: '525'
 ht-degree: 2%
@@ -12,9 +12,11 @@ ht-degree: 2%
 
 # 워크스테이션 요구 사항{#workstation-requirements}
 
+{{eol}}
+
 다음은 Data Workbench에 워크스테이션(클라이언트)을 설치하기 위한 요구 사항 및 권장 사항입니다.
 
-추가 Data Workbench 시스템 요구 사항은 [서버 시스템 요구 사항](https://experienceleague.adobe.com/docs/data-workbench/using/server-admin-install/c-msr-server.html?lang=en)을 참조하십시오.
+자세한 내용은 [서버 시스템 요구 사항](https://experienceleague.adobe.com/docs/data-workbench/using/server-admin-install/c-msr-server.html?lang=en) 추가 Data Workbench 시스템 요구 사항
 
 >[!IMPORTANT]
 >
@@ -24,7 +26,7 @@ ht-degree: 2%
 
 Data Workbench 워크스테이션(클라이언트)을 설치하기 전에 다음 작업을 완료했는지 확인하십시오.
 
-* **** ***Windows*** 2012 Server의  *MS System Center Endpoint Protection에 대해 다음 실행 파일* 에 대해 제외된 프로세스 추가:
+* **추가** ***제외된 프로세스*** 대상 *Windows 2012 서버의 MS System Center Endpoint Protection* 다음 실행 파일의 경우:
 
    * **[!DNL InsightServer64.exe]**
    * **[!DNL ReportServer.exe]**
@@ -32,17 +34,17 @@ Data Workbench 워크스테이션(클라이언트)을 설치하기 전에 다음
 
    이렇게 하면 허용 목록에 추가하다 이러한 인터페이스 실행 파일에 대한 권한이 활성화됩니다.
 
-* **분석 데이터를 내보내려면 Microsoft Excel을 설치하십시오.** 작업 공간에서 데이터를 Microsoft Excel(  [!DNL .xls] 또는  [!DNL .xlsx]) 파일로 내보내려면 Data Workbench을 설치하는 컴퓨터에 Excel이 설치 및 등록되어 있어야 합니다. Excel이 등록되지 않은 상태에서 Data Workbench이 처음으로 Excel에 액세스하려고 하면 Excel에 등록 대화 상자가 표시됩니다. 복사본이 등록되어 있는지 모를 경우 Excel을 수동으로 시작하고 등록 대화 상자가 나타나면 등록 프로세스를 완료합니다.
+* **분석 데이터를 내보내려면 Microsoft Excel을 설치하십시오.** 작업 공간에서 데이터를 Microsoft Excel로 내보내려면 [!DNL .xls] 또는 [!DNL .xlsx]) 파일에서 Excel을 설치하고 등록해야 합니다. Excel이 등록되지 않은 상태에서 Data Workbench이 처음으로 Excel에 액세스하려고 하면 Excel에 등록 대화 상자가 표시됩니다. 복사본이 등록되어 있는지 모를 경우 Excel을 수동으로 시작하고 등록 대화 상자가 나타나면 등록 프로세스를 완료합니다.
 
    >[!NOTE]
    >
    >Data Workbench 6.4가 릴리스되면서 Excel 2007에 대한 지원이 중단되었습니다. 또한 Data Workbench은 64비트 아키텍처용 Microsoft Windows에서만 실행되므로 64비트 버전의 Microsoft Excel도 설치하는 것이 좋습니다.
 
-* **크기가 조정된 작업 공간을 PDF로 인쇄하기  [!DNL Acrobat] 위한 Adobe 설치** 크기가 조정된 작업 공간을 Adobe PDF 형식으로 인쇄하려면 Data Workbench을 설치한 컴퓨터에 Adobe이  [!DNL Acrobat] 설치되어 있어야 합니다.
+* **Adobe 설치 [!DNL Acrobat] 크기가 조정된 작업 공간을 PDF으로 인쇄하기 위해** 크기가 조정된 작업 공간을 Adobe PDF 형식으로 인쇄하려면 Data Workbench을 설치한 컴퓨터에 Adobe이 있어야 합니다 [!DNL Acrobat] 설치되었습니다.
 
 * **인쇄 작업 공간을 위한 프린터에 대한 액세스 제공** Data Workbench에서 작업 영역을 인쇄하려면 Data Workbench을 설치한 컴퓨터에 프린터에 액세스할 수 있어야 합니다. Data Workbench은 작업 공간을 컬러 또는 모노크롬 프린터로 인쇄할 수 있으며 포스트스크립트 또는 기타 고급 프린터 기능은 필요하지 않습니다. 최적의 결과를 얻으려면 Adobe에서 작업 공간을 색상으로 인쇄하는 것이 좋습니다.
 * **보안 조치를 구현합니다.** Data Workbench 컴퓨터에 대한 회사의 일반적인 엔터프라이즈 보안 정책을 따라야 합니다. Data Workbench은 서버(포트 80 및 443을 통해)와 데이터를 수집하는 서버에만 연결하는 기능만 필요로 합니다. Data Workbench 소프트웨어를 유지 관리하고 Data Workbench에 최소 10GB의 저장 공간을 할당하는 한 다른 용도로 Data Workbench 하드웨어를 사용할 수 있습니다.
-* 시각화를 정확하게 렌더링하려면 워크벤치를 설치하는 컴퓨터에 적절한 **그래픽 어댑터**&#x200B;가 설치되어 있어야 합니다(아래의 그래픽 어댑터 요구 사항 참조).
+* 시각화를 정확하게 렌더링하려면 워크벤치를 설치하는 컴퓨터에 적절한 기능이 있어야 합니다 **그래픽 어댑터** 설치됨(아래의 그래픽 어댑터 요구 사항 참조).
 
 **Data Workbench 클라이언트 요구 사항**
 

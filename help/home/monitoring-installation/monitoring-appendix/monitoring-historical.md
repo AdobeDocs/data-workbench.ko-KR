@@ -3,7 +3,7 @@ description: Data Workbench 내역 프로필에서는 다음 차원을 사용할
 title: Data Workbench 내역 프로필의 차원
 uuid: 6d93fba4-986b-46a4-9479-aeb54853dff5
 exl-id: 9df1f317-a985-4132-b32e-f2263e0c23b2
-source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+source-git-commit: b1dda69a606a16dccca30d2a74c7e63dbd27936c
 workflow-type: tm+mt
 source-wordcount: '1698'
 ht-degree: 1%
@@ -11,6 +11,8 @@ ht-degree: 1%
 ---
 
 # Data Workbench 내역 프로필의 차원{#dimensions-in-the-data-workbench-historic-profile}
+
+{{eol}}
 
 Data Workbench 내역 프로필에서는 다음 차원을 사용할 수 있습니다.
 

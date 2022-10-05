@@ -1,20 +1,24 @@
 ---
-description: 구성 파일의 샘플 파일입니다.
+description: 구성 파일에 대한 샘플 파일입니다.
 title: 샘플 구성 파일
 uuid: 9bc5c0a9-e67a-4c63-952d-9a39d75e6975
-translation-type: tm+mt
-source-git-commit: aec1f7b14198cdde91f61d490a235022943bfedb
+exl-id: 8a9abadb-228b-4da6-bfe6-8e828bb6ace9
+source-git-commit: b1dda69a606a16dccca30d2a74c7e63dbd27936c
+workflow-type: tm+mt
+source-wordcount: '68'
+ht-degree: 8%
 
 ---
 
-
 # 샘플 구성 파일{#sample-configuration-files}
 
-구성 파일의 샘플 파일입니다.
+{{eol}}
+
+구성 파일에 대한 샘플 파일입니다.
 
 ## Magnus.conf 파일 샘플 {#section-aec81c734d0f483591c3ede1fe588b6a}
 
-Netscape Enterprise Server, iPlanet, Sun ONE 및 Sun Java System 웹 서버 설치 및 구성을 위한 전체 magnus.conf 파일의 예입니다.
+Netscape Enterprise Server, iPlanet, Sun ONE 및 Sun Java System 웹 서버 설치 및 구성을 위한 전체 magneus.conf 파일의 예입니다.
 
 ```
 #ServerRoot /usr/iplanet/servers/https-nova.visualsciences.net
@@ -44,7 +48,7 @@ Init fn="vys-init" config-file="/etc/txlogd.conf"
 
 ## Obj.conf 파일 샘플 {#section-1acd3ae557074ee6a46492eb98f89805}
 
-Netscape Enterprise Server, iPlanet, Sun ONE 및 Sun Java System 웹 서버 설치 및 구성을 위한 전체 obj.conf 파일의 예.
+Netscape Enterprise Server, iPlanet, Sun ONE 및 Sun Java System 웹 서버 설치 및 구성에 대한 전체 obj.conf 파일의 예입니다.
 
 ```
 <Object name=default>
@@ -94,4 +98,3 @@ Netscape Enterprise Server, iPlanet, Sun ONE 및 Sun Java System 웹 서버 설�
   PathCheck fn="check-acl" acl="es-internal"
 </Object>
 ```
-

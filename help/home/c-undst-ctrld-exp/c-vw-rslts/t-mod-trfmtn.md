@@ -4,7 +4,7 @@ solution: Analytics
 title: Transformation.cfg 수정
 uuid: c17e48db-8fd9-4640-b621-6963bb8223d7
 exl-id: a9c89789-8290-4a24-91c1-ca1c5b7b437a
-source-git-commit: 31f775478b0f0d968310ed10a43ad46791319ee9
+source-git-commit: b1dda69a606a16dccca30d2a74c7e63dbd27936c
 workflow-type: tm+mt
 source-wordcount: '357'
 ht-degree: 2%
@@ -12,6 +12,8 @@ ht-degree: 2%
 ---
 
 # Transformation.cfg 수정{#modifying-transformation-cfg}
+
+{{eol}}
 
 x-experiment 필드를 사용할 수 있으므로 데이터 세트에 x-experiment 필드를 포함하도록 확장 차원을 만들어야 합니다. 이 필드를 통해 Insight에서 결과를 볼 수 있습니다.
 

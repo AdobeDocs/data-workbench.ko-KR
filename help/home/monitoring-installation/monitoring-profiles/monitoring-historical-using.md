@@ -3,7 +3,7 @@ description: Data Workbench 기록 프로필을 사용하여 구성, 하드웨�
 title: Data Workbench 기록 작업 영역
 uuid: 61c45cae-f255-4d20-bb6b-f318c8dd8214
 exl-id: e6d7e924-641e-468c-a828-16ebe1c8724f
-source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+source-git-commit: b1dda69a606a16dccca30d2a74c7e63dbd27936c
 workflow-type: tm+mt
 source-wordcount: '400'
 ht-degree: 2%
@@ -12,15 +12,17 @@ ht-degree: 2%
 
 # Data Workbench 기록 작업 영역{#data-workbench-historic-workspace}
 
+{{eol}}
+
 Data Workbench 기록 프로필을 사용하여 구성, 하드웨어 및 기타 변경 사항이 시간에 따른 성능, 안정성 및 서버 성능에 어떻게 영향을 주는지 확인하십시오.
 
-기록 프로필에는 프로필 기반 [프로필 성능](../../../home/monitoring-installation/monitoring-profiles/monitoring-historical-using.md#section-184a86f9de054970bf68515bb9dea85d) 데이터 세트와 **[!UICONTROL Performance]** 탭 아래에 있는 서버 기반 [서버 성능](../../../home/monitoring-installation/monitoring-profiles/monitoring-historical-using.md#section-5dad5870384b40e094d50173fcd90a09) 데이터 세트가 포함되어 있습니다. 이는 Data Workbench 서버 성능에 대한 이전 관점에서 본 가장 일반적으로 사용되는 데이터 세트입니다. 또한 **[!UICONTROL Up Time]** 탭을 선택하여 [구성 요소](../../../home/monitoring-installation/monitoring-profiles/monitoring-historical-using.md#section-5be7223abb384784bafe7b37c764ea66) 및 [처리 모드](../../../home/monitoring-installation/monitoring-profiles/monitoring-historical-using.md#section-5be7223abb384784bafe7b37c764ea66)를 볼 수 있습니다.
+내역 프로필에는 프로필 기반의 가 포함됩니다 [프로필 성능](../../../home/monitoring-installation/monitoring-profiles/monitoring-historical-using.md#section-184a86f9de054970bf68515bb9dea85d) 데이터 세트 및 서버 기반 [서버 성능](../../../home/monitoring-installation/monitoring-profiles/monitoring-historical-using.md#section-5dad5870384b40e094d50173fcd90a09) 아래의 데이터 세트 **[!UICONTROL Performance]** 탭. 이는 Data Workbench 서버 성능에 대한 이전 관점에서 본 가장 일반적으로 사용되는 데이터 세트입니다. 또한 [구성 요소](../../../home/monitoring-installation/monitoring-profiles/monitoring-historical-using.md#section-5be7223abb384784bafe7b37c764ea66) 및 [처리 모드](../../../home/monitoring-installation/monitoring-profiles/monitoring-historical-using.md#section-5be7223abb384784bafe7b37c764ea66) 다음을 선택하여 **[!UICONTROL Up Time]** 탭.
 
 ![](assets/Historic_Performance.png)
 
-또한 **[!UICONTROL Up Time]** 탭을 선택하여 [구성 요소](../../../home/monitoring-installation/monitoring-profiles/monitoring-historical-using.md#section-5be7223abb384784bafe7b37c764ea66) 및 [처리 모드](../../../home/monitoring-installation/monitoring-profiles/monitoring-historical-using.md#section-5be7223abb384784bafe7b37c764ea66)를 볼 수 있습니다.
+또한 [구성 요소](../../../home/monitoring-installation/monitoring-profiles/monitoring-historical-using.md#section-5be7223abb384784bafe7b37c764ea66) 및 [처리 모드](../../../home/monitoring-installation/monitoring-profiles/monitoring-historical-using.md#section-5be7223abb384784bafe7b37c764ea66) 다음을 선택하여 **[!UICONTROL Up Time]** 탭.
 
-Data Workbench 내역 프로필에 사용되는 차원에 대한 추가 참조 정보는 Insight 내역 프로필의 [Dimension을 참조하십시오.](../../../home/monitoring-installation/monitoring-appendix/monitoring-historical.md#concept-a42837c9c9274f83ad5bc5a6720f02b0)
+Data Workbench 내역 프로필에서 사용되는 차원에 대한 추가 참조 정보는 [인사이트 기록 프로필의 Dimension.](../../../home/monitoring-installation/monitoring-appendix/monitoring-historical.md#concept-a42837c9c9274f83ad5bc5a6720f02b0)
 
 ## 프로필 성능 작업 공간 {#section-184a86f9de054970bf68515bb9dea85d}
 

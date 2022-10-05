@@ -3,7 +3,7 @@ description: 웹 페이지에서 양식에 입력된 값은 JavaScript를 사용
 title: 일반 정보
 uuid: 401816a5-1d95-48e6-bedf-ee2a5dbd2d50
 exl-id: 9effc72b-e75f-423c-87ec-6ac25edee8d6
-source-git-commit: 79981e92dd1c2e552f958716626a632ead940973
+source-git-commit: b1dda69a606a16dccca30d2a74c7e63dbd27936c
 workflow-type: tm+mt
 source-wordcount: '175'
 ht-degree: 3%
@@ -11,6 +11,8 @@ ht-degree: 3%
 ---
 
 # 일반 정보{#general-information}
+
+{{eol}}
 
 웹 페이지에서 양식에 입력된 값은 JavaScript를 사용하여 수집된 후 이후에 요청된 페이지의 쿼리 문자열(양식 제출 시)에 추가할 수 있습니다.
 
@@ -53,7 +55,7 @@ document.formname.action = document.formname.action + '?' + formvalues;
 https://www.myserver.com/thankyou.asp?v_1=John Smith&v_2=Los Angeles&v_3=California&v_4=90210
 ```
 
-다음 확장 측정은 [!DNL Sensor]에 의해 수집된 기준 측정 외에 이 요청과 함께 획득됩니다.
+다음 확장 측정은 이 요청과 함께 획득되며, [!DNL Sensor]:
 
 | 수집한 데이터 | 설명 | 예 |
 |---|---|---|

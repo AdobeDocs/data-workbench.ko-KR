@@ -3,7 +3,7 @@ description: 대시보드를 여는 가장 쉬운 방법 중 하나는 대시보
 title: 빠른 액세스 메뉴
 uuid: 724a3cf5-94e9-4f4a-ba88-6e010015fe0d
 exl-id: 36717e0d-e0e4-4ec3-857c-59d01913363a
-source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+source-git-commit: b1dda69a606a16dccca30d2a74c7e63dbd27936c
 workflow-type: tm+mt
 source-wordcount: '150'
 ht-degree: 2%
@@ -11,6 +11,8 @@ ht-degree: 2%
 ---
 
 # 빠른 액세스 메뉴{#quick-access-menu}
+
+{{eol}}
 
 대시보드를 여는 가장 쉬운 방법 중 하나는 대시보드 인터페이스의 왼쪽 탐색 패널에서 빠른 액세스 메뉴를 사용하는 것입니다.
 

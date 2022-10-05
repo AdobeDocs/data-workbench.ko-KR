@@ -4,7 +4,7 @@ solution: Analytics
 title: Data Workbench 통제 실험
 uuid: 5fce2d9e-4975-44e4-a7c0-11064d8d28b4
 exl-id: 40bcf6a4-c722-427c-81ac-45dec1eae0b5
-source-git-commit: 31f775478b0f0d968310ed10a43ad46791319ee9
+source-git-commit: b1dda69a606a16dccca30d2a74c7e63dbd27936c
 workflow-type: tm+mt
 source-wordcount: '182'
 ht-degree: 0%
@@ -12,6 +12,8 @@ ht-degree: 0%
 ---
 
 # Data Workbench 통제 실험{#data-workbench-controlled-experiments}
+
+{{eol}}
 
 통제 실험은 실험 샘플 그룹에서 얻은 결과를 표준 통제 그룹의 결과와 비교할 수 있도록 하는 테스트입니다.
 

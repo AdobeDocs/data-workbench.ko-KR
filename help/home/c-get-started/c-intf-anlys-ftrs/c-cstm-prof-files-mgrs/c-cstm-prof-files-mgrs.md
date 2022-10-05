@@ -3,7 +3,7 @@ description: 프로필 관리자 및 서버 파일 관리자는 많은 수의 �
 title: 프로필 관리자 및 서버 파일 관리자 사용자 정의
 uuid: df2408f3-1d2b-4b03-8c68-b57d88e2d3de
 exl-id: b5042f65-c503-420a-97c2-feef610c86b7
-source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+source-git-commit: b1dda69a606a16dccca30d2a74c7e63dbd27936c
 workflow-type: tm+mt
 source-wordcount: '86'
 ht-degree: 18%
@@ -11,6 +11,8 @@ ht-degree: 18%
 ---
 
 # 프로필 관리자 및 서버 파일 관리자 사용자 정의{#customize-the-profile-manager-and-server-file-manager}
+
+{{eol}}
 
 프로필 관리자 및 서버 파일 관리자는 많은 수의 디렉터리와 파일을 표시합니다.
 

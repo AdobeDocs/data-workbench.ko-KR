@@ -3,7 +3,7 @@ description: 대시보드 내의 데이터는 선택 항목을 사용하여 쉽�
 title: 대시보드 내에서 선택
 uuid: b28bcc11-8fd3-4431-98ba-8adbd42a73d5
 exl-id: 18475e5c-97f4-42fd-883a-f822432b5301
-source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+source-git-commit: b1dda69a606a16dccca30d2a74c7e63dbd27936c
 workflow-type: tm+mt
 source-wordcount: '289'
 ht-degree: 3%
@@ -11,6 +11,8 @@ ht-degree: 3%
 ---
 
 # 대시보드 내에서 선택{#making-selections-within-the-dashboard}
+
+{{eol}}
 
 대시보드 내의 데이터는 선택 항목을 사용하여 쉽게 세그먼트화하고 탐색할 수 있습니다.
 

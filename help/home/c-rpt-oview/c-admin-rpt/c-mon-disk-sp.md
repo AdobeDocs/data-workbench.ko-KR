@@ -3,7 +3,7 @@ description: 모든 Report Server 컴퓨터가 가능한 가장 높은 수준에
 title: 디스크 공간 모니터링(보고서 서버)
 uuid: 590c8239-d20e-470e-b633-7785b75daaa6
 exl-id: 0debd601-494f-4d4e-9452-c4d32678dc95
-source-git-commit: 235b8816c7397ac1ab71df650a1d4c2d681b3b2d
+source-git-commit: b1dda69a606a16dccca30d2a74c7e63dbd27936c
 workflow-type: tm+mt
 source-wordcount: '172'
 ht-degree: 1%
@@ -11,6 +11,8 @@ ht-degree: 1%
 ---
 
 # 디스크 공간 모니터링{#monitoring-disk-space}
+
+{{eol}}
 
 모든 Report Server 컴퓨터가 가능한 가장 높은 수준에서 계속 수행되도록 사용 가능한 디스크 공간을 정기적으로 모니터링해야 합니다.
 

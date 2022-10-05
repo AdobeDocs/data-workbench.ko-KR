@@ -3,7 +3,7 @@ description: 지표, 차원 및 필터 표현식은 식별자를 사용하여 �
 title: 식별자용 구문
 uuid: 9cfa188a-05ca-4163-a268-e33fce9a1929
 exl-id: 79bc5585-7b21-4a9d-b044-28ff4bc5a885
-source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+source-git-commit: b1dda69a606a16dccca30d2a74c7e63dbd27936c
 workflow-type: tm+mt
 source-wordcount: '168'
 ht-degree: 3%
@@ -12,13 +12,15 @@ ht-degree: 3%
 
 # 식별자용 구문{#syntax-for-identifiers}
 
+{{eol}}
+
 지표, 차원 및 필터 표현식은 식별자를 사용하여 명명된 지표, 차원 및 필터를 참조할 수 있습니다.
 
 이러한 식별자는 대/소문자를 구분하며 정의된 대로 정확히 입력해야 합니다.
 
 유효한 식별자는 다음 중 하나 이상을 포함할 수 있습니다.
 
-* 밑줄(_). 식별자의 밑줄은 지표, 차원 또는 필터 이름의 공백을 나타냅니다. 예를 들어 세션 레퍼러 차원은 표현식에서 [!DNL Session_Referrer] 로 언급됩니다.
+* 밑줄(_). 식별자의 밑줄은 지표, 차원 또는 필터 이름의 공백을 나타냅니다. 예를 들어 세션 레퍼러 차원을 [!DNL Session_Referrer] 를 입력합니다.
 * 퍼센트 기호(%)
 * 대문자(A-Z)
 * 소문자(a-z)
@@ -28,4 +30,4 @@ ht-degree: 3%
 
 식별자에서는 다른 모든 문자를 사용할 수 없습니다.
 
-이러한 동일한 규칙은 지표, 차원 및 필터를 표현식 외부에서 사용할 때 이름에 적용됩니다. 단, 이름에는 공백을 포함할 수 있지만 밑줄은 사용할 수 없습니다. 예를 들어 [!DNL Transformation.cfg] 파일에서 세션 레퍼러 차원을 세션 레퍼러로 정의할 수 있지만, [!DNL Session_Referrer] 에는 정의할 수 없습니다.
+이러한 동일한 규칙은 지표, 차원 및 필터를 표현식 외부에서 사용할 때 이름에 적용됩니다. 단, 이름에는 공백을 포함할 수 있지만 밑줄은 사용할 수 없습니다. 예를 들어, [!DNL Transformation.cfg] 파일은 세션 레퍼러로 지정되지만 그렇지 않습니다 [!DNL Session_Referrer].

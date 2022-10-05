@@ -3,7 +3,7 @@ description: 다음은 Data Workbench 내역 모니터링 프로필에 포함된
 title: Data Workbench 내역 모니터링 프로필의 지표
 uuid: 47b874f7-8acb-4593-9ac9-5997d5279e52
 exl-id: 65f0f605-f128-45bb-8f6c-95284b2da740
-source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+source-git-commit: b1dda69a606a16dccca30d2a74c7e63dbd27936c
 workflow-type: tm+mt
 source-wordcount: '718'
 ht-degree: 2%
@@ -11,6 +11,8 @@ ht-degree: 2%
 ---
 
 # Data Workbench 내역 모니터링 프로필의 지표{#metrics-in-the-data-workbench-historical-monitoring-profile}
+
+{{eol}}
 
 다음은 Data Workbench 내역 모니터링 프로필에 포함된 지표와 이러한 지표의 파생 방법을 나열합니다.
 
@@ -25,7 +27,7 @@ ht-degree: 2%
 | **전체 용량** | 능력 크기 측정 단위는 2에 능력 행 측정 단위가 3으로 나누어집니다. |
 | **용량 행** | 각 Ping에 대한 능력 행 백분율 차원의 합계를 Ping 지표로 나눈 값입니다. |
 | **용량 크기** | 각 Ping에 대한 용량 크기 백분율 차원의 합계를 Ping 지표로 나눈 값입니다. |
-| **통신** | 빠른 확인 성공 이 &quot;1&quot;과 일치하는 Ping 수를 Ping 지표로 나눈 값입니다. |
+| **커뮤니케이션** | 빠른 확인 성공 이 &quot;1&quot;과 일치하는 Ping 수를 Ping 지표로 나눈 값입니다. |
 | **자세한 확인 시간(초)** | Ping 유형이 &quot;서버&quot;인 각 Ping에 대한 Detailed Check Seconds 차원의 합계를 Ping 지표로 나눈 값입니다. |
 | **Dimension GigaBytes** | 각 Ping에 대한 Dimension GB의 합계를 Ping 지표로 나눈 값입니다. |
 | **디스크 &quot;x&quot;** | 디스크 지표는 각 Ping에 대해 사용된 디스크 백분율의 합계를 Ping 지표로 나누어 계산됩니다. |
@@ -49,6 +51,6 @@ ht-degree: 2%
 | **출력 행** | 각 Ping에 대한 출력 행 차원의 합과 Ping 지표를 곱하는 100000. |
 | **실시간 모드** | 처리 모드 차원이 &quot;실시간&quot;과 같은 Ping의 수를 Ping 지표로 나눈 값으로 모두 100을 곱합니다. |
 | **재처리 모드** | 100에서 처리 모드가 &quot;실시간&quot;과 같은 Ping 수를 Ping 지표로 나눈 100과 곱한 값입니다. |
-| **정지** | 인사이트 [프로필 상태](../../../home/monitoring-installation/monitoring-appendix/monitoring-profile-status.md#concept-d4cd7da41c8a42bab4aea25418264e64) 프로필의 처리 정지된 차원의 합계. |
+| **정지** | 인사이트에서 처리 정지된 차원의 합계 [프로필 상태](../../../home/monitoring-installation/monitoring-appendix/monitoring-profile-status.md#concept-d4cd7da41c8a42bab4aea25418264e64) 프로필 참조. |
 | **임시 DB** | 각 Ping에 대한 Temp DB 공간 백분율의 합계를 Ping 지표로 나눈 값입니다. |
 | **변환** | 각 Ping에 대한 변형 백분율의 합계를 Ping 지표로 나눈 값은 모두 10으로 나누어집니다. |

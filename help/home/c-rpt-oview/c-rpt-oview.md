@@ -1,8 +1,8 @@
 ---
-description: 보고서 서버를 Data Workbench에 사용하여 보고서 세트를 예약 및 자동으로 생성하고 다른 사용자에게 배포할 수 있습니다.
+description: 보고서 Data Workbench 서버를 사용하여 보고서 세트를 예약 및 자동으로 생성하고 다른 사용자에게 배포할 수 있습니다.
 title: Data Workbench 보고서 서버
 uuid: eac678de-58bf-46d2-aa09-592696c01fb2
-source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+source-git-commit: b1dda69a606a16dccca30d2a74c7e63dbd27936c
 workflow-type: tm+mt
 source-wordcount: '123'
 ht-degree: 0%
@@ -12,7 +12,9 @@ ht-degree: 0%
 
 # Data Workbench 보고서 서버{#data-workbench-report-server}
 
-보고서 서버를 Data Workbench에 사용하여 보고서 세트를 예약 및 자동으로 생성하고 다른 사용자에게 배포할 수 있습니다.
+{{eol}}
+
+보고서 Data Workbench 서버를 사용하여 보고서 세트를 예약 및 자동으로 생성하고 다른 사용자에게 배포할 수 있습니다.
 
 예를 들어, 상위 관리 구성원이 보고 싶은 특정 시각화가 포함된 상태 보고서를 만든 다음 결과 보고서를 적절한 담당자에게 배포할 수 있습니다.
 

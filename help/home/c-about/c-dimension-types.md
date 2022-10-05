@@ -3,7 +3,7 @@ description: Data Workbench 서버에서는 몇 가지 유형의 차원을 사�
 title: 차원 유형
 uuid: 07659373-8d9b-473d-8daa-ca8e7ac4afe8
 exl-id: cbc25504-2c1c-4622-adc1-c9bbac8e12fb
-source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+source-git-commit: b1dda69a606a16dccca30d2a74c7e63dbd27936c
 workflow-type: tm+mt
 source-wordcount: '754'
 ht-degree: 66%
@@ -11,6 +11,8 @@ ht-degree: 66%
 ---
 
 # 차원 유형{#dimension-types}
+
+{{eol}}
 
 Data Workbench 서버에서는 몇 가지 유형의 차원을 사용할 수 있습니다. 따라서 차원을 사용하여 지표, 필터 또는 파생 차원을 만들 때 차원 유형을 알고 있어야 합니다.
 
@@ -34,7 +36,7 @@ Insight Server는 다음 유형의 차원을 만들고 유지 관리할 수 있�
   </tr> 
   <tr> 
    <td colname="col1"> 숫자 </td> 
-   <td colname="col2">순차, 숫자 값 및 상위 가산 차원과 일대다 관계가 있는 차원입니다. 숫자 차원은 상위 차원 요소의 숫자 속성을 나타내는 것으로 생각할 수 있습니다. 숫자 차원이 "합계" 지표를 정의하는 데 사용되는 경우도 많습니다. <p>예: 숫자 차원인 세션 매출은 각 세션의 매출을 달러 단위로 정의합니다. 각 세션의 매출 금액은 하나이지만 여러 세션에 동일한 매출이 있을 수 있으므로 세션 수익과 세션 사이에 "일대다" 관계가 성립됩니다. 지표 "수입"은 <span class="filepath"> sum(Session_Revenue, Session)</span>으로 정의될 수 있으므로, 선택한 세션의 총 수입 금액을 제공합니다. </p></td> 
+   <td colname="col2">순차, 숫자 값 및 상위 가산 차원과 일대다 관계가 있는 차원입니다. 숫자 차원은 상위 차원 요소의 숫자 속성을 나타내는 것으로 생각할 수 있습니다. 숫자 차원이 "합계" 지표를 정의하는 데 사용되는 경우도 많습니다. <p>예: 숫자 차원인 세션 매출은 각 세션의 매출을 달러 단위로 정의합니다. 각 세션의 매출 금액은 하나이지만 여러 세션에 동일한 매출이 있을 수 있으므로 세션 수익과 세션 사이에 "일대다" 관계가 성립됩니다. 지표 "수입"은 <span class="filepath"> sum(Session_Revenue, Session)</span>: 선택한 세션에 대한 총 매출액을 제공합니다. </p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> 다대다 </td> 

@@ -3,7 +3,7 @@ description: DWB의 다양한 파일 전송 방법에 대한 빠른 안내서입
 title: 파일 전송 거버넌스
 uuid: a3e19f8a-1cc4-437c-9661-408f675109c0
 exl-id: a0ecd8e1-6d6f-4811-9869-092837dc9e55
-source-git-commit: 79981e92dd1c2e552f958716626a632ead940973
+source-git-commit: b1dda69a606a16dccca30d2a74c7e63dbd27936c
 workflow-type: tm+mt
 source-wordcount: '377'
 ht-degree: 1%
@@ -11,6 +11,8 @@ ht-degree: 1%
 ---
 
 # 파일 전송 거버넌스{#file-transfer-governance}
+
+{{eol}}
 
 DWB의 다양한 파일 전송 방법에 대한 빠른 안내서입니다.
 
@@ -20,8 +22,8 @@ DWB의 다양한 파일 전송 방법에 대한 빠른 안내서입니다.
 
 1. AWS (Amazon Web Services)
 
-   1. 아직 설치되어 있지 않은 경우 서버에 AWS 명령줄 인터페이스를 설치하려면 티켓을 올립니다( [https://docs.aws.amazon.com/cli/latest/userguide/installing.html](https://docs.aws.amazon.com/cli/latest/userguide/installing.html) 참조).
-   1. 어떻게 확인해? 명령 프롬프트를 사용하여 AWS을 구성하려고 합니다( [https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-getting-started.html](https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-getting-started.html) 참조).
+   1. 아직 설치되어 있지 않은 경우 서버에 AWS 명령줄 인터페이스를 설치하려면 티켓을 올립니다( 참조). [https://docs.aws.amazon.com/cli/latest/userguide/installing.html](https://docs.aws.amazon.com/cli/latest/userguide/installing.html)).
+   1. 어떻게 확인해? 명령 프롬프트를 사용하여 AWS을 구성하려고 합니다( [https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-getting-started.html](https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-getting-started.html)).
 
 1. FTP 서버에서 NAS 디렉토리로 파일을 전송합니다.
 
@@ -53,10 +55,10 @@ DWB의 다양한 파일 전송 방법에 대한 빠른 안내서입니다.
 
       >[!NOTE]
       >
-      >저장소 폴더를 사용할 수 없는 경우 폴더를 다운로드하려면 [주별 재처리](../../../home/dwb-implement-overview/dwb-implement-configure/dwb-implement-reprocess-scripting.md#concept-60529e12d6d94386a02c1c6fdedf0295) 를 참조하십시오.
+      >Scrippository 폴더를 사용할 수 없는 경우 를 참조하십시오. [주간 재처리](../../../home/dwb-implement-overview/dwb-implement-configure/dwb-implement-reprocess-scripting.md#concept-60529e12d6d94386a02c1c6fdedf0295) 폴더를 다운로드하려면 다음을 수행하십시오.
 
    1. ftp_address의 파일 가용성을 기준으로 스크립트를 예약합니다.
-   1. 파일의 이름 지정 규칙은 YYYMMDD-&lt;offline_feed_name>-00이어야 합니다.*
+   1. 파일의 이름 지정 규칙은 YYYYMMDD-&lt;offline_feed_name>-00.&#42;
 
 1. 파일을 NAS 디렉토리에서 FTP 서버로 전송합니다.
 
@@ -228,12 +230,12 @@ DWB의 다양한 파일 전송 방법에 대한 빠른 안내서입니다.
       ```
 
    1. ftp_address의 파일 가용성을 기준으로 스크립트를 예약합니다.
-   1. 파일의 이름 지정 규칙은 YYYMMDD-&lt;offline_feed_name>-00이어야 합니다.*
+   1. 파일의 이름 지정 규칙은 YYYYMMDD-&lt;offline_feed_name>-00.&#42;
 
 1. 하나의 NAS 디렉토리에서 다른 NAS 디렉토리로 파일을 전송합니다.
 
    1. 다른 NAS 디렉토리에 직접 연결하는 파일을 복사하여 붙여넣습니다. 아래 프로세스를 따르십시오.)
 
-      서버에 로그인 -> 실행 -> \\server_name\E$ [새 폴더가 열리고 파일을 직접 복사하거나 이동합니다]
+      서버에 로그인 -> 실행 -> \\server_name\E$ 로 이동합니다. [새 폴더가 열리고 파일을 직접 복사하거나 이동합니다]
 
    1. &quot;copy_files.pl&quot; 스크립트를 사용하여 한 서버에서 다른 서버로 파일을 복사하거나 &quot;move_files.pl&quot;을 사용하여 한 서버에서 다른 서버로 파일을 이동합니다. (이러한 파일은 E:\scripts\Scripository에서 사용할 수 있습니다.)

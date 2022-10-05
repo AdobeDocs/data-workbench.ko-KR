@@ -3,7 +3,7 @@ description: 다음 단계에 따라 Adobe Analytics Premium(AAP)의 구성 요�
 title: DWB Managed Services에 대한 기본 온보딩 지침
 uuid: ad44a4eb-00ea-49c7-8401-58976d8fe39e
 exl-id: 49fb6afe-b417-4554-9238-fd6381c00029
-source-git-commit: 232117a8cacaecf8e5d7fcaccc5290d6297947e5
+source-git-commit: b1dda69a606a16dccca30d2a74c7e63dbd27936c
 workflow-type: tm+mt
 source-wordcount: '922'
 ht-degree: 2%
@@ -11,6 +11,8 @@ ht-degree: 2%
 ---
 
 # DWB Managed Services에 대한 기본 온보딩 지침{#basic-onboarding-instructions-for-dwb-managed-services}
+
+{{eol}}
 
 다음 단계에 따라 Adobe Analytics Premium(AAP)의 구성 요소인 DWB(Adobe Data Workbench)에 대한 온보딩 프로세스를 시작합니다.
 
@@ -55,14 +57,14 @@ Adobe이 다음 사항에 연락합니다.
    >
    >이때 브라우저에서 디지털 인증서를 입력하라는 메시지가 표시될 수 있습니다. 이 경우 취소 를 클릭하여 대화 상자를 닫습니다.
 
-1. Adobe Data Workbench(`<PrimaryUser>`.pem) 인스턴스에 대해 발급된 인증서를 다운로드 섹션에서 찾습니다.
+1. Adobe Data Workbench 인스턴스에 대해 발급된 인증서를 찾습니다(`<PrimaryUser>`.pem)을 클릭하여 다운로드하십시오.
 1. 다운로드 섹션에서 표준 클라이언트 설치 관리자를 찾아 DWB 설정 마법사(InsightSetup-x.xx.exe 파일)를 다운로드합니다.
 1. Adobe 고객 지원 센터에서 파일을 받아 다운로드한 후 DWB 설정 마법사를 실행하여 워크스테이션 소프트웨어를 클라이언트 컴퓨터에 설치합니다.
 
 >[!NOTE]
-DWB 설정 마법사는 DWB 클라이언트 워크스테이션의 설치를 안내합니다. 또한 Insight.cfg 및 `<PrimaryUser>`.pem 파일을 찾아 필요한 폴더에 배치합니다. Insight.cfg 파일은 설치된 클라이언트 워크스테이션에 Insight.exe 파일과 함께 있습니다. `<PrimaryUser>`.pem 파일은 trust_ca_cert.pem 파일과 함께 Certificates 폴더에 있습니다. DWB가 작동하려면 모든 인증서 및 구성 파일이 있어야 합니다.
+DWB 설정 마법사는 DWB 클라이언트 워크스테이션의 설치 과정을 안내합니다. 또한 Insight.cfg 및 `<PrimaryUser>`필요한 폴더에 배치할 .pem 파일 Insight.cfg 파일은 설치된 클라이언트 워크스테이션에 Insight.exe 파일과 함께 있습니다. 다음 `<PrimaryUser>`.pem 파일은 trust_ca_cert.pem 파일과 함께 Certificates 폴더에 있습니다. DWB가 작동하려면 모든 인증서 및 구성 파일이 있어야 합니다.
 
-자세한 내용은 [DWB 설정 마법사](https://experienceleague.adobe.com/docs/data-workbench/using/install/workstation-setup/install-setup.html)를 참조하십시오.
+자세한 내용은 [DWB 설정 마법사](https://experienceleague.adobe.com/docs/data-workbench/using/install/workstation-setup/install-setup.html).
 
 ## DWB 서버에 연결 {#section-8e79c4e07c2a4342a5bb8af6ee7be3c9}
 
@@ -83,4 +85,4 @@ DWB 클라이언트 워크스테이션의 워크스테이션 구성 작업 공�
 
 ・ Adobe TechOps에서는 3개월 동안의 롤링 데이터를 포함하는 기본 프로덕션 클러스터를 구성하여 매월 재설정 및 재처리됩니다. 조회(지역, DeviceAtlas, Standard 분류)에 대한 업데이트도 재처리 작업의 일부로 수행됩니다. 기본적으로 작업은 매월 첫 번째 금요일에 실행됩니다. 필요한 경우 고객 지원 센터에서 일정을 수정할 수 있습니다.
 
-자세한 내용은 [고객 지원 센터 Adobe](https://helpx.adobe.com/support/programs/enterprise-support-terms.html)에 문의하십시오.
+자세한 내용은 [고객 지원 Adobe](https://helpx.adobe.com/support/programs/enterprise-support-terms.html).

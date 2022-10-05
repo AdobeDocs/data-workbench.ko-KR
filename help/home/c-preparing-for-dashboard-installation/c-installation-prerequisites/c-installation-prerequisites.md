@@ -3,7 +3,7 @@ description: 설치를 시작하기 전에 서버를 구성하고 새 소프트�
 title: 설치 사전 요구 사항
 uuid: 3f7ee690-ff91-4c4d-8d78-4dfb42856e8c
 exl-id: da9836eb-bbc8-49ae-a9c6-054051708c25
-source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+source-git-commit: b1dda69a606a16dccca30d2a74c7e63dbd27936c
 workflow-type: tm+mt
 source-wordcount: '91'
 ht-degree: 4%
@@ -11,6 +11,8 @@ ht-degree: 4%
 ---
 
 # 설치 사전 요구 사항{#installation-prerequisites}
+
+{{eol}}
 
 설치를 시작하기 전에 서버를 구성하고 새 소프트웨어를 설치할 수 있는 권한이 있는 관리자 계정으로 웹 서버에 로그온하십시오.
 

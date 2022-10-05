@@ -4,7 +4,7 @@ solution: Analytics
 title: 실험 구성 및 배포
 uuid: 460d3ea4-a6c8-4ac4-9a3f-eab71f65b096
 exl-id: 957c2ea2-72a5-4bb2-af1d-65187613c26d
-source-git-commit: 31f775478b0f0d968310ed10a43ad46791319ee9
+source-git-commit: b1dda69a606a16dccca30d2a74c7e63dbd27936c
 workflow-type: tm+mt
 source-wordcount: '1486'
 ht-degree: 1%
@@ -12,6 +12,8 @@ ht-degree: 1%
 ---
 
 # 실험 구성 및 배포{#configuring-and-deploying-the-experiment}
+
+{{eol}}
 
 목표, 가설 및 실험 세부 사항을 정의하고 테스트 컨텐츠를 만든 후에는 센서를 구성하여 제어된 실험을 배포해야 합니다.
 

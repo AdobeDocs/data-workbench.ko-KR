@@ -3,7 +3,7 @@ description: 평면화 변환은 문자열 벡터를 사용하고 각 값을 해
 title: 평면화
 uuid: 00b06a5c-506b-45fe-9773-44d65b8ec233
 exl-id: 63f3e4bc-238f-4e15-8ae5-2f805bd080d3
-source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+source-git-commit: b1dda69a606a16dccca30d2a74c7e63dbd27936c
 workflow-type: tm+mt
 source-wordcount: '223'
 ht-degree: 4%
@@ -12,23 +12,25 @@ ht-degree: 4%
 
 # 평면화{#flatten}
 
+{{eol}}
+
 평면화 변환은 문자열 벡터를 사용하고 각 값을 해당 필드에 매핑합니다.
 
 | 매개 변수 | 설명 | 기본값 |
 |---|---|---|
 | 이름 | 변환의 설명 이름입니다. 여기에 이름을 입력할 수 있습니다. |  |
-| 댓글 | 선택 사항입니다. 변환에 대한 참고 사항. |  |
+| 댓글 | 선택 사항. 변환에 대한 참고 사항. |  |
 | 조건 | 이 변환이 적용되는 조건입니다. |  |
 | 기본값 | 조건이 충족되고 로그 항목에 입력 값을 사용할 수 없는 경우 사용할 기본값입니다. |  |
 | 입력 | 출력 필드 이름에 매핑할 문자열 값의 벡터. |  |
 | 출력 | 출력 필드 이름 집합입니다. |  |
 
-[!DNL Flatten] 고려 사항
+고려 사항 [!DNL Flatten]
 
 * 입력 벡터에 정의된 출력 필드보다 더 많은 값이 포함되어 있으면 추가 입력 값이 삭제됩니다.
 * 입력 벡터에 정의된 출력 필드보다 값이 적은 경우 추가 출력 필드에 기본값이 부여되거나(정의된 경우) 기본값이 정의되지 않은 경우 빈 문자열이 제공됩니다.
 
-여기서 [!DNL Flatten] 변환은 제품(x-products)의 벡터를 가져와 네 개의 필드(x-product1, ..., x-product4)로 구분하는 데 사용됩니다.
+여기, [!DNL Flatten] 변환은 제품(x-products)의 벡터를 가져와 네 개의 필드(x-product1, ..., x-product4)로 구분하는 데 사용됩니다.
 
 ![](assets/cfg_TransformationType_Flatten.png)
 

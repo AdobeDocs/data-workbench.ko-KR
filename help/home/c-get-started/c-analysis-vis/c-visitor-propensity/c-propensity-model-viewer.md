@@ -3,7 +3,7 @@ description: 모델 뷰어를 사용하면 성향 점수 기능을 사용하여 
 title: 모델 뷰어
 uuid: 7ee8ff29-21c2-4721-804a-c7a5d101b50b
 exl-id: e0e4acd4-76a2-436a-993b-2bb7ca91ae1a
-source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+source-git-commit: b1dda69a606a16dccca30d2a74c7e63dbd27936c
 workflow-type: tm+mt
 source-wordcount: '134'
 ht-degree: 3%
@@ -11,6 +11,8 @@ ht-degree: 3%
 ---
 
 # 모델 뷰어{#model-viewer}
+
+{{eol}}
 
 모델 뷰어를 사용하면 성향 점수 기능을 사용하여 논리적인 회귀 모델을 생성할 수 있습니다.
 

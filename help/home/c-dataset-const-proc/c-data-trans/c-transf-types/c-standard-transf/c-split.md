@@ -3,7 +3,7 @@ description: 분할 변환은 문자열을 지정된 구분 기호 문자를 기
 title: 분할
 uuid: 116e8465-8fb1-41eb-9a28-412cee54ab87
 exl-id: ea85b095-1306-4938-906d-35d421db6c98
-source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+source-git-commit: b1dda69a606a16dccca30d2a74c7e63dbd27936c
 workflow-type: tm+mt
 source-wordcount: '319'
 ht-degree: 3%
@@ -11,6 +11,8 @@ ht-degree: 3%
 ---
 
 # 분할{#split}
+
+{{eol}}
 
 분할 변환은 문자열을 지정된 구분 기호 문자를 기반으로 하위 문자열의 벡터로 분할합니다.
 
@@ -32,7 +34,7 @@ ht-degree: 3%
   </tr> 
   <tr> 
    <td colname="col1"> 댓글 </td> 
-   <td colname="col2"> 선택 사항입니다. 변환에 대한 참고 사항. </td> 
+   <td colname="col2"> 선택 사항. 변환에 대한 참고 사항. </td> 
    <td colname="col3"> </td> 
   </tr> 
   <tr> 
@@ -62,7 +64,7 @@ ht-degree: 3%
 
 * /checkout/confirmed.asp?prod_selected=B57481,C46355,Z97123
 
-cs-uri-stem 필드는 로그 항목에서 요청한 페이지가 확인 페이지인지 여부를 확인하는 데 사용됩니다. 고객이 구매한 제품의 코드는 cs-uri-query에서 prod_selected 이름의 쉼표로 구분된 값으로 나열됩니다. [!DNL Split] 변환은 cs-uri-stem 값이 [!DNL String Match] 조건에 지정된 값과 일치하는 경우 제품 코드를 쉼표로 구분하여 이 정보를 추출하는 데 사용할 수 있습니다. [문자열 일치](../../../../../home/c-dataset-const-proc/c-conditions/c-test-ops/c-test-op-con.md#section-f8d132085c6b4500bfbe4515b848142f)를 참조하십시오. 다음 변환에서는 이 문제에 대한 해결 방법을 자세히 설명합니다.
+cs-uri-stem 필드는 로그 항목에서 요청한 페이지가 확인 페이지인지 여부를 확인하는 데 사용됩니다. 고객이 구매한 제품의 코드는 cs-uri-query에서 prod_selected 이름의 쉼표로 구분된 값으로 나열됩니다. 다음 [!DNL Split] cs-uri-stem 값이 [!DNL String Match] 조건. 자세한 내용은 [문자열 일치](../../../../../home/c-dataset-const-proc/c-conditions/c-test-ops/c-test-op-con.md#section-f8d132085c6b4500bfbe4515b848142f). 다음 변환에서는 이 문제에 대한 해결 방법을 자세히 설명합니다.
 
 ![](assets/cfg_TransformationType_Split.png)
 

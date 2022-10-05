@@ -3,15 +3,16 @@ description: Windows 인증서 저장소를 사용하면 서버와의 SSL 통신
 title: Windows 인증서 저장소
 uuid: a8021295-375a-460b-8686-acf3bc43cd17
 exl-id: 8613a941-6213-4bfa-9c35-dccc2acb6c17
-translation-type: ht
-source-git-commit: 233b04c65a45d3f92b8670bc244b907dc198b51d
-workflow-type: ht
+source-git-commit: b1dda69a606a16dccca30d2a74c7e63dbd27936c
+workflow-type: tm+mt
 source-wordcount: '1000'
 ht-degree: 100%
 
 ---
 
 # Windows 인증서 저장소{#windows-certificate-store}
+
+{{eol}}
 
 Windows 인증서 저장소를 사용하면 서버와의 SSL 통신을 위해 Windows 인증서 저장소에 클라이언트의 인증서 및 개인 키를 저장할 수 있습니다.
 
@@ -21,7 +22,7 @@ Windows 인증서 저장소를 사용하면 서버와의 SSL 통신을 위해 Wi
 >
 >라이선스 서버의 라이선스는 여전히 기존 `<Common Name>.pem` 파일을 사용하여 유지되며 인증서 저장소에서 가져온 인증서는 지정한 서버와의 통신에 대해서만 사용됩니다.
 
-## 전제 조건 {#section-69b18600052145ff8e5299b7123e69c5}
+## 사전 요구 사항 {#section-69b18600052145ff8e5299b7123e69c5}
 
 1. [!DNL certmgr.msc] 파일에 액세스하여 인증서 및 키를 **Personal** 저장소로 가져올 수 있어야 합니다. (대부분의 Windows 사용자의 경우 기본적으로 true로 설정되어야 함).
 

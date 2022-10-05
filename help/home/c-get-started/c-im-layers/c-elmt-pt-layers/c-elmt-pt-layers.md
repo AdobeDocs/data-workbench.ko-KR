@@ -3,7 +3,7 @@ description: Data Workbench에서 요소 점 레이어는 치수의 각 요소�
 title: 요소 점 레이어
 uuid: 2897fb56-ee9f-4906-b07d-fd00e6e47246
 exl-id: 78ce75e0-25ca-47ad-9707-13e071852f1a
-source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+source-git-commit: b1dda69a606a16dccca30d2a74c7e63dbd27936c
 workflow-type: tm+mt
 source-wordcount: '80'
 ht-degree: 7%
@@ -11,6 +11,8 @@ ht-degree: 7%
 ---
 
 # 요소 점 레이어{#element-point-layers}
+
+{{eol}}
 
 Data Workbench에서 요소 점 레이어는 치수의 각 요소에 대해 전경에 한 점을 표시합니다.
 

@@ -3,7 +3,7 @@ description: 대시보드를 포함하여 Adobe Data Workbench의 가장 일반�
 title: 용어 설명
 uuid: 9c832e10-f518-4a76-b06e-2fd7ea1fd985
 exl-id: 0fcc348a-8963-4473-a19d-0235c993c19a
-source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+source-git-commit: b1dda69a606a16dccca30d2a74c7e63dbd27936c
 workflow-type: tm+mt
 source-wordcount: '295'
 ht-degree: 2%
@@ -11,6 +11,8 @@ ht-degree: 2%
 ---
 
 # 용어 설명{#glossary}
+
+{{eol}}
 
 대시보드를 포함하여 Adobe Data Workbench의 가장 일반적으로 사용되는 용어 및 기능입니다.
 
@@ -20,9 +22,9 @@ ht-degree: 2%
 
 ## 차원 {#section-f126625e45524d59b8b5db47d4d1d0dd}
 
-Dimension은 데이터 유형과 같은 카테고리입니다. 예를 들어 요일 차원은 다음 데이터 요소로 구성됩니다.일요일, 월요일, 수요일, 목요일, 금요일, 그리고 토요일. 특히, 차원은 측정되는 내용을 자세히 설명합니다. 대시보드에서 차원은 Adobe Data Workbench 내에 정의되며 대시보드 애플리케이션을 통해 액세스할 수 있습니다. 각 차원에는 대시보드 인터페이스 내에 고유한 이름이 있습니다.
+Dimension은 데이터 유형과 같은 카테고리입니다. 예를 들어 요일 차원은 다음 데이터 요소로 구성됩니다. 일요일, 월요일, 수요일, 목요일, 금요일, 그리고 토요일. 특히, 차원은 측정되는 내용을 자세히 설명합니다. 대시보드에서 차원은 Adobe Data Workbench 내에 정의되며 대시보드 애플리케이션을 통해 액세스할 수 있습니다. 각 차원에는 대시보드 인터페이스 내에 고유한 이름이 있습니다.
 
-## 메트릭 {#section-4a7778c8209640b6a54afd82096eceef}
+## 지표 {#section-4a7778c8209640b6a54afd82096eceef}
 
 지표는 수량화할 수 있는 표현식에 의해 정의된 수량 객체입니다. 예를 들어, 세션당 페이지 보기 수는 페이지 보기 횟수 수에서 세션 수로 나눈 표현식에서 파생됩니다. 지표는 &quot;몇 개나?&quot;라는 질문에 답합니다. 대시보드에서 지표는 Data Workbench 내에 정의되며 대시보드 애플리케이션을 통해 액세스할 수 있습니다. 각 지표는 대시보드 인터페이스 내에 고유한 이름이 있습니다.
 

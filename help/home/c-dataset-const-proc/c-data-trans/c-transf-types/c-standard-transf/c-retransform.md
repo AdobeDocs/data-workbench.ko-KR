@@ -3,7 +3,7 @@ description: RETransform(정규 표현식) 변환은 정규 표현식을 사용�
 title: 재변환
 uuid: 60b5b60e-678a-416d-b5c3-57b1bbefce7d
 exl-id: 2595f782-0efb-4a2a-84bd-fdb04baf0852
-source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+source-git-commit: b1dda69a606a16dccca30d2a74c7e63dbd27936c
 workflow-type: tm+mt
 source-wordcount: '430'
 ht-degree: 3%
@@ -12,13 +12,15 @@ ht-degree: 3%
 
 # 재변환{#retransform}
 
+{{eol}}
+
 RETransform(정규 표현식) 변환은 정규 표현식을 사용하여 입력에서 찾고 캡처할 패턴을 지정하고 지정된 출력 필드에 캡처된 문자열을 저장하는 패턴 일치 변형입니다.
 
-정규 표현식은 전체 입력 문자열에 대해 평가됩니다. 입력이 정규 표현식에 지정된 패턴과 일치하지 않으면 데이터가 캡처되지 않습니다. 정규 표현식 사용에 대한 간단한 안내서는 [정규 표현식](../../../../../home/c-dataset-const-proc/c-reg-exp.md#concept-070077baa419475094ef0469e92c5b9c)을 참조하십시오.
+정규 표현식은 전체 입력 문자열에 대해 평가됩니다. 입력이 정규 표현식에 지정된 패턴과 일치하지 않으면 데이터가 캡처되지 않습니다. 정규 표현식 사용에 대한 간단한 지침은 [정규 표현식](../../../../../home/c-dataset-const-proc/c-reg-exp.md#concept-070077baa419475094ef0469e92c5b9c).
 
 >[!NOTE]
 >
->[!DNL RETransform] 변환은 정규 표현식에서 각 캡처 하위 패턴에 대한 출력 필드를 구성하는 [!DNL REMatch] 변환([REMatch](../../../../../home/c-dataset-const-proc/c-data-trans/c-transf-types/c-standard-transf/c-rematch.md#concept-7f0b1caad1df46aabef4448f88261a8e) 참조)과 유사하게 작동합니다. [!DNL RETransform]은 [!DNL REMatch] 및 [!DNL Format] 변형의 조합으로 생각할 수 있습니다. 작업 매개 변수(다음 테이블의 작업 참조)가 &quot;RESULTS&quot;로 설정된 경우 [!DNL RETransform]은 [!DNL REMatch] 및 [!DNL Union] 변형의 조합으로 작동합니다.
+>다음 [!DNL RETransform] 변환 기능은 [!DNL REMatch] 변환( [REMatch](../../../../../home/c-dataset-const-proc/c-data-trans/c-transf-types/c-standard-transf/c-rematch.md#concept-7f0b1caad1df46aabef4448f88261a8e)참조)입니다. 생각해보면 [!DNL RETransform] 의 조합으로 [!DNL REMatch] 및 [!DNL Format] 변형 작업 매개 변수(다음 테이블의 작업 참조)가 &quot;RESULTS&quot;로 설정된 경우 [!DNL RETransform] 는 [!DNL REMatch] 및 [!DNL Union] 변형
 
 <table id="table_51B7342E6A5E4E31913BD0F6A6ACC424"> 
  <thead> 
@@ -36,7 +38,7 @@ RETransform(정규 표현식) 변환은 정규 표현식을 사용하여 입력�
   </tr> 
   <tr> 
    <td colname="col1"> 댓글 </td> 
-   <td colname="col2"> 선택 사항입니다. 변환에 대한 참고 사항. </td> 
+   <td colname="col2"> 선택 사항. 변환에 대한 참고 사항. </td> 
    <td colname="col3"></td> 
   </tr> 
   <tr> 

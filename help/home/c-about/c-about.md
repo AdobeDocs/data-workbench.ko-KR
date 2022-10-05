@@ -3,14 +3,16 @@ description: 지표, 차원 및 필터는 Data Workbench 데이터 집합에 처
 title: Data Workbench 지표, 차원 및 필터
 uuid: 3c0300a0-ae19-4817-aab8-7294e0eabdd9
 exl-id: 687d9695-e70c-49ff-ac11-1537e6309e16
-source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
-workflow-type: ht
-source-wordcount: '827'
-ht-degree: 100%
+source-git-commit: b1dda69a606a16dccca30d2a74c7e63dbd27936c
+workflow-type: tm+mt
+source-wordcount: '796'
+ht-degree: 87%
 
 ---
 
 # Data Workbench 지표, 차원 및 필터{#data-workbench-metrics-dimensions-and-filters}
+
+{{eol}}
 
 지표, 차원 및 필터는 Data Workbench 데이터 집합에 처리된 데이터에 대해 계산되는 프레임워크를 제공합니다.
 
@@ -45,10 +47,10 @@ Swedish_Average_Age=Average_Age[country = ‘Sweden’]
 차원에서 지표를 평가할 때 전체 차원에 대해 해당 지표를 평가하는지 또는 특정 차원 요소에 해당하는 필터를 정의하는지 여부에 관계없이 특정 차원 요소에 대해 동일한 숫자 결과를 얻게 된다는 점을 참고하십시오. 앞의 예를 사용하여 스웨덴의 평균 연령을 구할 때 다음 방법은 동일한 결과를 산출합니다.
 
 * 국가 차원에서 평균 연령 지표를 평가한 다음 차원 요소 스웨덴의 숫자를 확인합니다.
-* 필터 &quot;스웨덴인&quot;으로 평균 연령 지표를 평가합니다([!DNL Average_[AgeCountry=&#39;Sweden&#39;]]으로 표현됨).
+* 필터 &quot;스웨덴인&quot;으로 평균 연령 지표를 평가합니다(다음으로 표시됨) [!DNL Average_Age[Country='Sweden']]).
 
 필터는 하나 이상의 차원 및 차원 요소를 참조하는 구문 표현식입니다. 위의 예에서 보듯이 [!DNL [dimension=element]] 표현식을 사용하면 필터를 손쉽게 지정할 수 있습니다.
 
-이러한 필터를 적용하여 [!DNL New_Metric=Metric[Filter]]와 같은 표현식을 사용하여 새 지표를 편리하게 정의할 수 있습니다. 이러한 필터를 사용하여 특정 차원 요소를 기반으로 새 지표를 정의할 수 있습니다. 위의 예를 사용하려면 [!DNL Average_[AgeCountry=&#39;Sweden&#39;]]은 스웨덴인의 평균 연령 측정 지표를 지정합니다. 이 지표에 Swedish_Average_Age와 같은 이름을 지정하면 다른 계산에서 지표로 사용할 수 있습니다. 예를 들어, [!DNL Swedish_Average_Age/Average_Age] 를 평가하면 스웨덴인의 평균 연령 대 세계 나머지 사람들의 평균 연령 비율을 나타내는 숫자가 제공됩니다.
+이러한 필터를 적용하여 다음과 같은 표현식을 사용하여 새 지표를 편리하게 정의할 수 있습니다 [!DNL New_Metric=Metric[Filter]]. 이러한 필터를 사용하여 특정 차원 요소를 기반으로 새 지표를 정의할 수 있습니다. 위의 예를 사용하려면 [!DNL Average_Age[Country='Sweden']]스웨덴인의 평균 연령 지표를 지정합니다. 이 지표에 Swedish_Average_Age와 같은 이름을 지정하면 다른 계산에서 지표로 사용할 수 있습니다. 예를 들어, [!DNL Swedish_Average_Age/Average_Age] 를 평가하면 스웨덴인의 평균 연령 대 세계 나머지 사람들의 평균 연령 비율을 나타내는 숫자가 제공됩니다.
 
-전 세계 모든 사람에 대한 정보가 있는 데이터 집합에 Eye Color라는 차원이 포함되어 있으면 [!DNL Swedish_Average_Age[Eye_Color=&#39;green&#39;]] 식으로 눈 색상이 녹색인 스웨덴인의 평균 연령을 구할 수 있습니다. [!DNL Average_Age[Country=&#39;Sweden&#39; AND Eye_Color=&#39;green&#39;]] 필터를 적용하여 중간 지표 정의를 사용하지 않고 동일한 결과를 얻을 수도 있습니다. 이 경우 [!DNL AND] 연산자는 다른 두 개의 기본 필터 표현식을 사용하여 필터 표현식을 지정합니다.
+전세계 모든 사람에 대한 정보가 있는 데이터 집합에 Eye Color라는 차원이 포함되어 있으면 [!DNL Swedish_Average_Age[Eye_Color='green']] 스웨덴인의 평균 연령이 녹색 눈을 갖고 있을 것이다. 다른 필터를 적용하여 중간 지표 정의를 사용하지 않고 동일한 결과를 얻을 수도 있습니다. [!DNL Average_Age[Country='Sweden' AND Eye_Color='green']]. 이 경우 [!DNL AND] 연산자는 다른 두 개의 기본 필터 표현식을 사용하여 필터 표현식을 지정합니다.

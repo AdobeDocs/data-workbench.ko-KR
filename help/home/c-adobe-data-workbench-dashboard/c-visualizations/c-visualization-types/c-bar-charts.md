@@ -3,7 +3,7 @@ description: 막대 차트
 title: 막대 차트
 uuid: 1baac7b3-7918-4de6-81f3-1aba7e9b8e20
 exl-id: e4e25832-5552-4acb-9adc-aea93b384a9e
-source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+source-git-commit: b1dda69a606a16dccca30d2a74c7e63dbd27936c
 workflow-type: tm+mt
 source-wordcount: '75'
 ht-degree: 8%
@@ -11,6 +11,8 @@ ht-degree: 8%
 ---
 
 # 막대 차트{#bar-charts}
+
+{{eol}}
 
 막대 차트 시각화 를 사용하면 차트에서 가로 막대로 표시된 각 데이터 요소를 사용하여 지표 및 차원 데이터를 시각화할 수 있습니다. 막대 차트를 사용하면 차트에 한 번에 최대 200개의 고유한 데이터 요소가 표시됩니다. 차원 값은 y축을 따라 레이블이 지정되고, 지표 증분은 x축을 따라 레이블이 지정됩니다. 각 차원 값에 대한 막대는 정확한 지표 값으로 레이블이 지정됩니다.
 

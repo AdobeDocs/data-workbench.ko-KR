@@ -3,7 +3,7 @@ description: 시각화를 확장 및 축소하는 것 외에, 시각화의 크�
 title: 시각화 크기 조정
 uuid: ba8ceab2-61bc-4996-80cb-7a507e728efa
 exl-id: 23c86123-cdf2-43a8-a473-fd66fe202f8a
-source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+source-git-commit: b1dda69a606a16dccca30d2a74c7e63dbd27936c
 workflow-type: tm+mt
 source-wordcount: '102'
 ht-degree: 3%
@@ -11,6 +11,8 @@ ht-degree: 3%
 ---
 
 # 시각화 크기 조정{#sizing-visualizations}
+
+{{eol}}
 
 시각화를 확장 및 축소하는 것 외에, 시각화의 크기를 조정할 수도 있습니다.
 

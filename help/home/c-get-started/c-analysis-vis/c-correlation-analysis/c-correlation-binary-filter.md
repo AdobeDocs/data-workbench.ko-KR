@@ -3,7 +3,7 @@ description: 상관 관계 매트릭스의 이진 필터를 사용하면 상관 
 title: 상관 관계 매트릭스의 이진 필터
 uuid: 61c3ca37-cfa2-49dc-87de-4e9a44647eca
 exl-id: e693fc72-5697-4c47-a498-e0d4d875c688
-source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+source-git-commit: b1dda69a606a16dccca30d2a74c7e63dbd27936c
 workflow-type: tm+mt
 source-wordcount: '210'
 ht-degree: 5%
@@ -12,24 +12,26 @@ ht-degree: 5%
 
 # 상관 관계 매트릭스의 이진 필터{#binary-filter-in-the-correlation-matrix}
 
+{{eol}}
+
 상관 관계 매트릭스의 이진 필터를 사용하면 상관 관계가 있는 지표 중 하나 또는 둘 다에 대한 값을 제한하여 비교에 더 잘 집중할 수 있습니다.
 
 상관 관계 매트릭스에서 이진 필터를 설정하려면 다음을 수행하십시오.
 
 1. 상관 관계 매트릭스에서 지표 이름을 마우스 오른쪽 단추로 클릭합니다.
-1. **지표 세부 정보 편집**&#x200B;을 선택합니다.
+1. 선택 **지표 세부 사항 편집**.
 
    ![](assets/correlation_matrix_binary_filter.png)
 
-   **[!UICONTROL Edit Correlation Metric Details]** 창이 열립니다.
+   다음 **[!UICONTROL Edit Correlation Metric Details]** 창이 열립니다.
 
    ![](assets/correlation_matrix_metric_details.png)
 
 1. 이진 필터를 설정합니다.
 
-   먼저 **[!UICONTROL Inactive]** 설정을 클릭합니다. 필터를 **[!UICONTROL Active]**(으)로 설정하고 **비교** 및 **값** 필드를 표시합니다.
+   먼저 **[!UICONTROL Inactive]** 설정 필터를 로 설정하도록 전환합니다. **[!UICONTROL Active]** 그리고 **비교** 및 **값** 필드.
 
-   그런 다음 **[!UICONTROL Comparison]** 연산자를 선택하고 **[!UICONTROL Value]** 을 설정하여 선택한 지표에 대한 필터를 설정합니다.
+   그런 다음 **[!UICONTROL Comparison]** 연산자를 설정하고 **[!UICONTROL Value]** 을 눌러 선택한 지표에 대한 필터를 설정합니다.
 
 >[!IMPORTANT]
 >
@@ -41,4 +43,4 @@ ht-degree: 5%
 
 ![](assets/correlation_matrix_element.png)
 
-작업 영역을 마우스 오른쪽 단추로 클릭하고 **테이블**&#x200B;을 선택합니다. 해당 요소가 있는 차원을 열고 상관 관계 지표 세부 정보 편집 창의 **[!UICONTROL Element]** 설정으로 드래그하거나 상관 관계 매트릭스에서 지표를 놓습니다.
+작업 공간에서 마우스 오른쪽 단추를 클릭하고 을 선택합니다. **표**. 요소를 사용하여 차원을 열고 로 드래그합니다. **[!UICONTROL Element]** 상관 관계 지표 세부 정보 편집 창에서 설정하거나 상관 관계 매트릭스에서 지표를 놓습니다.

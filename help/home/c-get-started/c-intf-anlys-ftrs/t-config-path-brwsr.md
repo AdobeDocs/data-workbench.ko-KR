@@ -3,25 +3,27 @@ description: 경로 브라우저는 기본 차원, 그룹 차원, 수준 차원 
 title: 경로 브라우저 구성
 uuid: 1ba3fb6e-b76f-428f-b6ec-077669c3b305
 exl-id: be6a68f7-e3e3-4207-a112-3a4fdd5c5f57
-source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+source-git-commit: b1dda69a606a16dccca30d2a74c7e63dbd27936c
 workflow-type: tm+mt
 source-wordcount: '422'
-ht-degree: 2%
+ht-degree: 1%
 
 ---
 
 # 경로 브라우저 구성{#configure-a-path-browser}
 
+{{eol}}
+
 경로 브라우저는 기본 차원, 그룹 차원, 수준 차원 및 애플리케이션 및 데이터 세트에 적합한 지표의 모든 조합에서 작동하도록 구성할 수 있습니다.
 
-경로 브라우저를 구성하고 나면 [!DNL Add Visualization] 메뉴에서 다른 경로 브라우저와 함께 나열됩니다.
+경로 브라우저를 구성하면 의 다른 경로 브라우저에 표시됩니다 [!DNL Add Visualization] 메뉴 아래의 제품에서 사용할 수 있습니다.
 
-1. [!DNL Profile Manager]에서 **[!UICONTROL Menu]** 를 클릭한 다음 **[!UICONTROL Add Visualization]** 및 **[!UICONTROL Path Browser]**&#x200B;를 클릭합니다.
+1. 에서 [!DNL Profile Manager]를 클릭합니다. **[!UICONTROL Menu]**&#x200B;를 클릭한 다음 **[!UICONTROL Add Visualization]** 및 **[!UICONTROL Path Browser]**.
 
-   하나 이상의 [!DNL *.vw] 파일이 경로 브라우저 디렉터리에 있습니다.
+   하나 이상 [!DNL *.vw] 파일은 경로 브라우저 디렉토리에 있습니다.
 
-1. 원하는 파일의 확인 표시를 마우스 오른쪽 단추로 클릭하고 **[!UICONTROL Make Local]** 를 클릭합니다.
-1. [!DNL User] 열에서 파일에 대한 확인 표시를 마우스 오른쪽 단추로 클릭하고 **[!UICONTROL Open]** > **[!UICONTROL in Notepad]** 를 클릭합니다.
+1. 원하는 파일에 대한 확인 표시를 마우스 오른쪽 단추로 클릭하고 를 클릭합니다 **[!UICONTROL Make Local]**.
+1. 에서 파일의 확인 표시를 마우스 오른쪽 단추로 클릭합니다. [!DNL User] 열 및 클릭 **[!UICONTROL Open]** > **[!UICONTROL in Notepad]**.
 1. 다음 샘플 파일과 표를 안내서로 사용하여 파일의 매개 변수를 편집합니다.
 
    ```
@@ -67,14 +69,14 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->경로 브라우저의 기본 차원, 그룹 차원, 수준 차원 및 지표에 대한 자세한 내용은 [경로 브라우저](../../../home/c-get-started/c-analysis-vis/c-path-browsers/c-path-browsers.md#concept-f2e9fdafed6e49c2bd111ab425cd6e2b)를 참조하십시오.
+>경로 브라우저의 기본 차원, 그룹 차원, 수준 차원 및 지표에 대한 자세한 내용은 [경로 브라우저](../../../home/c-get-started/c-analysis-vis/c-path-browsers/c-path-browsers.md#concept-f2e9fdafed6e49c2bd111ab425cd6e2b).
 
-1. 메모장에서 **[!UICONTROL File]** > **[!UICONTROL Save As]** 를 클릭하여 그룹 차원(즉, *그룹 차원 이름*.vw)을 기반으로 파일을 새 이름으로 저장합니다.
+1. 메모장에서 **[!UICONTROL File]** > **[!UICONTROL Save As]** 그룹 차원을 기반으로 파일을 새 이름으로 저장하려면, 즉 *그룹 차원 이름*.vw
 
    파일을 경로 브라우저 디렉토리에 저장했는지 확인합니다.
 
    >[!NOTE]
    >
-   >경로 브라우저가 [!DNL *.vw] 파일로 저장되었는지 확인하려면 [!DNL Save As] 창에서 다른 이름으로 저장 유형을 모든 파일로 설정합니다.
+   >경로 브라우저가 [!DNL *.vw] 파일, [!DNL Save As] 창의 다른 이름으로 저장 유형을 모든 파일로 설정합니다.
 
-1. (선택 사항) 작업 프로필의 모든 사용자가 변경 사항을 사용할 수 있도록 하려면 [!DNL Profile Manager] 열에서 파일에 대한 확인 표시를 마우스 오른쪽 단추로 클릭하고 **[!UICONTROL Save to]** > *&lt;**[!UICONTROL working profile name]*** 를 클릭합니다.[!DNL User]
+1. (선택 사항) 작업 프로필의 모든 사용자가 변경 사항을 사용할 수 있도록 하려면 [!DNL Profile Manager]에서 파일의 확인 표시를 마우스 오른쪽 단추로 클릭합니다. [!DNL User] 열 및 클릭 **[!UICONTROL Save to]** > *&lt;**[!UICONTROL working profile name]**>*.

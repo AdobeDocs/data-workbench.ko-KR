@@ -3,15 +3,16 @@ description: 사용자 정의 인증서 사용 지침.
 title: Data Workbench에서 사용자 정의 인증서 사용
 uuid: c3a2db27-bdb2-44b3-95dd-65eedd05c957
 exl-id: f813d599-723f-4b5d-a0b5-f4d71c1b1a22
-translation-type: ht
-source-git-commit: 233b04c65a45d3f92b8670bc244b907dc198b51d
-workflow-type: ht
+source-git-commit: b1dda69a606a16dccca30d2a74c7e63dbd27936c
+workflow-type: tm+mt
 source-wordcount: '732'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
 # Data Workbench에서 사용자 정의 인증서 사용{#using-custom-certificates-in-data-workbench}
+
+{{eol}}
 
 사용자 정의 인증서 사용 지침.
 
@@ -45,7 +46,7 @@ Data Workbench 클라이언트와 서버 간 통신하는 경우 아래 지침�
       ```
 
    1. 인증서에는 CN, O, OU 등이 있습니다. 서버의 [!DNL Access Control.cfg] 파일에서 해당 클라이언트에 필요한 인증서입니다.
-   1. *클라이언트* *기능 **** (또는 *서버* **및** *클라이언트* 기능 모두)이 포함된 인증서가 발급되었습니다.
+   1. 인증서가 *목적&#42;&#42;&#42;* 의 *클라이언트* 또는 *server* **및** *클라이언트*).
 
       인증서에 서버 및/또는 클라이언트의 기능 코드가 있는지 확인하기 위해 다음 명령어를 사용할 수 있습니다.
 

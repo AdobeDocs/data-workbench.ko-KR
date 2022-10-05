@@ -3,7 +3,7 @@ description: 대시보드 내에서 선택한 항목을 결정하는 두 가지 
 title: 선택 항목 확인
 uuid: fb8c6e4e-7345-431a-b9b4-0c08b8f6aabb
 exl-id: cc627c48-2fd6-4a1a-a4b7-c807af01a0b2
-source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+source-git-commit: b1dda69a606a16dccca30d2a74c7e63dbd27936c
 workflow-type: tm+mt
 source-wordcount: '151'
 ht-degree: 3%
@@ -12,9 +12,11 @@ ht-degree: 3%
 
 # 선택 항목 확인{#determining-what-s-selected}
 
+{{eol}}
+
 대시보드 내에서 선택한 항목을 결정하는 두 가지 방법이 있습니다.
 
-* 먼저 대시보드에서 선택한 모든 항목은 **[!UICONTROL Selections]** 메뉴에 있는 항목으로 표시됩니다. 시각화에서 선택한 각 그룹은 목록에 하나의 항목으로 표시됩니다. 이러한 이름에는 해당 차원 이름(즉,&#39;Day&#39;, &#39;Month&#39; 등). 이 항목 위에 마우스 커서를 놓으면 선택한 지표 값을 정확히 식별하는 팝업이 표시됩니다.
+* 먼저 대시보드에서 선택한 모든 항목은 **[!UICONTROL Selections]** 메뉴 아래의 제품에서 사용할 수 있습니다. 시각화에서 선택한 각 그룹은 목록에 하나의 항목으로 표시됩니다. 이러한 이름에는 해당 차원 이름(즉, &#39;Day&#39;, &#39;Month&#39; 등). 이 항목 위에 마우스 커서를 놓으면 선택한 지표 값을 정확히 식별하는 팝업이 표시됩니다.
 
    ![](assets/selection_identify.png)
 

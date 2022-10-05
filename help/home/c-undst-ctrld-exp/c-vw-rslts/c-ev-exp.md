@@ -4,7 +4,7 @@ solution: Analytics
 title: 실험 평가
 uuid: 88fd81bc-b944-48ea-bd4d-8716979ec69e
 exl-id: 5add2168-f6bc-45c5-bf1d-1191a38c5bac
-source-git-commit: 31f775478b0f0d968310ed10a43ad46791319ee9
+source-git-commit: b1dda69a606a16dccca30d2a74c7e63dbd27936c
 workflow-type: tm+mt
 source-wordcount: '333'
 ht-degree: 1%
@@ -12,6 +12,8 @@ ht-degree: 1%
 ---
 
 # 실험 평가{#evaluating-the-experiment}
+
+{{eol}}
 
 필요한 최소 방문자 수가 실험에 참여하기 전까지 실험을 실행한 후에는 실험 결과를 평가할 수 있는 충분한 통계 신뢰도를 확보할 수 있습니다.
 

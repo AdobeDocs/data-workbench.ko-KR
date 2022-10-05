@@ -3,7 +3,7 @@ description: 작업 공간 내보내기 메뉴를 사용하여 작업 공간을 
 title: 작업 영역 공유
 uuid: 6100143a-d602-42d7-b742-987fe5f835d6
 exl-id: c05b0f8f-cd73-4025-825b-32471c8681b8
-source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+source-git-commit: b1dda69a606a16dccca30d2a74c7e63dbd27936c
 workflow-type: tm+mt
 source-wordcount: '296'
 ht-degree: 4%
@@ -12,9 +12,11 @@ ht-degree: 4%
 
 # 작업 영역 공유{#share-a-workspace}
 
+{{eol}}
+
 작업 공간 내보내기 메뉴를 사용하여 작업 공간을 인쇄 및 .png 파일 또는 Excel로 내보낼 수 있습니다.
 
-작업 공간에서 **[!UICONTROL Export]** 을 클릭합니다.
+작업 공간에서 **[!UICONTROL Export]**.
 
 ![](assets/mnu_export.png)
 
@@ -45,15 +47,15 @@ ht-degree: 4%
   </tr> 
   <tr> 
    <td colname="col1"> PNG 내보내기 </td> 
-   <td colname="col2">작업 공간의 스냅샷을 이동식 네트워크 그래픽 형식(.png 파일)으로 저장합니다. <a href="../../../home/c-get-started/c-work-worksp/c-ex-wksp.md#section-f9fbe0f0a1c341e2b063cce106cac35e"> 작업 공간을 PNG 파일로 내보내기</a>를 참조하십시오. </td> 
+   <td colname="col2">작업 공간의 스냅샷을 이동식 네트워크 그래픽 형식(.png 파일)으로 저장합니다. 자세한 내용은 <a href="../../../home/c-get-started/c-work-worksp/c-ex-wksp.md#section-f9fbe0f0a1c341e2b063cce106cac35e"> 작업 공간을 PNG 파일로 내보내기</a>. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Excel </td> 
-   <td colname="col2"> Data Workbench 컴퓨터에 Microsoft Excel이 설치되어 있으면 에서는 자동으로 Microsoft Excel을 시작하고 특정 시각화, 특정 범례 및 텍스트 주석에서 데이터를 새 Excel 파일(.xls 또는 .xlsx)로 내보냅니다. <a href="../../../home/c-get-started/c-work-worksp/c-ex-wksp.md#section-fe214e3dbc364d2eba3834d62d295acb"> 작업 공간 데이터를 Microsoft Excel</a>로 내보내기를 참조하십시오. </td> 
+   <td colname="col2"> Data Workbench 시스템에 Microsoft Excel이 설치되어 있으면 은 자동으로 Microsoft Excel을 시작하고 특정 시각화, 특정 범례 및 텍스트 주석에서 데이터를 새 Excel 파일(.xls 또는 .xlsx)로 내보냅니다. 자세한 내용은 <a href="../../../home/c-get-started/c-work-worksp/c-ex-wksp.md#section-fe214e3dbc364d2eba3834d62d295acb"> Workspace 데이터를 Microsoft Excel로 내보내기</a>. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 템플릿에서 내보내기(Excel) </td> 
-   <td colname="col2"> Data Workbench 컴퓨터에 Microsoft Excel이 설치되어 있으면 는 자동으로 Microsoft Excel을 시작하고 특정 시각화, 특정 범례 및 텍스트 주석에서 선택한 템플릿 Excel 파일(<span class="filepath"> .xls</span> 또는 <span class="filepath"> .xlsx</span>)로 데이터를 내보냅니다. <a href="../../../home/c-get-started/c-work-worksp/c-ex-wksp.md#section-814772929ca64cf6b92b89d3fdd02302"> 템플릿 Excel 파일로 내보내기</a>를 참조하십시오. </td> 
+   <td colname="col2"> Microsoft Excel이 Data Workbench 시스템에 설치되어 있으면 에서는 자동으로 Microsoft Excel을 시작하고 특정 시각화, 특정 범례 및 텍스트 주석에서 데이터를 템플릿 Excel 파일로 내보냅니다(<span class="filepath"> .xls</span> 또는 <span class="filepath"> .xlsx</span>)을 클릭하여 제품에서 사용할 수 있습니다. 자세한 내용은 <a href="../../../home/c-get-started/c-work-worksp/c-ex-wksp.md#section-814772929ca64cf6b92b89d3fdd02302"> 템플릿 Excel 파일로 내보내기</a>. </td> 
   </tr> 
  </tbody> 
 </table>

@@ -3,7 +3,7 @@ description: 시각화 는 대시보드 캔버스에 추가되고 다양한 지�
 title: 시각화
 uuid: 1e15de30-7761-422a-a836-7a1b49b58daf
 exl-id: 7e8b23cd-5e95-4cd5-b07e-3aa53f26fac7
-source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+source-git-commit: b1dda69a606a16dccca30d2a74c7e63dbd27936c
 workflow-type: tm+mt
 source-wordcount: '326'
 ht-degree: 3%
@@ -11,6 +11,8 @@ ht-degree: 3%
 ---
 
 # 시각화{#visualizations}
+
+{{eol}}
 
 시각화 는 대시보드 캔버스에 추가되고 다양한 지표 및 차원 기반 데이터를 표시하도록 구성된 요소입니다.
 

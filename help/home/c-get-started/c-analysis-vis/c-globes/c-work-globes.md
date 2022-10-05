@@ -3,7 +3,7 @@ description: 마우스를 맵 위로 이동하면 포인터 위치의 지리적 
 title: 전구 사용
 uuid: 8aa3ad86-8129-47f6-8af9-d645ff9c566b
 exl-id: 2dc410fd-e452-4d03-88b9-fe1027b54e9c
-source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+source-git-commit: b1dda69a606a16dccca30d2a74c7e63dbd27936c
 workflow-type: tm+mt
 source-wordcount: '227'
 ht-degree: 2%
@@ -11,6 +11,8 @@ ht-degree: 2%
 ---
 
 # 전구 사용{#working-with-globes}
+
+{{eol}}
 
 마우스를 맵 위로 이동하면 포인터 위치의 지리적 위치에 해당하는 사용 가능한 데이터가 시각화의 오른쪽 위 모서리에 표시됩니다.
 
@@ -38,4 +40,4 @@ ht-degree: 2%
 
 하루 중 시간에 따라 태양의 위치를 기준으로 지구에서는 조명을 켜거나 끌 수 있습니다. 시간은 Data Workbench 서버에 의해 설정됩니다.
 
-* 시각화 내에서 마우스 오른쪽 단추를 클릭하고 **[!UICONTROL Toggle Lighting]** 을 클릭합니다. 메뉴 항목 왼쪽에 있는 X는 조명이 활성화되었음을 나타냅니다.
+* 시각화 내에서 마우스 오른쪽 단추를 클릭하고 **[!UICONTROL Toggle Lighting]**. 메뉴 항목 왼쪽에 있는 X는 조명이 활성화되었음을 나타냅니다.

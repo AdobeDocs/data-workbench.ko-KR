@@ -3,7 +3,7 @@ description: 데이터 세트를 구성할 때 Data Workbench의 차원 메뉴�
 title: 데이터 세트 구성 요소 숨기기
 uuid: 011e762b-547c-4a41-9473-d6d617177c86
 exl-id: be8fd482-6084-41bd-bfbf-302bacbbc587
-source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+source-git-commit: b1dda69a606a16dccca30d2a74c7e63dbd27936c
 workflow-type: tm+mt
 source-wordcount: '86'
 ht-degree: 6%
@@ -11,6 +11,8 @@ ht-degree: 6%
 ---
 
 # 데이터 세트 구성 요소 숨기기{#hiding-dataset-components}
+
+{{eol}}
 
 데이터 세트를 구성할 때 Data Workbench의 차원 메뉴에 표시되지 않도록 특정 확장 차원을 숨길 수 있습니다.
 

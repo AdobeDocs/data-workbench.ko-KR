@@ -3,7 +3,7 @@ description: 보고서 서버 프로그램 파일을 설치하는 단계입니�
 title: 보고서 프로그램 파일 설치
 uuid: 9c250783-7080-4c27-bd8c-add208b2b1bf
 exl-id: 8f871e5c-1267-4564-a168-398f9dc793a4
-source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+source-git-commit: b1dda69a606a16dccca30d2a74c7e63dbd27936c
 workflow-type: tm+mt
 source-wordcount: '142'
 ht-degree: 10%
@@ -11,6 +11,8 @@ ht-degree: 10%
 ---
 
 # 보고서 프로그램 파일 설치{#installing-the-report-program-files}
+
+{{eol}}
 
 보고서 서버 프로그램 파일을 설치하는 단계입니다.
 
@@ -24,11 +26,11 @@ ht-degree: 10%
 1. 설치 파일의 내용을 위에서 만든 디렉토리에 추출합니다.
 1. Windows 2008 시스템에서 Excel로 내보내려면 다음 디렉터리 중 하나를 만드십시오.
 
-   Windows 2008 Server 64비트:[!DNL C:\Windows\SysWOW64\config\systemprofile\Desktop]
+   Windows 2008 Server 64비트: [!DNL C:\Windows\SysWOW64\config\systemprofile\Desktop].
 
 1. 폴더를 마우스 오른쪽 단추로 클릭합니다.
 1. **[!UICONTROL Properties]**&#x200B;을 선택합니다.
 1. **[!UICONTROL Security]**&#x200B;을 선택합니다.
 1. 클릭 **[!UICONTROL Edit]**.
-1. 이벤트가 복제되지 않도록 하면서 현재 이벤트 변수에 **[!UICONTROL Everyone]**.
-1. **[!UICONTROL Everyone]**&#x200B;에 대한 전체 제어 권한을 부여합니다.
+1. 추가 **[!UICONTROL Everyone]**.
+1. 에 대한 전체 제어 권한 부여 **[!UICONTROL Everyone]**.

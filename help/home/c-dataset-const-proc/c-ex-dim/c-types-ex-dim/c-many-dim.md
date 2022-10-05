@@ -3,7 +3,7 @@ description: 다대다 차원은 상위 계산 가능한 차원과 다대다 관
 title: 다대다 차원
 uuid: 42c909e8-1228-4210-9406-ffc0d92372fa
 exl-id: 02d1a21c-a5b4-4b58-8089-9b9c68a7b1d1
-source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+source-git-commit: b1dda69a606a16dccca30d2a74c7e63dbd27936c
 workflow-type: tm+mt
 source-wordcount: '400'
 ht-degree: 3%
@@ -11,6 +11,8 @@ ht-degree: 3%
 ---
 
 # 다대다 차원{#many-to-many-dimensions}
+
+{{eol}}
 
 다대다 차원은 상위 계산 가능한 차원과 다대다 관계를 갖습니다.
 
@@ -34,7 +36,7 @@ ht-degree: 3%
   </tr> 
   <tr> 
    <td colname="col1"> 댓글 </td> 
-   <td colname="col2"> 선택 사항입니다. 확장 차원에 대한 참고 사항 </td> 
+   <td colname="col2"> 선택 사항. 확장 차원에 대한 참고 사항 </td> 
    <td colname="col3"> </td> 
   </tr> 
   <tr> 

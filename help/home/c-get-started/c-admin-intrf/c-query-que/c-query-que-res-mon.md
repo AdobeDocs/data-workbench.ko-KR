@@ -3,7 +3,7 @@ description: 리소스 모니터 벡터에는 메모리 예산 모니터 및 쿼
 title: 쿼리 큐 리소스 모니터
 uuid: 6b516bed-7f9a-4821-869e-19e720f20313
 exl-id: 6d445a4d-a415-41ce-9d45-1bdd0e726edd
-source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+source-git-commit: b1dda69a606a16dccca30d2a74c7e63dbd27936c
 workflow-type: tm+mt
 source-wordcount: '399'
 ht-degree: 2%
@@ -11,6 +11,8 @@ ht-degree: 2%
 ---
 
 # 쿼리 큐 리소스 모니터{#query-queue-resource-monitors}
+
+{{eol}}
 
 리소스 모니터 벡터에는 메모리 예산 모니터 및 쿼리 수 모니터가 포함되어 있습니다.
 
@@ -38,7 +40,7 @@ ht-degree: 2%
   <tr> 
    <td colname="col1"> <p>낮은 임계값 </p> </td> 
    <td colname="col2"> <p>이중 </p> </td> 
-   <td colname="col3"> <p>메모리 사용에 대한 낮은 임계값(바이트)입니다. <span class="wintitle"> 메모리 예산 모니터</span> 값이 이 값보다 작은 경우 새 번치를 예약하고 예약된 번치를 늘릴 수 있습니다. 예를 들어 사용자가 작업 공간에 시각화를 추가할 때 번치가 증가합니다. </p> </td> 
+   <td colname="col3"> <p>메모리 사용에 대한 낮은 임계값(바이트)입니다. If <span class="wintitle"> 메모리 예산 모니터</span> 값이 이 값 미만이면 새 번치를 예약하고 예약된 번치를 늘릴 수 있습니다. 예를 들어 사용자가 작업 공간에 시각화를 추가할 때 번치가 증가합니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>반응 시간 </p> </td> 
@@ -58,7 +60,7 @@ ht-degree: 2%
   <tr> 
    <td colname="col1"> <p>낮은 임계값 </p> </td> 
    <td colname="col2"> </td> 
-   <td colname="col3"> <p>메모리 사용에 대한 낮은 임계값(바이트)입니다. <span class="wintitle"> 메모리 예산 모니터</span> 값이 이 값보다 작은 경우 새 번치를 예약할 수 있으며 예약된 번치가 늘어날 수 있습니다. </p> </td> 
+   <td colname="col3"> <p>메모리 사용에 대한 낮은 임계값(바이트)입니다. If <span class="wintitle"> 메모리 예산 모니터</span> 값이 이 값 미만이면 새 번치를 예약할 수 있고 예약된 번치가 늘어날 수 있습니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>

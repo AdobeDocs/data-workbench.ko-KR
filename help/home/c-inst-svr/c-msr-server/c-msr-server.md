@@ -1,9 +1,9 @@
 ---
-description: 시스템을 계획 및 구현하기 전에 Data Workbench(이전 [!DNL Insight]) 서버 구성 요소에 대한 최소 요구 사항 및 권장 사항을 확인합니다.
+description: Data Workbench에 대한 최소 요구 사항 및 권장 사항 식별(이전 [!DNL Insight]) 시스템을 계획 및 구현하기 전에 서버 구성 요소를 구성합니다.
 title: 서버 시스템 요구 사항
 uuid: c4487c76-03b9-4755-893b-555d451b1e69
 exl-id: 6dd78331-8370-400e-b580-9b9bad13e62c
-source-git-commit: 79981e92dd1c2e552f958716626a632ead940973
+source-git-commit: b1dda69a606a16dccca30d2a74c7e63dbd27936c
 workflow-type: tm+mt
 source-wordcount: '1683'
 ht-degree: 1%
@@ -11,6 +11,8 @@ ht-degree: 1%
 ---
 
 # 서버 시스템 요구 사항{#server-system-requirements}
+
+{{eol}}
 
 시스템을 계획 및 구현하기 전에 Data Workbench 서버 구성 요소에 대한 최소 요구 사항 및 권장 사항을 확인합니다.
 
@@ -20,15 +22,14 @@ ht-degree: 1%
 
 ### 라이센스 용량 {#section-71850e13783443798b3df9eb22cc63dc}
 
-라이센스 용량 정보는 *Adobe [!DNL Data Workbench (Insight)] 서비스 계약*&#x200B;에서 서비스 설명을 참조하십시오.
+의 서비스 설명을 참조하십시오. *Adobe [!DNL Data Workbench (Insight)] 서비스 계약* 라이센스 용량 정보
 
 >[!NOTE]
 >
->Windows 2012 Server의 *MS System Center Endpoint Protection*&#x200B;의 경우 이러한 실행 파일을 ***제외된 프로세스:*** >
+>대상 *MS System Center Endpoint Protection* Windows 2012 Server에서는 이러한 실행 파일을 ***제외된 프로세스:*** >
 >* [!DNL InsightServer64.exe]
 >* [!DNL ReportServer.exe]
 >* [!DNL ExportIntegration.exe]
-
 >
 
 
@@ -98,7 +99,7 @@ DPU 투자에서 최상의 성능을 얻으려면 Adobe은 다음 표에 설명�
 * DPU는 고성능 디스크 시스템의 요구 사항이 매우 높기 때문에 디스크 하위 시스템을 잘못 설정하면 성능 병목 현상이 발생할 수 있습니다.
 * DPU 소프트웨어는 JBOD 디스크 집합에 대해 고유한 성능 지향 데이터 스트라이핑을 수행합니다. 속도를 높이기 위해 RAID를 사용하지 마십시오.
 * Adobe은 DPU에 디스크에 대해 400MB/s의 총 지속 대역폭을 사용할 것을 권장합니다.
-* 평균 읽기 크기는 매우 높습니다(2MB+). 이러한 이유로 15K 또는 10K SAS 디스크는 상당한 비용 및 용량 부담을 안고 SATA 디스크보다 더 나은(또는 더 안 좋은) 성능을 발휘합니다.
+* 평균 읽기 크기는 매우 높습니다(2MB+). 이러한 이유로 15K 또는 10K SAS 디스크는 상당한 비용 및 용량 면에서 SATA 디스크보다 약간 더 나은(또는 더 나쁜) 성능을 발휘합니다.
 * SAN 아키텍처를 사용하지 마십시오. SAN을 필요한 수준으로 구현하는 데 드는 비용은 일반적으로 매우 큰 것으로 나타났습니다.
 * 로컬 디스크 하위 시스템은 스크래치 공간으로 사용됩니다. HDD 오류로 인해 데이터가 영구적으로 손실되지 않으므로 비용이 많이 들고 속도가 느리며 고가용성 시스템을 사용하지 않는 것이 좋습니다.
 
@@ -136,7 +137,7 @@ Adobe은 다음을 포함하되 이에 제한되지 않는 다양한 요소가 �
     <ul id="ul_FFEEE5052FFD4876BA9A6476DD096539">
      <li id="li_F98750D509D640C68885D53FC691ED43">(12 이상) * (750GB 이상) RAID 5/6 구성의 SATA HDD </li>
      <li id="li_3F84F63F9541476987015C27FDE8251B">100MB/s 이상의 지속 대역폭을 지원하는 고성능 SAN 연결 </li>
-    </ul> <p>FSU는 원시 소스 데이터를 보유하므로 손실된 내용을 복구할 수 없으며 Adobe은 정기적으로 이 데이터를 백업하는 것을 제안합니다. </p> </td>
+    </ul> <p>FSU는 원시 소스 데이터를 보유하므로 손실된 내용을 복구할 수 없으며 Adobe은 정기적으로 이 데이터를 백업하는 것을 권장합니다. </p> </td>
    <td colname="col2"> </td>
   </tr>
   <tr>
@@ -153,7 +154,7 @@ Data Workbench 센서는 웹, 애플리케이션 및 데이터 수집 서버에�
 
 ### 센서 시스템 Recommendations {#section-0a981c3a47b644c1a1a56974ba033b9c}
 
-다음 표에서는 [!DNL Sensor]에 대한 시스템 권장 사항에 대해 설명합니다.
+다음 표에서는 [!DNL Sensor]:
 
 <table id="table_A132E06D6B8146C1B199B82464EA0898">
  <thead>
@@ -169,15 +170,15 @@ Data Workbench 센서는 웹, 애플리케이션 및 데이터 수집 서버에�
   </tr>
   <tr>
    <td colname="col1"> <p>RAM </p> </td>
-   <td colname="col2"> <p>HTTP 또는 해당 호스트인 다른 서버 컴퓨터의 <span class="wintitle"> 센서 </span>에 32MB의 RAM을 사용할 수 있어야 합니다. </p> </td>
+   <td colname="col2"> <p>32MB의 RAM을 사용할 수 있어야 함 <span class="wintitle"> Sensor </span> HTTP 또는 해당 호스트인 다른 서버 컴퓨터에서 실행 </p> </td>
   </tr>
   <tr>
    <td colname="col1"> <p>네트워크 성능 </p> </td>
-   <td colname="col2"> <p>반복 서버 또는 <span class="keyword"> Data Workbench 서버 </span>에 대한 1Mbps 이상의 네트워크 연결입니다. <span class="wintitle"> 센서는  </span> 일반적으로 1Mbps보다 훨씬 적은 대역폭을 사용합니다. Adobe 컨설턴트는 일상적인 기준으로 필요한 실제 대역폭 양을 예측하는 데 도움을 줍니다. </p> </td>
+   <td colname="col2"> <p>반복 서버에 대한 1Mbps 이상의 네트워크 연결 또는 <span class="keyword"> data workbench 서버 </span>. <span class="wintitle"> Sensor </span> 일반적으로 1Mbps보다 훨씬 적은 대역폭을 사용합니다. Adobe 컨설턴트는 일상적인 기준으로 필요한 실제 대역폭 양을 예측할 수 있도록 지원합니다. </p> </td>
   </tr>
   <tr>
    <td colname="col1"> <p>네트워크 포트 및 방화벽 </p> </td>
-   <td colname="col2"> <p> <span class="wintitle"> 센서는 HTTPS( </span> 구성 가능하지만 일반적으로 포트 443)나 HTTP(일반적으로 포트 80)를  <span class="keyword">   </span> 사용하여 Data Workbench 서버에 연결합니다. 이 서버는 구성 가능하지만 포트 80은 일반적으로 구성 가능합니다.) </p> <p><span class="wintitle"> 센서 </span> 와 target <span class="keyword"> Data Workbench 서버 </span> 또는 반복 서버 사이에 있는 방화벽의 적절한 포트는 <span class="wintitle"> 센서 </span> 호스팅 컴퓨터와 <span class="keyword"> Data Workbench 서버 </span> 또는 반복 서버 사이에서만 열려야 <span class="wintitle"> 센서 </span> 설치 프로세스를 시작할 수 있습니다. <span class="wintitle"> 센서 </span> 는  <span class="keyword"> Data Workbench 서버 또는 반복 서버에 단방향 HTTPS 또 </span> 는 HTTP 연결을 만듭니다. </p> </td>
+   <td colname="col2"> <p> <span class="wintitle"> Sensor </span> 에 연결 <span class="keyword"> data workbench 서버 </span> HTTPS 사용(일반적으로 구성 가능하지만 포트 443) 또는 HTTP(일반적으로 구성 가능하지만 포트 80). </p> <p>방화벽의 적절한 포트 <span class="wintitle"> Sensor </span> 타겟과 <span class="keyword"> data workbench 서버 </span> 또는 반복 서버는 각 서버 사이에 열려야 합니다 <span class="wintitle"> Sensor </span> 호스팅 컴퓨터 및 <span class="keyword"> data workbench 서버 </span> 또는 서버 시작 전 반복 <span class="wintitle"> Sensor </span> 설치 프로세스. <span class="wintitle"> Sensor </span> 는 단방향 HTTPS 또는 HTTP 연결을 <span class="keyword"> data workbench 서버 </span> 또는 반복 서버. </p> </td>
   </tr>
   <tr>
    <td colname="col1"> <p>네트워크 관리 시스템 </p> </td>
@@ -185,18 +186,18 @@ Data Workbench 센서는 웹, 애플리케이션 및 데이터 수집 서버에�
   </tr>
   <tr>
    <td colname="col1"> <p>서버 시간 동기화 </p> </td>
-   <td colname="col2"> <p><span class="wintitle"> 센서 </span>를 호스트하는 모든 컴퓨터에서 컴퓨터 시스템 시간이 연속적으로 동기화되는지 확인합니다. <span class="wintitle"> 센서 </span>에서 모니터링하는 웹 서버 응용 프로그램 및 컴퓨터는 정확하게 수집하기 위해 동기화된 시스템 시간이 있어야 합니다. NTP 또는 기타 시간 동기화 기능을 통해 시스템 시간을 지속적으로 동기화하는 단계는 운영 체제 설명서를 참조하십시오. </p> </td>
+   <td colname="col2"> <p>컴퓨터 시스템 시간이 컴퓨터를 호스트하는 모든 컴퓨터에서 연속적으로 동기화되는지 확인합니다. <span class="wintitle"> Sensor </span>. 웹 서버 응용 프로그램 및 컴퓨터 <span class="wintitle"> Sensor </span> 데이터에서 수집한 이벤트 데이터가 정확하려면 동기화된 시스템 시간이 있어야 합니다. NTP 또는 기타 시간 동기화 기능을 통해 시스템 시간을 지속적으로 동기화하는 단계는 운영 체제 설명서를 참조하십시오. </p> </td>
   </tr>
   <tr>
    <td colname="col1"> <p>DNS 이름 사용 </p> </td>
-   <td colname="col2"> <p>Adobe은 <span class="wintitle"> 센서 </span>가 <span class="keyword"> data workbench 서버 </span> 또는 반복 서버의 네트워크 주소를 확인하려면 IP 주소 대신 DNS 이름을 사용할 것을 권장합니다. <span class="wintitle"> 센서 </span>가 DNS 이름을 사용하는 경우 <span class="keyword"> Data Workbench 서버 </span> 또는 반복 서버의 이름을 확인하도록 호스트 웹 서버의 DNS 또는 로컬 호스트 파일을 구성해야 합니다. </p> </td>
+   <td colname="col2"> <p>Adobe은 <span class="wintitle"> 센서 </span> IP 주소 대신 DNS 이름을 사용하여 <span class="keyword"> data workbench 서버 </span> 또는 반복 서버. 다음의 경우 <span class="wintitle"> Sensor </span> 은 DNS 이름을 사용하여 호스트 웹 서버의 DNS 또는 로컬 호스트 파일을 구성하여 <span class="keyword"> data workbench 서버 </span> 또는 반복 서버. </p> </td>
   </tr>
  </tbody>
 </table>
 
 ### 지원 서버 소프트웨어 {#section-d6071706539f49d9a861d87b98e6f382}
 
-다음 표에는 [!DNL Sensor]이 지원하는 가장 일반적인 조합이 나와 있습니다.
+다음 표에는 [!DNL Sensor] 지원:
 
 <table id="table_99EA23BBC1A148B49643F4B5E4341C08">
  <thead>
@@ -225,17 +226,17 @@ Data Workbench 센서는 웹, 애플리케이션 및 데이터 수집 서버에�
  </tbody>
 </table>
 
-다른 서버 및 운영 체제 조합의 경우 사용 가능 여부에 대한 Adobe을 참조하십시오. [!DNL Sensor] 의 모든 기능이 웹/애플리케이션 서버와 운영 체제의 모든 조합에서 사용할 수는 없습니다. 특정 [!DNL Sensor] 릴리스에 대한 자세한 내용은 Adobe 지원 센터에 문의하십시오.
+다른 서버 및 운영 체제 조합의 경우 사용 가능 여부에 대한 Adobe을 참조하십시오. 의 일부 기능은 아님 [!DNL Sensor] 웹/애플리케이션 서버와 운영 체제의 모든 조합으로 사용할 수 있습니다. 특정 항목에 대한 자세한 정보 [!DNL Sensor] 릴리스는 Adobe 지원에 문의하십시오.
 
 ## 보고서 서버 요구 사항{#report-server-requirements}
 
-Data Workbench 보고서 서버는 예약된 보고의 출력을 허용하는 구성 요소입니다. 출력되는 보고서는 파일 시스템에 배치된 .PNG 이미지 또는 .XLS 스프레드시트의 형식이나 전자 메일로 수행될 수 있습니다. 하드웨어 요구 사항은 [Data Workbench 클라이언트](https://experienceleague.adobe.com/docs/data-workbench/using/install/c-data-workbench-client-install.html?lang=ko-KR)와 동일합니다.
+Data Workbench 보고서 서버는 예약된 보고의 출력을 허용하는 구성 요소입니다. 출력되는 보고서는 파일 시스템에 배치된 .PNG 이미지 또는 .XLS 스프레드시트의 형식이나 전자 메일로 출력될 수 있습니다. 하드웨어 요구 사항은 [Data Workbench 클라이언트](https://experienceleague.adobe.com/docs/data-workbench/using/install/c-data-workbench-client-install.html?lang=ko-KR).
 
-[!DNL report server]에 대해 다음 요구 사항이 있습니다.
+다음 요구 사항이에 해당됩니다 [!DNL report server]:
 
 * 데이터 출력(네트워크 공유 또는 로컬 드라이브)을 위한 파일 시스템에 액세스합니다.
 * 구성된 SMTP 서버에 대한 액세스 권한
-* Microsoft Excel 2003 이상이 [!DNL report] 서버에 설치되었습니다. 자세한 내용은 [Office의 서버측 자동화에 대한 고려 사항](https://support.microsoft.com/kb/257757)을 참조하십시오.
+* 에 설치된 Microsoft Excel 2003 이상 [!DNL report] server. 자세한 내용은 [Office의 서버측 자동화를 위한 고려 사항](https://support.microsoft.com/kb/257757) 추가 정보.
 
 ## 네트워크 관리{#network-management}
 
@@ -259,6 +260,6 @@ DPU 및 FSU 네트워크를 사용할 때 고려해야 할 사항입니다.
 
 * 네트워크 로그 파일 배포의 경우 로그 파일을 호스팅하는 모든 네트워크 스토리지 시스템은 DPU당 최소 10MB의 지속적인 대역폭을 제공해야 합니다.
 * DPU, FSU 및 Data Workbench은 기본적으로 포트 80 또는 443에서 HTTP 또는 HTTPS를 통해 양방향 통신을 수행합니다. 포트를 선택적으로 구성할 수 있습니다.
-* Data Workbench [!DNL Sensor(s)]은(는) 서버에 연결할 수 있어야 합니다(단방향).
+* Data Workbench [!DNL Sensor(s)] 서버에 연결할 수 있어야 합니다(단방향).
 * DPU에서 SMTP를 통해 경고 메시지를 보내도록 허용하려면 구성된 SMTP 서버에 연결할 수 있어야 합니다.
 * Adobe은 IP 주소가 변경되는 경우 재구성을 방지하기 위해 FSU 및 DPU에 FSU01.CLIENT.COM과 같은 네트워크 이름을 지정할 것을 권장합니다.

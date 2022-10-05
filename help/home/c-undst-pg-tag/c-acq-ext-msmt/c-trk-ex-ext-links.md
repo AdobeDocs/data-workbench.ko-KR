@@ -3,7 +3,7 @@ description: 타사 웹 사이트 링크에서 활동을 캡처하여 종료 Tar
 title: 외부 링크에 대한 종료 추적
 uuid: 523f5b4c-4600-4d44-82e7-4a8b2db2d266
 exl-id: fd7434e9-cd66-408e-baa9-6a0df4039786
-source-git-commit: 79981e92dd1c2e552f958716626a632ead940973
+source-git-commit: b1dda69a606a16dccca30d2a74c7e63dbd27936c
 workflow-type: tm+mt
 source-wordcount: '193'
 ht-degree: 6%
@@ -11,6 +11,8 @@ ht-degree: 6%
 ---
 
 # 외부 링크에 대한 종료 추적{#tracking-exits-to-external-links}
+
+{{eol}}
 
 타사 웹 사이트 링크에서 활동을 캡처하여 종료 Target 분석을 활성화합니다.
 
@@ -20,7 +22,7 @@ ht-degree: 6%
 <A HREF=”https://www.myserver.com/PageExit.htm?v_eurl=https://www.othersite.com”>
 ```
 
-참조된 [!DNL PageExit.htm] 파일을 만들어야 하며 다음 스크립트를 포함하도록 구조화해야 합니다.
+참조된 [!DNL PageExit.htm] 파일을 만들고 다음 스크립트를 포함하도록 구조화해야 합니다.
 
 ```
 <html>
@@ -51,7 +53,7 @@ location.replace(getExitURLQuery("v_eurl"));
 </html>
 ```
 
-[!DNL PageExit.htm] 파일에 대해 요청을 수행하면 v_eurl 값이 분석 목적으로 수집됩니다. 또한 [!DNL PageExit.htm]이 로드되면 지정된 v_eurl 대상 위치로 즉시 리디렉션됩니다.
+을 요청하여 [!DNL PageExit.htm] 파일에서 v_eurl 값은 분석을 위해 수집됩니다. 또한 [!DNL PageExit.htm] 가 로드되면 지정된 v_eurl 대상 위치로 즉시 리디렉션됩니다.
 
 | 수집한 데이터 | 설명 | 예 |
 |---|---|---|

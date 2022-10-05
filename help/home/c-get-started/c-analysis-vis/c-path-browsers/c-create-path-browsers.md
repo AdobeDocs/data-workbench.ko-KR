@@ -3,7 +3,7 @@ description: 그래프, 표 또는 프로세스 맵에서 경로 브라우저를
 title: 경로 브라우저 만들기
 uuid: 84a5e587-fb02-461b-aec8-1b6ad473ebc3
 exl-id: 9fa11b84-da73-447a-8b10-7eab381e3f66
-source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+source-git-commit: b1dda69a606a16dccca30d2a74c7e63dbd27936c
 workflow-type: tm+mt
 source-wordcount: '380'
 ht-degree: 2%
@@ -11,6 +11,8 @@ ht-degree: 2%
 ---
 
 # 경로 브라우저 만들기{#creating-path-browsers}
+
+{{eol}}
 
 그래프, 표 또는 프로세스 맵에서 경로 브라우저를 만들 수 있습니다.
 
@@ -22,7 +24,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->요소를 경로 브라우저로 드래그하면 경로 브라우저와 연결된 기본 차원이 변경될 수 있지만 수준 차원, 그룹 차원 또는 지표는 변경되지 않습니다. 따라서 경로 브라우저의 수준 차원, 그룹 차원 및 지표와 함께 사용할 경우 의미가 있는 기본 차원을 선택할 때는 주의해야 합니다. 수준 차원, 그룹 차원 또는 지표를 변경하려면 메모장과 같은 텍스트 편집기에서 경로 브라우저의 [!DNL *.vw] 파일을 편집해야 합니다. [경로 브라우저 구성](../../../../home/c-get-started/c-intf-anlys-ftrs/t-config-path-brwsr.md#task-bbb3ddaa140a414f984b697c2b8202a3)을 참조하십시오.
+>요소를 경로 브라우저로 드래그하면 경로 브라우저와 연결된 기본 차원이 변경될 수 있지만 수준 차원, 그룹 차원 또는 지표는 변경되지 않습니다. 따라서 경로 브라우저의 수준 차원, 그룹 차원 및 지표와 함께 사용할 경우 의미가 있는 기본 차원을 선택할 때는 주의해야 합니다. 수준 차원, 그룹 차원 또는 지표를 변경하려면 경로 브라우저의 [!DNL *.vw] 메모장과 같은 텍스트 편집기에 있는 파일입니다. 자세한 내용은 [경로 브라우저 구성](../../../../home/c-get-started/c-intf-anlys-ftrs/t-config-path-brwsr.md#task-bbb3ddaa140a414f984b697c2b8202a3).
 
 **프로세스 맵에서 경로 브라우저를 만들려면**
 
@@ -30,7 +32,7 @@ ht-degree: 2%
 >
 >프로세스 맵에서 만든 경로 브라우저는 프로세스 맵에 표시된 요소만 표시합니다. 기본 차원의 다른 요소는 표시되지 않습니다.
 
-1. 프로세스 맵 만들기. [프로세스 맵 만들기](../../../../home/c-get-started/c-analysis-vis/c-proc-maps/c-create-proc-maps.md#concept-daf5b14dae7a442191611b1b9c1122bf)를 참조하십시오.
+1. 프로세스 맵 만들기. 자세한 내용은 [프로세스 맵 생성](../../../../home/c-get-started/c-analysis-vis/c-proc-maps/c-create-proc-maps.md#concept-daf5b14dae7a442191611b1b9c1122bf).
 1. 프로세스 맵에서 원하는 요소를 경로 브라우저로 드래그합니다. 요소는 경로 브라우저의 루트가 됩니다.
 
 >[!NOTE]

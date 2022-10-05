@@ -4,7 +4,7 @@ solution: Analytics
 title: 실험 결과 보기
 uuid: c0468cad-fb8d-4ecf-8912-bf80b44b0a65
 exl-id: cada693c-79cb-4f49-a2f0-6ff60425be1c
-source-git-commit: 31f775478b0f0d968310ed10a43ad46791319ee9
+source-git-commit: b1dda69a606a16dccca30d2a74c7e63dbd27936c
 workflow-type: tm+mt
 source-wordcount: '241'
 ht-degree: 4%
@@ -12,6 +12,8 @@ ht-degree: 4%
 ---
 
 # 실험 결과 보기{#viewing-the-experiment-results}
+
+{{eol}}
 
 새 필드를 Log Processing.cfg에 추가하고 새 분할 변형 및 확장 차원을 만든 후에는 데이터 재처리의 빠른 입력 단계가 완료되는 즉시 새로 만든 확장 차원을 볼 수 있습니다.
 

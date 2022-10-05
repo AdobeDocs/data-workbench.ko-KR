@@ -3,7 +3,7 @@ description: 이제 DeviceAtlas JSON 파일이 DeviceAtlas.dll 및 DeviceAtlas64
 title: DeviceAtlas 배포
 uuid: 1eb76c61-6696-4e6c-a3fd-61c00cc17b0a
 exl-id: e9671810-d32c-4ec4-a1cb-54b71c6f101c,333507bb-3e8b-4da1-8218-b35fcf8d5f80,aa811c7b-ef80-4f23-b395-0cbb7d2677a9
-source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+source-git-commit: b1dda69a606a16dccca30d2a74c7e63dbd27936c
 workflow-type: tm+mt
 source-wordcount: '443'
 ht-degree: 0%
@@ -12,21 +12,23 @@ ht-degree: 0%
 
 # DeviceAtlas 배포{#deviceatlas-distribution}
 
+{{eol}}
+
 이제 DeviceAtlas JSON 파일이 DeviceAtlas.dll 및 DeviceAtlas64.dll 파일과 함께 .bundle 파일(이름이 변경된 .tar.gz)로 배포됩니다.
 
 관리자가 Insight Server를 버전 6.0으로 업그레이드할 때 DeviceAtlas.bundle 파일은 다음 위치에 있는 소프트웨어 및 문서 프로필(softdocs 프로필)에 있는 업그레이드 패키지에 포함됩니다.
 
 [!DNL Server Packages > v6.00 > Server_6.00.zip]
 
-DeviceAtlas.bundle 파일은 [!DNL Server\Lookups\DeviceAtlas]로 추출됩니다.
+DeviceAtlas.bundle 파일은 로 추출됩니다 [!DNL Server\Lookups\DeviceAtlas].
 
 DeviceAtlas.bundle 파일은 DPU에 동기화된 디렉터리에 배치해야 하며 새 DeviceAtlasComponent에 해당하는 DeviceAtlas.cfg 파일은 동기화 마스터의 &quot;처리 서버용 구성 요소&quot; 디렉토리에 저장해야 합니다. DeviceAtlas.bundle 파일이 변경되면 바로 다음 DeviceAtlas 조회 호출에서 업데이트된 API 및/또는 JSON 파일을 기반으로 결과를 가져옵니다.
 
-## Transformation.cfg 파일 {#section-394823348f5740028666e62e2bd42754} 수정
+## Transformation.cfg 파일을 수정합니다 {#section-394823348f5740028666e62e2bd42754}
 
 DeviceAtlas 변환에서는 더 이상 JSON 파일의 경로를 지정할 필요가 없습니다. transformation.cfg 파일에 정의된 이전 DeviceAtlasTransformation에는 더 이상 난독화된 JSON 파일을 가리키는 File 매개 변수가 포함되지 않아야 합니다.
 
-이 예제 Transformation.cfg 파일은 혼동을 방지하기 위해 삭제해야 하는 File 인수를 보여줍니다. (그것을 거기에 두면, 해가 될 것이 아니라, 그것이 무시될 것이기 때문에 잠재적인 혼란만 일으킬 것이다.)
+이 예제 Transformation.cfg 파일은 혼동을 방지하기 위해 삭제해야 하는 File 인수를 보여줍니다. (그 곳에 두면 아무런 해가 없고, 장차 무시할 것이기 때문에 잠재적인 혼란만 일으킬 뿐이다.)
 
 ```
 6 = DeviceAtlasTransformation:  
@@ -56,9 +58,9 @@ DeviceAtlas 변환에서는 더 이상 JSON 파일의 경로를 지정할 필요
 User Agent = string: x-ua  
 ```
 
-## DeviceAtlas.cfg 파일 {#section-10b43705a6c846fd9ec54ea6be249f88} 수정
+## DeviceAtlas.cfg 파일 수정 {#section-10b43705a6c846fd9ec54ea6be249f88}
 
-다음은 DeviceAtlas.cfg 파일에 필요한 [!DNL component] 인수의 예입니다.
+이 예는 다음과 같습니다 [!DNL component] DeviceAtlas.cfg 파일에 필요한 인수입니다.
 
 ```
 component = DeviceAtlasComponent: 
@@ -70,7 +72,7 @@ component = DeviceAtlasComponent:
 
 새 DeviceAtlasComponent는 시작 시 .bundle 복합체를 찾아 JSON 파일을 메모리로 난독화하고 파일을 임시 디렉토리에 추출하며 실행 중인 플랫폼에 적절한 DLL을 로드합니다. 또한 이 구성 요소는 번들 파일의 변경 사항을 모니터링하고 DLL 및 .cfg 파일이 변경되면 자동으로 다시 로드합니다.
 
-## DeviceAtlas {#section-6ed37b39199d4ffd95d30b49a7ee9666} 실행 중
+## DeviceAtlas 실행 {#section-6ed37b39199d4ffd95d30b49a7ee9666}
 
 올바른 구성으로 변환에 필요한 시간이 크게 달라집니다. 변환은 DeviceAtlas가 프로세스 속도를 높일 수 있도록 세션당 방문자당 한 번만 실행되도록 구성할 수 있습니다.
 
@@ -78,8 +80,8 @@ component = DeviceAtlasComponent:
 
 변형을 두 번 실행합니다.
 
-1. [!DNL mobile id] 필드만 찾은 다음
-1. [!DNL mobile id]을(를) 무시할 조건을 만든 다음 나머지 필드를 조회합니다.
+1. 조회 전용 [!DNL mobile id] 그런 다음
+1. 무시할 조건 만들기 [!DNL mobile id] 그런 다음 나머지 필드를 찾아봅니다.
 
 **Transformation.cfg를 사용하여 배포되는 경우**:
 

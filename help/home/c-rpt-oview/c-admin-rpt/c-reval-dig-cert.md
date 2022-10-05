@@ -3,7 +3,7 @@ description: 설치 후 Adobe에서 발급한 디지털 인증서는 보고서 �
 title: 디지털 인증서 유효성 재확인(개요)
 uuid: 6c8533df-f459-41eb-84ac-344bad9fecdc
 exl-id: 810e3057-26a9-413c-b77c-525035d37756
-source-git-commit: 235b8816c7397ac1ab71df650a1d4c2d681b3b2d
+source-git-commit: b1dda69a606a16dccca30d2a74c7e63dbd27936c
 workflow-type: tm+mt
 source-wordcount: '148'
 ht-degree: 10%
@@ -11,6 +11,8 @@ ht-degree: 10%
 ---
 
 # 디지털 인증서 유효성 재확인{#re-validating-the-digital-certificate}
+
+{{eol}}
 
 설치 후 Adobe에서 발급한 디지털 인증서는 보고서 서버를 실행할 수 있는 키 역할을 합니다.
 

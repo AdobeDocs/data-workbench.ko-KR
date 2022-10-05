@@ -3,7 +3,7 @@ description: 워크시트의 셀에 텍스트 또는 표현식을 입력할 수 
 title: 워크시트에 있는 데이터 사용
 uuid: c2331fa5-aa07-4622-8f44-5124c22dffcb
 exl-id: 40d9211b-8f5c-4051-8f93-638ffacf45bd
-source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+source-git-commit: b1dda69a606a16dccca30d2a74c7e63dbd27936c
 workflow-type: tm+mt
 source-wordcount: '710'
 ht-degree: 3%
@@ -12,11 +12,13 @@ ht-degree: 3%
 
 # 워크시트에 있는 데이터 사용{#work-with-data-in-worksheets}
 
+{{eol}}
+
 워크시트의 셀에 텍스트 또는 표현식을 입력할 수 있습니다.
 
-참조된 셀의 텍스트를 표현식으로 처리하는 [!DNL eval( )]을 사용하지 않는 한 워크시트의 모든 표현식 앞에 등호(=)가 옵니다.
+사용하지 않는 경우 워크시트의 모든 식 앞에 등호(=)가 옵니다 [!DNL eval( )]: 참조된 셀의 텍스트를 표현식으로 처리합니다.
 
-지표, 차원 및 필터 구문 규칙의 전체 목록은 [쿼리 언어 구문](../../../home/c-get-started/c-qry-lang-syntx/c-qry-lang-syntx.md#concept-15d1d3f5164a47d49468c5acb7299d9f)을 참조하십시오.
+지표, 차원 및 필터 구문 규칙의 전체 목록은 다음을 참조하십시오 [쿼리 언어 구문](../../../home/c-get-started/c-qry-lang-syntx/c-qry-lang-syntx.md#concept-15d1d3f5164a47d49468c5acb7299d9f).
 
 **워크시트에 데이터를 입력하려면**
 
@@ -25,34 +27,34 @@ ht-degree: 3%
 
 **한 셀에서 다른 셀로 복사하여 붙여넣으려면**
 
-1. 복사할 데이터가 들어 있는 셀을 마우스 오른쪽 단추로 클릭하고 **[!UICONTROL Copy]** 을 클릭합니다.
-1. 복사한 데이터를 붙여넣을 셀을 마우스 오른쪽 단추로 클릭하고 **[!UICONTROL Paste]** 를 클릭합니다.
+1. 복사할 데이터가 들어 있는 셀을 마우스 오른쪽 단추로 클릭하고 **[!UICONTROL Copy]**.
+1. 복사한 데이터를 붙여넣을 셀을 마우스 오른쪽 단추로 클릭하고 를 클릭합니다 **[!UICONTROL Paste]**.
 
 Data Workbench은 적절한 열 및 행을 참조하도록 새 셀의 참조를 자동으로 업데이트합니다.
 
 **셀 그룹에서 다른 셀 그룹에 복사하여 붙여넣으려면**
 
 1. 복사할 데이터가 들어 있는 셀을 선택합니다.
-1. 복사할 데이터가 들어 있는 셀을 마우스 오른쪽 단추로 클릭하고 **[!UICONTROL Copy]** 을 클릭합니다.
-1. 복사한 데이터 붙여넣기를 시작할 첫 번째 셀을 마우스 오른쪽 단추로 클릭하고 **[!UICONTROL Paste]** 를 클릭합니다. 데이터는 첫 번째 셀과 그 아래에 붙여넣습니다.
+1. 복사할 데이터가 들어 있는 셀을 마우스 오른쪽 단추로 클릭하고 **[!UICONTROL Copy]**.
+1. 복사한 데이터 붙여넣기를 시작할 첫 번째 셀을 마우스 오른쪽 단추로 클릭하고 를 클릭합니다 **[!UICONTROL Paste]**. 데이터는 첫 번째 셀과 그 아래에 붙여넣습니다.
 
 Data Workbench은 적절한 열 및 행을 참조하도록 새 셀의 참조를 자동으로 업데이트합니다.
 
 **열을 삽입하려면**
 
-* 열을 마우스 오른쪽 단추로 클릭하고 **[!UICONTROL Insert Column]** 를 클릭합니다. 새 열이 선택한 열의 왼쪽에 삽입됩니다.
+* 열을 마우스 오른쪽 단추로 클릭하고 **[!UICONTROL Insert Column]**. 새 열이 선택한 열의 왼쪽에 삽입됩니다.
 
 **열을 삭제하려면**
 
-* 삭제할 열을 마우스 오른쪽 단추로 클릭하고 **[!UICONTROL Delete Column]** 을 클릭합니다. 열이 제거됩니다.
+* 삭제할 열을 마우스 오른쪽 단추로 클릭하고 **[!UICONTROL Delete Column]**. 열이 제거됩니다.
 
 **행을 삽입하려면**
 
-* 행을 마우스 오른쪽 단추로 클릭하고 **[!UICONTROL Insert Row]** 를 클릭합니다. 새 행이 선택한 행 위에 삽입됩니다.
+* 행을 마우스 오른쪽 단추로 클릭하고 **[!UICONTROL Insert Row]**. 새 행이 선택한 행 위에 삽입됩니다.
 
 **행을 삭제하려면**
 
-* 삭제할 행을 마우스 오른쪽 단추로 클릭하고 **[!UICONTROL Delete Row]** 를 클릭합니다. 행이 제거됩니다.
+* 삭제할 행을 마우스 오른쪽 단추로 클릭하고 **[!UICONTROL Delete Row]**. 행이 제거됩니다.
 
 **열 크기를 조정하려면**
 
@@ -61,7 +63,7 @@ Data Workbench은 적절한 열 및 행을 참조하도록 새 셀의 참조를 
 
 **셀 서식을 지정하려면**
 
-1. 셀을 마우스 오른쪽 단추로 클릭하고 **[!UICONTROL Format]** 를 클릭합니다.
+1. 셀을 마우스 오른쪽 단추로 클릭하고 **[!UICONTROL Format]**.
 
    ![](assets/mnu_Worksheet_Format.png)
 
@@ -77,23 +79,23 @@ Data Workbench은 적절한 열 및 행을 참조하도록 새 셀의 참조를 
  <tbody> 
   <tr> 
    <td colname="col1"> <p>숫자 </p> </td> 
-   <td colname="col2"> <p>선택한 숫자 형식을 시간, 날짜, 백분율 또는 십진수와 같이 데이터에 적용합니다. </p> <p>선택한 서식을 제거하려면 <span class="uicontrol"> 기본값</span> 을 클릭하십시오. </p> </td> 
+   <td colname="col2"> <p>선택한 숫자 형식을 시간, 날짜, 백분율 또는 십진수와 같이 데이터에 적용합니다. </p> <p>클릭 <span class="uicontrol"> 기본값</span> 선택한 서식을 제거하려면 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>양쪽 맞춤 </p> </td> 
-   <td colname="col2"> <p>셀 내의 데이터를 왼쪽, 가운데 또는 오른쪽으로 정렬합니다. 기본 양쪽 맞춤은 남아 있습니다. </p> <p>선택한 서식을 제거하려면 <span class="uicontrol"> 기본값</span> 을 클릭하십시오. </p> </td> 
+   <td colname="col2"> <p>셀 내의 데이터를 왼쪽, 가운데 또는 오른쪽으로 정렬합니다. 기본 양쪽 맞춤은 남아 있습니다. </p> <p>클릭 <span class="uicontrol"> 기본값</span> 선택한 서식을 제거하려면 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>색상 </p> </td> 
-   <td colname="col2"> <p>선택한 글꼴 색상을 셀 내의 데이터에 적용합니다. 기본 글꼴 색상은 흰색입니다. </p> <p>선택한 서식을 제거하려면 <span class="uicontrol"> 기본값</span> 을 클릭하십시오. </p> </td> 
+   <td colname="col2"> <p>선택한 글꼴 색상을 셀 내의 데이터에 적용합니다. 기본 글꼴 색상은 흰색입니다. </p> <p>클릭 <span class="uicontrol"> 기본값</span> 선택한 서식을 제거하려면 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>표시기 </p> </td> 
-   <td colname="col2"> <p>이 셀을 사용하여 지표 표시기를 만듭니다. 자세한 내용은 <a href="../../../home/c-get-started/c-analysis-vis/c-wksts/c-metric-ind.md#concept-f0e911b23b2c4e8da3e1ea7b9ae04183"> 지표 표시기 만들기</a> 를 참조하십시오. </p> <p>선택한 서식을 제거하려면 <span class="uicontrol"> 기본값</span> 을 클릭하십시오. </p> </td> 
+   <td colname="col2"> <p>이 셀을 사용하여 지표 표시기를 만듭니다. 자세한 내용은 <a href="../../../home/c-get-started/c-analysis-vis/c-wksts/c-metric-ind.md#concept-f0e911b23b2c4e8da3e1ea7b9ae04183"> 지표 표시기 만들기</a>. </p> <p>클릭 <span class="uicontrol"> 기본값</span> 선택한 서식을 제거하려면 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>입력 셀 </p> </td> 
-   <td colname="col2"> <p>선택한 셀을 입력 셀로 만듭니다. 자세한 내용은 <a href="../../../home/c-get-started/c-analysis-vis/c-wksts/c-input-cells.md#concept-08cd2c05a28a43dd9f7698b37e23e590"> 입력 셀 만들기</a> 를 참조하십시오. </p> <p>선택한 서식을 제거하려면 <span class="uicontrol"> 기본값</span> 을 클릭하십시오. </p> </td> 
+   <td colname="col2"> <p>선택한 셀을 입력 셀로 만듭니다. 자세한 내용은 <a href="../../../home/c-get-started/c-analysis-vis/c-wksts/c-input-cells.md#concept-08cd2c05a28a43dd9f7698b37e23e590"> 입력 셀 만들기</a>. </p> <p>클릭 <span class="uicontrol"> 기본값</span> 선택한 서식을 제거하려면 </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -3,7 +3,7 @@ description: 클러스터 Dimension이 빌드되면 클러스터 탐색기를 �
 title: 클러스터 탐색
 uuid: b0a07525-c586-466a-ac5e-7c7674cb58f8
 exl-id: d144f51c-8103-428d-801c-a12fb3ec5866
-source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+source-git-commit: b1dda69a606a16dccca30d2a74c7e63dbd27936c
 workflow-type: tm+mt
 source-wordcount: '165'
 ht-degree: 2%
@@ -11,6 +11,8 @@ ht-degree: 2%
 ---
 
 # 클러스터 탐색{#exploring-clusters}
+
+{{eol}}
 
 클러스터 Dimension이 빌드되면 클러스터 탐색기를 사용하여 클러스터 탐색기를 저장하고 검사할 수 있습니다.
 
@@ -28,6 +30,6 @@ ht-degree: 2%
 
    클러스터 탐색기는 한 번에 두 개의 입력 축을 따라 클러스터의 중심을 표시합니다. 이렇게 하면 다차원 공간에서의 분리를 검사할 수 있습니다.
 
-1. 클러스터를 마우스 오른쪽 단추로 눌러 메뉴를 표시하고 콜아웃 유형 중에서 선택합니다.이미지 또는 텍스트 주석, 지표 범례, 테이블, 선 그래프 또는 산포도
+1. 클러스터를 마우스 오른쪽 단추로 눌러 메뉴를 표시하고 콜아웃 유형 중에서 선택합니다. 이미지 또는 텍스트 주석, 지표 범례, 테이블, 선 그래프 또는 산포도
 
    ![](assets/explore_clusters_4.png)

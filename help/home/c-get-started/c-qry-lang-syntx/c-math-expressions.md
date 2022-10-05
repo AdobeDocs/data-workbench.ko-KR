@@ -3,14 +3,16 @@ description: Data Workbench를 사용하면 추가 수학 계산을 사용할 �
 title: 수학 표현식의 구문
 uuid: 63eee559-edfc-4efc-a6c8-66689d156701
 exl-id: a1433258-d3e8-4515-a1ae-00f9108e98c0
-source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+source-git-commit: b1dda69a606a16dccca30d2a74c7e63dbd27936c
 workflow-type: tm+mt
 source-wordcount: '152'
-ht-degree: 8%
+ht-degree: 7%
 
 ---
 
 # 수학 표현식의 구문{#syntax-for-math-expressions}
+
+{{eol}}
 
 Data Workbench를 사용하면 추가 수학 계산을 사용할 수 있습니다.
 
@@ -20,7 +22,7 @@ Data Workbench를 사용하면 추가 수학 계산을 사용할 수 있습니�
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> 계산 </th> 
-   <th colname="col02" class="entry"> 함수로 플러그인 호출 </th> 
+   <th colname="col02" class="entry"> 함수 </th> 
    <th colname="col2" class="entry"> 입력 </th> 
   </tr> 
  </thead>
@@ -67,7 +69,7 @@ Data Workbench를 사용하면 추가 수학 계산을 사용할 수 있습니�
   </tr> 
   <tr> 
    <td colname="col1"> <p>최소 </p> </td> 
-   <td colname="col02"> <p>분( ) </p> </td> 
+   <td colname="col02"> <p>min( ) </p> </td> 
    <td colname="col2"> <p>수학 변환 및 통계 설명선 </p> </td> 
   </tr> 
   <tr> 

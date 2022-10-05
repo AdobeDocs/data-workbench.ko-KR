@@ -3,7 +3,7 @@ description: 단계별 마법사를 사용하여 지표 속성(지표 차원)으
 title: 지표 치수 마법사(Dimension)
 uuid: 411b2e28-0958-43bb-a853-7de7b3063818
 exl-id: 4d283a00-409c-4d74-a558-40744caba71c
-source-git-commit: 235b8816c7397ac1ab71df650a1d4c2d681b3b2d
+source-git-commit: b1dda69a606a16dccca30d2a74c7e63dbd27936c
 workflow-type: tm+mt
 source-wordcount: '486'
 ht-degree: 2%
@@ -11,6 +11,8 @@ ht-degree: 2%
 ---
 
 # 지표 치수 마법사{#metric-dim-wizard}
+
+{{eol}}
 
 단계별 마법사를 사용하여 지표 속성(지표 차원)으로 정의된 Dimension을 만듭니다. 그런 다음 새 지표 치수 를 Dimension 목록에 테스트, 미리 보고 저장합니다.
 

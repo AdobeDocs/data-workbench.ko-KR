@@ -3,7 +3,7 @@ description: 작업 공간 파일 메뉴에서 사용할 수 있는 메뉴 옵�
 title: 작업 영역 파일 메뉴
 uuid: abbdb2db-d918-4edf-977c-1daaf8a71721
 exl-id: b2bb7d89-249c-40f5-85aa-02fea0b0fc61
-source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+source-git-commit: b1dda69a606a16dccca30d2a74c7e63dbd27936c
 workflow-type: tm+mt
 source-wordcount: '518'
 ht-degree: 1%
@@ -12,9 +12,11 @@ ht-degree: 1%
 
 # 작업 영역 파일 메뉴{#workspace-file-menu}
 
+{{eol}}
+
 작업 공간 파일 메뉴에서 사용할 수 있는 메뉴 옵션에 대한 정보입니다.
 
-작업 영역에서 **[!UICONTROL File]** 을 클릭합니다.
+작업 공간에서 **[!UICONTROL File]**.
 
 ![](assets/mnu_file.png)
 
@@ -22,11 +24,11 @@ ht-degree: 1%
 
 **저장**
 
-작업 영역을 저장합니다. [작업 공간 저장](../../../home/c-get-started/c-work-worksp/c-save-wksp.md#concept-e0c34e75cc194e57bd02d1f02316a606)을 참조하십시오.
+작업 영역을 저장합니다. 자세한 내용은 [작업 공간 저장](../../../home/c-get-started/c-work-worksp/c-save-wksp.md#concept-e0c34e75cc194e57bd02d1f02316a606).
 
 **다른 이름으로 복사 저장**
 
-다른 이름이나 다른 위치에 작업 영역을 저장합니다. [작업 공간 저장](../../../home/c-get-started/c-work-worksp/c-save-wksp.md#concept-e0c34e75cc194e57bd02d1f02316a606)을 참조하십시오.
+다른 이름이나 다른 위치에 작업 영역을 저장합니다. 자세한 내용은 [작업 공간 저장](../../../home/c-get-started/c-work-worksp/c-save-wksp.md#concept-e0c34e75cc194e57bd02d1f02316a606).
 
 **되돌리기**
 
@@ -40,18 +42,18 @@ ht-degree: 1%
 
 작업 공간에 대한 작업 페이지 크기를 설정합니다. 전체 화면, 표준 또는 컴퓨터 스크린, 인쇄 페이지 및 보고서에 대한 특정 크기를 선택할 수 있습니다. 전체 화면 은 특정 화면을 채우며 Standard는 조직의 표준 화면 크기에 맞게 구성할 수 있는 설정입니다. 기본 표준 설정은 1024 x 768 해상도를 사용할 때 화면을 채웁니다.
 
-복사되거나, [!DNL .png] 파일로 저장되거나, 인쇄되는 작업 영역도 출력에 이 페이지 크기를 사용합니다. Data Workbench 시각화보다 큰 페이지 크기는 스크롤 막대를 사용하는 반면, 더 작은 크기는 화면을 중심으로 하고 작업 공간 주위에 밝은 회색 테두리를 표시합니다.
+복사, 다른 이름으로 저장되는 작업 공간 [!DNL .png] 파일 또는 인쇄된 파일에는 이 페이지 크기를 출력에 사용합니다. Data Workbench 시각화보다 큰 페이지 크기는 스크롤 막대를 사용하는 반면, 더 작은 크기는 화면을 중심으로 하고 작업 공간 주위에 밝은 회색 테두리를 표시합니다.
 
 **설명**
 
-작업 공간의 텍스트 설명을 만들거나 편집할 수 있습니다. 이 텍스트는 축소판 아래의 [!DNL Worktop]에 나타납니다. 작업 공간에 설명 추가](../../../home/c-get-started/c-work-worksp/t-add-wksp-desc.md#task-163734487e8848dfa0a4d8da6323a963)를 참조하십시오.[
+작업 공간의 텍스트 설명을 만들거나 편집할 수 있습니다. 이 텍스트는 [!DNL Worktop] 축소판 아래에 표시됩니다. 자세한 내용은 [작업 공간에 설명 추가](../../../home/c-get-started/c-work-worksp/t-add-wksp-desc.md#task-163734487e8848dfa0a4d8da6323a963).
 
 **백그라운드에서 계산**
 
 (온라인으로 작업할 때만 표시됩니다.) 작업을 계속하는 동안 선택한 작업 영역에서 쿼리를 백그라운드에서 실행합니다. 선택한 경우 축소판에는 쿼리의 진행 상태를 나타내는 다음 정보가 표시됩니다.
 
-* 작업 중:*n%* - 쿼리가 처리 중임을 나타내고, 처리가 완료된 백분율을 나타냅니다.
-* ** nMB 쿼리 로드 - 쿼리 결과의 총 크기입니다. 쿼리 로드는 Data Workbench 서버의 총 메모리 로드에 비례하지만 직접 상호 연관되지는 않습니다. 지침으로서, 10MB 이상의 쿼리 로드는 시스템에 부담이 될 수 있습니다. 나열된 쿼리 로드에서 클러스터링을 고려하지 않습니다.
+* 작업 중: *n%* - 쿼리가 처리 중임을 나타내고, 처리가 완료되었음을 나타냅니다.
+* *n* MB 쿼리 로드 - 쿼리 결과의 총 크기입니다. 쿼리 로드는 Data Workbench 서버의 총 메모리 로드에 비례하지만 직접 상호 연관되지는 않습니다. 지침으로서, 10MB 이상의 쿼리 로드는 시스템에 부담이 될 수 있습니다. 나열된 쿼리 로드에서 클러스터링을 고려하지 않습니다.
 
 >[!NOTE]
 >
@@ -59,15 +61,15 @@ ht-degree: 1%
 
 **닫기**
 
-작업 영역을 닫습니다. 작업 공간에서 수행한 변경 사항을 저장하려면 **[!UICONTROL Close]** > **[!UICONTROL Save]** 를 클릭하고, 작업 공간에서 수행한 변경 사항을 저장하지 않고 **[!UICONTROL Close]** > **[!UICONTROL Don’t Save]** 를 클릭하여 [!DNL Worktop] 로 돌아갑니다.
+작업 영역을 닫습니다. 클릭 **[!UICONTROL Close]** > **[!UICONTROL Save]** 작업 공간에서 수행한 변경 사항을 저장하려면 **[!UICONTROL Close]** > **[!UICONTROL Don’t Save]** 로 돌아가기 [!DNL Worktop] 작업 공간에서 수행한 변경 사항을 저장하지 않고
 
-다음 방법 중 하나를 사용하여 변경 사항을 저장하고 작업 공간을 닫은 다음 [!DNL Worktop]으로 돌아갈 수도 있습니다.
+또한 변경 사항을 저장하고 작업 공간을 닫은 다음 [!DNL Worktop] 다음 방법 중 하나를 사용합니다.
 
 * 작업 공간의 왼쪽 위 모서리에 있는 Data Workbench 로고를 클릭합니다.
 * 마우스에 탐색 단추가 있으면 마우스에서 뒤로 단추를 클릭합니다.
 
-**Ctrl+Backspace**&#x200B;를 눌러 저장하지 않고 작업 영역을 닫으면 변경 사항을 무효화할 수도 있습니다.
+또한 을 눌러 저장하지 않고 작업 공간을 닫아서 변경 사항을 무효화할 수 있습니다 **Ctrl+백스페이스**.
 
 **템플릿에서 Excel로 내보내기**
 
-Data Workbench 컴퓨터에 Microsoft Excel이 설치되어 있으면 에서는 자동으로 Microsoft Excel을 시작하고 특정 시각화, 특정 범례 및 텍스트 주석에서 선택한 템플릿 Excel 파일( [!DNL .xls] 또는 [!DNL .xlsx])로 데이터를 내보냅니다. [템플릿 Excel 파일로 내보내기](../../../home/c-get-started/c-work-worksp/c-ex-wksp.md#section-814772929ca64cf6b92b89d3fdd02302)를 참조하십시오.
+Microsoft Excel이 Data Workbench 시스템에 설치되어 있으면 에서는 자동으로 Microsoft Excel을 시작하고 특정 시각화, 특정 범례 및 텍스트 주석에서 데이터를 템플릿 Excel 파일로 내보냅니다( [!DNL .xls]또는 [!DNL .xlsx])을 클릭하여 제품에서 사용할 수 있습니다. 자세한 내용은 [템플릿 Excel 파일로 내보내기](../../../home/c-get-started/c-work-worksp/c-ex-wksp.md#section-814772929ca64cf6b92b89d3fdd02302).

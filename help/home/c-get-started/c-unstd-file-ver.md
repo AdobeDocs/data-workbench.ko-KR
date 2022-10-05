@@ -3,7 +3,7 @@ description: Worktop을 사용하면 각 특정 작업 영역이 저장된 위�
 title: 파일 버전 관리
 uuid: 5e7430f3-1425-41d2-828b-bc8f5786bf3b
 exl-id: 82a70d51-a95c-4ddd-8d3c-cd0364940693
-source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+source-git-commit: b1dda69a606a16dccca30d2a74c7e63dbd27936c
 workflow-type: tm+mt
 source-wordcount: '296'
 ht-degree: 2%
@@ -11,6 +11,8 @@ ht-degree: 2%
 ---
 
 # 파일 버전 관리{#file-versioning}
+
+{{eol}}
 
 Worktop을 사용하면 각 특정 작업 영역이 저장된 위치, Data Workbench 서버, 로컬 시스템 또는 둘 다에 있는지 손쉽게 파악할 수 있습니다.
 
@@ -30,11 +32,11 @@ Worktop을 사용하면 각 특정 작업 영역이 저장된 위치, Data Workb
 
 ![](assets/wsp_thumb_local.png)
 
-로컬 작업 공간은 기본적으로 Data Workbench(또는 Insight) 설치 디렉토리 내의 [!DNL User\working profile name\Workspaces\tab] 이름 폴더에 저장됩니다.
+로컬 작업 공간은 기본적으로 [!DNL User\working profile name\Workspaces\tab] Data Workbench(또는 Insight) 설치 디렉토리 내의 이름 폴더입니다.
 
 >[!NOTE]
 >
->서버 작업 영역의 로컬 버전이 있는 경우 업데이트된 버전의 서버 작업 영역을 다운로드하려면 먼저 서버 버전으로 되돌려야 합니다. 로컬 변경 없이 서버 버전으로 되돌리려면 로컬 작업 영역의 축소판을 마우스 오른쪽 단추로 클릭하고 **[!UICONTROL Revert to server version]** 를 클릭합니다.
+>서버 작업 영역의 로컬 버전이 있는 경우 업데이트된 버전의 서버 작업 영역을 다운로드하려면 먼저 서버 버전으로 되돌려야 합니다. 로컬 변경 없이 서버 버전으로 되돌리려면 로컬 작업 영역의 축소판을 마우스 오른쪽 단추로 클릭하고 **[!UICONTROL Revert to server version]**.
 
 **사용자**
 

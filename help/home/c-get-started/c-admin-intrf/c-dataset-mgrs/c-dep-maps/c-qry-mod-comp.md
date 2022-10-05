@@ -3,7 +3,7 @@ description: 쿼리 모델 구성 요소에 대한 개념적 정보입니다.
 title: 쿼리 모델 구성 요소
 uuid: 708fab0b-dc10-4306-b410-49268069ac3b
 exl-id: 1f5d0a3a-6647-4762-ab20-9d80e467d48f
-source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+source-git-commit: b1dda69a606a16dccca30d2a74c7e63dbd27936c
 workflow-type: tm+mt
 source-wordcount: '160'
 ht-degree: 3%
@@ -11,6 +11,8 @@ ht-degree: 3%
 ---
 
 # 쿼리 모델 구성 요소{#query-model-components}
+
+{{eol}}
 
 쿼리 모델 구성 요소에 대한 개념적 정보입니다.
 
@@ -26,4 +28,4 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->종속성 맵은 순환 종속성을 수용하도록 설계되었으므로 순환 종속성에 관련된 노드가 맵에 제대로 표시되지 않을 수 있습니다. [!DNL Search] 텍스트 상자에 &quot;순환 종속성&quot;을 입력하여 순환 종속성을 검색할 수 있습니다. [!DNL Search] 기능에 대한 자세한 내용은 [맵 내 검색](../../../../../home/c-get-started/c-admin-intrf/c-dataset-mgrs/c-dep-maps/t-srch-map.md#task-a1e7065a538d46c78a7d28676d880dfb)을 참조하십시오.
+>종속성 맵은 순환 종속성을 수용하도록 설계되었으므로 순환 종속성에 관련된 노드가 맵에 제대로 표시되지 않을 수 있습니다. 에 &quot;순환 종속성&quot;을 입력하여 순환 종속성을 검색할 수 있습니다 [!DNL Search] 텍스트 상자 에 대한 자세한 정보 [!DNL Search] 기능 [맵에서 검색](../../../../../home/c-get-started/c-admin-intrf/c-dataset-mgrs/c-dep-maps/t-srch-map.md#task-a1e7065a538d46c78a7d28676d880dfb).

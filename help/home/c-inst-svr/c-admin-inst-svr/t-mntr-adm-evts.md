@@ -3,7 +3,7 @@ description: 이벤트 로그 파일을 정기적으로 모니터링하여 <yyyy
 title: 관리 이벤트 모니터링(Insight Server)
 uuid: 92d71478-0857-4af8-909c-0cf800b081f4
 exl-id: e468a7d0-ed09-4367-88ce-b68964511e76
-source-git-commit: 235b8816c7397ac1ab71df650a1d4c2d681b3b2d
+source-git-commit: b1dda69a606a16dccca30d2a74c7e63dbd27936c
 workflow-type: tm+mt
 source-wordcount: '397'
 ht-degree: 1%
@@ -11,6 +11,8 @@ ht-degree: 1%
 ---
 
 # 관리 이벤트 모니터링{#monitoring-administrative-events}
+
+{{eol}}
 
 이벤트 로그 파일을 정기적으로 모니터링하여 `<YYYYMMDD>-event.txt` Insight Server 설치 디렉토리 내의 이벤트 폴더에 기본적으로 있는 파일입니다.
 

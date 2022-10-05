@@ -4,7 +4,7 @@ solution: Analytics
 title: 통제 실험 활성화
 uuid: 27d68fad-ae2d-4a2e-b449-fbaf88286cfa
 exl-id: 53c18524-6050-4708-af63-9e8ef8da389e
-source-git-commit: 31f775478b0f0d968310ed10a43ad46791319ee9
+source-git-commit: b1dda69a606a16dccca30d2a74c7e63dbd27936c
 workflow-type: tm+mt
 source-wordcount: '244'
 ht-degree: 2%
@@ -12,6 +12,8 @@ ht-degree: 2%
 ---
 
 # 통제 실험 활성화{#enabling-controlled-experimentation}
+
+{{eol}}
 
 제어 실험을 활성화하려면 웹 또는 응용 프로그램 서버에 대한 관리자 액세스 권한이 있는 사람이 센서가 설치된 웹 클러스터의 각 웹 또는 응용 프로그램 서버에서 Sensor 구성 파일(일반적으로 txlogd.conf를 사용하여 이름)의 ExpFile 매개 변수를 수정해야 합니다.
 

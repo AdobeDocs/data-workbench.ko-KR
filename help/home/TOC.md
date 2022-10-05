@@ -6,9 +6,9 @@ feature-set: Analytics
 feature: Data Workbench
 user-guide-title: Data Workbench 도움말
 user-guide-description: Data Workbench의 멀티채널 기능에 대해 알아봅니다. Data Workbench 클라이언트, 설치, 데이터 세트 구성 가이드 등이 포함되어 있습니다.
-source-git-commit: aab669c31131eb455749ae5667441f604ee1a252
+source-git-commit: 90b9fff995cb37a62024f454f009e9e0d7b927cd
 workflow-type: tm+mt
-source-wordcount: '3495'
+source-wordcount: '3498'
 ht-degree: 99%
 
 ---
@@ -859,7 +859,7 @@ ht-degree: 99%
          + [시각화 잠금 및 잠금 해제](c-adobe-data-workbench-dashboard/c-visualizations/c-manipulating-visualizations/c-locking-and-unlocking-visualizations.md)
          + [시각화 축소 및 확장](c-adobe-data-workbench-dashboard/c-visualizations/c-manipulating-visualizations/c-collapsing-and-expanding-visualizations.md)
          + [시각화 내보내기](c-adobe-data-workbench-dashboard/c-visualizations/c-manipulating-visualizations/c-exporting-visualizations.md)
-         + [시각화 구성](c-adobe-data-workbench-dashboard/c-visualizations/c-manipulating-visualizations/c-configure-visualizations.md)
+         + [시각화 구성 및 재구성](c-adobe-data-workbench-dashboard/c-visualizations/c-manipulating-visualizations/c-configure-visualizations.md)
          + [시각화 제거](c-adobe-data-workbench-dashboard/c-visualizations/c-manipulating-visualizations/c-remove-visualizations.md)
          + [시각화 크기 조정](c-adobe-data-workbench-dashboard/c-visualizations/c-manipulating-visualizations/c-sizing-visualizations.md)
          + [시각화 이동](c-adobe-data-workbench-dashboard/c-visualizations/c-manipulating-visualizations/c-moving-visualizations.md)
@@ -902,7 +902,7 @@ ht-degree: 99%
    + 서버 통신 {#servers-communication}
       + [대시보드 - Data Workbench 서버 통신](c-preparing-for-dashboard-installation/c-dashboard-to-data-workbench-servers-communication/c-dashboard-to-data-workbench-servers-communication.md)
       + [쿼리 API 활성화 확인](c-preparing-for-dashboard-installation/c-dashboard-to-data-workbench-servers-communication/t-verifying-qurey-api-enablement.md)
-      + [액세스 제어 구성](c-preparing-for-dashboard-installation/c-dashboard-to-data-workbench-servers-communication/t-configuring-access-control.md)
+      + [대시보드 액세스 제어 구성](c-preparing-for-dashboard-installation/c-dashboard-to-data-workbench-servers-communication/t-configuring-access-control.md)
    + 대시보드 배포 {#dashboard-deployment}
       + [대시보드 배포](c-preparing-for-dashboard-installation/c-dashboard-deployment/c-dashboard-deployment.md)
       + [대시보드 배포](c-preparing-for-dashboard-installation/c-dashboard-deployment/t-deploying-the-dashboard.md)

@@ -3,7 +3,7 @@ description: 차원에 대한 정보 또는 옵션을 표시하는 단계입니�
 title: 차원 메뉴 표시
 uuid: e2c4fa8d-3559-45bd-8ec5-d064c763b20b
 exl-id: 55b2cb3a-d82e-4e42-b1b6-079ca3667be8
-source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+source-git-commit: b1dda69a606a16dccca30d2a74c7e63dbd27936c
 workflow-type: tm+mt
 source-wordcount: '89'
 ht-degree: 11%
@@ -11,6 +11,8 @@ ht-degree: 11%
 ---
 
 # 차원 메뉴 표시{#display-the-dimension-menu}
+
+{{eol}}
 
 차원에 대한 정보 또는 옵션을 표시하는 단계입니다.
 

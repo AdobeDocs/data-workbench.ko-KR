@@ -3,7 +3,7 @@ description: 참조 페이지 태그를 사용하여 링크 클릭 수를 간편
 title: 링크 클릭 추적
 uuid: e4c492d2-9c90-4ed7-b997-6c50bdf98f93
 exl-id: 0cb743e6-5c6e-4f80-bc77-83d1e706c92b
-source-git-commit: 79981e92dd1c2e552f958716626a632ead940973
+source-git-commit: b1dda69a606a16dccca30d2a74c7e63dbd27936c
 workflow-type: tm+mt
 source-wordcount: '207'
 ht-degree: 3%
@@ -12,13 +12,15 @@ ht-degree: 3%
 
 # 링크 클릭 추적{#tracking-link-clicks}
 
+{{eol}}
+
 참조 페이지 태그를 사용하여 링크 클릭 수를 간편하게 수집하는 데 사용되는 단계입니다.
 
-[!DNL Reference Page Tag] 배포를 통해 방문자가 특정 페이지를 방문하는 동안 클릭하는 링크(또는 href 값)를 나타내는 측정 데이터를 수집할 수 있습니다. 일반적으로 이 컬렉션에는 HTML 페이지에 추가 링크 식별자를 구현하는 작업이 포함되지 않습니다.
+배포 [!DNL Reference Page Tag]를 설정하는 경우, 방문자가 특정 페이지를 방문하는 동안 클릭하는 링크(또는 href 값)를 나타내는 측정 데이터를 수집할 수 있습니다. 일반적으로 이 컬렉션에는 HTML 페이지에 추가 링크 식별자를 구현하는 작업이 포함되지 않습니다.
 
-[!DNL Reference Page Tag] 사용을 통해 링크 클릭 수를 간편하게 수집하려면 다음 단계를 완료하십시오.
+를 사용하여 링크 클릭 수를 간편하게 수집하기 위해 [!DNL Reference Page Tag]에서 다음 단계를 완료합니다.
 
-1. 다음 코드를 기존 파일 [!DNL zig.js]에 복사합니다.
+1. 다음 코드를 라는 기존 파일에 복사합니다. [!DNL zig.js]:
 
    ```
    //REFERENCE LINK AND FORM CLICK PAGE TAG
@@ -77,12 +79,12 @@ ht-degree: 3%
    //END FORM CLICK CAPTURE PAGE TAG
    ```
 
-1. 1픽셀씩 1픽셀 이미지 파일 [!DNL zag2.gif]을(를) 만들거나 웹 서버에 있는 디렉터리에 배치합니다.
-1. [!DNL lc.src] 변수를 수정하여 [!DNL zag2.gif] 파일이 참조되는 웹 사이트의 적절한 도메인을 참조합니다.
+1. 1픽셀을 1픽셀 이미지 파일(이름)로 만들거나 배치합니다. [!DNL zag2.gif] 웹 서버에 있는 디렉토리에 추가합니다.
+1. 수정 [!DNL lc.src] 변수를 사용하십시오 [!DNL zag2.gif]파일이 참조되었습니다.
 
-1. [!DNL zag.gif] 및 [!DNL zig.js] 파일에 대해 적절한 캐시 제어 헤더가 설정되었는지 확인합니다.
+1. 에 대해 적절한 캐시 제어 헤더가 설정되었는지 확인합니다. [!DNL zag.gif] 및 [!DNL zig.js] 파일.
 
-1. 링크 클릭 값을 수집하려는 HTML 파일 내에서 [!DNL Reference Page Tag Execution Call]을 수정하여 해당 페이지에 대한 링크 클릭 수를 캡처하도록 [!DNL Page Tag Execution Script]에 알려야 합니다. 이렇게 하려면 다음 코드 예제에서 강조 표시된 대로 vlc 변수 값을 &quot;1&quot;으로 변경하십시오.
+1. 링크 클릭 값을 수집하려는 HTML 파일 내의 [!DNL Reference Page Tag Execution Call] 를 수정하려면 [!DNL Page Tag Execution Script] 를 눌러 해당 페이지에 대한 링크 클릭을 캡처합니다. 이렇게 하려면 다음 코드 예제에서 강조 표시된 대로 vlc 변수 값을 &quot;1&quot;으로 변경하십시오.
 
 ```
 <!-- BEGIN REFERENCE PAGE TAG-->

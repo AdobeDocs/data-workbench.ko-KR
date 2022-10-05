@@ -3,7 +3,7 @@ description: 프로필 구성 요소에 대한 식별 정보 보기에 대한 �
 title: 노드 세부 정보 보기
 uuid: 2016a650-b021-4295-8313-d6287578ed10
 exl-id: f8ce7741-8ba2-484d-ac35-5c286b65f098
-source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+source-git-commit: b1dda69a606a16dccca30d2a74c7e63dbd27936c
 workflow-type: tm+mt
 source-wordcount: '262'
 ht-degree: 4%
@@ -11,6 +11,8 @@ ht-degree: 4%
 ---
 
 # 노드 세부 정보 보기{#view-node-details}
+
+{{eol}}
 
 프로필 구성 요소에 대한 식별 정보 보기에 대한 정보입니다.
 
@@ -36,7 +38,7 @@ ht-degree: 4%
 
 >[!NOTE]
 >
->종속성 맵에 대해 [!DNL Show Performance Data] 옵션이 활성화된 경우에만 변환에 대한 성능 정보가 표시됩니다. 자세한 내용은 [성능 데이터 표시](../../../../../home/c-get-started/c-admin-intrf/c-dataset-mgrs/c-dep-maps/c-disp-perf-data.md#concept-974e2bac3e184f0dab530e63aa4f5ecb)를 참조하십시오.
+>변환에 대한 성능 정보는 [!DNL Show Performance Data] 종속성 맵에 대해 옵션이 활성화되어 있습니다. 자세한 내용은 [성능 데이터 표시](../../../../../home/c-get-started/c-admin-intrf/c-dataset-mgrs/c-dep-maps/c-disp-perf-data.md#concept-974e2bac3e184f0dab530e63aa4f5ecb).
 
 **확장 차원**
 
@@ -46,7 +48,7 @@ ht-degree: 4%
 
 >[!NOTE]
 >
->종속성 맵에 대해 [!DNL Show Performance Data] 옵션이 활성화된 경우에만 확장 차원에 대한 성능 정보가 표시됩니다. 자세한 내용은 [성능 데이터 표시](../../../../../home/c-get-started/c-admin-intrf/c-dataset-mgrs/c-dep-maps/c-disp-perf-data.md#concept-974e2bac3e184f0dab530e63aa4f5ecb)를 참조하십시오.
+>확장 차원에 대한 성능 정보는 [!DNL Show Performance Data] 종속성 맵에 대해 옵션이 활성화되어 있습니다. 자세한 내용은 [성능 데이터 표시](../../../../../home/c-get-started/c-admin-intrf/c-dataset-mgrs/c-dep-maps/c-disp-perf-data.md#concept-974e2bac3e184f0dab530e63aa4f5ecb).
 
 **지표**
 
@@ -80,4 +82,4 @@ ht-degree: 4%
 
 **프로파일 구성 요소에 대한 입력 또는 출력을 보려면**
 
-* 원하는 노드를 마우스 오른쪽 버튼으로 클릭하고 **[!UICONTROL Inputs]** 또는 **[!UICONTROL Outputs]** 를 클릭합니다. 입력 또는 출력 목록이 표시됩니다.
+* 원하는 노드를 마우스 오른쪽 버튼으로 클릭하고 **[!UICONTROL Inputs]** 또는 **[!UICONTROL Outputs]**. 입력 또는 출력 목록이 표시됩니다.

@@ -3,7 +3,7 @@ description: 표
 title: 대시보드 테이블
 uuid: 3bfb5be4-5510-456b-8b3d-6e57cb93949e
 exl-id: 215ad990-92af-4c36-9946-89dbe36bbb8c
-source-git-commit: 235b8816c7397ac1ab71df650a1d4c2d681b3b2d
+source-git-commit: b1dda69a606a16dccca30d2a74c7e63dbd27936c
 workflow-type: tm+mt
 source-wordcount: '212'
 ht-degree: 0%
@@ -11,6 +11,8 @@ ht-degree: 0%
 ---
 
 # 표{#tables}
+
+{{eol}}
 
 표는 대시보드 애플리케이션에서 사용할 수 있는 가장 세부적인 시각화입니다. 테이블을 사용하면 테이블의 행으로 표시된 각 데이터 요소를 사용하여 지표 및 차원 데이터를 시각화할 수 있습니다. 한 열에는 차원 값이 포함되지만 다른 열에는 해당 지표 값이 포함됩니다. 여러 지표를 표시할 수 있으며 테이블에 표시할 수 있는 차원 값의 수에는 제한이 없습니다. Data Workbench 데이터에 있는 선택한 차원의 모든 값이 테이블에 표시됩니다.
 

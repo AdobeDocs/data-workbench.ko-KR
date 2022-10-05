@@ -3,7 +3,7 @@ description: 조건 추가, 제거 또는 복사에 대한 정보입니다.
 title: 조건 사용
 uuid: b6f52b40-26aa-429b-9ff5-3f3b9c9d57a9
 exl-id: 0792b308-aa0b-4741-be0c-4f7cc28f3e09
-source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+source-git-commit: b1dda69a606a16dccca30d2a74c7e63dbd27936c
 workflow-type: tm+mt
 source-wordcount: '350'
 ht-degree: 1%
@@ -11,6 +11,8 @@ ht-degree: 1%
 ---
 
 # 조건 사용{#working-with-conditions}
+
+{{eol}}
 
 조건 추가, 제거 또는 복사에 대한 정보입니다.
 
@@ -20,16 +22,16 @@ ht-degree: 1%
 
 ## 데이터 집합 구성 파일에 조건을 추가하려면 {#section-3e2a34db047b462585502f69722f6511}
 
-1. 데이터 집합 프로필에서 작업하는 동안 [!DNL Profile Manager] 을 사용하여 편집할 데이터 집합 구성 파일을 엽니다.
+1. 데이터 세트 프로필에서 작업하는 동안 [!DNL Profile Manager] 편집할 데이터 세트 구성 파일을 열려면 다음을 수행하십시오.
 
-   * [!DNL Log Processing.cfg] 파일을 열려면 [로그 처리 구성 파일 편집](../../../home/c-dataset-const-proc/c-log-proc-config-file/t-edit-log-proc-config-file.md#task-6a2fa1b735cb4eefad730f0a3a7858e5)을 참조하십시오.
+   * 를 열려면 [!DNL Log Processing.cfg] 파일, [로그 처리 구성 파일 편집](../../../home/c-dataset-const-proc/c-log-proc-config-file/t-edit-log-proc-config-file.md#task-6a2fa1b735cb4eefad730f0a3a7858e5).
 
-   * [!DNL Transformation.cfg] 파일을 열려면 [변형 구성 파일 편집](../../../home/c-dataset-const-proc/c-trans-config-file/t-edit-trans-config-file.md#task-cfef4142c1bf4437a669d1fdc75cabbc)을 참조하십시오.
+   * 를 열려면 [!DNL Transformation.cfg] 파일, [변형 구성 파일 편집](../../../home/c-dataset-const-proc/c-trans-config-file/t-edit-trans-config-file.md#task-cfef4142c1bf4437a669d1fdc75cabbc).
 
-   * [!DNL Dataset Include] 파일을 열려면 [데이터 집합에 파일 포함](../../../home/c-dataset-const-proc/c-dataset-inc-files/c-abt-dataset-inc-files.md)을 참조하십시오.
+   * 를 열려면 [!DNL Dataset Include] 파일, [데이터 집합에 파일 포함](../../../home/c-dataset-const-proc/c-dataset-inc-files/c-abt-dataset-inc-files.md).
 
 1. 데이터 집합 구성 파일에서 정의하려는 로그 항목 조건 또는 조건 매개 변수를 찾습니다.
-1. 매개 변수를 마우스 오른쪽 단추로 클릭하고 **[!UICONTROL Add new]** 을 클릭합니다. 다음 조건 유형 중 하나를 선택합니다.
+1. 매개 변수를 마우스 오른쪽 단추로 클릭하고 를 클릭합니다. **[!UICONTROL Add new]**. 다음 조건 유형 중 하나를 선택합니다.
 
    * [!DNL Not Empty]
    * [!DNL String Match]
@@ -41,9 +43,9 @@ ht-degree: 1%
    * [!DNL Compare]
 
 1. 원하는 대로 조건의 매개 변수를 편집합니다. 각 조건의 매개 변수에 대한 설명은 이 부록의 적절한 섹션을 참조하십시오.
-1. 변경 사항을 저장하려면 창 상단에 있는 **[!UICONTROL (modified)]** 을 마우스 오른쪽 단추로 클릭하고 **[!UICONTROL Save]** 를 클릭합니다.
+1. 변경 사항을 저장하려면 마우스 오른쪽 단추를 클릭합니다 **[!UICONTROL (modified)]** 창 상단에서 을(를) 클릭하고 **[!UICONTROL Save]**.
 
-1. 로컬에서 변경한 내용을 적용하려면 [!DNL Profile Manager,] 열에서 파일에 대한 확인 표시를 마우스 오른쪽 단추로 클릭한 다음 **[!UICONTROL Save to]** > &lt;* **[!UICONTROL profile name]***>를 클릭하십시오. 여기서 프로필 이름은 파일이 속한 데이터 세트 프로필의 이름이나 상속된 프로필입니다.[!DNL User]
+1. 로컬에서 변경한 내용을 적용하려면 [!DNL Profile Manager,] 에서 파일의 확인 표시를 마우스 오른쪽 단추로 클릭합니다. [!DNL User] 열을 누른 다음 **[!UICONTROL Save to]** > &lt;* **[!UICONTROL profile name]***> 여기서 프로필 이름은 파일이 속한 데이터 세트 프로필 또는 상속된 프로필의 이름입니다.
 
    >[!NOTE]
    >
@@ -52,11 +54,11 @@ ht-degree: 1%
 ## 데이터 집합 구성 파일에서 조건을 제거하려면 {#section-677270f93f1648c3a268ca2aea7d4540}
 
 1. 조건 이름 또는 제거할 조건에 해당하는 번호를 마우스 오른쪽 단추로 클릭합니다.
-1. **[!UICONTROL Remove]** &lt;* **[!UICONTROL #number]***>를 클릭합니다. 여기서 number 는 제거할 조건에 해당하는 번호입니다.
+1. 클릭 **[!UICONTROL Remove]** &lt;* **[!UICONTROL #number]***> 여기서 number 는 제거할 조건에 해당하는 번호입니다.
 
-## 조건 {#section-00617bcf2c274f428686b2ec7f2d1db8}을 복사하려면
+## 조건 복사하기 {#section-00617bcf2c274f428686b2ec7f2d1db8}
 
 조건을 한 위치에서 동일한 파일의 다른 위치로 복사하거나 한 데이터 세트 구성 파일의 조건을 다른 위치로 복사할 수 있습니다.
 
-1. 복사하려는 조건에 해당하는 번호나 조건 이름을 마우스 오른쪽 단추로 클릭하고 **[!UICONTROL Copy]** 을 클릭합니다.
-1. 복사된 조건을 배치할 조건의 이름 또는 번호를 마우스 오른쪽 단추로 클릭하고 **[!UICONTROL Paste]** 를 클릭합니다.
+1. 복사하려는 조건에 해당하는 번호나 조건 이름을 마우스 오른쪽 단추로 클릭하고 **[!UICONTROL Copy]**.
+1. 복사된 조건을 배치할 조건의 이름 또는 번호를 마우스 오른쪽 단추로 클릭하고 **[!UICONTROL Paste]**.

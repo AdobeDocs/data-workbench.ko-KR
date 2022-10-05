@@ -3,7 +3,7 @@ description: 계산 가능한 차원의 요소는 시스템에서 카운트할 �
 title: 가산 차원
 uuid: 3312f5eb-69b9-43af-b32a-5c40e3050b29
 exl-id: c607c15d-de85-4daf-af76-79b460f51b38
-source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+source-git-commit: b1dda69a606a16dccca30d2a74c7e63dbd27936c
 workflow-type: tm+mt
 source-wordcount: '685'
 ht-degree: 4%
@@ -11,6 +11,8 @@ ht-degree: 4%
 ---
 
 # 가산 차원{#countable-dimensions}
+
+{{eol}}
 
 계산 가능한 차원의 요소는 시스템에서 카운트할 수 있습니다.
 
@@ -20,7 +22,7 @@ ht-degree: 4%
 
 >[!NOTE]
 >
->카운트만 제공하는 차원이 필요한 경우 COUNT 작업과 함께 숫자 차원을 사용해야 합니다. [숫자 Dimension](../../../../home/c-dataset-const-proc/c-ex-dim/c-types-ex-dim/c-num-dim.md#concept-8513b9afaff447c8b334410b565b91ed)을 참조하십시오.
+>카운트만 제공하는 차원이 필요한 경우 COUNT 작업과 함께 숫자 차원을 사용해야 합니다. 자세한 내용은 [숫자 Dimension](../../../../home/c-dataset-const-proc/c-ex-dim/c-types-ex-dim/c-num-dim.md#concept-8513b9afaff447c8b334410b565b91ed).
 
 가산 차원은 다음 매개 변수로 정의됩니다.
 
@@ -40,7 +42,7 @@ ht-degree: 4%
   </tr> 
   <tr> 
    <td colname="col1"> 댓글 </td> 
-   <td colname="col2"> 선택 사항입니다. 확장 차원에 대한 참고 사항 </td> 
+   <td colname="col2"> 선택 사항. 확장 차원에 대한 참고 사항 </td> 
    <td colname="col3"> </td> 
   </tr> 
   <tr> 
@@ -55,7 +57,7 @@ ht-degree: 4%
   </tr> 
   <tr> 
    <td colname="col1"> 키 </td> 
-   <td colname="col2"> <p>선택 사항입니다. 키로 사용할 필드의 이름입니다. 이 매개 변수를 정의하면 계산 가능한 차원의 상위 요소와 키로 지정된 필드의 고유 값을 조합할 때마다 계산 가능한 차원의 요소가 존재합니다. </p> <p> 가산 차원의 각 요소는 연속적인 로그 항목 세트와 관련시키는 데 필요합니다. 따라서 로그 항목이 키로 정렬되지 않으면 키 필드가 변경될 때마다 계산 가능한 차원의 요소가 만들어집니다. 이러한 상황을 방지하기 위해 Adobe은 시간 순서대로 인접한 고유한 키를 사용하는 것을 권장합니다. </p> </td> 
+   <td colname="col2"> <p>선택 사항. 키로 사용할 필드의 이름입니다. 이 매개 변수를 정의하면 계산 가능한 차원의 상위 요소와 키로 지정된 필드의 고유 값을 조합할 때마다 계산 가능한 차원의 요소가 존재합니다. </p> <p> 가산 차원의 각 요소는 연속적인 로그 항목 세트와 관련시키는 데 필요합니다. 따라서 로그 항목이 키로 정렬되지 않으면 키 필드가 변경될 때마다 계산 가능한 차원의 요소가 만들어집니다. 이러한 상황을 방지하기 위해 Adobe은 시간 순서대로 인접한 고유한 키를 사용하는 것을 권장합니다. </p> </td> 
    <td colname="col3"> </td> 
   </tr> 
   <tr> 
@@ -70,6 +72,6 @@ ht-degree: 4%
 
 ![](assets/cfg_Transformation_Dim_Countable.png)
 
-이 예제는 웹 사이트 트래픽에서 수집된 이벤트 데이터를 사용하여 계산할 수 있는 차원의 정의도 보여주지만 정의된 키 매개 변수가 있습니다. 세션 계산 가능한 차원은 x-session-key 필드를 해당 키로 사용합니다. (x-session-key 필드는 [!DNL Sessionize] 변환의 출력이며 각 세션에 대한 고유한 값을 갖습니다.) 방문자 차원(상위)과 x-세션 키 필드의 요소의 모든 고유한 조합은 세션 차원의 요소입니다.
+이 예제는 웹 사이트 트래픽에서 수집된 이벤트 데이터를 사용하여 계산할 수 있는 차원의 정의도 보여주지만 정의된 키 매개 변수가 있습니다. 세션 계산 가능한 차원은 x-session-key 필드를 해당 키로 사용합니다. x-session-key 필드는 [!DNL Sessionize] 변환하고 각 세션에 고유한 값을 갖습니다.) 방문자 차원(상위)과 x-세션 키 필드의 요소의 모든 고유한 조합은 세션 차원의 요소입니다.
 
 ![](assets/cfg_Transformation_Dim_Countable2.png)

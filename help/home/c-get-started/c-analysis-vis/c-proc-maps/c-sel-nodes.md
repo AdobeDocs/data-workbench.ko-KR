@@ -3,7 +3,7 @@ description: 노드를 클릭하여 선택하면 다른 노드가 표시되므�
 title: 노드 선택
 uuid: d63b39f6-edec-4b4c-b36b-f6e6881d3419
 exl-id: a483547f-e338-4d13-8a0b-6cb7971b7790
-source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+source-git-commit: b1dda69a606a16dccca30d2a74c7e63dbd27936c
 workflow-type: tm+mt
 source-wordcount: '149'
 ht-degree: 4%
@@ -11,6 +11,8 @@ ht-degree: 4%
 ---
 
 # 노드 선택{#select-a-node}
+
+{{eol}}
 
 노드를 클릭하여 선택하면 다른 노드가 표시되므로 강조 표시된 노드에서 이동하는 화살표를 보다 쉽게 볼 수 있습니다.
 

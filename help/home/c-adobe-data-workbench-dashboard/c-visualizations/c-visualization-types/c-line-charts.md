@@ -3,7 +3,7 @@ description: 선 차트
 title: 선 차트
 uuid: 6f525c49-6679-4234-886b-52a3c7df98ff
 exl-id: 75532aff-15ff-4be8-8000-f503b2bf60a2
-source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+source-git-commit: b1dda69a606a16dccca30d2a74c7e63dbd27936c
 workflow-type: tm+mt
 source-wordcount: '143'
 ht-degree: 4%
@@ -11,6 +11,8 @@ ht-degree: 4%
 ---
 
 # 선 차트{#line-charts}
+
+{{eol}}
 
 선 차트 시각화를 사용하면 x-y축에 점으로 표시된 각 데이터 요소와 인접한 점을 연결하는 라인을 사용하여 지표 및 차원 데이터를 시각화할 수 있습니다. 라인 차트를 사용하면 한 번에 최대 200개의 고유한 데이터 요소를 차트에 표시할 수 있습니다. 차원 값은 x축을 따라 레이블이 지정되고, 지표 증분은 y축을 따라 레이블이 지정됩니다. 라인 차트의 한 지점 위에 마우스를 놓으면 해당 시점에서 정확한 지표 값이 표시됩니다.
 

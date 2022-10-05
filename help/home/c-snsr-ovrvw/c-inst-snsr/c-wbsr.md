@@ -3,7 +3,7 @@ description: AIX 5.1 이상에서 실행 중인 WebSphere 5.x용 Sensor를 설�
 title: AIX의 WebSphere
 uuid: a5a3fd79-a7f0-4861-adca-8da3a185d0df
 exl-id: e560d265-dc84-4ff2-ac86-7a2ac5261451
-source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+source-git-commit: b1dda69a606a16dccca30d2a74c7e63dbd27936c
 workflow-type: tm+mt
 source-wordcount: '1645'
 ht-degree: 0%
@@ -12,15 +12,17 @@ ht-degree: 0%
 
 # AIX의 WebSphere{#websphere-on-aix}
 
+{{eol}}
+
 AIX 5.1 이상에서 실행 중인 WebSphere 5.x용 Sensor를 설치 및 구성하기 위한 자세한 지침
 
-[!DNL Sensor]용 프로그램 파일은 Adobe 다운로드 사이트에서 가져오는 설치 파일에 패키지되어 있습니다. 특정 웹 서버에 대한 [!DNL Sensor] 설치 파일이 아직 없는 경우 다음 절차를 시작하기 전에 해당 파일을 다운로드(또는 Adobe 담당자로부터 가져오기)하십시오.
+다음에 대한 프로그램 파일 [!DNL Sensor] 는 Adobe 다운로드 사이트에서 가져오는 설치 파일에 패키지되어 있습니다. 아직 [!DNL Sensor] 다음 절차를 시작하기 전에 특정 웹 서버의 설치 파일을 다운로드하거나 Adobe 담당자로부터 받아야 합니다.
 
 >[!NOTE]
 >
->WebSphere 서버의 [!DNL Sensor]은 통제 실험을 지원하지 않습니다. 통제 실험에 대한 자세한 내용은 *Data Workbench 통제 실험 가이드를 참조하십시오.*
+>다음 [!DNL Sensor] WebSphere의 경우 통제 실험을 지원하지 않습니다. 통제 실험에 대한 자세한 내용은 *Data Workbench 통제 실험 안내서.*
 
-## 프로그램 파일 {#section-86f69127278c41bc90b97b68bb40bc6e} 설치
+## 프로그램 파일 설치 {#section-86f69127278c41bc90b97b68bb40bc6e}
 
 서버 컴퓨터에 대한 프로그램 파일을 추출하고 설치하는 절차입니다.
 
@@ -99,7 +101,7 @@ AIX 5.1 이상에서 실행 중인 WebSphere 5.x용 Sensor를 설치 및 구성�
 
 권장 기본값 이외의 사용 권한을 사용하려면 Sensor UNIX 파일 사용 권한에 있는 정보를 검토하여 이러한 파일의 사용 방법을 이해하십시오.
 
-## 센서 구성 파일 {#section-283c8a92fa8841c1b6034e5f834ef4e7} 편집
+## 센서 구성 파일 편집 {#section-283c8a92fa8841c1b6034e5f834ef4e7}
 
 txlogd.conf 파일에는 센서에 대한 구성 매개 변수가 포함되어 있습니다.
 
@@ -115,7 +117,7 @@ txlogd.conf 파일에는 센서에 대한 구성 매개 변수가 포함되어 �
 1. 텍스트 편집기에서 /etc/txlogd.conf 파일을 열고 필요한 매개 변수와 원하는 선택적 매개 변수를 설정합니다.
 1. 파일을 저장하고 닫습니다.
 
-## 전송기를 시작하고 디스크 큐 {#section-63285a2328604f20a2cb31b3d5cb80e6} 만들기
+## 전송기를 시작하고 디스크 큐 만들기 {#section-63285a2328604f20a2cb31b3d5cb80e6}
 
 txlogd.conf 파일을 구성한 후 디스크 대기열을 만드는 절차입니다.
 
@@ -138,14 +140,14 @@ txlogd.conf 파일을 구성한 후 디스크 대기열을 만드는 절차입�
    1. 디스크 큐가 할당된 장치가 작동 중이고 QueueSize 매개 변수에 지정된 크기의 파일을 보관할 수 있는 충분한 공간이 있는지 확인합니다.
    1. 필요한 수정을 수행하고 이 절차를 반복합니다.
 
-## Collector를 웹 응용 프로그램 {#section-d17297b1193f4e3cb150fb41f754ef12}에 추가합니다.
+## 웹 응용 프로그램에 Collector 추가 {#section-d17297b1193f4e3cb150fb41f754ef12}
 
 WebSphere 서버의 경우 컬렉터는 서블릿 컨테이너에서 필터로 작동합니다.
 
 수집기를 웹 응용 프로그램에 추가하려면 웹 응용 프로그램의 web.xml 배포 설명자에 필터를 추가하고 웹 응용 프로그램을 다시 시작합니다.
 
 1. 텍스트 편집기를 사용하여 Sensor에서 캡처하는 이벤트가 있는 웹 서버의 web.xml 파일을 엽니다.
-1. 다음 `<filter>` 및 `<filter-mapping>` 요소를 설명자 파일에 추가합니다. /etc 디렉토리에 txlogd.conf를 설치하지 않은 경우 `<param-value>` 요소에 이 파일에 대한 올바른 경로를 입력해야 합니다.
+1. 다음을 추가합니다 `<filter>` 및 `<filter-mapping>` 설명자 파일에 요소를 추가합니다. /etc 디렉토리에 txlogd.conf를 설치하지 않은 경우 `<param-value>` 요소를 생성하지 않습니다.
 
    ```
    <filter>
@@ -173,7 +175,7 @@ WebSphere 서버의 경우 컬렉터는 서블릿 컨테이너에서 필터로 �
 
 1. 웹 응용 프로그램을 다시 시작합니다. 수집기가 응용 프로그램과 함께 로드되어 이벤트 데이터를 수집하여 디스크 큐에 쓰기 시작합니다.
 
-## Collector 및 공유 개체 파일의 위치 선언 {#section-e641f08999d34a648aaee2111b69ca25}
+## 컬렉터 및 공유 개체 파일의 위치 선언 {#section-e641f08999d34a648aaee2111b69ca25}
 
 Websphere 시작 스크립트를 편집하여 J2EECollector.jar 및 libvisual_sciences.so 파일의 위치를 선언하는 절차입니다.
 
@@ -190,9 +192,9 @@ Websphere 시작 스크립트를 편집하여 J2EECollector.jar 및 libvisual_sc
    WAS_LIBPATH="$WAS_LIBPATH":/usr/local/visual_sciences
    ```
 
-1. [!DNL setupCmdLine.sh] 파일을 저장합니다.
+1. 를 저장합니다 [!DNL setupCmdLine.sh] 파일.
 
-## 센서 {#section-07f2da5c4caa46bf9dd1cb4ae4b61af5} 테스트
+## 센서 테스트 {#section-07f2da5c4caa46bf9dd1cb4ae4b61af5}
 
 전송기를 시작하고 전송기가 Insight Server에 성공적으로 연결하고 이벤트 데이터를 전송하는지 확인하는 절차입니다.
 
@@ -214,7 +216,7 @@ Websphere 시작 스크립트를 편집하여 J2EECollector.jar 및 libvisual_sc
    * ServerAddress 및 ServerPort 매개 변수가 txtlogd.conf에 올바르게 설정되어 있습니다. 서버 이름을 사용하여 ServerAddress를 지정한 경우 해당 숫자 IP 주소를 대신 사용해 보십시오.
    * CertName 매개 변수 값은 대상 Insight Server의 디지털 인증서에 표시되는 일반 이름과 정확히 일치합니다.
 
-## 시스템 시작 스크립트 {#section-23bb905100d04f018af93873dd4d5f68}에 송신기를 추가합니다.
+## 시스템 시작 스크립트에 전송기 추가 {#section-23bb905100d04f018af93873dd4d5f68}
 
 웹 서버 시스템을 다시 시작할 때 전송기가 자동으로 로드되도록 하는 정보입니다.
 
@@ -240,7 +242,7 @@ J2EE 플랫폼용 센서는 다른 플랫폼에서 사용할 수 없는 데이�
 
 J2EE 플랫폼용 센서가 요청을 받으면 appendToLog 함수를 가져오는 컬렉터 클래스를 호출합니다. appendToLog 함수는 appendToLog 함수에 지정된 쿼리 문자열 매개 변수를 초기 요청에 추가합니다. 이렇게 하면 캡처되는 데이터의 이름 및 값에 해당하는 추가 쿼리 문자열 이름-값 쌍이 포함된 초기 요청의 URI가 됩니다. 예를 들어, 특정 광고 배치나 클릭스루 링크의 값이 20센트가 되면 CPC=20이 초기 요청에 추가됩니다. Insight Server는 이러한 값을 분석을 위해 데이터 세트에 처리합니다. 이 수집 방법의 한 가지 추가 이점은 페이지 태그 지정 방법을 사용하여 만들 수 있듯이 추가 로그 항목을 만들지 않고 추가 데이터를 수집할 수 있다는 것입니다.
 
-처리에 대한 자세한 내용은 *데이터 집합 구성 안내서*&#x200B;를 참조하십시오.
+처리에 대한 자세한 내용은 *데이터 집합 구성 안내서*.
 
 1. 데이터를 캡처할 .jsp 페이지의 맨 위에 다음 코드를 추가합니다.
 

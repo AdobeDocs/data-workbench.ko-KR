@@ -3,14 +3,16 @@ description: 통계 설명선은 의미 있는 관계를 측정하여 대상 클
 title: 통계 설명선
 uuid: 04911ac4-bc3f-4813-800b-087d9668a782
 exl-id: d4ed540e-f837-4db9-a81e-b8a30c15f270
-source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+source-git-commit: b1dda69a606a16dccca30d2a74c7e63dbd27936c
 workflow-type: tm+mt
 source-wordcount: '273'
-ht-degree: 23%
+ht-degree: 22%
 
 ---
 
 # 통계 설명선{#statistical-callouts}
+
+{{eol}}
 
 통계 설명선은 의미 있는 관계를 측정하여 대상 클러스터링 및 방문자 응답 점수 책정 시 고급 데이터 마이닝 기능에 대한 숨겨진 기회와 관심 변수를 식별합니다.
 
@@ -19,7 +21,7 @@ ht-degree: 23%
 통계 콜아웃을 추가하려면
 
 1. 표에서 지표 헤더를 마우스 오른쪽 단추로 클릭합니다.
-1. **[!UICONTROL Statistics]** 을 선택한 다음 필요한 각 설정에 대한 확인 표시를 선택하거나 취소합니다. 콜아웃 표시(Display Callout)의 모든 항목이 기본 설정으로 선택됩니다.
+1. 선택 **[!UICONTROL Statistics]** 그런 다음 필요한 각 설정에 대한 확인 표시를 선택하거나 선택 취소합니다. 콜아웃 표시(Display Callout)의 모든 항목이 기본 설정으로 선택됩니다.
 
    ![](assets/statistical_callouts.png)
 
@@ -43,7 +45,7 @@ ht-degree: 23%
   </tr>
   <tr>
    <td colname="col1"> 최소값 </td>
-   <td colname="col2"><p> 차원의 모든 요소에 대해 최소 지표 값을 식별합니다. </p></td>
+   <td colname="col2"><p> 차원의 모든 요소에 걸쳐 최소 지표 값을 식별합니다. </p></td>
   </tr>
   <tr>
    <td colname="col1"> 평균 </td>
@@ -58,7 +60,7 @@ ht-degree: 23%
    <td colname="col2"><p> 지표 값의 총 합계를 반환합니다. </p></td>
   </tr>
   <tr>
-   <td colname="col1"> 변화 </td>
+   <td colname="col1"> 분산 </td>
    <td colname="col2"><p> 해당 차원에 대해 지표에서 지표 값의 분산에 대한 측정입니다. 표준 편차의 제곱과 같습니다. </p></td>
   </tr>
  </tbody>

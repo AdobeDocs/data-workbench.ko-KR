@@ -3,7 +3,7 @@ description: Adobe Data Workbench 대시보드 사용을 시작하려면 다음 
 title: 시작하기
 uuid: 9e2ed5fd-29d7-4e06-ad55-c4a35a9043c8
 exl-id: acaa7563-d462-4838-b2b5-3c010382da34
-source-git-commit: 79981e92dd1c2e552f958716626a632ead940973
+source-git-commit: b1dda69a606a16dccca30d2a74c7e63dbd27936c
 workflow-type: tm+mt
 source-wordcount: '301'
 ht-degree: 2%
@@ -11,6 +11,8 @@ ht-degree: 2%
 ---
 
 # 시작하기{#getting-started}
+
+{{eol}}
 
 Adobe Data Workbench 대시보드 사용을 시작하려면 다음 단계를 수행합니다.
 
@@ -20,10 +22,10 @@ Adobe Data Workbench 대시보드 사용을 시작하려면 다음 단계를 수
 
    다양한 버전의 브라우저가 작동하지만 다음 웹 브라우저만 공식적으로 지원됩니다.
 
-   * Google Chrome 15 이상([https://www.google.com/chrome/](https://www.google.com/chrome/)에서 사용 가능)
-   * Microsoft Internet Explorer 9 이상([https://www.microsoft.com/windows/ie/](https://www.microsoft.com/windows/ie/)에서 사용 가능)
-   * Mozilla Firefox 3.6 이상([https://www.mozilla.org/en-US/firefox/all-older.html](https://www.mozilla.org/en-US/firefox/all-older.html)에 제공)
-   * Safari 5.1 이상([https://www.apple.com/safari](https://www.apple.com/safari)에서 사용 가능)
+   * Google Chrome 15 이상(다음 위치에서 사용 가능) [https://www.google.com/chrome/](https://www.google.com/chrome/))
+   * Microsoft Internet Explorer 9 이상(다음 위치에서 사용 가능) [https://www.microsoft.com/windows/ie/](https://www.microsoft.com/windows/ie/))
+   * Mozilla Firefox 3.6 이상(다음에서 사용 가능) [https://www.mozilla.org/en-US/firefox/all-older.html](https://www.mozilla.org/en-US/firefox/all-older.html))
+   * Safari 5.1 이상(다음 위치에서 사용 가능) [https://www.apple.com/safari](https://www.apple.com/safari))
 
    호환되는 웹 브라우저 외에도 대시보드를 사용하기 위해 추가 소프트웨어를 다운로드할 필요가 없습니다. 1. 계정 요청
 

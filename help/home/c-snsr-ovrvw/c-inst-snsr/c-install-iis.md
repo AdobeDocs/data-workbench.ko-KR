@@ -3,7 +3,7 @@ description: Microsoft Windows Server 2000 이상에서 실행되는 IIS(인터�
 title: Windows Server 2000 이상 버전의 Microsoft IIS
 uuid: 26da0638-82c8-424f-9f00-aab3a940e5a9
 exl-id: e4b5ac44-b0ac-43be-9b9c-180a64354081
-source-git-commit: 79981e92dd1c2e552f958716626a632ead940973
+source-git-commit: b1dda69a606a16dccca30d2a74c7e63dbd27936c
 workflow-type: tm+mt
 source-wordcount: '1718'
 ht-degree: 1%
@@ -11,6 +11,8 @@ ht-degree: 1%
 ---
 
 # Windows Server 2000 이상 버전의 Microsoft IIS{#microsoft-iis-on-windows-server-or-later}
+
+{{eol}}
 
 Microsoft Windows Server 2000 이상에서 실행되는 IIS(인터넷 정보 서비스) 5.x 또는 6.x용 Sensor를 설치 및 구성하는 방법에 대한 지침
 
@@ -79,12 +81,12 @@ txlogd.conf 파일에는 센서에 대한 구성 매개 변수가 포함되어 �
 
 디스크 큐의 크기, Insight Server 주소 및 이 센서에서 생성한 데이터에 첨부할 ID를 지정하려면 파일을 편집해야 합니다. 구성 파일에는 필수 매개 변수와 선택적 매개 변수가 포함되어 있습니다.
 
-* **필수** 매개 변수는 센서를 설치할 때 지정해야 하는 설정입니다. 이 설정이 없으면 센서가 제대로 실행되지 않습니다.
-* **선택적** 매개 변수는 기본적으로 사전 정의된 값(수정할 수 있음)으로 설정되거나 선택적 기능을 활성화할 수 있는 설정입니다.
+* **필수 매개 변수** 은 센서를 설치할 때 지정해야 하는 설정입니다. 이 설정이 없으면 센서가 제대로 실행되지 않습니다.
+* **선택적 매개 변수** 기본적으로 사전 정의된 값(수정할 수 있음)으로 설정되거나 선택적 기능을 활성화할 수 있습니다.
 
 **센서 구성 파일을 편집하려면**
 
-1. 텍스트 편집기에서 `<SensorDirectory>/txlogd.conf` 파일을 열고 필요한 매개 변수와 원하는 선택적 매개 변수를 설정합니다.
+1. 를 엽니다. `<SensorDirectory>/txlogd.conf` 파일을 텍스트 편집기에 넣고 필요한 매개 변수와 원하는 선택적 매개 변수를 설정합니다.
 
    txlogd.conf 매개 변수에 대한 설명은 Sensor Txlogd.conf 파일 매개 변수 를 참조하십시오.
 

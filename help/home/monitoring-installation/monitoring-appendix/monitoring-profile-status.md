@@ -3,7 +3,7 @@ description: Data Workbench 프로필 상태 프로필에서 다음 차원을 �
 title: Data Workbench 프로필 상태 프로필의 차원
 uuid: bd84a3e5-d1ea-4768-9dac-62f5dfbad49a
 exl-id: 57b3ff16-26db-4292-819b-f6cd8e024c2a
-source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+source-git-commit: b1dda69a606a16dccca30d2a74c7e63dbd27936c
 workflow-type: tm+mt
 source-wordcount: '1047'
 ht-degree: 2%
@@ -11,6 +11,8 @@ ht-degree: 2%
 ---
 
 # Data Workbench 프로필 상태 프로필의 차원{#dimensions-in-the-data-workbench-profile-status-profile}
+
+{{eol}}
 
 Data Workbench 프로필 상태 프로필에서 다음 차원을 사용할 수 있습니다.
 
@@ -50,7 +52,7 @@ Data Workbench 프로필 상태 프로필에서 다음 차원을 사용할 수 �
   </tr> 
   <tr> 
    <td colname="col1"> <b>로그 읽기 비율</b> </td> 
-   <td colname="col2">cs-uri-query(be) 값은 이 숫자 차원에 사용됩니다. 지정된 블록의 마지막 행입니다. 이 차원은 읽고 있는 로그의 백분율을 계산하는 데 사용됩니다. <p>참고: 이 차원은 지표로 평균한 경우에만 유용하므로 숨겨져 있습니다. </p></td> 
+   <td colname="col2">이 숫자 차원에 cs-uri-query(be) 값이 사용됩니다. 지정된 블록의 마지막 행입니다. 이 차원은 읽고 있는 로그의 백분율을 계산하는 데 사용됩니다. <p>참고: 이 차원은 지표로 평균한 경우에만 유용하므로 숨겨져 있습니다. </p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <b>처리 모드 ID</b> </td> 
@@ -58,7 +60,7 @@ Data Workbench 프로필 상태 프로필에서 다음 차원을 사용할 수 �
   </tr> 
   <tr> 
    <td colname="col1"> <b>처리가 중지됨</b> </td> 
-   <td colname="col2"> x-processing-stilled 필드는 프로필의 현재 실행 중인지 여부를 나타내는 다양한 조건을 통해 만들어집니다. 단순한 차원입니다. <p>참고: 이 차원은 DPU 간에 공정하게 분배할 입력 로그가 많은 경우에 가장 잘 작동합니다. 예를 들어 하루에 한 개의 대용량 파일만 로드되는 경우 Data Workbench는 1시간 이상 "중지"로 표시되고 이로 인해 이 차원에서 긍정 오류가 발생할 수 있습니다. </p></td> 
+   <td colname="col2"> x-processing-stilled 필드는 프로필의 현재 실행 중인지 여부를 나타내는 다양한 조건을 통해 만들어집니다. 단순한 차원입니다. <p>참고: 이 차원은 DPU 간에 공정하게 분배할 입력 로그가 많은 경우에 가장 잘 작동합니다. 예를 들어 하루에 하나의 대용량 파일만 로드되는 경우 Data Workbench는 1시간 이상 "중지"로 표시되고 이로 인해 이 차원에서 긍정 오류가 판독될 수 있습니다. </p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <b>프로필</b> </td> 

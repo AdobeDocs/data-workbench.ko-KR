@@ -3,7 +3,7 @@ description: 2D 프로세스 맵은 맵의 노드와의 활동 양을 나타내�
 title: 지표 수량 표시
 uuid: ec336af1-ff5b-4c0a-86a5-8186d76cdf07
 exl-id: fbe40dfa-0597-4d78-8673-4e9b63581c47
-source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+source-git-commit: b1dda69a606a16dccca30d2a74c7e63dbd27936c
 workflow-type: tm+mt
 source-wordcount: '161'
 ht-degree: 4%
@@ -11,6 +11,8 @@ ht-degree: 4%
 ---
 
 # 지표 수량 표시{#display-a-metric-quantity}
+
+{{eol}}
 
 2D 프로세스 맵은 맵의 노드와의 활동 양을 나타내는 지표 수량을 표시할 수 있습니다.
 
@@ -26,8 +28,8 @@ ht-degree: 4%
 
 **수량이 표시되는 방법을 선택하려면**
 
-1. 노드를 마우스 오른쪽 버튼으로 클릭하고 **[!UICONTROL Options]** > **[!UICONTROL Quantify Links]** 를 클릭합니다.
-1. **[!UICONTROL Percentage]**, **[!UICONTROL Absolute Value]** 또는 **[!UICONTROL Off]**&#x200B;를 클릭합니다.
+1. 노드를 마우스 오른쪽 버튼으로 클릭하고 **[!UICONTROL Options]** > **[!UICONTROL Quantify Links]**.
+1. 클릭 **[!UICONTROL Percentage]**, **[!UICONTROL Absolute Value]**, 또는 **[!UICONTROL Off]**.
 
    ![](assets/mnu_2DProcessMap_quantifyLinks.png)
 

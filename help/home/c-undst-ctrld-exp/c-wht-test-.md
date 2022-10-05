@@ -4,7 +4,7 @@ solution: Analytics
 title: 테스트를 어떻게 수행할 수 있습니까?
 uuid: 9dfe3685-885e-4098-ab1d-ac891ccc5199
 exl-id: 0f06ff0f-b385-4614-8007-afdb85191a85
-source-git-commit: 31f775478b0f0d968310ed10a43ad46791319ee9
+source-git-commit: b1dda69a606a16dccca30d2a74c7e63dbd27936c
 workflow-type: tm+mt
 source-wordcount: '431'
 ht-degree: 1%
@@ -12,6 +12,8 @@ ht-degree: 1%
 ---
 
 # 테스트를 어떻게 수행할 수 있습니까?{#what-should-i-test}
+
+{{eol}}
 
 테스트 결과는 명확하고 의미 있는 것이어야 이러한 결과를 바탕으로 큰 달러 결정을 내릴 수 있습니다.
 

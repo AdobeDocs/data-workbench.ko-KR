@@ -3,7 +3,7 @@ description: Data Workbench 서버 상태 프로필에서 다음 차원을 사�
 title: Data Workbench 서버 상태 프로필의 차원
 uuid: 4cfe882a-2797-4af9-bd6d-75bc31ee909c
 exl-id: 002f6b95-f151-41d9-ae28-9c01c1f621ee
-source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+source-git-commit: b1dda69a606a16dccca30d2a74c7e63dbd27936c
 workflow-type: tm+mt
 source-wordcount: '1366'
 ht-degree: 1%
@@ -11,6 +11,8 @@ ht-degree: 1%
 ---
 
 # Data Workbench 서버 상태 프로필의 차원{#dimensions-in-the-data-workbench-server-status-profile}
+
+{{eol}}
 
 Data Workbench 서버 상태 프로필에서 다음 차원을 사용할 수 있습니다.
 
@@ -174,7 +176,7 @@ Data Workbench 서버 상태 프로필에서 다음 차원을 사용할 수 있�
   </tr> 
   <tr> 
    <td colname="col1"> <b>임시 DB</b> </td> 
-   <td colname="col2"> 각 서버에 대한 임시 DB 공간 백분율의 합계이며, 서버 지표로 나눈 값입니다. </td> 
+   <td colname="col2"> 각 서버에 대한 임시 DB 공간 백분율의 합계이며, 서버 지표로 나누어집니다. </td> 
   </tr> 
  </tbody> 
 </table>

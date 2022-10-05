@@ -3,7 +3,7 @@ description: Data Workbench(파생 차원이라고 함)를 사용하여 만드�
 title: 파생 차원을 사용한 작업
 uuid: 3a955fdc-6666-40ab-aee0-bd23c260c009
 exl-id: 5b7e3a2a-ac61-4186-ad6c-234edf68af3e
-source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+source-git-commit: b1dda69a606a16dccca30d2a74c7e63dbd27936c
 workflow-type: tm+mt
 source-wordcount: '562'
 ht-degree: 1%
@@ -12,61 +12,63 @@ ht-degree: 1%
 
 # 파생 차원을 사용한 작업{#work-with-derived-dimensions}
 
+{{eol}}
+
 Data Workbench(파생 차원이라고 함)를 사용하여 만드는 새 차원은 클라이언트측 차원입니다.
 
-Data Workbench 서버 컴퓨터의 데이터 집합 구성 및 업데이트 프로세스([!DNL Transformation.cfg] 파일)에서 이러한 차원을 정의하는 대신, 파생된 차원은 개별적으로 프로필에 [!DNL .dim] 파일로 만들어지고 저장됩니다. 따라서 데이터 세트를 재처리하지 않고 기존의 차원을 변경하고 새로운 파생 차원을 만들 수 있습니다.
+데이터 집합 구성 및 업데이트 프로세스 중에 이러한 차원을 정의하는 대신 [!DNL Transformation.cfg] 파일) Data Workbench 서버 컴퓨터에서 파생된 차원이 생성되어 개별적으로 저장됩니다. [!DNL .dim] 프로필에 있는 파일. 따라서 데이터 세트를 재처리하지 않고 기존의 차원을 변경하고 새로운 파생 차원을 만들 수 있습니다.
 
 >[!NOTE]
 >
 >이 섹션에서 제공하는 차원보다 자세한 내용은 해당 Data Workbench 애플리케이션 안내서를 참조하십시오.
 
-데이터 집합 구성 및 업데이트 프로세스에 대한 자세한 내용은 *데이터 집합 구성 안내서*&#x200B;를 참조하십시오.
+데이터 집합 구성 및 업데이트 프로세스에 대한 자세한 내용은 *데이터 집합 구성 안내서*.
 
-## 파생 차원 {#section-fd9b6ca13a8f4aa9bbc2fff3ef15cb76} 만들기
+## 파생 차원 만들기 {#section-fd9b6ca13a8f4aa9bbc2fff3ef15cb76}
 
 파생 차원을 만들려면 기존 차원을 복사 및 수정하거나 시각화에서 차원을 저장할 수 있습니다.
 
-## 기존 차원 {#section-f46c2d3ab0a5416c98d6e79d18d99fa1}에서 파생된 차원을 만듭니다.
+## 기존 차원에서 파생된 차원을 만듭니다 {#section-f46c2d3ab0a5416c98d6e79d18d99fa1}
 
 사용자는 기존 시간 차원에서 새 시간 차원을 만드는 경우가 많습니다. 예를 들어 기존 &quot;최근 7일&quot; 차원에서 새 &quot;최근 5일&quot; 차원을 만들 수 있습니다.
 
-1. [!DNL Profile Manager]의 *프로필 이름* 열에서 만들려는 차원과 유사한 차원에 대한 확인 표시를 마우스 오른쪽 단추로 클릭하고 **[!UICONTROL Copy]** 를 클릭합니다.
+1. 에서 [!DNL Profile Manager]에서 *프로필 이름* 열에서 만들려는 차원과 유사한 차원에 대한 확인 표시를 마우스 오른쪽 단추로 클릭하고 를 클릭합니다 **[!UICONTROL Copy]**.
 
-   예를 들어 [!DNL Traffic] 프로필의 Reporting 폴더에서 [!DNL Last 7 Days.dim] 을 복사하려면 [!DNL Traffic] 열에서 파일 이름에 대한 확인 표시를 마우스 오른쪽 단추로 클릭하고 **[!UICONTROL Copy]** 를 클릭합니다.
+   예를 들어 를 복사하려면 [!DNL Last 7 Days.dim] 의 [!DNL Traffic] 프로필에서 파일 이름에 대한 확인 표시를 마우스 오른쪽 단추로 클릭합니다. [!DNL Traffic] 열 및 클릭 **[!UICONTROL Copy]**.
 
    ![](assets/vis_ProfMgr_CopyDimension.png)
 
-1. 복사된 차원을 저장할 폴더의 [!DNL User] 열을 마우스 오른쪽 단추로 클릭하고 **[!UICONTROL Paste]** 를 클릭합니다.
+1. 에서 마우스 오른쪽 단추를 클릭합니다. [!DNL User] 복사된 차원을 저장할 폴더의 열을 클릭하고 **[!UICONTROL Paste]**.
 
-   이 차원은 선택한 Dimension 폴더에 나타나고 [!DNL User] 열에 확인 표시가 나타납니다.
+   선택한 Dimension 폴더에 치수가 나타나고 [!DNL User] 열.
 
-1. 새 차원의 이름을 변경하려면 [!DNL User] 열에서 해당 확인 표시를 마우스 오른쪽 단추로 클릭하고 [!DNL File] 필드에 새 이름을 입력합니다.
-1. 마우스 오른쪽 단추 클릭 메뉴에서 **[!UICONTROL Open]** > **[!UICONTROL from the workbench]** 를 클릭합니다. 차원의 정의 매개 변수가 나타납니다.
+1. 새 차원의 이름을 변경하려면 [!DNL User] 열을 입력하고 [!DNL File] 필드.
+1. 마우스 오른쪽 단추 클릭 메뉴에서 **[!UICONTROL Open]** > **[!UICONTROL from the workbench]**. 차원의 정의 매개 변수가 나타납니다.
 1. 필요에 따라 매개 변수를 수정하여 새 차원을 정의합니다.
 
    시간 차원의 경우 카운트 및 범위 매개 변수만 수정해야 할 가능성이 높습니다.
 
-1. 파일을 저장하려면 창 상단에 있는 **[!UICONTROL (modified)]** 을 마우스 오른쪽 단추로 클릭하고 **[!UICONTROL Save]** 를 클릭합니다.
+1. 파일을 저장하려면 마우스 오른쪽 단추를 클릭합니다 **[!UICONTROL (modified)]** 창 상단에서 을(를) 클릭하고 **[!UICONTROL Save]**.
 
-   프로필의 모든 사용자가 생성한 차원을 사용하도록 하려면 [!DNL Profile Manager] 을 사용하여 프로필에 업로드해야 합니다. 자세한 내용은 [작업 프로필에 파일 게시](../../../../home/c-get-started/c-admin-intrf/c-prof-mgr/t-pub-files-wkg-prof.md#task-a0106e010c834d16bd60eef4721b6af9)를 참조하십시오.
+   프로필의 모든 사용자가 생성한 차원을 사용하도록 하려면 를 사용하여 프로필에 업로드해야 합니다. [!DNL Profile Manager]. 자세한 내용은 [작업 프로필에 파일 게시](../../../../home/c-get-started/c-admin-intrf/c-prof-mgr/t-pub-files-wkg-prof.md#task-a0106e010c834d16bd60eef4721b6af9).
 
 이제 기본 제공 차원과 같이 선택하여 현재 프로필 전체에서 새 차원을 사용할 수 있습니다.
 
-## 시각화 {#section-84cfe5e9ccb640afa2ee4e2da2682757}에서 차원을 저장합니다.
+## 시각화에서 차원 저장 {#section-84cfe5e9ccb640afa2ee4e2da2682757}
 
-프로세스 맵 및 세그먼트에서 확장 차원을 저장할 수 있습니다. 프로세스 맵에서 차원을 저장하는 단계는 [프로세스 맵에서 Dimension 저장](../../../../home/c-get-started/c-analysis-vis/c-proc-maps/t-dim-proc-maps.md#task-44d9e555d4a944e6aa81993eef703051)을 참조하십시오. 세그먼트 차원을 저장하는 단계는 82페이지의 [세그먼트 Dimension 만들기](../../../../home/c-get-started/c-analysis-vis/c-seg/c-create-seg-dim.md#concept-70b363edcad14185ba8051646ad3d44e)를 참조하십시오.
+프로세스 맵 및 세그먼트에서 확장 차원을 저장할 수 있습니다. 프로세스 맵에서 차원을 저장하는 단계는 다음을 참조하십시오 [프로세스 맵에서 Dimension 저장](../../../../home/c-get-started/c-analysis-vis/c-proc-maps/t-dim-proc-maps.md#task-44d9e555d4a944e6aa81993eef703051). 세그먼트 차원을 저장하는 단계는 [세그먼트 Dimension 만들기](../../../../home/c-get-started/c-analysis-vis/c-seg/c-create-seg-dim.md#concept-70b363edcad14185ba8051646ad3d44e) 82페이지.
 
-## 세그먼트를 차원 {#section-7c443cf1ac5a44659623cabb9e0c1ab8}으로 저장
+## 세그먼트를 차원으로 저장 {#section-7c443cf1ac5a44659623cabb9e0c1ab8}
 
-정의된 세그먼트를 차원으로 저장할 수도 있습니다. 단계는 [세그먼트 시각화 재사용](../../../../home/c-get-started/c-analysis-vis/c-seg/c-reuse-seg-vis.md#concept-a8a607bd415d404a83c32a26b804cbdc)을 참조하십시오.
+정의된 세그먼트를 차원으로 저장할 수도 있습니다. 단계에 대해서는 [세그먼트 시각화 재사용](../../../../home/c-get-started/c-analysis-vis/c-seg/c-reuse-seg-vis.md#concept-a8a607bd415d404a83c32a26b804cbdc).
 
-## 기존 파생된 차원 {#section-3a82c604bf1c4d369770556d268808b2} 편집
+## 기존 파생 차원 편집 {#section-3a82c604bf1c4d369770556d268808b2}
 
 1. I
 
-   [!DNL Profile Manager] 의 *프로필 이름* 열에서 편집할 차원 파일의 확인 표시를 마우스 오른쪽 단추로 클릭하고 **[!UICONTROL Make Local]** 를 클릭합니다.
-1. [!DNL User] 열에서 차원 파일의 확인 표시를 마우스 오른쪽 버튼으로 클릭하고 **[!UICONTROL Open]** > **[!UICONTROL from the workbench]** 를 클릭합니다.
+   n [!DNL Profile Manager]에서 *프로필 이름* 열에서 편집할 차원 파일에 대한 확인 표시를 마우스 오른쪽 단추로 클릭하고 **[!UICONTROL Make Local]**.
+1. 에서 차원 파일에 대한 확인 표시를 마우스 오른쪽 단추로 클릭합니다. [!DNL User] 열 및 클릭 **[!UICONTROL Open]** > **[!UICONTROL from the workbench]**.
 1. 필요에 따라 매개 변수를 완료합니다. 자세한 내용은 Adobe 컨설팅 서비스에 문의하십시오.
-1. 파일을 저장하려면 창 상단에 있는 **[!UICONTROL (modified)]** 을 마우스 오른쪽 단추로 클릭하고 **[!UICONTROL Save]** 를 클릭합니다.
+1. 파일을 저장하려면 마우스 오른쪽 단추를 클릭합니다 **[!UICONTROL (modified)]** 창 상단에서 을(를) 클릭하고 **[!UICONTROL Save]**.
 
-   프로필의 모든 사용자가 수정된 차원을 사용하려면 [!DNL Profile Manager] 을 사용하여 프로필에 업로드해야 합니다. 자세한 내용은 [작업 프로필에 파일 게시](../../../../home/c-get-started/c-admin-intrf/c-prof-mgr/t-pub-files-wkg-prof.md#task-a0106e010c834d16bd60eef4721b6af9)를 참조하십시오.
+   프로필의 모든 사용자가 수정된 차원을 사용하려면 [!DNL Profile Manager]. 자세한 내용은 [작업 프로필에 파일 게시](../../../../home/c-get-started/c-admin-intrf/c-prof-mgr/t-pub-files-wkg-prof.md#task-a0106e010c834d16bd60eef4721b6af9).

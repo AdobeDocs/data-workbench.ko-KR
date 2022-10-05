@@ -3,7 +3,7 @@ description: Data Workbench을 사용하면 통합 Adobe Experience Cloud의 일
 title: 기본 마케팅 프로필 내보내기
 uuid: bae0f0c5-a452-4afd-9f2c-5f3ab69a12d2
 exl-id: 9fc89815-d31d-41a7-a0c0-de1e84b24baa
-source-git-commit: 232117a8cacaecf8e5d7fcaccc5290d6297947e5
+source-git-commit: b1dda69a606a16dccca30d2a74c7e63dbd27936c
 workflow-type: tm+mt
 source-wordcount: '644'
 ht-degree: 3%
@@ -12,17 +12,19 @@ ht-degree: 3%
 
 # 기본 마케팅 프로필 내보내기{#master-marketing-profile-export}
 
+{{eol}}
+
 Data Workbench을 사용하면 파일을 내보내 프로필 및 대상자와 통합된 Adobe Experience Cloud의 일부로 통합할 수 있습니다.
 
 <!-- <a id="section_731922BC8628479198A41EF3EA72F2FF"></a> -->
 
-프로필 및 대상은 [!DNL Adobe Experience Cloud]의 핵심 서비스인 [Experience Cloud ID 서비스](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=ko-KR)의 일부입니다. 프로필 및 대상 내보내기를 사용하면 모든 방문자에게 할당된 다음 [Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/aam-home.html?lang=ko-KR)에서 사용하는 고유한 Experience Cloud ID(ECID)를 사용하여 Experience Cloud 간에 대상을 공유할 수 있습니다. [!DNL ExportIntegration.exe] 애플리케이션( [!DNL E:\Server\Scripts])은 MMP와 Adobe Target 내보내기를 모두 생성하는 데 사용됩니다.
+프로필 및 대상은 의 일부입니다 [Experience Cloud ID 서비스](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=ko-KR), 의 핵심 서비스 [!DNL Adobe Experience Cloud]. 프로필 및 대상 내보내기를 사용하면 모든 방문자에게 할당된 다음 에서 사용하는 고유한 Experience Cloud ID(ECID)를 사용하여 Experience Cloud 간에 대상을 공유할 수 있습니다. [Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/aam-home.html). 다음 [!DNL ExportIntegration.exe] 애플리케이션 ( [!DNL E:\Server\Scripts])은 MMP 및 Adobe Target 내보내기를 모두 생성하는 데 사용됩니다.
 
 **프로필 및 대상자를 사용하도록 FSU 서버 구성**
 
 1. FSU 서버에 액세스합니다.
-1. MMPExport.cfg 파일을 엽니다. `Server/Admin/Export/MMPExport.cfg`
-1. 필요에 따라 모든 필드에 값을 입력합니다. 예를 들어,
+1. MMPExport.cfg 파일을 엽니다. `Server/Admin/Export/MMPExport.cfg`.
+1. 필요에 따라 모든 필드에 값을 입력합니다. 예:
 
    >[!NOTE]
    >
@@ -51,7 +53,7 @@ Data Workbench을 사용하면 파일을 내보내 프로필 및 대상자와 �
 
    >[!NOTE]
    >
-   >또한 [!DNL MMPExport.cfg]파일을 사용하면 모든 레코드를 세트에서 분리하고 레코드 청크를 만들 수 있습니다. 그런 다음 레코드 청크를 Amazon S3로 내보냅니다. 레코드 청크를 만들려면 세 가지 필수 매개 변수가 필요합니다. [!DNL numRecordsPerChunk], [!DNL numThreads] 및 [!DNL maxRetriesOnSendFailure]
+   >다음 [!DNL MMPExport.cfg]또한 파일을 사용하면 모든 레코드를 세트에서 분리하고 레코드 청크를 만들 수 있습니다. 그런 다음 레코드 청크를 Amazon S3로 내보냅니다. 레코드 청크를 만들려면 세 가지 필수 매개 변수가 필요합니다. [!DNL numRecordsPerChunk], [!DNL numThreads], 및 [!DNL maxRetriesOnSendFailure].
 
 **매개 변수 정의**
 
@@ -65,15 +67,15 @@ Data Workbench을 사용하면 파일을 내보내 프로필 및 대상자와 �
  <tbody> 
   <tr> 
    <td colname="col1"> <i>s3 버킷</i> </td> 
-   <td colname="col2"> 내보내기가 전송되는 AWS S3 버킷입니다. </td> 
+   <td colname="col2"> 내보내기가 전송될 AWS S3 버킷입니다. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <i>s3 개체 디렉토리</i> </td> 
-   <td colname="col2"> s3 파일을 저장하는 경로입니다. 이 옵션은 하위 디렉토리를 지원합니다. <p> <p>중요 사항:  경로에 공백 및 멀티바이트 문자를 사용할 수 없으며 내보내기에 오류가 발생합니다. (하이픈이 허용됩니다.) </p> </p> </td> 
+   <td colname="col2"> s3 파일을 저장하는 경로입니다. 이 옵션은 하위 디렉토리를 지원합니다. <p> <p>중요 사항: 경로에 공백 및 멀티바이트 문자를 사용할 수 없으며 내보내기에 오류가 발생합니다. (하이픈이 허용됩니다.) </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <i>s3 영역</i> </td> 
-   <td colname="col2"> 내보내기가 전송되는 AWS s3 지역. 예. us-east-1 </td> 
+   <td colname="col2"> 내보내기가 전송되는 AWS s3 영역입니다. 예. us-east-1 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <i>s3 액세스 키</i> </td> 
@@ -105,7 +107,7 @@ Data Workbench을 사용하면 파일을 내보내 프로필 및 대상자와 �
   </tr> 
   <tr> 
    <td colname="col1"> <i>numRecordsPerChunk</i> </td> 
-   <td colname="col2"> <p>레코드 수로 청크 크기를 결정합니다. </p> <p>구현은 사용자가 지정한 값을 min = 1000 records&amp;nbsp;(~50KB 청크)&amp;로 클립하고 최대 = 50000 레코드(~2.5MB 청크)로 클립합니다.&amp;nbsp;사용자가 이 구성 속성을 지정하지 않는 경우 기본값은 10000입니다. </p> </td> 
+   <td colname="col2"> <p>레코드 수로 청크 크기를 결정합니다. </p> <p>구현은 사용자가 지정한 값을 min = 1000 records&amp;nbsp;(~50KB 청크)&amp;nbsp; 및 최대 = 50000 레코드(~2.5MB 청크)로 클립합니다.nbsp;10000이라는 기본값은 사용자가 이 구성 속성을 지정하지 않은 경우에 사용됩니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <i>numThreads</i> </td> 
@@ -120,22 +122,22 @@ Data Workbench을 사용하면 파일을 내보내 프로필 및 대상자와 �
 
 **클라이언트에서 MMP 내보내기 생성**
 
-1. 클라이언트에서 작업 공간을 열고 **[!UICONTROL Tools]** **[!UICONTROL Detail Table]** 를 마우스 오른쪽 단추로 클릭합니다.
-1. **수준**&#x200B;을 추가합니다.
-1. 헤더를 마우스 오른쪽 단추로 클릭하고 **속성 추가**&#x200B;를 선택합니다.
-1. 헤더를 마우스 오른쪽 단추로 클릭하고 **새 기본 마케팅 프로필 내보내기**&#x200B;를 선택합니다. ![](assets/mmp_mmp_export.png)
-1. **쿼리**&#x200B;를 확장합니다.
+1. 클라이언트에서 작업 공간을 열고 마우스 오른쪽 단추 클릭 **[!UICONTROL Tools]**> **[!UICONTROL Detail Table]**.
+1. 추가 **수준**.
+1. 헤더를 마우스 오른쪽 단추로 클릭하고 를 선택합니다 **속성 추가**.
+1. 헤더를 마우스 오른쪽 단추로 클릭하고 를 선택합니다 **새로운 기본 마케팅 프로필 내보내기**. ![](assets/mmp_mmp_export.png)
+1. 확장 **쿼리**.
 
    ![](assets/mmp_mmp_query.png)
 
-1. **MMP 구성**&#x200B;을 확장합니다.
-1. (필수) **MMP 세그먼트 이름** 및 **MMP 방문자 ID 필드**&#x200B;를 입력합니다. 이러한 매개 변수는 비워 둘 수 없습니다.
-1. **MMP 세그먼트 이름**&#x200B;은 MMP에 정의된 세그먼트 ID와 일치해야 합니다.
-1. **MMP 방문자 ID**&#x200B;는 **방문자 ID**&#x200B;에 해당하는 4단계에서 정의한 속성 열입니다.
-1. 이러한 필드를 입력하면 내보내기에 대한 헤더를 마우스 오른쪽 단추로 클릭하고 **Save**&#x200B;을 &quot;User\.export&quot;로 선택할 수 있습니다.
-1. **Admin** > **프로필 관리자**&#x200B;를 열고 내보내기를 프로필에 저장합니다.
+1. 확장 **MMP 구성**.
+1. (필수) **MMP 세그먼트 이름** 및 **MMP 방문자 ID 필드**. 이러한 매개 변수는 비워 둘 수 없습니다.
+1. 다음 **MMP 세그먼트 이름** 는 MMP에 정의된 세그먼트 ID와 일치해야 합니다.
+1. 다음 **MMP 방문자 ID** 는 4단계에서 정의한 속성 열로서, **방문자 ID**.
+1. 이러한 필드를 입력하면 내보낼 헤더를 마우스 오른쪽 단추로 클릭하고 선택하여 내보내기를 저장할 수 있습니다 **저장** 를 &quot;User\.export&quot;로 설정합니다.
+1. 열기 **관리** > **프로필 관리자** 를 사용하여 프로필에 내보내기를 저장합니다.
 
-   모든 데이터가 올바르게 입력되면 FSU([!DNL Server/Exports])에서 내보내기 파일이 생성되며, [!DNL MMPExport.cfg] 의 정보를 사용하여 내보내기도 AWS로 전송됩니다. 이 로그의 로그는 [!DNL Server/Trace/]에 제공됩니다. 예, [!DNL MMP-102014-133651- `<Segment Export Name>`.log]
+   모든 데이터를 올바르게 입력하면 FSU( )에서 내보내기 파일이 생성됩니다[!DNL Server/Exports])이고 의 정보를 사용하여 AWS으로 내보내기를 전송합니다 [!DNL MMPExport.cfg]. 이 로그 파일에 제공됩니다. [!DNL Server/Trace/]. 예, [!DNL MMP-102014-133651- `<Segment Export Name>` .log]
 
 ```
 Query = SegmentExportQuery: 

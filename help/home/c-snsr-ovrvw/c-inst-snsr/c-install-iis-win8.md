@@ -3,7 +3,7 @@ description: Microsoft Windows Server 2008 이상에서 실행되는 Microsoft I
 title: Windows Server 2008 이상 버전의 Microsoft IIS
 uuid: 7fd8da68-1553-4395-b13e-b08a6ee1948e
 exl-id: cc909daa-60c0-4188-8e90-035c41bf3105
-source-git-commit: 79981e92dd1c2e552f958716626a632ead940973
+source-git-commit: b1dda69a606a16dccca30d2a74c7e63dbd27936c
 workflow-type: tm+mt
 source-wordcount: '1589'
 ht-degree: 1%
@@ -11,6 +11,8 @@ ht-degree: 1%
 ---
 
 # Windows Server 2008 이상 버전의 Microsoft IIS{#microsoft-iis-on-windows-server-or-later}
+
+{{eol}}
 
 Microsoft Windows Server 2008 이상에서 실행되는 Microsoft IIS 7.x 또는 8.x용 센서를 설치하고 구성합니다.
 
@@ -83,20 +85,20 @@ txlogd.conf 파일에는 센서에 대한 구성 매개 변수가 포함되어 �
 
 디스크 큐의 크기, Insight Server 주소 및 이 센서에서 생성한 데이터에 첨부할 ID를 지정하려면 파일을 편집해야 합니다. 구성 파일에는 필수 매개 변수와 선택적 매개 변수가 포함되어 있습니다.
 
-* **필수** 매개 변수는 센서를 설치할 때 지정해야 하는 설정입니다. 이 설정이 없으면 센서가 제대로 실행되지 않습니다.
-* **선택적** 매개 변수는 기본적으로 사전 정의된 값(수정할 수 있음)으로 설정되거나 선택적 기능을 활성화할 수 있는 설정입니다.
+* **필수 매개 변수** 은 센서를 설치할 때 지정해야 하는 설정입니다. 이 설정이 없으면 센서가 제대로 실행되지 않습니다.
+* **선택적 매개 변수** 기본적으로 사전 정의된 값(수정할 수 있음)으로 설정되거나 선택적 기능을 활성화할 수 있습니다.
 
 **센서 구성 파일을 편집하려면**
 
-1. 텍스트 편집기에서 `<SensorDirectory>/txlogd.conf` 파일을 열고 필요한 매개 변수와 원하는 선택적 매개 변수를 설정합니다.
+1. 를 엽니다. `<SensorDirectory>/txlogd.conf` 파일을 텍스트 편집기에 넣고 필요한 매개 변수와 원하는 선택적 매개 변수를 설정합니다.
 
-   [!DNL txlogd.conf] 매개 변수에 대한 설명은 [Sensor Txlogd.conf 파일 매개 변수](../../../home/c-snsr-ovrvw/sensor-txlogd-params/sensor-txlogd-params.md#concept-4bb629f058894b4abc65a31eb02eebed)를 참조하십시오.
+   설명 [!DNL txlogd.conf] 매개 변수. [Sensor Txlogd.conf 파일 매개 변수](../../../home/c-snsr-ovrvw/sensor-txlogd-params/sensor-txlogd-params.md#concept-4bb629f058894b4abc65a31eb02eebed).
 
 1. 파일을 저장하고 닫습니다.
 
 ## 전송기를 시작하고 디스크 큐를 만듭니다. {#section-2b8dfd06996d4ab49998eeb99bd9f5f0}
 
-[!DNL txlogd.conf]파일을 구성한 후에는 송신기 프로그램을 시작하고 Windows 서비스로 등록하고 디스크 대기열을 만들 수 있습니다.
+구성 후 [!DNL txlogd.conf]파일에서는 전송 프로그램을 시작하고 Windows 서비스로 등록하고 디스크 대기열을 만들 수 있습니다.
 
 1. Windows의 시작 메뉴에서 액세서리 > 명령 프롬프트를 선택합니다.
 1. 명령 프롬프트 창에서 Sensor를 설치한 디렉토리로 이동하여 다음 명령을 실행합니다.
@@ -147,15 +149,15 @@ txlogd.conf 파일에는 센서에 대한 구성 매개 변수가 포함되어 �
 
 IIS의 경우 컬렉터는 IIS의 웹 서버에 추가하는 ISAPI 필터입니다.
 
-1. **시작 > 관리 도구 > IIS(인터넷 정보 서비스) 관리자**&#x200B;를 사용하여 IIS 관리자를 엽니다.
-1. **로컬 컴퓨터** 및 **사이트** 노드를 확장합니다.
-1. 웹 사이트를 선택하고 오른쪽 창에서 **ISAPI 필터**&#x200B;를 두 번 클릭합니다.
-1. **작업** 창에서 **추가**&#x200B;를 클릭합니다.
+1. 다음 방법으로 IIS 관리자 열기 **시작 > 관리 도구 > IIS(인터넷 정보 서비스) 관리자**.
+1. 를 확장합니다. **로컬 컴퓨터** 및 **Sites** 노드 아래에 나열됩니다.
+1. 웹 사이트를 선택하고 오른쪽 창에서 두 번 클릭합니다 **ISAPI 필터**.
+1. 아래에 **작업** 창 **추가**.
 
-1. **필터 이름** 필드에 필터의 표시 이름을 입력합니다. 제안된 필터 이름은 &quot;Sensor&quot;입니다.
-1. **찾아보기**&#x200B;를 클릭하고, Sensor를 설치한 디렉터리에 있는 qlog.dll 파일을 선택한 다음 **확인**&#x200B;을 클릭합니다.
+1. 에서 **필터 이름** 필드에서 필터의 표시 이름을 입력합니다. 제안된 필터 이름은 &quot;Sensor&quot;입니다.
+1. 클릭 **찾아보기**&#x200B;를 클릭하고 Sensor를 설치한 디렉터리에 있는 qlog.dll 파일을 선택하고 **확인**.
 
-1. **확인**&#x200B;을 클릭하여 필터를 추가합니다.
+1. 클릭 **확인** 을 눌러 필터를 추가합니다.
 
    필터를 추가하면 컬렉터가 즉시 작동하며 데이터를 수집할 준비가 됩니다.
 
@@ -167,9 +169,9 @@ IIS의 경우 컬렉터는 IIS의 웹 서버에 추가하는 ISAPI 필터입니�
    >
    >이 명령 시퀀스는 사용 중인 Windows 버전에 따라 달라질 수 있습니다.
 
-1. 이벤트 뷰어 창의 왼쪽 창에서 **응용 프로그램** 로그를 선택합니다.
-1. 오른쪽 창에서 **소스** 열에서 &quot;Adobe&quot;이 있는 이벤트를 찾습니다.
-1. 오류가 발생하면 오류를 두 번 클릭하여 **이벤트 속성** 창을 표시합니다.
+1. 이벤트 뷰어 창의 왼쪽 창에서 **애플리케이션** 로그.
+1. 오른쪽 창에서 **소스** 열.
+1. 오류가 발생하면 오류를 두 번 클릭하여 **이벤트 속성** 창을 엽니다.
 
 ## 추가 데이터 캡처 {#section-98db9625efdc4b60bfd76f7adf4af74d}
 

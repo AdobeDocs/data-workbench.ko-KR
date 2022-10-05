@@ -4,7 +4,7 @@ solution: Analytics
 title: 실험 설계 스프레드시트
 uuid: bcb11e39-9cbd-400c-af30-4b1c85e7f218
 exl-id: 554790ab-1182-4481-87b0-e768ea769ddf
-source-git-commit: 31f775478b0f0d968310ed10a43ad46791319ee9
+source-git-commit: b1dda69a606a16dccca30d2a74c7e63dbd27936c
 workflow-type: tm+mt
 source-wordcount: '1398'
 ht-degree: 0%
@@ -12,6 +12,8 @@ ht-degree: 0%
 ---
 
 # 실험 설계 스프레드시트{#experiment-design-spreadsheet}
+
+{{eol}}
 
 이 파일은 워크시트 기능뿐만 아니라 실험에 대한 의사 결정 기록으로도 작동합니다.
 

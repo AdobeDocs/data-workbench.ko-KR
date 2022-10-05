@@ -3,7 +3,7 @@ description: 웹 페이지는 종종 ASP(Active Server Pages) 프로그래밍 �
 title: ASP별 정보
 uuid: 552288cb-b775-4121-8869-322f2a26932b
 exl-id: f73235e1-d44a-4056-b1f4-a86879c19483
-source-git-commit: 79981e92dd1c2e552f958716626a632ead940973
+source-git-commit: b1dda69a606a16dccca30d2a74c7e63dbd27936c
 workflow-type: tm+mt
 source-wordcount: '446'
 ht-degree: 1%
@@ -11,6 +11,8 @@ ht-degree: 1%
 ---
 
 # ASP별 정보{#asp-specific-information}
+
+{{eol}}
 
 웹 페이지는 종종 ASP(Active Server Pages) 프로그래밍 언어를 사용하여 구성됩니다.
 
@@ -32,7 +34,7 @@ Response.AppendToLog("&v_3=" +  sState);
 Response.AppendToLog("&v_4=" +  sZip);
 ```
 
-이 프로세스는 [!DNL Form Processing] 페이지의 요청 데이터에 정의된 대로 양식 값을 추가합니다. 로그 데이터 내에서 추가된 값은 아래 그림과 같이 [!DNL Form Processing] 페이지의 쿼리 문자열로 사용할 수 있습니다. 예를 들어 v_1, v_2, v_3 및 v_4는 이제 적절한 양식 필드에 입력한 데이터가 들어 있는 쿼리 문자열입니다. 위의 예에서 설명한 구문은 캡처할 추가 양식 필드 및 값에 대해 복제할 수 있습니다.
+이 프로세스에서는 에 대한 요청 데이터에 정의된 대로 양식 값을 추가합니다 [!DNL Form Processing] 페이지. 로그 데이터 내에서 추가된 값은 [!DNL Form Processing] 페이지를 참조하십시오. 예를 들어 v_1, v_2, v_3 및 v_4는 이제 적절한 양식 필드에 입력한 데이터가 들어 있는 쿼리 문자열입니다. 위의 예에서 설명한 구문은 캡처할 추가 양식 필드 및 값에 대해 복제할 수 있습니다.
 
 ```
 https://www.myserver.com/path/to/formprocessingpage.asp?v_1=John+Smith&v_2=Los+Angeles&v_3=California&v_4=90210
@@ -45,7 +47,7 @@ var formvalues = Response.Form;
 Response.AppendToLog(formvalues);
 ```
 
-이 예제에서는 HTML 내에 있는 모든 양식 필드를 해당 값과 함께 가져와 [!DNL Form Processing] 페이지의 로그 항목에 쿼리 문자열로 추가합니다. 여기에는 양식 내에 있는 숨겨진 필드가 포함된다는 점에 유의해야 합니다.
+이 예제에서는 HTML 내에 있는 모든 양식 필드를 각 값과 함께 가져와 쿼리 문자열로 이 필드에 대한 로그 항목에 추가합니다 [!DNL Form Processing] 페이지. 여기에는 양식 내에 있는 숨겨진 필드가 포함된다는 점에 유의해야 합니다.
 
 로그 데이터는 다음 표에 자세히 설명되어 있습니다.
 

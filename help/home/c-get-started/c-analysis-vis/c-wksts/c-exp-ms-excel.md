@@ -3,7 +3,7 @@ description: 작업 공간을 Microsoft Excel로 내보내는 방법에 대한 �
 title: 작업 공간을 Microsoft Excel로 내보내기
 uuid: ba97942c-9a58-4e49-b567-4844db7ff619
 exl-id: 8e379de4-cd9e-430d-96d6-40322eaa3ea9
-source-git-commit: 235b8816c7397ac1ab71df650a1d4c2d681b3b2d
+source-git-commit: b1dda69a606a16dccca30d2a74c7e63dbd27936c
 workflow-type: tm+mt
 source-wordcount: '41'
 ht-degree: 9%
@@ -11,6 +11,8 @@ ht-degree: 9%
 ---
 
 # Microsoft Excel로 내보내기{#export-to-microsoft-excel}
+
+{{eol}}
 
 작업 공간을 Microsoft Excel로 내보내는 방법에 대한 정보에 연결합니다.
 

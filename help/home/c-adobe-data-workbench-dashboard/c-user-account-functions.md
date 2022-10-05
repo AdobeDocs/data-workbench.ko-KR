@@ -3,7 +3,7 @@ description: 계정 설정에 액세스하고 암호를 변경하는 방법에 �
 title: 사용자 계정 관리
 uuid: 13fab0e2-e2db-442e-b139-e7b576d04dbb
 exl-id: b985a21b-6244-4e7d-86c2-14935c005335
-source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+source-git-commit: b1dda69a606a16dccca30d2a74c7e63dbd27936c
 workflow-type: tm+mt
 source-wordcount: '132'
 ht-degree: 5%
@@ -12,9 +12,11 @@ ht-degree: 5%
 
 # 사용자 계정 관리{#user-account-management}
 
+{{eol}}
+
 계정 설정에 액세스하고 암호를 변경하는 방법에 대한 정보입니다.
 
-## 계정 정보 {#section-7c39e79d8d6445059c9a6237e140bc6a} 액세스
+## 계정 정보 액세스 {#section-7c39e79d8d6445059c9a6237e140bc6a}
 
 계정 정보에 액세스하려면 사용자 메뉴에서 계정 설정을 선택합니다.
 
@@ -26,4 +28,4 @@ ht-degree: 5%
 
 ## 암호 변경 {#section-4ba1ee3d5d584455a1a77e992b7b876c}
 
-암호를 변경하려면 먼저 계정 정보에 액세스하십시오. 계정 정보에 액세스하려면 **[!UICONTROL User]** 메뉴에서 **[!UICONTROL Account Settings]** 을 선택합니다. 클릭 **[!UICONTROL Change Password]**.
+암호를 변경하려면 먼저 계정 정보에 액세스하십시오. 계정 정보에 액세스하려면 **[!UICONTROL Account Settings]** 에서 **[!UICONTROL User]** 메뉴 아래의 제품에서 사용할 수 있습니다. 클릭 **[!UICONTROL Change Password]**.

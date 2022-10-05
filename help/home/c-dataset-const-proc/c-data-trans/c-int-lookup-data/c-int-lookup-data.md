@@ -3,7 +3,7 @@ description: Data Workbench는 Data Workbench 서버가 조회 데이터를 데�
 title: 조회 데이터 통합
 uuid: 35fd48f7-c0c4-4a83-919d-c15902f27495
 exl-id: 150d3aae-4431-488f-8f19-b522637ee935
-source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+source-git-commit: b1dda69a606a16dccca30d2a74c7e63dbd27936c
 workflow-type: tm+mt
 source-wordcount: '262'
 ht-degree: 2%
@@ -11,6 +11,8 @@ ht-degree: 2%
 ---
 
 # 조회 데이터 통합{#integrating-lookup-data}
+
+{{eol}}
 
 Data Workbench는 Data Workbench 서버가 조회 데이터를 데이터 집합에 통합할 수 있도록 해주는 변형 세트를 제공합니다.
 
@@ -22,7 +24,7 @@ Data Workbench는 Data Workbench 서버가 조회 데이터를 데이터 집합�
 
 **조회 데이터를 데이터 세트에 통합하려면**
 
-1. 조회 파일을 생성합니다. [조회 테이블 채우기](../../../../home/c-dataset-const-proc/c-data-trans/c-int-lookup-data/c-pop-lookup-table.md#concept-dd761338731a40e0997c33dfdabdcdf8)를 참조하십시오.
+1. 조회 파일을 생성합니다. 자세한 내용은 [조회 테이블 채우기](../../../../home/c-dataset-const-proc/c-data-trans/c-int-lookup-data/c-pop-lookup-table.md#concept-dd761338731a40e0997c33dfdabdcdf8).
 1. 해당 데이터 집합 구성 파일의 변형 매개 변수에서 다음 변형 유형 중 하나를 정의합니다.
 
    * [!DNL Categorize]
@@ -31,4 +33,4 @@ Data Workbench는 Data Workbench 서버가 조회 데이터를 데이터 집합�
 
 >[!NOTE]
 >
->[!DNL ODBCLookup] 변환은 [!DNL Transformation.cfg] 파일 또는 [!DNL Transformation Dataset Include] 파일에 정의된 경우에만 작동합니다.
+>다음 사항에 유의하십시오. [!DNL ODBCLookup] 변형은 에서 정의된 경우에만 작동합니다 [!DNL Transformation.cfg] 파일 또는 [!DNL Transformation Dataset Include] 파일.

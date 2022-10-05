@@ -3,7 +3,7 @@ description: 변환 및 보존과 같은 지표별 색상 범례 색상 코드 �
 title: 색상 범례
 uuid: 4f5ad93e-9128-464c-b5b7-9db454fa71a6
 exl-id: 0ecf5237-8d64-46a6-b73b-e59de69e5988
-source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+source-git-commit: b1dda69a606a16dccca30d2a74c7e63dbd27936c
 workflow-type: tm+mt
 source-wordcount: '141'
 ht-degree: 2%
@@ -11,6 +11,8 @@ ht-degree: 2%
 ---
 
 # 색상 범례{#color-legends}
+
+{{eol}}
 
 변환 및 보존과 같은 지표별 색상 범례 색상 코드 시각화는 거의 모든 작업 공간에서 사용할 수 있습니다.
 
@@ -20,7 +22,7 @@ ht-degree: 2%
 >
 >색상 범례에서 지표를 선택하지 않으면 모든 시각화는 파란색으로 표시됩니다.
 
-## 지표 {#section-694234fc79fd44c2a2ea2f677f74b3dc} 활성화 또는 변경
+## 지표 활성화 또는 변경 {#section-694234fc79fd44c2a2ea2f677f74b3dc}
 
 * 지표 이름을 마우스 오른쪽 단추로 클릭하고 원하는 지표를 클릭합니다.
 

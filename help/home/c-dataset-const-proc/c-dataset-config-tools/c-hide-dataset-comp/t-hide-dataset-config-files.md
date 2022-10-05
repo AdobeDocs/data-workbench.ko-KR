@@ -3,7 +3,7 @@ description: 내부 또는 다른 상속된 프로필에서 구성 파일을 상
 title: 데이터 세트 구성 파일 숨기기
 uuid: eb33cf54-e067-4af2-a10e-7ffe43910e4f
 exl-id: 327847d1-421a-4ed1-9a5f-2491765a34bd
-source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+source-git-commit: b1dda69a606a16dccca30d2a74c7e63dbd27936c
 workflow-type: tm+mt
 source-wordcount: '319'
 ht-degree: 2%
@@ -12,17 +12,19 @@ ht-degree: 2%
 
 # 데이터 세트 구성 파일 숨기기{#hiding-dataset-configuration-files}
 
+{{eol}}
+
 내부 또는 다른 상속된 프로필에서 구성 파일을 상속하지 않으려는 경우(즉, 데이터 집합을 구성하는 동안 파일의 지침을 무시하려는 경우) 파일을 수정하지 않고 같은 이름의 빈(0바이트) 파일을 만들어 다른 프로필에 저장할 수 있습니다.
 
 **데이터 집합 구성 파일을 0바이트로 만들려면**
 
-1. [!DNL Profile Manager]에서 필요한 폴더와 하위 폴더를 열어 0바이트로 지정할 파일을 찾습니다.
-1. 파일 이름 옆에 있는 확인 표시를 마우스 오른쪽 단추로 클릭하고 **[!UICONTROL Make Local]** 를 클릭합니다.
+1. 에서 [!DNL Profile Manager]0바이트로 지정할 파일을 찾으려면 필요한 폴더와 하위 폴더를 엽니다.
+1. 파일 이름 옆에 있는 확인 표시를 마우스 오른쪽 단추로 클릭하고 **[!UICONTROL Make Local]**.
 1. 메모장과 같은 텍스트 편집기에서 로컬 파일을 열고 해당 내용을 삭제합니다.
 1. 파일을 저장하고 닫습니다.
-1. [!DNL Profile Manager]에서 0바이트 파일을 원래 파일이 있는 프로필 오른쪽에 있는 프로필에 저장합니다. 0바이트 파일이 원래 파일보다 우선해야 합니다.
+1. 에서 [!DNL Profile Manager]를 채울 경우 원본 파일이 있는 프로필 오른쪽에 있는 프로필에 0바이트 파일을 저장합니다. 0바이트 파일이 원래 파일보다 우선해야 합니다.
 
-   [!DNL Profile Manager]에서 검사 표시 대신 하이픈(-)은 아래 예와 같이 열에 있는 0바이트 파일을 식별합니다.
+   에서 [!DNL Profile Manager]열에서 확인 표시 대신 하이픈(-)은 아래 예와 같이 0바이트 파일을 식별합니다.
 
    ![](assets/vis_ProfileManager_ZeroByteFile.png)
 
@@ -32,4 +34,4 @@ ht-degree: 2%
 >
 >시각화 또는 지표 정의에 사용되는 확장 차원을 정의하는 구성 파일을 0바이트하면 Data Workbench에서 해당 시각화 또는 지표에 대한 오류를 생성합니다.
 
-0바이트 파일을 사용하여 지표, 차원 또는 필터를 프로필의 다른 위치로 이동하거나 메뉴 항목을 숨길 수도 있습니다. 자세한 내용은 *Data Workbench 사용 안내서*&#x200B;를 참조하십시오.
+0바이트 파일을 사용하여 지표, 차원 또는 필터를 프로필의 다른 위치로 이동하거나 메뉴 항목을 숨길 수도 있습니다. 자세한 내용은 *Data Workbench 사용 안내서*.

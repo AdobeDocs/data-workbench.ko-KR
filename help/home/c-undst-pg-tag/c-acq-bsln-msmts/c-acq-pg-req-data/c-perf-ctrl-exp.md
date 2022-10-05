@@ -3,7 +3,7 @@ description: Sensor는 제어된 웹 사이트 실험을 가능하게 하므로 
 title: 통제 실험 수행
 uuid: 2fe16713-21c8-497a-a765-8cea011d419b
 exl-id: 8cbe9a10-72d8-4964-bd0b-0a262fd7ede2
-source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+source-git-commit: b1dda69a606a16dccca30d2a74c7e63dbd27936c
 workflow-type: tm+mt
 source-wordcount: '112'
 ht-degree: 5%
@@ -11,6 +11,8 @@ ht-degree: 5%
 ---
 
 # 통제 실험 수행{#performing-controlled-experiments}
+
+{{eol}}
 
 Sensor는 제어된 웹 사이트 실험을 가능하게 하므로 진행 중인 작업에 대한 중단을 최소화하면서 방문자 모집단의 무작위 하위 집합에 대한 통제 실험을 실행할 수 있습니다.
 

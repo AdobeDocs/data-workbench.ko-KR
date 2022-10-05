@@ -3,7 +3,7 @@ description: 경로 브라우저 내에서 경로를 선택하여 경로에 있�
 title: 경로 선택
 uuid: 3131df2f-674f-44b8-9006-d8cb1ecf3874
 exl-id: c560dfd0-ccaf-4a60-88a1-29a33f8aa014
-source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+source-git-commit: b1dda69a606a16dccca30d2a74c7e63dbd27936c
 workflow-type: tm+mt
 source-wordcount: '259'
 ht-degree: 2%
@@ -11,6 +11,8 @@ ht-degree: 2%
 ---
 
 # 경로 선택{#select-a-path}
+
+{{eol}}
 
 경로 브라우저 내에서 경로를 선택하여 경로에 있는 요소와 연관된 데이터를 포함하는 필터를 만들 수 있습니다.
 
@@ -20,10 +22,10 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->경로 브라우저에 대한 기본 수준 차원을 변경할 수 있습니다. 경로 브라우저를 구성하는 방법은 [경로 브라우저 구성](../../../../home/c-get-started/c-intf-anlys-ftrs/t-config-path-brwsr.md#task-bbb3ddaa140a414f984b697c2b8202a3)을 참조하십시오.
+>경로 브라우저에 대한 기본 수준 차원을 변경할 수 있습니다. 경로 브라우저를 구성하는 방법은 를 참조하십시오. [경로 브라우저 구성](../../../../home/c-get-started/c-intf-anlys-ftrs/t-config-path-brwsr.md#task-bbb3ddaa140a414f984b697c2b8202a3).
 
 1. 경로 브라우저에서 요소를 클릭하여 표시된 경로를 루트의 왼쪽 또는 오른쪽으로 확장합니다.
-1. 원하는 요소를 마우스 오른쪽 단추로 클릭하고 **[!UICONTROL Select path]** 을 클릭합니다. 선택한 경로는 흰색으로 윤곽이 표시됩니다.
+1. 원하는 요소를 마우스 오른쪽 단추로 클릭하고 를 클릭합니다. **[!UICONTROL Select path]**. 선택한 경로는 흰색으로 윤곽이 표시됩니다.
 
    >[!NOTE]
    >
@@ -35,4 +37,4 @@ ht-degree: 2%
 
    ![](assets/client-path.png)
 
-   이 경로는 선택을 구성하고, 작업 공간에서 열려 있는 다른 모든 시각화(범례 포함)는 업데이트하여 선택한 요소에서 만든 경로와 연결된 데이터를 표시합니다. [시각화에서 선택](../../../../home/c-get-started/c-vis/c-sel-vis/c-sel-vis.md#concept-012870ec22c7476e9afbf3b8b2515746)을 참조하십시오.
+   이 경로는 선택을 구성하고, 작업 공간에서 열려 있는 다른 모든 시각화(범례 포함)는 업데이트하여 선택한 요소에서 만든 경로와 연결된 데이터를 표시합니다. 자세한 내용은 [시각화에서 선택](../../../../home/c-get-started/c-vis/c-sel-vis/c-sel-vis.md#concept-012870ec22c7476e9afbf3b8b2515746).

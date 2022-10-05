@@ -3,7 +3,7 @@ description: 이 섹션에서는 다양한 유형의 Dimension과 DWB에서 설�
 title: 차원 설정
 uuid: 5b40cb43-7790-4b87-a0bb-be395a420157
 exl-id: 04afd773-e938-49f7-83c9-1d706a6dc525
-source-git-commit: 232117a8cacaecf8e5d7fcaccc5290d6297947e5
+source-git-commit: b1dda69a606a16dccca30d2a74c7e63dbd27936c
 workflow-type: tm+mt
 source-wordcount: '1324'
 ht-degree: 4%
@@ -11,6 +11,8 @@ ht-degree: 4%
 ---
 
 # 차원 설정{#dimension-setup}
+
+{{eol}}
 
 이 섹션에서는 다양한 유형의 Dimension과 DWB에서 설정하는 방법을 설명합니다.
 
@@ -20,7 +22,7 @@ ht-degree: 4%
 
 우수 사례: 데이터 스키마의 Dimension은 모든 이름을 제공할 수 있습니다. 이 과정에서 사용 및 설명한 Dimension 이름은 가장 좋은 것으로 간주됩니다. Dimension 이름은 다르게 지정할 수 있습니다. 다른 데이터 세트에 노출되면 데이터 세트에 차이점이 표시됩니다. 차원의 이름이 아닌 목적을 이해하는 것이 중요합니다. 예를 들어 &quot;방문자&quot;, &quot;고객&quot;, &quot;사람&quot;, &quot;소비자&quot; 또는 &quot;사용자&quot;라고 하든, 이러한 용어가 단일 사용자에 대한 정보를 수집하는 데 사용되는 가장 높은 수준 계산 가능한 차원을 참조하는 데 일반적으로 사용되는 용어임을 이해하는 것이 중요합니다.
 
-자세한 내용은 [데이터 집합 구성](https://experienceleague.adobe.com/docs/data-workbench/using/dataset/c-dataset-constr.html) 안내서를 참조하십시오.
+자세한 내용은 [데이터 집합 구성](https://experienceleague.adobe.com/docs/data-workbench/using/dataset/c-dataset-constr.html) 안내서.
 
 ## DWB의 Dimension 유형 {#section-a4fbb7bf2bde44528ac0f94a96465862}
 
@@ -69,7 +71,7 @@ counttable의 두 번째 주요 기능은 데이터 집합 스키마 구조의 �
 **4) 숫자 Dimension**
 
 숫자 차원은 숫자 값을 갖는 단순 차원의 유형입니다. 숫자 차원이 지표에 사용하기 위해 만들어지는 경우가 많습니다. 숫자 차원의 예로는 &#39;수입&#39;, &#39;주문&#39; 및 &#39;판매량&#39;이 있습니다. 위의 예에서 &#39;고객 주문&#39;은 숫자 차원입니다.
-**5) 비정상** 차원비정상 차원은 상위 가산 차원과 일대일 관계를 갖는 차원입니다. 비정상 차원은 ID 데이터와 같은 높은 카디널리티(많은 고유 요소)를 갖는 차원에 사용되는 경우가 많습니다. 예를 들어 방문자는 하나의 사용자 ID만 가질 수 있으며 사용자 ID는 하나의 방문자에만 속할 수 있습니다. 따라서, 이것은 일대일 관계이며 비정상 차원일 수 있습니다.
+**5) 비정상 Dimension** 비정상 차원은 상위 가산 차원과 일대일 관계가 있는 차원입니다. 비정상 차원은 ID 데이터와 같은 높은 카디널리티(많은 고유 요소)를 갖는 차원에 사용되는 경우가 많습니다. 예를 들어 방문자는 하나의 사용자 ID만 가질 수 있으며 사용자 ID는 하나의 방문자에만 속할 수 있습니다. 따라서, 이것은 일대일 관계이며 비정상 차원일 수 있습니다.
 
 예를 들어 Geometrixx 웹 사용자 ID는 고객 수준에서 비정상 차원입니다. 비정상 항목이므로 상위 차원과 일대일 관계가 있습니다. 즉, 각 웹 사용자 ID에는 고객이 하나씩 있고 각 고객에는 웹 사용자 ID가 하나만 있습니다. 따라서, &#39;고객&#39; 지표는 Geometrixx 웹 사용자 ID의 각 요소에 대해서만 &#39;1&#39;일 수 있습니다.
 
@@ -79,7 +81,7 @@ counttable의 두 번째 주요 기능은 데이터 집합 스키마 구조의 �
 
 >[!NOTE]
 >
->표시 형식에 사용되는 % 이스케이프는 표준 C 라이브러리 *strftime*&#x200B;과 동일합니다.
+>표시 형식에 사용되는 % 이스케이프가 표준 C 라이브러리와 동일합니다 *strftime*.
 
 ## 확장 차원 정의 {#section-38ee124ec74b43fb95f13194a9582b97}
 
@@ -87,7 +89,7 @@ counttable의 두 번째 주요 기능은 데이터 집합 스키마 구조의 �
 
 1. 데이터 세트 프로필에서 작업하는 동안 프로필 관리자를 열고 데이터 세트 를 클릭하여 해당 콘텐츠를 표시합니다.
 1. 확장 차원을 정의하려는 Transformation.cfg 파일 또는 Transformation Dataset Include 파일을 엽니다.
-1. 변환 을 마우스 오른쪽 단추로 클릭하고 새로 추가 > `<Extended dimension type>` 를 클릭합니다.
+1. 변형 을 마우스 오른쪽 단추로 클릭하고 새로 추가 > `<Extended dimension type>`.
 1. 확장 차원에 대한 적절한 정보를 입력합니다. 변형 유형에 대한 설명 및 해당 매개 변수에 대한 정보는 다음 섹션을 참조하십시오.
 
    * [가산 차원](https://experienceleague.adobe.com/docs/data-workbench/using/dataset/extended-dimensions/extended-dimensions-types/c-count-dim.html)
@@ -97,7 +99,7 @@ counttable의 두 번째 주요 기능은 데이터 집합 스키마 구조의 �
    * [비정상 차원](https://experienceleague.adobe.com/docs/data-workbench/using/dataset/extended-dimensions/extended-dimensions-types/c-denormal-dim.html)
    * [시간 차원](https://experienceleague.adobe.com/docs/data-workbench/using/dataset/extended-dimensions/extended-dimensions-types/c-time-dim.html)
 
-1. 정의한 확장 차원에 대해 설명 매개 변수에 하나 이상의 주석 라인을 추가하여 차원을 추가로 설명하거나 해당 용도에 대한 메모를 추가할 수 있습니다. 설명을 추가하려면 *댓글* 레이블을 마우스 오른쪽 단추로 클릭하고* 새로 추가 > 주석 줄*을 클릭하십시오.
+1. 정의한 확장 차원에 대해 설명 매개 변수에 하나 이상의 주석 라인을 추가하여 차원을 추가로 설명하거나 해당 용도에 대한 메모를 추가할 수 있습니다. 주석을 추가하려면 *댓글* 레이블을 지정하고* 새로 추가 > 주석 줄*을 클릭합니다.
 
 1. 구성 파일에서 확장 차원을 정의한 후 파일을 로컬로 저장하고 DWB 서버의 데이터 세트 프로필에 저장합니다.
 

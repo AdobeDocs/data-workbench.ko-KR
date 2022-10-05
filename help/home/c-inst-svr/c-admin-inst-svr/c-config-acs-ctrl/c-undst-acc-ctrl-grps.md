@@ -3,7 +3,7 @@ description: 미리 만들어진 5개의 액세스 제어 그룹을 사용할 �
 title: 액세스 제어 그룹 이해
 uuid: ff783078-6d2f-4a64-ab11-8083e35d765f
 exl-id: 35353b0a-7f08-4215-8a2c-ee1e26d9f5db
-source-git-commit: d9df90242ef96188f4e4b5e6d04cfef196b0a628
+source-git-commit: b1dda69a606a16dccca30d2a74c7e63dbd27936c
 workflow-type: tm+mt
 source-wordcount: '262'
 ht-degree: 8%
@@ -11,6 +11,8 @@ ht-degree: 8%
 ---
 
 # 액세스 제어 그룹 이해{#understanding-access-control-groups}
+
+{{eol}}
 
 미리 만들어진 5개의 액세스 제어 그룹을 사용할 수 있지만 필요에 따라 추가 그룹을 만들고 관리할 수 있습니다.
 
@@ -21,15 +23,15 @@ ht-degree: 8%
 | 그룹 | 설명 |
 |---|---|
 | 관리자 | 모든 디렉터리 및 파일에 액세스할 수 있습니다. 기본 IP 주소는 127.0.0.1(로컬 호스트)입니다. |
-| 센서 | [!DNL Sensor]에서 데이터를 전송하는 데 사용하는 파일만 액세스할 수 있습니다. |
-| 사용자 참조 | [!DNL Insight] 사용자가 기본 분석 작업을 수행하는 데 필요한 요소에 읽기 전용 액세스 권한을 부여할 수 있습니다. |
-| 고급 사용자 | [!DNL Insight] 사용자가 기본 분석 작업을 수행하는 데 필요한 요소에 대해 읽기 전용 액세스 권한과 프로필을 수정하기 위해 [!DNL Profiles] 폴더에 대한 읽기 및 쓰기 액세스 권한을 허용합니다. |
-| 클러스터 서버 | 클러스터 서버로 지정된 [!DNL Insight Servers]에 대한 액세스를 허용합니다. |
-| 보고서 서버 | [!DNL Insight Server]에 연결하는 [!DNL Report] 컴퓨터에 대한 액세스를 허용합니다. |
+| 센서 | 에서 사용하는 파일만 액세스할 수 있습니다. [!DNL Sensor] 데이터 전송 |
+| 사용자 참조 | 에 필요한 요소에 대한 읽기 전용 액세스 허용 [!DNL Insight] 기본 분석 작업을 수행하는 사용자입니다. |
+| 고급 사용자 | 에 필요한 요소에 대한 읽기 전용 액세스 허용 [!DNL Insight] 사용자가 기본 분석 작업을 수행하고 읽기 및 쓰기 액세스를 수행할 수 있습니다. [!DNL Profiles] 프로필을 수정할 폴더입니다. |
+| 클러스터 서버 | 액세스 권한 허용 [!DNL Insight Servers] 클러스터 서버로 지정되어 있습니다. |
+| 보고서 서버 | 액세스 권한 허용 [!DNL Report] 에 연결되는 시스템 [!DNL Insight Server]. |
 
 액세스 제어 그룹의 구성원은 해당 IP 주소 또는 SSL 인증서 정보를 사용하여 정의됩니다.
 
-SSL 인증서를 사용할 수 없는 경우 IP 주소를 사용하여 그룹 구성원을 정의할 수 있습니다. 일반적인 [!DNL Insight] 설치에는 SSL 인증서가 포함되어 있지만 [!DNL Sensor(s)]에 대한 인증서 사용은 선택 사항입니다. [!DNL Insight Server]의 경우 클러스터 서버는 SSL 인증서 대신 IP 주소를 사용하여 정의됩니다.
+SSL 인증서를 사용할 수 없는 경우 IP 주소를 사용하여 그룹 구성원을 정의할 수 있습니다. 일반적인 설치 [!DNL Insight] 에는 SSL 인증서가 포함된 반면, 에는 인증서 사용 [!DNL Sensor(s)] 은 선택 사항입니다. 대상 [!DNL Insight Server], 클러스터 서버는 SSL 인증서 대신 IP 주소를 사용하여 정의됩니다.
 
 그룹 구성원을 정의하는 데 다음 코드를 사용할 수 있습니다.
 
