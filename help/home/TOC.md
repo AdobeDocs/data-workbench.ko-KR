@@ -17,7 +17,7 @@ ht-degree: 99%
 # Data Workbench 도움말 {#using}
 
 + [Data Workbench 도움말](home.md)
-+ [사용 종료 공지](eol.md)
++ [서비스 종료 공지](eol.md)
 + 릴리스 정보 {#release-notes}
    + [릴리스 정보 개요](c-release-notes-insight/release-notes.md)
    + [Data Workbench 6.74 릴리스 정보](c-release-notes-insight/dwb-6-74-release-notes.md)
