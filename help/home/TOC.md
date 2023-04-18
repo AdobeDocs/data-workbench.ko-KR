@@ -6,9 +6,9 @@ feature-set: Analytics
 feature: Data Workbench
 user-guide-title: Data Workbench 도움말
 user-guide-description: Data Workbench의 멀티채널 기능에 대해 알아봅니다. Data Workbench 클라이언트, 설치, 데이터 세트 구성 가이드 등이 포함되어 있습니다.
-source-git-commit: 90b9fff995cb37a62024f454f009e9e0d7b927cd
+source-git-commit: fd815415e55e72ab01a1beee9b7ebed0432eded9
 workflow-type: tm+mt
-source-wordcount: '3498'
+source-wordcount: '3501'
 ht-degree: 99%
 
 ---
@@ -963,3 +963,4 @@ ht-degree: 99%
 + [쿼리 API](https://www.adobe.io/)
 + [Adobe Target과 Data Workbench 통합](dwb-adobe-target.md)
 + [Data Workbench 용어집](dwb-glossary.md)
++ [숨겨진 테스트 페이지](hidden-test-page.md)
