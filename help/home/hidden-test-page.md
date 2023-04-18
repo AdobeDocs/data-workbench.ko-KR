@@ -5,9 +5,9 @@ hide: true
 hidefromtoc: true
 badgePremium: label="Premium" type="Positive" url="https://www.premium-product.com" tooltip="Download Premium"
 badgeExam: label="Exam ADO-E903" type="neutral"
-source-git-commit: 87af4ae77f71701b52247f996b89edfb93794dd7
+source-git-commit: c08189cf57f08fc5be4bc24ec06d9b9a865a53c8
 workflow-type: tm+mt
-source-wordcount: '673'
+source-wordcount: '680'
 ht-degree: 2%
 
 ---
@@ -113,17 +113,21 @@ This entire paragraph should NOT be highlighted. <span class="preview"> This wor
 ```
 Highlighting should start after this paragraph.
 
-<span class="preview">
+<div class="preview">
 
-**This is a test**
+Start of DIV.
 
->[!TIP]
+>[!NOTE]
 >
->Drink 6 cups of water a day.
+>This is a note.
+>
+>I have a request to highlight the note's background.
 
-Last highlighted paragraph
+![image](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/assets/add-admin-1.png)
 
-</span>
+Last highlighted item.
+
+</div>
 
 Not highlighted
 ```
@@ -132,17 +136,21 @@ Not highlighted
 
 이 단락 뒤에 강조 표시를 시작해야 합니다.
 
-<span class="preview">
+<div class="preview">
 
-**이건 시험입니다**
+DIV의 시작.
 
->[!TIP]
+>[!NOTE]
 >
->하루에 물 6컵을 마시세요.
+>이건 메모예요
+>
+>메모의 배경을 강조해 달라는 요청이 있습니다.
 
-마지막으로 강조 표시된 단락
+![이미지](/help/home/assets/analytics-icon-24.png)
 
-</span>
+마지막으로 강조 표시된 항목.
+
+</div>
 
 강조 표시되지 않음
 
