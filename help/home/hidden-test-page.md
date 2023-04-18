@@ -5,9 +5,9 @@ hide: true
 hidefromtoc: true
 badgePremium: label="Premium" type="Positive" url="https://www.premium-product.com" tooltip="Download Premium"
 badgeExam: label="Exam ADO-E903" type="neutral"
-source-git-commit: 3c3a0289ae50d407a83ca8878af59ecde5e86e8d
+source-git-commit: c92c1e5688ca867caf1f3d4a6a3e44dafb5b3734
 workflow-type: tm+mt
-source-wordcount: '671'
+source-wordcount: '695'
 ht-degree: 2%
 
 ---
@@ -98,7 +98,7 @@ badgeExam: label="Exam ADO-E903" type="neutral"
 
 Workfront 팀은 예정된 기능의 미리 보기를 나타내기 위해 노란색 강조 표시를 사용할 수 있도록 요청했습니다. 작동 방법은 다음과 같습니다.
 
-예:
+예제 1:
 
 ```
 This entire paragraph should NOT be highlighted. <span class="preview"> This word is **bold** inside a highlighted sentence.</span> And this is just the last sentence.
@@ -107,6 +107,42 @@ This entire paragraph should NOT be highlighted. <span class="preview"> This wor
 렌더링됨:
 
 이 전체 단락은 강조 표시되지 않아야 합니다. <span class="preview"> 이 단어는 **굵게** 강조 표시된 문장 안에서</span> 그리고 이것은 단지 마지막 문장입니다.
+
+예제 2:
+
+```
+Highlighting should start after this paragraph.
+
+<div class="preview">
+
+**This is a test**
+
+>[!TIP]
+>
+>Drink 6 cups of water a day.
+
+Last highlighted paragraph
+
+<\div>
+
+Not highlighted
+```
+
+렌더링됨: 이 단락 뒤에 강조 표시를 시작해야 합니다.
+
+<div class="preview">
+
+**이건 시험입니다**
+
+>[!TIP]
+>
+>하루에 물 6컵을 마시세요.
+
+마지막으로 강조 표시된 단락
+
+&lt;\div>
+
+강조 표시되지 않음
 
 일반적인 규칙으로, `<span class="preview">` 단락 내에서 단락 또는 텍스트를 강조 표시하려면 `<div class="preview">` 여러 단락 및 구성 요소에 대해 사용할 수 있습니다.
 
