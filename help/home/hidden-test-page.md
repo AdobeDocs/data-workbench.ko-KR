@@ -5,14 +5,70 @@ hide: true
 hidefromtoc: true
 badgePremium: label="Premium" type="Positive" url="https://www.premium-product.com" tooltip="Download Premium"
 badgeExam: label="Exam ADO-E903" type="neutral"
-source-git-commit: 0cd0a201aa10e519fa9760a64ab95fa1a10a3799
+exl-id: 25669153-b90c-4cf6-81aa-cabcbf2cbcb6
+source-git-commit: a3625867de6b7b8f8b7f71b3b124f028356dabad
 workflow-type: tm+mt
-source-wordcount: '675'
-ht-degree: 2%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # 숨겨진 테스트 페이지
+
+## 참고 유형
+
+
+지원되는 모든 참고 유형.
+
+>[!NOTE]
+>
+>This is a standard NOTE block.
+
+>[!TIP]
+>
+>This is a standard tip.
+
+>[!IMPORTANT]
+>
+>이것은 중요한 노트입니다.
+
+>[!WARNING]
+>
+>이것은 경고입니다.
+
+>[!CAUTION]
+>
+>이것은 주의사항이다.
+
+>[!ADMIN]
+>
+>관리자 노트입니다. EXL만 해당.
+
+>[!AVAILABILITY]
+>
+>가용성 노트입니다. EXL만 해당.
+
+>[!PREREQUISITES]
+>
+>사전 요구 사항 노트입니다. EXL만 해당.
+
+>[!INFO]
+>
+>정보 노트입니다. EXL만 해당.
+
+>[!ERROR]
+>
+>오류 노트입니다. EXL만 해당.
+
+>[!SUCCESS]
+>
+>성공 노트입니다. EXL만 해당.
+
+>[!MORELIKETHIS]
+>
+>* 페이지 1
+>* 페이지 2
+
 
 ## 배지
 
