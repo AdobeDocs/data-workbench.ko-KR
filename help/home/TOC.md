@@ -5,11 +5,11 @@ audience: end-user
 feature-set: Analytics
 feature: Data Workbench
 user-guide-title: Data Workbench 도움말
-user-guide-description: Data Workbench의 멀티채널 기능에 대해 알아봅니다. Data Workbench 클라이언트, 설치, 데이터 세트 구성 가이드 등이 포함되어 있습니다.
+user-guide-description: Data Workbench의 멀티채널 기능에 대해 알아봅니다. Data Workbench 클라이언트, 설치, 데이터 세트 구성 안내서 등이 포함되어 있습니다.
 source-git-commit: 0939146f59b86437027606aeaa824adf0c6b591c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3501'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -58,7 +58,7 @@ ht-degree: 99%
       + [DWB 서버 업그레이드: 6.1에서 6.2로](c-inst-svr/c-upgrd-uninst-sftwr/c-upgrd-sftwr/c-6-1-to-6-2-upgrade.md)
       + [Data Workbench 6.0에서 6.1로 업그레이드](c-inst-svr/c-upgrd-uninst-sftwr/c-upgrd-sftwr/c-6-0-to-6-1-upgrade/c-6-0-to-6-1-upgrade.md)
       + [Data Workbench 5.5에서 6.1로 업그레이드](c-inst-svr/c-upgrd-uninst-sftwr/c-upgrd-sftwr/c-5-x-to-6-1-upgrade.md)
-+ 고객 {#client}
++ 클라이언트 {#client}
    + [Data Workbench 열기](c-get-started/t-open-ins.md)
    + [사용자 셀프 프로비저닝](c-get-started/c-self-provisioning-users.md)
    + [오프라인 및 온라인 작업](c-get-started/c-off-on.md)
@@ -95,7 +95,7 @@ ht-degree: 99%
       + [내보낼 세그먼트 구성](c-get-started/c-exp-data-seg-exp/t-config-sgts-expt.md)
       + [세그먼트 내보내기에 사용할 차원 만들기](c-get-started/c-exp-data-seg-exp/c-dim-sgmt-expt.md)
       + [사용자 지정 헤더로 세그먼트 내보내기](c-get-started/c-exp-data-seg-exp/c-segment-export.md)
-      + [S/FTP 배달을 사용하여 세그먼트 내보내기](c-get-started/c-exp-data-seg-exp/exporting-data.md)
+      + [S/FTP 게재를 사용하여 세그먼트 내보내기](c-get-started/c-exp-data-seg-exp/exporting-data.md)
       + [프로필 및 대상자 내보내기](c-get-started/c-exp-data-seg-exp/c-mmp-integration.md)
       + [Analytics Core Services로 내보내기](c-release-notes-insight/c-6-4/dwb-crs-integration.md)
       + [Adobe Target으로 내보내기](c-get-started/c-exp-data-seg-exp/dwb-target-export.md)
@@ -338,7 +338,7 @@ ht-degree: 99%
       + 잠긴 작업 영역 구성 {#config-locked-wkspc}
          + [잠긴 작업 영역 구성](c-get-started/c-intf-anlys-ftrs/c-config-locked-wkspc/c-config-locked-wkspc.md)
          + [Folder.lock 및 workspace.lock 파일](c-get-started/c-intf-anlys-ftrs/c-config-locked-wkspc/c-fldr-wksp-files.md)
-         + [잠금 해제 매개 변수 설정](c-get-started/c-intf-anlys-ftrs/c-config-locked-wkspc/c-unlck-param.md)
+         + [잠금 해제 매개변수 설정](c-get-started/c-intf-anlys-ftrs/c-config-locked-wkspc/c-unlck-param.md)
       + [개방형 기능 구성](c-get-started/c-intf-anlys-ftrs/c-config-open-funct.md)
       + [설명선 구성](c-get-started/c-intf-anlys-ftrs/c-config-callouts.md)
       + [지연 테이블 구성](c-get-started/c-intf-anlys-ftrs/c-config-ltcy-tbls/c-config-ltcy-tbls.md)
@@ -348,7 +348,7 @@ ht-degree: 99%
       + [프로세스 맵 구성](c-get-started/c-intf-anlys-ftrs/t-config-proc-maps.md)
       + [데이터 세트 스키마 인터페이스 구성](c-get-started/c-intf-anlys-ftrs/t-dataset-schema-intf.md)
       + [시간 차원 현지화](c-get-started/c-intf-anlys-ftrs/dwb-format-time-dimensions.md)
-   + [구성 매개 변수](c-get-started/c-insght-config-param.md)
+   + [구성 매개변수](c-get-started/c-insght-config-param.md)
    + 쿼리 언어 구문 {#qry-lang-syntx}
       + [쿼리 언어 구문](c-get-started/c-qry-lang-syntx/c-qry-lang-syntx.md)
       + [모든 표현식의 구문](c-get-started/c-qry-lang-syntx/c-syntx-exp.md)
@@ -368,14 +368,14 @@ ht-degree: 99%
       + [로그 처리 구성 파일 편집](c-dataset-const-proc/c-log-proc-config-file/t-edit-log-proc-config-file.md)
       + [로그 소스](c-dataset-const-proc/c-log-proc-config-file/c-log-sources.md)
       + [Data Workbench 서버 파일 서버 유닛 구성](c-dataset-const-proc/c-log-proc-config-file/c-ins-svr-file-svr-unit.md)
-      + [로그 처리 매개 변수](c-dataset-const-proc/c-log-proc-config-file/c-info-log-proc-param.md)
+      + [로그 처리 매개변수](c-dataset-const-proc/c-log-proc-config-file/c-info-log-proc-param.md)
       + [ODBC 데이터 소스](c-dataset-const-proc/c-log-proc-config-file/c-odbc-data-sources.md)
       + [로그 처리 구성 파일에 대한 고려 사항](c-dataset-const-proc/c-log-proc-config-file/c-cons-log-proc-config-file.md)
    + 변형 구성 파일 {#trans-config-file}
       + [변환 구성 파일 정보](c-dataset-const-proc/c-trans-config-file/c-abt-trans-config-file.md)
       + [변형 구성 파일 편집](c-dataset-const-proc/c-trans-config-file/t-edit-trans-config-file.md)
-      + 특정 변형 매개 변수 {#specific-trans-param}
-         + [특정 변형 매개 변수에 대한 정보](c-dataset-const-proc/c-trans-config-file/c-spec-trans-param/c-spec-trans-param.md)
+      + 특정 변형 매개변수 {#specific-trans-param}
+         + [특정 변형 매개변수에 대한 정보](c-dataset-const-proc/c-trans-config-file/c-spec-trans-param/c-spec-trans-param.md)
          + [새 방문자 조건](c-dataset-const-proc/c-trans-config-file/c-spec-trans-param/c-new-vstr-con.md)
          + [시간대](c-dataset-const-proc/c-trans-config-file/c-spec-trans-param/c-time-zones.md)
       + [변환 구성 파일에 대한 고려 사항](c-dataset-const-proc/c-trans-config-file/c-con-tran-config-file.md)
@@ -390,10 +390,10 @@ ht-degree: 99%
          + [텍스트 파일 디코더 그룹](c-dataset-const-proc/c-dataset-inc-files/c-types-dataset-inc-files/c-log-proc-dataset-inc-files/c-text-file-dec-groups.md)
          + [XML 디코더 그룹](c-dataset-const-proc/c-dataset-inc-files/c-types-dataset-inc-files/c-log-proc-dataset-inc-files/c-xml-dec-grps.md)
          + [변형 데이터 세트에 파일 포함](c-dataset-const-proc/c-dataset-inc-files/c-types-dataset-inc-files/c-trans-dataset-inc-files.md)
-      + 데이터 세트에 있는 매개 변수 정의 포함 파일 {#def-param-dataset-inc-files}
-         + [데이터 세트에 있는 매개 변수 정의 포함 파일](c-dataset-const-proc/c-dataset-inc-files/c-def-param-dataset-inc-files/c-def-param-dataset-inc-files.md)
-         + [문자열 및 숫자 매개 변수](c-dataset-const-proc/c-dataset-inc-files/c-def-param-dataset-inc-files/c-string-num-param.md)
-         + [벡터 매개 변수](c-dataset-const-proc/c-dataset-inc-files/c-def-param-dataset-inc-files/c-vector-param.md)
+      + 데이터 세트에 있는 매개변수 정의 포함 파일 {#def-param-dataset-inc-files}
+         + [데이터 세트에 있는 매개변수 정의 포함 파일](c-dataset-const-proc/c-dataset-inc-files/c-def-param-dataset-inc-files/c-def-param-dataset-inc-files.md)
+         + [문자열 및 숫자 매개변수](c-dataset-const-proc/c-dataset-inc-files/c-def-param-dataset-inc-files/c-string-num-param.md)
+         + [벡터 매개변수](c-dataset-const-proc/c-dataset-inc-files/c-def-param-dataset-inc-files/c-vector-param.md)
    + 추가 구성 파일 {#additional-config-files}
       + [추가 구성 파일](c-dataset-const-proc/c-add-config-files/c-add-config-files.md)
       + [Log Processing Mode.cfg](c-dataset-const-proc/c-add-config-files/t-log-proc-mode.md)
@@ -554,9 +554,9 @@ ht-degree: 99%
       + [데이터베이스에 대한 권한 설정](c-rpt-oview/c-install-rpt-port/t-set-data-perm.md)
       + [보고서 포털 테스트](c-rpt-oview/c-install-rpt-port/t-test-rpt-port.md)
       + [추가 계정 정의](c-rpt-oview/c-install-rpt-port/c-def-addl-accts.md)
-   + 보고서 서버 매개 변수 참조 {#report-server-parameters}
-      + [보고서 서버.cfg 매개 변수](c-rpt-oview/c-rpt-param-ref/c-rpt-svr-param.md)
-      + [Report.cfg 매개 변수](c-rpt-oview/c-rpt-param-ref/c-rpt-param.md)
+   + 보고서 서버 매개변수 참조 {#report-server-parameters}
+      + [보고서 서버.cfg 매개변수](c-rpt-oview/c-rpt-param-ref/c-rpt-svr-param.md)
+      + [Report.cfg 매개변수](c-rpt-oview/c-rpt-param-ref/c-rpt-param.md)
    + 보고서 샘플 파일 {#report-sample-files}
       + [보고서 샘플 파일](c-rpt-oview/c-rpt-sample-files/c-rpt-sample-files.md)
       + [샘플 보고서 색인](c-rpt-oview/c-rpt-sample-files/c-sample-rpt-ind.md)
@@ -577,13 +577,13 @@ ht-degree: 99%
          + [쿼리 문자열 이해](c-undst-pg-tag/c-acq-bsln-msmts/c-acq-pg-req-data/c-undst-qry-strg.md)
          + [콘텐츠 유형별 필터링](c-undst-pg-tag/c-acq-bsln-msmts/c-acq-pg-req-data/c-fltr-cnt-type.md)
          + [통제 실험 수행](c-undst-pg-tag/c-acq-bsln-msmts/c-acq-pg-req-data/c-perf-ctrl-exp.md)
-      + [포함된 개체 요청(페이지 태그) 가져오기](c-undst-pg-tag/c-acq-bsln-msmts/c-embed-obj-req.md)
+      + [임베드된 오브젝트 요청(페이지 태그) 가져오기](c-undst-pg-tag/c-acq-bsln-msmts/c-embed-obj-req.md)
       + [쿠키를 통해 측정 데이터 가져오기](c-undst-pg-tag/c-acq-bsln-msmts/c-acq-msmt-data-ck.md)
    + 확장 측정 가져오기 {#acquire-ext-measures}
       + [확장 측정 가져오기](c-undst-pg-tag/c-acq-ext-msmt/c-acq-ext-msmt.md)
       + [동적 페이지 이름 가져오기](c-undst-pg-tag/c-acq-ext-msmt/c-acq-dyn-pg-names.md)
       + [추가 정보 가져오기](c-undst-pg-tag/c-acq-ext-msmt/c-acq-add-info.md)
-      + [문서 객체 가져오기](c-undst-pg-tag/c-acq-ext-msmt/c-acq-doc-obj.md)
+      + [문서 오브젝트 가져오기](c-undst-pg-tag/c-acq-ext-msmt/c-acq-doc-obj.md)
       + [광고 노출 측정](c-undst-pg-tag/c-acq-ext-msmt/c-msr-adv-imp.md)
       + [링크 클릭 추적](c-undst-pg-tag/c-acq-ext-msmt/c-trk-lnk-clicks.md)
       + [외부 링크에 대한 종료 추적](c-undst-pg-tag/c-acq-ext-msmt/c-trk-ex-ext-links.md)
@@ -623,8 +623,8 @@ ht-degree: 99%
       + 지형 이미지 레이어 {#terrain-image-layers}
          + [지형 이미지 레이어 작업](c-geo-oview/c-wk-img-lyrs/c-trn-img-lyrs/c-trn-img-lyrs.md)
          + [지형 이미지에 대한 투영 정보 지정](c-geo-oview/c-wk-img-lyrs/c-trn-img-lyrs/c-proj-info-trn-imgs/c-proj-info-trn-imgs.md)
-         + [위도-경도 예측](c-geo-oview/c-wk-img-lyrs/c-trn-img-lyrs/c-proj-info-trn-imgs/c-lat-long-proj.md)
-         + [범용 교차 지표 예측](c-geo-oview/c-wk-img-lyrs/c-trn-img-lyrs/c-proj-info-trn-imgs/c-utm-proj.md)
+         + [위도-경도 도법](c-geo-oview/c-wk-img-lyrs/c-trn-img-lyrs/c-proj-info-trn-imgs/c-lat-long-proj.md)
+         + [유니버설 가로 메르카토르 도법](c-geo-oview/c-wk-img-lyrs/c-trn-img-lyrs/c-proj-info-trn-imgs/c-utm-proj.md)
          + [새로운 지형 이미지 레이어 사용 가능](c-geo-oview/c-wk-img-lyrs/c-trn-img-lyrs/t-new-trn-img-lyr.md)
       + 요소 점 레이어 {#element-point-layers}
          + [요소 점 레이어 작업](c-geo-oview/c-wk-img-lyrs/c-elmt-pt-lyrs/c-elmt-pt-lyrs.md)
@@ -657,9 +657,9 @@ ht-degree: 99%
    + [요구 사항은 무엇입니까?](c-undst-ctrld-exp/c-reqs-.md)
    + 통제 실험 {#controlled-experimentation}
       + [통제 실험 활성화](c-undst-ctrld-exp/t-en-ctrld-exp/t-en-ctrld-exp.md)
-      + [ExpFile 매개 변수 수정](c-undst-ctrld-exp/t-en-ctrld-exp/c-mod-expfile-prm.md)
-      + [ExpCookieURL 매개 변수 수정(선택 사항)](c-undst-ctrld-exp/t-en-ctrld-exp/c-mod-expckurl-prm.md)
-      + [ExpPartialMatch 매개 변수 수정(선택 사항)](c-undst-ctrld-exp/t-en-ctrld-exp/c-mod-expplmth-prm.md)
+      + [ExpFile 매개변수 수정](c-undst-ctrld-exp/t-en-ctrld-exp/c-mod-expfile-prm.md)
+      + [ExpCookieURL 매개변수 수정(선택 사항)](c-undst-ctrld-exp/t-en-ctrld-exp/c-mod-expckurl-prm.md)
+      + [ExpPartialMatch 매개변수 수정(선택 사항)](c-undst-ctrld-exp/t-en-ctrld-exp/c-mod-expplmth-prm.md)
    + 통제 실험 만들기 {#create-controlled-experiment}
       + [통제 실험 만들기](c-undst-ctrld-exp/t-crt-ctrld-exp/t-crt-ctrld-exp.md)
       + [목표 정의](c-undst-ctrld-exp/t-crt-ctrld-exp/c-dfn-obj.md)
@@ -804,14 +804,14 @@ ht-degree: 99%
       + [Target Data Workbench 서버 변경](c-snsr-ovrvw/admin-sensor/t-trgt-ins-svr.md)
       + 오프라인 센서 {#offline}
          + [오프라인 센서 처리](c-snsr-ovrvw/admin-sensor/c-ofln-snsrs/c-ofln-snsrs.md)
-         + [&quot;기준&quot; 시간 이해](c-snsr-ovrvw/admin-sensor/c-ofln-snsrs/c-as-of-tm.md)
+         + [“기준” 시간 이해](c-snsr-ovrvw/admin-sensor/c-ofln-snsrs/c-as-of-tm.md)
          + [원인 이해](c-snsr-ovrvw/admin-sensor/c-ofln-snsrs/c-unstd-cause.md)
          + [문제 해결](c-snsr-ovrvw/admin-sensor/c-ofln-snsrs/c-slv-pblm.md)
          + [웹 서버의 여러 인스턴스 작업](c-snsr-ovrvw/admin-sensor/c-ofln-snsrs/c-mltpl-inst-web-svr.md)
    + Sensor Txlogd.conf 파일 {#sensor-txlogd-params}
-      + [Sensor Txlogd.conf 파일 매개 변수](c-snsr-ovrvw/sensor-txlogd-params/sensor-txlogd-params.md)
-      + [필수 매개 변수](c-snsr-ovrvw/sensor-txlogd-params/c-rqrd-prmtrs.md)
-      + [선택적 매개 변수](c-snsr-ovrvw/sensor-txlogd-params/c-opt-pmtrs.md)
+      + [Sensor Txlogd.conf 파일 매개변수](c-snsr-ovrvw/sensor-txlogd-params/sensor-txlogd-params.md)
+      + [필수 매개변수](c-snsr-ovrvw/sensor-txlogd-params/c-rqrd-prmtrs.md)
+      + [선택적 매개변수](c-snsr-ovrvw/sensor-txlogd-params/c-opt-pmtrs.md)
    + 이벤트 데이터 레코드 필드 {#event-data-record}
       + [이벤트 데이터 레코드 필드](c-snsr-ovrvw/c-evnt-data-rcd-flds/c-evnt-data-rcd-flds.md)
       + [기준 이벤트 데이터 레코드 필드](c-snsr-ovrvw/c-evnt-data-rcd-flds/c-bsln-evnt-data.md)
@@ -873,7 +873,7 @@ ht-degree: 99%
             + [대시보드 브라우저 보기](c-adobe-data-workbench-dashboard/c-dashboards/c-opening-and-viewing-dashboards/c-dashboard-browser/c-dashboard-browser-views.md)
             + [대시보드 브라우저 내에서 검색](c-adobe-data-workbench-dashboard/c-dashboards/c-opening-and-viewing-dashboards/c-dashboard-browser/c-searching-within-the-dashboard-browser.md)
          + [대시보드 하이퍼링크](c-adobe-data-workbench-dashboard/c-dashboards/c-opening-and-viewing-dashboards/c-dashboard-hyperling.md)
-      + [Query-To 매개 변수](c-adobe-data-workbench-dashboard/c-dashboards/c-query-to-parameter.md)
+      + [Query-To 매개변수](c-adobe-data-workbench-dashboard/c-dashboards/c-query-to-parameter.md)
       + [대시보드 만들기](c-adobe-data-workbench-dashboard/c-dashboards/c-creating-a-dashboard.md)
       + [대시보드 저장](c-adobe-data-workbench-dashboard/c-dashboards/t-saving-a-dashboard.md)
       + [대시보드 편집 또는 업데이트](c-adobe-data-workbench-dashboard/c-dashboards/t-editing-updating-a-dashboard.md)
