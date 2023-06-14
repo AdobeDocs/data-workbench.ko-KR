@@ -1,24 +1,23 @@
 ---
 title: 숨겨진 테스트 페이지
-description: 이 페이지는 검색 및 목차에서 숨겨집니다
+description: 이 페이지는 검색 및 목차에서 숨겨집니다.
 hide: true
 hidefromtoc: true
 badgePremium: label="Premium" type="Positive" url="https://www.premium-product.com" tooltip="Download Premium"
 badgeExam: label="Exam ADO-E903" type="neutral"
 exl-id: 25669153-b90c-4cf6-81aa-cabcbf2cbcb6
-source-git-commit: a3625867de6b7b8f8b7f71b3b124f028356dabad
+source-git-commit: 62b03629815f33344189c2562bc486301878a146
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '753'
+ht-degree: 4%
 
 ---
 
 # 숨겨진 테스트 페이지
 
-## 참고 유형
+## 메모 유형
 
-
-지원되는 모든 참고 유형.
+지원되는 모든 메모 유형입니다.
 
 >[!NOTE]
 >
@@ -30,7 +29,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->이것은 중요한 노트입니다.
+>중요한 메모입니다.
 
 >[!WARNING]
 >
@@ -38,19 +37,19 @@ ht-degree: 0%
 
 >[!CAUTION]
 >
->이것은 주의사항이다.
+>이것은 주의사항입니다.
 
 >[!ADMIN]
 >
->관리자 노트입니다. EXL만 해당.
+>관리로 렌더링되는 관리 노트입니다. EXL만 해당.
 
 >[!AVAILABILITY]
 >
->가용성 노트입니다. EXL만 해당.
+>가용성 정보입니다. EXL만 해당.
 
 >[!PREREQUISITES]
 >
->사전 요구 사항 노트입니다. EXL만 해당.
+>사전 요구 사항 참고입니다. EXL만 해당.
 
 >[!INFO]
 >
@@ -69,23 +68,22 @@ ht-degree: 0%
 >* 페이지 1
 >* 페이지 2
 
-
 ## 배지
 
-배지는 컨텐츠 표시기로 사용되는 색상 레이블입니다. 예를 들어 문서를 다음으로 표시하기 위해 배지를 추가할 수 있습니다 _Beta_ 또는 섹션을 _Premium_. 배지의 색상을 변경하고 URL 및 도구 설명을 연결할 수 있습니다.
+배지는 콘텐츠 표시기로 사용되는 색상 레이블입니다. 예를 들어 배지를 추가하여 문서를 로 표시할 수 있습니다. _베타_ 또는 섹션을 다음으로 표시 _Premium_. 배지의 색상을 변경하고 URL 및 도구 설명을 연결할 수 있습니다.
 
 [!BADGE 배지 예]
 
-두 가지 유형의 배지가 있으며, 각각 구문이 다릅니다.
+배지에는 각각 다른 구문을 가진 두 가지 유형이 있습니다.
 
-* **메타데이터** - 페이지 상단 근처에 배지가 표시됩니다
-* **인라인** - 구문이 있는 배지가 표시됩니다
+* **메타데이터** - 페이지 상단 근처에 배지를 표시합니다.
+* **인라인** - 구문이 있는 배지를 표시합니다.
 
 ### 메타데이터 배지
 
-메타데이터에 배지 구문을 추가하면 문서의 페이지 제목(H1) 위에 배지가 추가됩니다.
+메타데이터에 배지 구문을 추가하면 문서의 페이지 제목(H1) 위에 배지가 배치됩니다.
 
-배지에 이름을 지정할 수 있습니다. 예를 들어 _배지1_ 또는 _배지2_. 또는 이름이 _배지_).
+예를 들어 배지의 이름을 지정할 수 있습니다. _배지1_ 또는 _배지2_. 또는 이름이 로 시작하는 한 보다 창의적일 수 있습니다 _배지_).
 
 메타데이터 예:
 
@@ -94,29 +92,29 @@ badgePremium: label="Premium" type="Positive" url="https://www.premium-product.c
 badgeExam: label="Exam ADO-E903" type="neutral"
 ```
 
-* **badgePremium:** 이 예에서는 URL 및 도구 설명이 있는 Premium 배지가 표시됩니다.
+* **배지 프리미엄:** 이 예에서는 URL 및 도구 설명이 있는 Premium 배지가 표시됩니다.
 
-* **배지:** 이 예는 시험 ID 번호가 포함된 어두운 배지를 표시합니다.
+* **배지 테스트:** 이 예에서는 시험 ID 번호가 포함된 어두운 배지가 표시됩니다.
 
 #### 인라인 배지
 
-자체 줄이나 제목, 테이블 또는 기타 페이지 요소에 배지 정보를 지정합니다.
+해당 줄 또는 제목, 테이블 또는 기타 페이지 요소에 배지 정보를 지정합니다.
 
-다음은 베타 레이블, 파란색 색상, URL 및 도구 설명이 있는 인라인 배지의 구문입니다.
+베타 레이블, 파란색, URL 및 도구 설명이 있는 인라인 배지의 구문은 다음과 같습니다.
 
 `[!BADGE Beta]{type=Informative url="https://www.example.com" tooltip="Go to example.com"}`
 
 ### 사용 가능한 배지 색상
 
-배지는 Adobe 스펙트럼에 정의된 색을 사용합니다.
+배지는 Adobe 스펙트럼에 정의된 색상을 사용합니다.
 
 | 유형 | 배지 |
 |---|---|
-| 정보(기본값) | [!BADGE Beta]{type=Informative url="https://www.example.com"} |
-| 긍정적 | [!BADGE 새로운 기능]{type=Positive url="https://www.example.com" tooltip="example.com으로 이동합니다."} |
-| 부정적 | [!BADGE 중단됨]{type=negative tooltip="이 기능은 이제 수명이 종료되었습니다"} |
+| 정보(기본값) | [!BADGE 베타]{type=Informative url="https://www.example.com"} |
+| 긍정적 | [!BADGE 새로운 기능]{type=Positive url="https://www.example.com" tooltip="example.com으로 이동"} |
+| 부정적 | [!BADGE 중단됨]{type=negative tooltip="이 기능은 현재 사용 중단되었습니다."} |
 | 중립적 | [!BADGE 표시해야 할 수 있습니다]{type=Neutral tooltip="기수가 말에서 떨어졌다..."} |
-| 주의 | [!BADGE 주의 사항]{type=Caution tooltip="노란색 상태"} |
+| 주의 | [!BADGE 주의]{type=Caution tooltip="노란색 상태"} |
 
 구문 예
 
@@ -132,27 +130,27 @@ badgeExam: label="Exam ADO-E903" type="neutral"
 
 ### 배지 요구 사항
 
-* 메타데이터에는 두 개의 배지만 허용됩니다. 이 규칙은 구성이 가능하므로 예외가 필요하면 알려 주십시오.
-* 배지 레이블만 필요합니다. 다음 `type`, `url`, 및 `tooltip` 매개 변수는 선택 사항입니다. 다음 `type` 매개 변수가 색상을 결정합니다. 다음 `url` 매개 변수를 사용하면 배지를 클릭하여 문서 또는 페이지를 열 수 있습니다. 다음 `tooltip` 매개 변수는 마우스오버에서 도구 설명 텍스트를 표시합니다.
-* 에 배지 추가 `TOC.md` 파일에는 안내서의 모든 문서에 배지가 표시됩니다. 배지가 문서로 이동할 URL을 지정하는 경우 루트 링크(예: `/help/guide/article.md`)가 상대 링크가 아닙니다(예: `article.md`)을 클릭하여 다른 폴더의 문서를 처리합니다.
-* 배지 추가 `metadata-new.md` 리포지토리의 모든 문서에 배지를 표시합니다.
-* 메타데이터 배지의 경우 모든 값이 따옴표로 묶여 있는지 확인합니다. 인라인 배지의 경우 다음을 확인하십시오 `url` 및 `tooltip` 따옴표로 묶습니다.
-* 유효한 유형 값은 다음과 같습니다 *정보* (기본값, 파란색), *양수* (녹색), *음수* (빨강), *중립* (진한 회색) 및 *주의* (노란색)
+* 메타데이터에는 배지가 두 개만 허용됩니다. 이 규칙은 구성 가능하므로 예외가 필요한 경우 알려주십시오.
+* 배지 레이블만 필요합니다. 다음 `type`, `url`, 및 `tooltip` 매개 변수는 선택 사항입니다. 다음 `type` 매개 변수가 색상을 결정합니다. 다음 `url` 매개 변수를 사용하면 사용자가 배지를 클릭하여 문서 또는 페이지를 열 수 있습니다. 다음 `tooltip` 매개 변수는 마우스오버에 도구 설명 텍스트를 표시합니다.
+* 에 배지 추가 `TOC.md` 파일에는 안내서의 모든 문서에 대한 배지가 표시됩니다. 배지가 문서로 이동할 때 사용할 URL을 지정하는 경우 루트 링크를 사용해야 합니다(예: `/help/guide/article.md`) 상대 링크가 아닙니다(예: `article.md`)를 사용하여 다른 폴더의 문서를 관리할 수 있습니다.
+* 배지 추가 `metadata-new.md` 보고서의 모든 문서에 배지를 표시합니다.
+* 메타데이터 배지의 경우 모든 값이 따옴표로 묶여 있는지 확인합니다. 인라인 배지의 경우 다음을 확인하십시오 `url` 및 `tooltip` 따옴표로 묶여 있습니다.
+* 유효한 유형 값은 다음과 같습니다. *정보* (기본값, 파란색), *양수* (녹색), *부정적* (빨간색), *중립* (진한 회색) 및 *주의* (노란색).
 * 배지 레이블은 현지화됩니다.
-* 여러 개의 메타데이터 배지가 지정된 경우 배지는 배지 이름(예: )을 기준으로 알파벳 순서로 표시됩니다 `badge1:` 또는 `badgeWeb`.
-* 새 탭에서 URL을 열려면 다음 구문을 사용합니다.
+* 여러 메타데이터 배지를 지정한 경우 배지는 다음과 같이 배지 이름을 기반으로 알파벳 순서로 표시됩니다. `badge1:` 또는 `badgeWeb`.
+* URL을 새 탭에서 열려면 다음 구문을 사용합니다.
 
-   ```
-   [!BADGE Open in new tab]{type=Negative url="https://www.adobe.com newtab=true" tooltip="Open adobe.com in new tab"}
-   ```
+  ```
+  [!BADGE Open in new tab]{type=Negative url="https://www.adobe.com newtab=true" tooltip="Open adobe.com in new tab"}
+  ```
 
-   렌더링됨:
+  렌더링됨:
 
-   [!BADGE 새 탭에서 열기]{type=Negative url="https://www.adobe.com newtab=true" tooltip="새 탭에서 adobe.com을 엽니다."}
+  [!BADGE 새 탭에서 열기]{type=Negative url="https://www.adobe.com newtab=true" tooltip="새 탭에서 adobe.com 열기"}
 
 ## 텍스트 강조 표시
 
-Workfront 팀은 예정된 기능의 미리 보기를 나타내기 위해 노란색 강조 표시를 사용할 수 있도록 요청했습니다. 작동 방법은 다음과 같습니다.
+Workfront 팀이 예정된 기능의 미리 보기를 표시하기 위해 노란색 강조 표시를 사용할 수 있도록 요청했습니다. 작동 방식은 다음과 같습니다.
 
 예제 1:
 
@@ -162,7 +160,7 @@ This entire paragraph should NOT be highlighted. <span class="preview"> This wor
 
 렌더링됨:
 
-이 전체 단락은 강조 표시되지 않아야 합니다. <span class="preview"> 이 단어는 **굵게** 강조 표시된 문장 안에서</span> 그리고 이것은 단지 마지막 문장입니다.
+이 전체 단락은 강조 표시되지 않아야 합니다. <span class="preview"> 이 단어는 **굵게** 강조 표시된 문장 내부.</span> 그리고 이것은 단지 마지막 문장입니다.
 
 예제 2:
 
@@ -186,13 +184,13 @@ Not highlighted
 
 렌더링됨:
 
-이 단락 뒤에 강조 표시를 시작해야 합니다.
+강조 표시는 이 단락 다음에 시작해야 합니다.
 
 <div class="preview">
 
-DIV의 시작.
+DIV 시작
 
-새 단락을 만든 다음 이미지입니다
+새 단락과 이미지입니다.
 
 ![이미지](/help/home/assets/analytics-icon-24.png)
 
@@ -204,13 +202,13 @@ DIV의 시작.
 
 ## 코드 블록에 대한 구문 강조 표시
 
-Experience League은 코드 블록에 대한 구문 강조표시를 지원합니다. 다음과 같은 언어를 지정해야 합니다. `java` 구문을 올바르게 강조 표시하도록 역따옴표 세트를 연 후 유효한 언어 목록에 대해서는 [https://prismjs.com](https://prismjs.com/#supported-languages). 언어가 누락된 경우 jira 티켓을 기록하십시오.
+Experience League은 코드 블록에 대한 구문 강조 표시를 지원합니다. 다음과 같은 언어를 지정해야 합니다. `java` 열기 백 틱 후에는 구문이 제대로 강조 표시되었는지 확인합니다. 유효한 언어 목록은 다음을 참조하십시오. [https://prismjs.com](https://prismjs.com/#supported-languages). 누락된 언어가 있으면 jira 티켓을 기록하십시오.
 
-### 코드 블록의 줄 번호 지정
+### 코드 블록의 행 번호 매기기
 
-추가 `{line-numbers="true"}` 언어 다음에 줄 번호를 지정할 수 있습니다.
+추가 `{line-numbers="true"}` 줄 번호를 사용하려면 언어 뒤에 추가하십시오.
 
-행 번호(&amp;G;&amp;Grave;&grave;`html {line-numbers="true"}`):
+줄 번호(&grave;&grave;&grave;`html {line-numbers="true"}`):
 
 ```html {line-numbers="true"}
 <!DOCTYPE html>
@@ -224,11 +222,11 @@ Experience League은 코드 블록에 대한 구문 강조표시를 지원합니
 </html>
 ```
 
-**줄 번호 지정 시작**
+**줄 _에서 번호 매기기 시작**
 
-추가 `start-number="n"` 줄 번호 구문 다음에 번호 매기기를 시작하여 1이 아닌 숫자를 시작합니다.
+추가 `start-number="n"` 줄 번호 구문 뒤에 숫자를 붙여서 1이 아닌 다른 숫자에서 번호 매기기를 시작합니다.
 
-새 시작 줄(&amp;G;&grave;&grave;`html {line-numbers="true" start-line="7"}`):
+새 시작 라인(&grave;&grave;&grave;`html {line-numbers="true" start-line="7"}`):
 
 ```html {line-numbers="true" start-line="7"}
 <!DOCTYPE html>
@@ -245,9 +243,9 @@ Experience League은 코드 블록에 대한 구문 강조표시를 지원합니
 
 ### 코드 블록의 선 강조 표시
 
-추가 `highlight="n"` 코드 블록 내의 행을 강조 표시하는 줄 번호 구문 뒤에 옵니다. 지정 `11-13, 16` 은 11부터 13까지 및 16줄을 강조 표시합니다.
+추가 `highlight="n"` 코드 블록 내의 행을 강조 표시하는 행 번호 구문 뒤에. 지정 중 `11-13, 16` 에서는 11행부터 13행까지 및 16행을 강조 표시합니다.
 
-선 강조 표시(&amp;G;&amp;Grave;&grave;`html {line-numbers="true" start-line="7" highlight="11-13, 16"}`):
+선 강조 표시(&grave;&grave;&grave;`html {line-numbers="true" start-line="7" highlight="11-13, 16"}`):
 
 ```html {line-numbers="true" start-line="7" highlight="11-13, 16"}
 <!DOCTYPE html>
