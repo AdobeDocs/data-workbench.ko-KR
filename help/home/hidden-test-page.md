@@ -3,17 +3,23 @@ title: 숨겨진 테스트 페이지
 description: 이 페이지는 검색 및 목차에서 숨겨집니다.
 hide: true
 hidefromtoc: true
-badgePremium: label="Premium" type="Positive" url="https://www.premium-product.com" tooltip="Download Premium"
-badgeExam: label="Exam ADO-E903" type="neutral"
+badgePremium: label="Premium" type="Positive" url="https://www.premium-product.com" tooltip="Premium 다운로드"
+badgeExam: label="시험 ADO-E903" type="neutral"
 exl-id: 25669153-b90c-4cf6-81aa-cabcbf2cbcb6
-source-git-commit: 62b03629815f33344189c2562bc486301878a146
+source-git-commit: 3480cc9b82a5561a364a88f3d09c14cca56a0c7a
 workflow-type: tm+mt
-source-wordcount: '753'
+source-wordcount: '796'
 ht-degree: 4%
 
 ---
 
 # 숨겨진 테스트 페이지
+
+## 문제 미리보기
+
+다음 단락이 VSC 미리 보기에서 제대로 렌더링되지 않습니다. 이유를 잘 모르겠어요.
+
+암호를에서 관리하는 경우 [!DNL Adobe], 다음을 수행할 수 있습니다. [Adobe 계정의 암호 변경](https://helpx.adobe.com/manage-account/using/change-or-reset-password.html){target="_blank"}.
 
 ## 메모 유형
 
@@ -110,7 +116,7 @@ badgeExam: label="Exam ADO-E903" type="neutral"
 
 | 유형 | 배지 |
 |---|---|
-| 정보(기본값) | [!BADGE 베타]{type=Informative url="https://www.example.com"} |
+| 정보(기본값) | [!BADGE Beta]{type=Informative url="https://www.example.com"} |
 | 긍정적 | [!BADGE 새로운 기능]{type=Positive url="https://www.example.com" tooltip="example.com으로 이동"} |
 | 부정적 | [!BADGE 중단됨]{type=negative tooltip="이 기능은 현재 사용 중단되었습니다."} |
 | 중립적 | [!BADGE 표시해야 할 수 있습니다]{type=Neutral tooltip="기수가 말에서 떨어졌다..."} |
