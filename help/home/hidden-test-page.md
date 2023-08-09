@@ -6,14 +6,16 @@ hidefromtoc: true
 badgePremium: label="Premium" type="Positive" url="https://www.premium-product.com" tooltip="Premium 다운로드"
 badgeExam: label="시험 ADO-E903" type="neutral"
 exl-id: 25669153-b90c-4cf6-81aa-cabcbf2cbcb6
-source-git-commit: 3480cc9b82a5561a364a88f3d09c14cca56a0c7a
+source-git-commit: 51cc5fb0196d1bc34325e65c2715eaeab5590938
 workflow-type: tm+mt
-source-wordcount: '796'
+source-wordcount: '797'
 ht-degree: 4%
 
 ---
 
 # 숨겨진 테스트 페이지
+
+활성화?
 
 ## 문제 미리보기
 
@@ -47,27 +49,27 @@ ht-degree: 4%
 
 >[!ADMIN]
 >
->관리로 렌더링되는 관리 노트입니다. EXL만 해당.
+>관리로 렌더링되는 관리 노트입니다. EXL만 해당
 
 >[!AVAILABILITY]
 >
->가용성 정보입니다. EXL만 해당.
+>가용성 정보입니다. EXL만 해당
 
 >[!PREREQUISITES]
 >
->사전 요구 사항 참고입니다. EXL만 해당.
+>사전 요구 사항 참고입니다. EXL만 해당
 
 >[!INFO]
 >
->정보 노트입니다. EXL만 해당.
+>정보 노트입니다. EXL만 해당
 
 >[!ERROR]
 >
->오류 노트입니다. EXL만 해당.
+>오류 노트입니다. EXL만 해당
 
 >[!SUCCESS]
 >
->성공 노트입니다. EXL만 해당.
+>성공 노트입니다. EXL만 해당
 
 >[!MORELIKETHIS]
 >
