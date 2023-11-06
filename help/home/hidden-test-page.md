@@ -5,17 +5,17 @@ hide: true
 hidefromtoc: true
 badgePremium: label="Premium" type="Positive" url="https://www.premium-product.com" tooltip="Premium 다운로드"
 badgeExam: label="시험 ADO-E903" type="neutral"
-exl-id: 25669153-b90c-4cf6-81aa-cabcbf2cbcb6
-source-git-commit: 51cc5fb0196d1bc34325e65c2715eaeab5590938
+exl-id: 02245655-511e-4e89-8846-dac85681ea91
+source-git-commit: 6df7ed2c80f04416a48db8d4bc52ede2e87bf372
 workflow-type: tm+mt
-source-wordcount: '797'
+source-wordcount: '803'
 ht-degree: 4%
 
 ---
 
 # 숨겨진 테스트 페이지
 
-활성화?
+활성화? 반복한다. 오전 11시 30분 PT에서 자동 활성화되었는가?
 
 ## 문제 미리보기
 
@@ -82,7 +82,7 @@ ht-degree: 4%
 
 [!BADGE 배지 예]
 
-배지에는 각각 다른 구문을 가진 두 가지 유형이 있습니다.
+다음 두 가지 유형이 있습니다 of 각각 다른 구문이 있는 배지:
 
 * **메타데이터** - 페이지 상단 근처에 배지를 표시합니다.
 * **인라인** - 구문이 있는 배지를 표시합니다.
