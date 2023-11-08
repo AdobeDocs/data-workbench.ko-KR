@@ -6,16 +6,16 @@ hidefromtoc: true
 badgePremium: label="Premium" type="Positive" url="https://www.premium-product.com" tooltip="Premium 다운로드"
 badgeExam: label="시험 ADO-E903" type="neutral"
 exl-id: 02245655-511e-4e89-8846-dac85681ea91
-source-git-commit: 6df7ed2c80f04416a48db8d4bc52ede2e87bf372
+source-git-commit: c71bf8c5b40b478c5b1901b79a29b3d1c3ca8fde
 workflow-type: tm+mt
-source-wordcount: '803'
+source-wordcount: '805'
 ht-degree: 4%
 
 ---
 
 # 숨겨진 테스트 페이지
 
-활성화? 반복한다. 오전 11시 30분 PT에서 자동 활성화되었는가?
+활성화? 오후 3:00경 제출을 다시 확인합니다. 3시 30분에 생방송으로 진행되나요?
 
 ## 문제 미리보기
 
