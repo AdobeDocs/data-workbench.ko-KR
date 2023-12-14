@@ -2,10 +2,10 @@
 title: Data Workbench 서비스 종료 FAQ
 description: Data Workbench의 서비스 종료 공지에 대해 자세히 알아보십시오.
 exl-id: 0abb72f1-b68b-48cc-829c-cac7bd21a6de
-source-git-commit: 020a39b7f22d08b76e641e437c1ecaaf26f1b50a
-workflow-type: ht
-source-wordcount: '393'
-ht-degree: 100%
+source-git-commit: 9097a4ac8dc4339193d745c54c94129470a7c11f
+workflow-type: tm+mt
+source-wordcount: '379'
+ht-degree: 95%
 
 ---
 
@@ -19,7 +19,7 @@ Data Workbench의 서비스 종료 날짜는 **2023년 12월 31일**&#x200B;입�
 
 ## Data Workbench가 서비스 종료되는 이유는 무엇입니까?
 
-Adobe Experience Platform의 릴리스와 지속적인 개선을 통해 고객은 여러 채널에 걸쳐 데이터를 결합하여 여러 Adobe 솔루션에서 사용할 수 있습니다. 특히 Customer Journey Analytics를 사용하면 크로스 채널 데이터를 수집하여 해당 데이터에 대한 고급 분석을 수행할 수 있습니다.
+Adobe Experience Platform의 릴리스와 지속적인 개선을 통해 고객은 여러 채널에 걸쳐 데이터를 결합하여 여러 Adobe 솔루션에서 사용할 수 있습니다. 특히, [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-landing.html?lang=ko) 크로스 채널 데이터를 가져와 해당 데이터에 대한 고급 분석을 수행할 수 있습니다.
 
 현재 Data Workbench에서 사용 가능한 기능 및 사용 사례는 대부분 Adobe Experience Platform 솔루션에서 사용할 수 있습니다. 그러나 Data Workbench 기능이 해당 Adobe Experience Platform 솔루션으로 복제되지 않는 경우가 있습니다. 기능 또는 사용 사례의 호환성에 관해 논의하려면 조직의 Adobe 계정 관리자에게 문의하십시오.
 
