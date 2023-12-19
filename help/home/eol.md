@@ -3,9 +3,9 @@ title: Data Workbench 서비스 종료 FAQ
 description: Data Workbench의 서비스 종료 공지에 대해 자세히 알아보십시오.
 exl-id: 0abb72f1-b68b-48cc-829c-cac7bd21a6de
 source-git-commit: 9097a4ac8dc4339193d745c54c94129470a7c11f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '379'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -17,9 +17,9 @@ Data Workbench의 서비스 종료 날짜는 **2023년 12월 31일**&#x200B;입�
 
 이 공지는 Managed Services 및 온프레미스 소프트웨어 솔루션을 포함하여 Data Workbench를 사용하는 모든 솔루션에 영향을 미칩니다. 이 서비스 종료는 Data Workbench에만 영향을 미치며 Adobe Analytics 내의 다른 기능이나 구성 요소에는 영향을 주지 않습니다.
 
-## Data Workbench가 서비스 종료되는 이유는 무엇입니까?
+## Data Workbench 서비스가 종료되는 이유는 무엇입니까?
 
-Adobe Experience Platform의 릴리스와 지속적인 개선을 통해 고객은 여러 채널에 걸쳐 데이터를 결합하여 여러 Adobe 솔루션에서 사용할 수 있습니다. 특히, [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-landing.html?lang=ko) 크로스 채널 데이터를 가져와 해당 데이터에 대한 고급 분석을 수행할 수 있습니다.
+Adobe Experience Platform의 릴리스와 지속적인 개선을 통해 고객은 여러 채널에 걸쳐 데이터를 결합하여 여러 Adobe 솔루션에서 사용할 수 있습니다. 특히 [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-landing.html)를 사용하면 크로스 채널 데이터를 수집하여 해당 데이터에 대한 고급 분석을 수행할 수 있습니다.
 
 현재 Data Workbench에서 사용 가능한 기능 및 사용 사례는 대부분 Adobe Experience Platform 솔루션에서 사용할 수 있습니다. 그러나 Data Workbench 기능이 해당 Adobe Experience Platform 솔루션으로 복제되지 않는 경우가 있습니다. 기능 또는 사용 사례의 호환성에 관해 논의하려면 조직의 Adobe 계정 관리자에게 문의하십시오.
 
@@ -33,7 +33,7 @@ Adobe Experience Platform의 릴리스와 지속적인 개선을 통해 고객�
 
 ## Adobe에서 전환을 권장하는 솔루션 또는 제품은 무엇입니까?
 
-Adobe는 현재 Data Workbench와 유사한 요구를 충족하는 다음 Adobe Experience Platform 솔루션을 제공합니다.
+Adobe는 현재 Data Workbench와 유사한 요구 사항을 충족하는 다음 Adobe Experience Platform 솔루션을 제공합니다.
 
 * [**Customer Journey Analytics**](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-landing.html?lang=ko): Adobe Experience Platform의 다중 채널 데이터에 대한 속성, 필터, 흐름 및 폴아웃과 같은 고급 분석 기술을 사용합니다.
 * [**쿼리 서비스**](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=ko-KR): Adobe Experience Platform의 데이터에 대해 SQL 쿼리를 수행합니다.
@@ -41,4 +41,4 @@ Adobe는 현재 Data Workbench와 유사한 요구를 충족하는 다음 Adobe 
 
 ## 자세한 내용은 어디에서 확인할 수 있습니까?
 
-이 서비스 종료 공지에 대한 세부 사항이나 질문은 조직의 Adobe 계정 관리자에게 문의하십시오.
+이 서비스 종료 공지에 대한 세부 사항이나 질문은 귀사의 Adobe 계정 관리자에게 문의하십시오.
